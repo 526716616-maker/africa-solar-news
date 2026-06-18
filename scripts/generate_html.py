@@ -1,7 +1,7 @@
 """
-非洲离网太阳能市场周报 - HTML 生成器
+非洲离网太阳能市场资讯 - HTML 生成器
 =====================================
-将结构化新闻数据 + 点评渲染为周报 HTML 页面。
+将结构化新闻数据 + 点评渲染为资讯 HTML 页面。
 
 输入格式 (data.json):
 {
@@ -52,7 +52,7 @@ from datetime import datetime
 
 
 CSS = """\
-/* ===== 非洲离网太阳能市场周报 - 样式 ===== */
+/* ===== 非洲离网太阳能市场资讯 - 样式 ===== */
 :root {
   --bg: #f8f9fa;
   --card: #ffffff;
@@ -361,15 +361,15 @@ def generate_html(data: dict) -> str:
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>非洲离网太阳能市场周报 {date_info} {issue_info}</title>
+<title>非洲离网太阳能市场资讯 {date_info} {issue_info}</title>
 <style>{CSS}</style>
 </head>
 <body>
 <div class="container">
 
   <div class="header">
-    <h1>Weekly Highlights | Africa Off-Grid Solar Market</h1>
-    <p class="subtitle">非洲离网太阳能市场周报</p>
+    <h1>Africa Off-Grid Solar Market News</h1>
+    <p class="subtitle">非洲离网太阳能市场资讯</p>
     <div class="meta">
       <span>{issue_info}</span>
       <span>{date_info}</span>
@@ -383,7 +383,7 @@ def generate_html(data: dict) -> str:
   {sections_html}
 
   <div class="footer">
-    Africa Solar Weekly · {date_info} · 每周一更新
+    Africa Solar News · {date_info} · 每日更新
   </div>
 
 </div>

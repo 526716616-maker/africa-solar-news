@@ -1,4 +1,4 @@
-"""全自动：抓取 raw JSON → 翻译为中文 → 转为周报格式 → 生成 HTML"""
+"""全自动：抓取 raw JSON → 翻译为中文 → 生成资讯 HTML"""
 import json
 import os
 import sys
