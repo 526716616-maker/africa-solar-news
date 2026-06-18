@@ -198,36 +198,7 @@ body {
   font-size: 13px;
   color: var(--text-secondary);
   margin-bottom: 10px;
-  max-height: 200px;
-  overflow: hidden;
-  transition: max-height 0.3s ease;
-  position: relative;
 }
-.news-card .summary.expanded,
-.company-card .summary.expanded {
-  max-height: none;
-}
-.news-card .summary:not(.expanded)::after,
-.company-card .summary:not(.expanded)::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 30px;
-  background: linear-gradient(transparent, var(--card));
-}
-.fold-btn {
-  display: block;
-  text-align: center;
-  font-size: 11px;
-  color: var(--green-dark);
-  cursor: pointer;
-  margin-top: 4px;
-  padding: 4px 0;
-  user-select: none;
-}
-.fold-btn:hover { opacity: 0.7; }
 .news-card .bullets,
 .company-card .bullets {
   list-style: none;
@@ -430,7 +401,6 @@ def generate_html(data: dict) -> str:
   </div>
   <h3>{title}</h3>
   <div class="summary">{summary}</div>
-  <div class="fold-btn" onclick="var s=this.previousElementSibling;s.classList.toggle('expanded');this.textContent=s.classList.contains('expanded')?'收起 ▲':'展开 ▼';">展开 ▼</div>
   {bullets_html}
   {source_line}
 </div>
@@ -459,7 +429,6 @@ def generate_html(data: dict) -> str:
   </div>
   <h3>{name}</h3>
   <div class="summary">{desc}</div>
-  <div class="fold-btn" onclick="var s=this.previousElementSibling;s.classList.toggle('expanded');this.textContent=s.classList.contains('expanded')?'收起 ▲':'展开 ▼';">展开 ▼</div>
   {source_line}
 </div>
 """
