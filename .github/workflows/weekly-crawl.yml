@@ -2,12 +2,7 @@
 # 非洲离网太阳能市场日报 - 全自动流水线
 # =============================================================================
 # 每天 UTC 02:00 (北京时间 10:00) 自动执行:
-#   抓取 7 个源 → 清洗 → 英译中 → 生成 HTML → 提交回仓库
-#
-# 产出文件:
-#   output/raw/YYYY-MM-DD-raw.json     → 原始抓取数据
-#   output/raw/YYYY-MM-DD-weekly.json  → curated 数据
-#   output/html/week-NN-YYYY-MM-DD.html → 最终日报
+#   抓取 7 个源 → 清洗 → 英译中 → 生成 HTML → 部署到 Pages
 # =============================================================================
 
 name: Daily Africa Solar Report
@@ -17,12 +12,14 @@ on:
     - cron: "0 2 * * *"    # 每天 UTC 02:00 = 北京时间 10:00
   workflow_dispatch:         # 手动触发
 
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-
     steps:
       - name: 检出仓库
         uses: actions/checkout@v4
@@ -45,10 +42,26 @@ jobs:
         env:
           PYTHONIOENCODING: utf-8
 
-      - name: 提交所有产物
+      - name: 提交产物到仓库
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "🤖 自动日报 $(date +%Y-%m-%d)"
           file_pattern: "output/"
           commit_user_name: "Daily Crawler Bot"
           commit_user_email: "bot@africa-solar-daily.local"
+
+      - name: 上传 Pages 产物
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: output/html
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: 部署到 Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
