@@ -212,8 +212,21 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__)))
 from generate_html import generate_html
 html = generate_html(curated)
 
-html_path = os.path.join(os.path.dirname(__file__), "..", "output", "html", f"week-02-{now.strftime('%Y-%m-%d')}.html")
+html_path = os.path.join(os.path.dirname(__file__), "..", "output", "html", f"week-{issue_num:02d}-{now.strftime('%Y-%m-%d')}.html")
 html_path = os.path.abspath(html_path)
 with open(html_path, "w", encoding="utf-8") as f:
     f.write(html)
 print(f"[OK] HTML: {html_path}")
+
+# ── 同步更新 index.html（自动跳转最新期） ──
+latest_name = f"week-{issue_num:02d}-{now.strftime('%Y-%m-%d')}.html"
+index_path = os.path.join(os.path.dirname(__file__), "..", "output", "html", "index.html")
+index_path = os.path.abspath(index_path)
+index_content = f"""<!DOCTYPE html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta http-equiv="refresh" content="0; url={latest_name}"></head>
+<body><p>正在跳转最新期... <a href="{latest_name}">点击这里</a></p></body>
+</html>"""
+with open(index_path, "w", encoding="utf-8") as f:
+    f.write(index_content)
+print(f"[OK] index.html: {index_path}")
