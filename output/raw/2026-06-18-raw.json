@@ -1,5 +1,5 @@
 {
-  "crawled_at": "2026-06-18T12:42:47.959992+08:00",
+  "crawled_at": "2026-06-18T13:55:55.435146+08:00",
   "week": "2026-W25",
   "sources": [
     {
@@ -190,6 +190,20 @@
           "date": "2026-06-16",
           "summary": "ARC Power has signed a FUSE Agreement with Kiyona Energy, targeting an initial US$60m investment, marking a significant step forward in accelerating solar generation infrastructure across Zambia. The agreement is [&#8230;]",
           "source_name": "AFSIA Solar Africa"
+        },
+        {
+          "title": "Solis Concludes Successful SNEC PV+ 2026 with Strong Global Interest in Full-Scenario Energy Storage Portfolio",
+          "url": "https://www.afsiasolar.com/solis-concludes-successful-snec-pv-2026-with-strong-global-interest-in-full-scenario-energy-storage-portfolio/?utm_source=rss&utm_medium=rss&utm_campaign=solis-concludes-successful-snec-pv-2026-with-strong-global-interest-in-full-scenario-energy-storage-portfolio",
+          "date": "2026-06-12",
+          "summary": "Solis concluded a highly successful participation at SNEC PV+ 2026, attracting strong interest from customers, partners and industry stakeholders worldwide with its full-scenario energy storage portfolio covering residential, commercial and [&#8230;]",
+          "source_name": "AFSIA Solar Africa"
+        },
+        {
+          "title": "GameChange Energy Consolidates Solar, eBOS, Asset Monitoring, and Transformer Divisions Under Single Brand",
+          "url": "https://www.afsiasolar.com/gamechange-energy-consolidates-solar-ebos-asset-monitoring-and-transformer-divisions-under-single-brand/?utm_source=rss&utm_medium=rss&utm_campaign=gamechange-energy-consolidates-solar-ebos-asset-monitoring-and-transformer-divisions-under-single-brand",
+          "date": "2026-06-11",
+          "summary": "Rebrand Streamlines Procurement and Installation for Clients, Reflects GameChange’s Expanding Product Offerings GameChange Energy, a global energy infrastructure company, announces the consolidation of its solar tracker division (formerly GameChange Solar), [&#8230;]",
+          "source_name": "AFSIA Solar Africa"
         }
       ]
     },
@@ -281,6 +295,224 @@
           "source_name": "Sun King"
         }
       ]
+    },
+    {
+      "key": "bgfa",
+      "name": "BGFA (Beyond the Grid)",
+      "articles": [
+        {
+          "title": "Solar power provides new business opportunities in the south‑western part of Burkina Faso",
+          "url": "https://beyondthegrid.africa/case-story/solar-power-provides-new-business-opportunities-in-burkina-faso/",
+          "date": "2026-06-09",
+          "summary": "<p>A female small business owner and customer of one of our financed portfolio companies in Burkina Faso, Oolu, can now contribute to the household economy thanks to an installed off-grid solar kit that provides electricity for running a refrigerator.</p>\n<p>The post <a href=\"https://beyondthegrid.a",
+          "source_name": "BGFA (Beyond the Grid)"
+        },
+        {
+          "title": "Mid-term evaluation confirms BGFA programme is on track and delivering results",
+          "url": "https://beyondthegrid.africa/news/mid-term-evaluation-confirms-bgfa-programme-is-on-track-and-delivering-results/",
+          "date": "2026-05-28",
+          "summary": "<p>An independent mid-term evaluation of the Beyond the Grid Fund for Africa (BGFA) confirms that the programme is delivering strong results in expanding access to off-grid clean energy in Sub-Saharan Africa.</p>\n<p>The post <a href=\"https://beyondthegrid.africa/news/mid-term-evaluation-confirms-bgf",
+          "source_name": "BGFA (Beyond the Grid)"
+        },
+        {
+          "title": "BGFA Annual Results report: Over 4.3 million people had received access to electricity by the end of 2025",
+          "url": "https://beyondthegrid.africa/news/bgfa-annual-results-report-over-4-3-million-people-had-received-access-to-electricity-by-the-end-of-2025/",
+          "date": "2026-05-06",
+          "summary": "<p>The Beyond the Grid Fund for Africa (BGFA) continues to demonstrate the power of market-based, results-driven financing to expand access to clean and affordable energy in Sub-Saharan Africa. According to the BGFA Annual Results Report 2025, companies supported by the programme established over 84",
+          "source_name": "BGFA (Beyond the Grid)"
+        },
+        {
+          "title": "Mini-grid provider will scale-up access to electricity in rural DRC",
+          "url": "https://beyondthegrid.africa/news/mini-grid-provider-will-scale-up-access-to-electricity-in-rural-drc/",
+          "date": "2026-03-03",
+          "summary": "<p>BGFA is supporting the scale-up of a mini-grid site in the north-eastern part of the Democratic Republic of the Congo to provide schools, health clinics, businesses, and households with access to electricity.</p>\n<p>The post <a href=\"https://beyondthegrid.africa/news/mini-grid-provider-will-scale",
+          "source_name": "BGFA (Beyond the Grid)"
+        },
+        {
+          "title": "Lessons learned and future recommendations for incentivising mini-grid projects to scale up energy access in Africa",
+          "url": "https://beyondthegrid.africa/news/lessons-learned-and-future-recommendations-for-incentivising-mini-grid-projects/",
+          "date": "2025-11-05",
+          "summary": "<p>A new study ‘Lessons learned from 12 years of mini-grid results-based financing in Africa’, conducted by The Future of Energy, offers lessons and future recommendations for incentivising mini-grid projects through results-based financing mechanisms to scale up energy access in Africa.</p>\n<p>The ",
+          "source_name": "BGFA (Beyond the Grid)"
+        },
+        {
+          "title": "Advancing energy access and empowerment in Uganda",
+          "url": "https://beyondthegrid.africa/news/advancing-energy-access-and-empowerment-in-uganda/",
+          "date": "2025-10-02",
+          "summary": "<p>Insight article: The BGFA job creation and skills development sub-programme BGFA has implemented a Job creation and skills development sub-programme in Uganda as a transformative initiative to address two critical challenges in Uganda: first, limited energy access for the Ugandan people, and seco",
+          "source_name": "BGFA (Beyond the Grid)"
+        },
+        {
+          "title": "Study shows that BGFA-financed companies are substantially improving quality of life for electricity customers",
+          "url": "https://beyondthegrid.africa/insight/study-shows-that-bgfa-financed-companies-are-substantially-improving-quality-of-life-for-electricity-customers/",
+          "date": "2025-08-14",
+          "summary": "<p>In a customer satisfaction survey of end users of BGFA-financed companies, 96% of those living in rural Liberia, Uganda and Zambia said their lives had improved as a result of access to electricity through the off-grid appliances provided by the companies. An independent assessment was conducted ",
+          "source_name": "BGFA (Beyond the Grid)"
+        },
+        {
+          "title": "BGFA in 2024: Over 3 million people with access to electricity",
+          "url": "https://beyondthegrid.africa/news/bgfa-in-2024-over-3-million-people-with-access-to-electricity/",
+          "date": "2025-06-12",
+          "summary": "<p>The Annual Results Report of the Beyond the Grid Fund for Africa (BGFA) programme in 2024 shows successful progress of the programme implementation. In total, over 610,000 energy connections had been established by year end, impacting a total of 3.15 million lives and benefitting almost 5,000 Afr",
+          "source_name": "BGFA (Beyond the Grid)"
+        },
+        {
+          "title": "BGFA team update",
+          "url": "https://beyondthegrid.africa/news/dennis-hamro-drotz-appointed-as-acting-head-of-special-funds-at-nefco/",
+          "date": "2025-03-25",
+          "summary": "<p>Dennis Hamro-Drotz, Senior Programme Manager at Nefco, has been appointed as Acting Head of Department for Nefco’s Special Funds department effective 24 March 2025. </p>\n<p>The post <a href=\"https://beyondthegrid.africa/news/dennis-hamro-drotz-appointed-as-acting-head-of-special-funds-at-nefco/\">",
+          "source_name": "BGFA (Beyond the Grid)"
+        },
+        {
+          "title": "BGFA sub-programme in Uganda has improved technical and business skills within the country’s off-grid energy sector",
+          "url": "https://beyondthegrid.africa/news/bgfa-sub-programme-in-uganda-has-improved-technical-and-business-skills-within-the-countrys-off-grid-energy-sector/",
+          "date": "2025-02-25",
+          "summary": "<p>The Beyond the Grid Fund for Africa (BGFA) has successfully completed the Job creation and skills development sub-programme in Uganda together with its partners. Over 300 participants attended the arranged courses in 2023-2024 to enhance both technical and business skills as well as gender inclus",
+          "source_name": "BGFA (Beyond the Grid)"
+        }
+      ]
+    },
+    {
+      "key": "energynews-africa",
+      "name": "Energy News Africa",
+      "articles": []
+    },
+    {
+      "key": "africa-newsroom",
+      "name": "Africa Newsroom",
+      "articles": [
+        {
+          "title": "Under Mission 300, A New Way of Doing Business Connects Over 50 Million People to Electricity Across Africa",
+          "url": "https://afdb.africa-newsroom.com",
+          "date": "2026-06-17",
+          "summary": "Mission 300 is now delivering electricity access at nearly double the pace recorded at the initiative's launch — proof that coordinated action can drive large-scale change",
+          "source_name": "Africa Newsroom"
+        },
+        {
+          "title": "Under Mission 300, A New Way of Doing Business Connects Over 50 Million People to Electricity Across Africa",
+          "url": "https://africa-newsroom.com/press/source/the-world-bank-group",
+          "date": "2026-06-16",
+          "summary": "Mission 300 is now delivering electricity access at nearly double the pace recorded at the initiative's launch — proof that coordinated action can drive large-scale change",
+          "source_name": "Africa Newsroom"
+        }
+      ]
+    },
+    {
+      "key": "bboxx",
+      "name": "BBOXX",
+      "articles": [
+        {
+          "title": "Bboxx appoints new Nigeria Managing Director to Build Momentum in Key Market",
+          "url": "https://www.bboxx.com/local-news/bboxx-appoints-new-nigeria-managing-director-to-build-momentum-in-key-market/",
+          "date": "2026-02-02",
+          "summary": "<p>Lagos, 2 February 2026 — Bboxx has appointed Ene Adesanya to the role of Managing Director for Bboxx Energy Access Nigeria (Bboxx Nigeria), as part of its ongoing focus on growing and strengthening its key markets. In her new role, Ene will lead Bboxx Nigeria’s participation in the Distributed Ac",
+          "source_name": "BBOXX"
+        },
+        {
+          "title": "Abci-Nexus launches software company Asopo Technologies to power Africa’s financed future",
+          "url": "https://www.bboxx.com/press-releases/abci-nexus-launches-software-company-asopo-technologies-to-power-africa-s-financed-future/",
+          "date": "2026-01-29",
+          "summary": "<p>Kigali, Rwanda, 29th January 2026 – Abci-Nexus, the technology-enabled holding company, today introduces Asopo Technologies, bringing its proprietary Pulse software to market as a standalone offering. The holding company also includes&#160;Bboxx,&#160;a retail and consumer credit company focussed",
+          "source_name": "BBOXX"
+        },
+        {
+          "title": "Government of Rwanda Partners with Bboxx to Deliver 50,000 Clean Cooking Kits in Landmark National Program",
+          "url": "https://www.bboxx.com/news/government-of-rwanda-partners-with-bboxx-to-deliver-50-000-clean-cooking-kits-in-landmark-national-program/",
+          "date": "2025-11-04",
+          "summary": "<p>Kigali, 5 November 2025 — The Government of Rwanda has partnered with Bboxx, a data-driven super platform transforming lives across Africa, to deliver 50,000 affordable liquefied petroleum gas (LPG) cooking kits to low-income households across five districts over the next 18 months. The programme",
+          "source_name": "BBOXX"
+        },
+        {
+          "title": "Resetting the approach to PAYGo for the long-term sustainability of the sector",
+          "url": "https://www.bboxx.com/news/resetting-the-approach-to-paygo-for-the-long-term-sustainability-of-the-sector/",
+          "date": "2025-10-15",
+          "summary": "<p>By Simone Vaccari, Chief Credit Officer, Bboxx We all need to reboot. In the past years the whole PAYGo sector in growth markets has been based on a false premise. The “hard sell” that pushes a product onto an ill-suited customer is not success – it gives a short term shot in the arm in [&#8230;]",
+          "source_name": "BBOXX"
+        },
+        {
+          "title": "Bboxx Ghana, Kofa and Yango Partner to Accelerate E-Mobility Adoption in Ghana’s Delivery Sector",
+          "url": "https://www.bboxx.com/local-news/bboxx-ghana-kofa-partner-and-yango-ghana-to-accelerate-e-mobility-adoption-in-ghana-s-delivery-sector/",
+          "date": "2025-10-10",
+          "summary": "<p>Accra, Ghana – October 7, 2025: Bboxx Ghana, in collaboration with Yango Ghana and Kofa, has announced a groundbreaking partnership aimed at scaling the adoption of electric vehicles (EVs) among delivery couriers operating on the Yango Delivery platform. This initiative highlights Bboxx’s commitm",
+          "source_name": "BBOXX"
+        },
+        {
+          "title": "Bboxx reignites growth with appointment of Justus Mucyo as Chief Operating Officer",
+          "url": "https://www.bboxx.com/news/bboxx-reignites-growth-with-appointment-of-justus-mucyo-as-chief-operating-officer/",
+          "date": "2025-08-22",
+          "summary": "<p>Kigali, 22 August 2025 – Bboxx, a data-driven super platform transforming lives across Africa, has appointed Justus Mucyo as Chief Operating Officer. Justus will be responsible for driving operational excellence and sustainable growth across Bboxx’s markets, working closely with the Group CEO and",
+          "source_name": "BBOXX"
+        },
+        {
+          "title": "Bboxx and University of Oxford launch “UniBatt” to unlock longer‑lasting, interoperable batteries for Africa’s e‑mobility revolution",
+          "url": "https://www.bboxx.com/news/bboxx-and-university-of-oxford-launch-unibatt-to-unlock-longer-lasting-interoperable-batteries-for-africa-s-e-mobility-revolution/",
+          "date": "2025-08-01",
+          "summary": "<p>Kigali, Rwanda &#38; London, UK – 1st August 2025 — Bboxx, the next‑generation utility transforming lives through technology and finance, today announced the launch of UniBatt, a Faraday Institution‑backed concept‑to‑demonstrator project that will prove new ways to diagnose, control and extend th",
+          "source_name": "BBOXX"
+        },
+        {
+          "title": "Bboxx lays new foundations for future growth",
+          "url": "https://www.bboxx.com/news/bboxx-lays-new-foundations/",
+          "date": "2025-05-20",
+          "summary": "<p>Kigali, 20 May 2025 – Bboxx has announced it is laying new foundations for future growth by undertaking a company restructure. In order to reposition the business for future growth, a restructuring process was initiated and completed through which Bboxx 2.0., a newly formed holding company, has a",
+          "source_name": "BBOXX"
+        },
+        {
+          "title": "Bboxx releases groundbreaking AI driven payment behavioral tool onto its Bboxx Pulse ® platform, based on collaboration with University College London.",
+          "url": "https://www.bboxx.com/news/bboxx-releases-groundbreaking-ai-driven-payment-behavioral-tool-onto-its-bboxx-pulse-platform-based-on-collaboration-with-university-college-london/",
+          "date": "2025-04-08",
+          "summary": "<p>Kigali and London, 8th April 2025 – Bboxx, a data-driven super platform that transforms lives by unlocking access to clean energy and digital products across Africa, has announced the launch of a groundbreaking AI tool on its Bboxx Pulse ® platform. These new insights have been developed in colla",
+          "source_name": "BBOXX"
+        },
+        {
+          "title": "Bboxx and RADIANT YACU Partnership Accelerates EV Transition for 130,000 Motorbike Riders with Affordable Insurance",
+          "url": "https://www.bboxx.com/news/bboxx-and-radiant-yacu-partnership-accelerates-ev-transition-for-130-000-motorbike-riders-with-affordable-insurance/",
+          "date": "2024-12-17",
+          "summary": "<p>Kigali, 17 December 2024 – Bboxx, the data-driven super platform, is introducing a transformative microinsurance product, Bboxx Protect, offering comprehensive and affordable coverage for electric motorbike (EV) riders in Rwanda. Bboxx Protect, Bboxx’s first microinsurance product, is set to tran",
+          "source_name": "BBOXX"
+        }
+      ]
+    },
+    {
+      "key": "techcabal-energy",
+      "name": "TechCabal Energy",
+      "articles": [
+        {
+          "title": "Africa has seen oil shocks before. Why 2026 could be the turning point for clean energy",
+          "url": "https://techcabal.com/2026/05/15/africa-has-seen-oil-shocks-before-2026-could-be-the-turning-point-for-clean-energy-in-africa/",
+          "date": "2026-05-15",
+          "summary": "Africa has been here before. Oil climbs above $100, import bills balloon, Finance ministers across the continent convene emergency sessions, and somewhere in a development bank boardroom, a clean energy investment pipeline gets quietly deprioritised while everyone waits for the price to come back do",
+          "source_name": "TechCabal Energy"
+        },
+        {
+          "title": "This missing tech is why Nigeria’s grid keeps collapsing",
+          "url": "https://techcabal.com/2025/09/22/why-cant-nigerias-power-grid-stay-on/",
+          "date": "2025-09-22",
+          "summary": "On September 10, Nigeria’s national electricity grid collapsed for the third time this year, plunging much of the country into darkness.",
+          "source_name": "TechCabal Energy"
+        },
+        {
+          "title": "This Yoruba king’s palace is fully solar powered; now he wants to electrify his community",
+          "url": "https://techcabal.com/2025/08/08/yoruba-king-solar-powered-palace/",
+          "date": "2025-08-08",
+          "summary": "The Olowu of Owu Kingdom, Oba Professor Saka Adelola Matemilola's palace is fully solar powered. Now he wants to electrify community services.",
+          "source_name": "TechCabal Energy"
+        },
+        {
+          "title": "👨🏿‍🚀TechCabal Daily – South Africa’s $315 billion power plan",
+          "url": "https://techcabal.com/2024/01/08/techcabal-daily-south-africas-power-plan/",
+          "date": "2024-01-08",
+          "summary": "South Africa's energy minister is inviting the public to comment on the country’s Integrated Resource Plan (IRP) which could see South Africa spend R5.9 trillion ($315 billion) to R8.4 trillion ($449 billion) to solve its power problems.",
+          "source_name": "TechCabal Energy"
+        },
+        {
+          "title": "Electricity access in Africa exceeds previous estimates",
+          "url": "https://techcabal.com/2023/12/01/electricity-access-in-africa-exceeds-previous-estimates/",
+          "date": "2023-12-01",
+          "summary": "Recent surges in home solar energy installations across Africa indicate that more people on the continent may have access to electricity than previously thought.",
+          "source_name": "TechCabal Energy"
+        }
+      ]
     }
   ],
   "summary": {
@@ -288,9 +520,14 @@
     "techpoint": 1,
     "engie": 9,
     "pv-magazine": 1,
-    "afsia": 2,
+    "afsia": 4,
     "lighting-global": 10,
     "sunking": 1,
-    "total": 34
+    "bgfa": 10,
+    "energynews-africa": 0,
+    "africa-newsroom": 2,
+    "bboxx": 10,
+    "techcabal-energy": 5,
+    "total": 63
   }
 }

@@ -1,7 +1,7 @@
 {
   "week": "2026-W25",
   "date": "2026-06-18",
-  "issue": 6,
+  "issue": 2,
   "highlights": [
     {
       "num": "500 MW",
@@ -24,69 +24,6 @@
     {
       "title": "一、行业动态",
       "items": [
-        {
-          "tag": "GOGLA · 行业报告",
-          "title": "创纪录的销售凸显离网太阳能在电气化中的关键作用",
-          "summary": "GOGLA 呼吁协调支持，因为离网太阳能销量到 2025 年将达到 1000 万套，推动全球能源获取和 SDG7 目标的进展。",
-          "bullets": [],
-          "source": "GOGLA Newsroom",
-          "source_url": "https://newsroom.gogla.org/tags/market-trends-insights/",
-          "date": "2026-06-02"
-        },
-        {
-          "tag": "GOGLA · 行业报告",
-          "title": "新联盟成立，用清洁能源为食品系统提供动力",
-          "summary": "农业能源联盟联合全球领导人，推动可持续农业和清洁能源的获取，解决发展中地区的粮食安全和能源挑战。",
-          "bullets": [],
-          "source": "GOGLA Newsroom",
-          "source_url": "https://newsroom.gogla.org/tags/climate-impact/",
-          "date": "2025-09-01"
-        },
-        {
-          "tag": "GOGLA · 行业报告",
-          "title": "GOGLA 报告揭示混合金融解决方案可弥补 210 亿美元的离网太阳能缺口",
-          "summary": "了解战略性地将公共、私人和慈善资本结合起来以动员私人资本的投资计划如何能够加速能源获取和可持续发展……",
-          "bullets": [],
-          "source": "GOGLA Newsroom",
-          "source_url": "https://newsroom.gogla.org/tags/investment/",
-          "date": "2025-07-10"
-        },
-        {
-          "tag": "GOGLA · 行业报告",
-          "title": "根据新的全球离网太阳能报告，到 2024 年，将有 2000 万人通过离网太阳能改善了能源获取...",
-          "summary": "据 GOGLA 报道，通过附属机构受益的总人数达到 1.38 亿，创造了 10B 美元的新收入。",
-          "bullets": [],
-          "source": "GOGLA Newsroom",
-          "source_url": "https://newsroom.gogla.org/tags/market-trends-insights/",
-          "date": "2025-05-27"
-        },
-        {
-          "tag": "GOGLA · 行业报告",
-          "title": "在资金下降和整合的情况下，随着市场势头增强，3亿美元流向离网太阳能",
-          "summary": "GOGLA 的 2024 年报告显示，尽管资金有所下降，但离网太阳能投资仍达 3 亿美元。规模扩张表明成熟，而初创企业则面临挑战。新的股权基金和补贴提振市场动力...",
-          "bullets": [],
-          "source": "GOGLA Newsroom",
-          "source_url": "https://newsroom.gogla.org/tags/investment/",
-          "date": "2025-04-16"
-        },
-        {
-          "tag": "GOGLA · 行业报告",
-          "title": "新报告强调了能源和农业部门的合作将如何加强整个非洲的粮食安全",
-          "summary": "GOGLA 和合作伙伴在非洲推动联结方法，强调离网太阳能在农业食品系统转型以实现可持续发展方面的作用。",
-          "bullets": [],
-          "source": "GOGLA Newsroom",
-          "source_url": "https://newsroom.gogla.org/tags/climate-impact/",
-          "date": "2025-04-03"
-        },
-        {
-          "tag": "GOGLA · 行业报告",
-          "title": "GOGLA 和宜家基金会推出新资源，以增强离网太阳能对气候的影响",
-          "summary": "公司、气候基金、政府和发展组织可以利用这些资源来设计和实施离网太阳能商业模式、投资和计划，以改善资源...",
-          "bullets": [],
-          "source": "GOGLA Newsroom",
-          "source_url": "https://newsroom.gogla.org/tags/climate-impact/",
-          "date": "2025-03-13"
-        },
         {
           "tag": "PV Magazine · 太阳能",
           "title": "韩国开发商提议在赞比亚建设500兆瓦太阳能项目",
@@ -113,6 +50,42 @@
           "source": "AFSIA Solar Africa",
           "source_url": "https://www.afsiasolar.com/arc-power-signs-fuse-agreement-with-kiyona-energy-to-accelerate-solar-generation-in-zambia/?utm_source=rss&utm_medium=rss&utm_campaign=arc-power-signs-fuse-agreement-with-kiyona-energy-to-accelerate-solar-generation-in-zambia",
           "date": "2026-06-16"
+        },
+        {
+          "tag": "AFSIA · 非洲太阳能",
+          "title": "Solis圆满结束SNEC PV+ 2026 全球对全场景储能产品兴趣浓厚",
+          "summary": "Solis在SNEC PV+ 2026上取得了圆满成功，以其覆盖住宅、商业和[&#8230;]的全场景储能产品组合吸引了全球客户、合作伙伴和行业利益相关者的浓厚兴趣。",
+          "bullets": [],
+          "source": "AFSIA Solar Africa",
+          "source_url": "https://www.afsiasolar.com/solis-concludes-successful-snec-pv-2026-with-strong-global-interest-in-full-scenario-energy-storage-portfolio/?utm_source=rss&utm_medium=rss&utm_campaign=solis-concludes-successful-snec-pv-2026-with-strong-global-interest-in-full-scenario-energy-storage-portfolio",
+          "date": "2026-06-12"
+        },
+        {
+          "tag": "AFSIA · 非洲太阳能",
+          "title": "GameChange Energy 将太阳能、eBOS、资产监控和变压器部门整合为单一品牌",
+          "summary": "品牌重塑简化了客户的采购和安装，反映了 GameChange 不断扩大的产品供应全球能源基础设施公司 GameChange Energy 宣布合并其太阳能跟踪器部门（前身为 GameChange Solar），[&#8230;]",
+          "bullets": [],
+          "source": "AFSIA Solar Africa",
+          "source_url": "https://www.afsiasolar.com/gamechange-energy-consolidates-solar-ebos-asset-monitoring-and-transformer-divisions-under-single-brand/?utm_source=rss&utm_medium=rss&utm_campaign=gamechange-energy-consolidates-solar-ebos-asset-monitoring-and-transformer-divisions-under-single-brand",
+          "date": "2026-06-11"
+        },
+        {
+          "tag": "Africa Newsroom · 能源新闻",
+          "title": "根据 Mission 300，一种新的营商方式为整个非洲超过 5000 万人提供电力",
+          "summary": "Mission 300 目前提供电力供应的速度几乎是该计划启动时记录的两倍——这证明协调行动可以推动大规模变革",
+          "bullets": [],
+          "source": "Africa Newsroom",
+          "source_url": "https://afdb.africa-newsroom.com",
+          "date": "2026-06-17"
+        },
+        {
+          "tag": "Africa Newsroom · 能源新闻",
+          "title": "根据 Mission 300，一种新的营商方式为整个非洲超过 5000 万人提供电力",
+          "summary": "Mission 300 目前提供电力供应的速度几乎是该计划启动时记录的两倍——这证明协调行动可以推动大规模变革",
+          "bullets": [],
+          "source": "Africa Newsroom",
+          "source_url": "https://africa-newsroom.com/press/source/the-world-bank-group",
+          "date": "2026-06-16"
         }
       ]
     },
@@ -124,42 +97,32 @@
           "name": "福布斯：初创公司如何为非洲带来负担得起的清洁能源",
           "description": "向撒哈拉以南非洲一些能源最匮乏的地区提供电力，更不用说来自可再生能源的电力，是一个令人烦恼和令人畏惧的问题",
           "source": "ENGIE / IgniteAccess",
-          "source_url": "https://igniteaccess.com/how-startups-are-bringing-affordable-clean-energy-to-africa/"
+          "source_url": "https://igniteaccess.com/how-startups-are-bringing-affordable-clean-energy-to-africa/",
+          "date": ""
         },
         {
           "tag": "企业动态 · Ignite Power",
           "name": "彭博社：非洲电气化的使命可能终于开始了",
           "description": "当太阳能电池板条抵达赞比亚东北部的偏远村庄时，达马塞克·姆瓦勒看到了机会。",
           "source": "ENGIE / IgniteAccess",
-          "source_url": "https://igniteaccess.com/the-mission-to-electrify-africa-might-finally-be-under-way/"
+          "source_url": "https://igniteaccess.com/the-mission-to-electrify-africa-might-finally-be-under-way/",
+          "date": ""
         },
         {
           "tag": "企业动态 · Ignite Power",
           "name": "ADIO 与清洁能源领导者 Ignite Energy Access 合作进行全球扩张",
           "description": "阿布扎比投资办公室 (ADIO) 与 Ignite Energy Access 签署了战略协议，Ignite Energy Access 是一家领先的泛非全系列分布式能源供应商",
           "source": "ENGIE / IgniteAccess",
-          "source_url": "https://igniteaccess.com/adio-partners-with-clean-energy-leader-ignite-energy-access-for-global-expansion/"
+          "source_url": "https://igniteaccess.com/adio-partners-with-clean-energy-leader-ignite-energy-access-for-global-expansion/",
+          "date": ""
         },
         {
-          "tag": "企业动态 · Ignite Power",
-          "name": "到 2030 年让 1 亿人获得清洁能源，解决能源贫困问题",
-          "description": "Ignite Energy Access 的目标是到 2030 年让 1 亿人获得清洁能源。",
-          "source": "ENGIE / IgniteAccess",
-          "source_url": "https://igniteaccess.com/connecting-100-million-people-to-clean-energy-by-2030-to-tackle-energy-poverty/"
-        },
-        {
-          "tag": "企业动态 · Ignite Power",
-          "name": "Ignite Power 推进对 ENGIE Energy Access 的收购，打造非洲最大的可再生能源",
-          "description": "肯尼亚监管机构批准Ignite Power收购ENGIE Energy，非洲最大分布式可再生能源提供商的成立向前迈出了重要一步",
-          "source": "ENGIE / IgniteAccess",
-          "source_url": "https://igniteaccess.com/ignite-power-advances-acquisition-of-engie-energy-access-to-create-africas-largest-renewable-energy-provider/"
-        },
-        {
-          "tag": "企业动态 · Ignite Power",
-          "name": "权力归于人民：亚里夫·科恩如何照亮最后一英里社区",
-          "description": "亚里夫·科恩不会浪费时间。他负担不起；他正在朝着一个雄心勃勃的目标努力。",
-          "source": "ENGIE / IgniteAccess",
-          "source_url": "https://igniteaccess.com/power-to-the-people-how-yariv-cohen-is-shining-a-light-on-last-mile-communities/"
+          "tag": "企业动态 · Sun King",
+          "name": "可持续金融推动非洲离网太阳能快速扩张",
+          "description": "可持续金融推动非洲离网太阳能快速扩张",
+          "source": "Sun King",
+          "source_url": "https://sunking.com/news-blog/sustainable-finance-drives-rapid-expansion-of-off-grid-solar-in-africa/",
+          "date": "2026-06-12"
         }
       ]
     }

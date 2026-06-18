@@ -174,7 +174,17 @@ body {
   font-weight: 500;
   padding: 2px 10px;
   border-radius: 100px;
+}
+.news-card .card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin-bottom: 10px;
+}
+.news-card .card-date {
+  font-size: 11px;
+  color: var(--text-tertiary);
+  white-space: nowrap;
 }
 .news-card h3 {
   font-size: 14px;
@@ -235,7 +245,17 @@ body {
   font-weight: 500;
   padding: 2px 10px;
   border-radius: 100px;
+}
+.company-card .card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin-bottom: 10px;
+}
+.company-card .card-date {
+  font-size: 11px;
+  color: var(--text-tertiary);
+  white-space: nowrap;
 }
 .company-card h3 {
   font-size: 14px;
@@ -258,6 +278,57 @@ body {
   text-decoration: none;
 }
 .company-card .source a:hover { text-decoration: underline; }
+
+/* ===== Archive Nav ===== */
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.nav-bar a {
+  font-size: 12px;
+  color: var(--green-dark);
+  text-decoration: none;
+  padding: 4px 0;
+}
+.nav-bar a:hover { text-decoration: underline; }
+
+/* ===== Archive Page ===== */
+.archive-list {
+  list-style: none;
+}
+.archive-item {
+  background: var(--card);
+  border: 0.5px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 14px 18px;
+  margin-bottom: 10px;
+  transition: border-color 0.15s;
+}
+.archive-item:hover { border-color: var(--green-light); }
+.archive-item a {
+  text-decoration: none;
+  color: var(--text);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.archive-item .issue-title {
+  font-size: 14px;
+  font-weight: 600;
+}
+.archive-item .issue-meta {
+  font-size: 11px;
+  color: var(--text-tertiary);
+  margin-top: 4px;
+}
+.archive-item .issue-count {
+  font-size: 12px;
+  color: var(--green-dark);
+  font-weight: 500;
+  white-space: nowrap;
+}
 
 /* ===== Footer ===== */
 .footer {
@@ -300,10 +371,6 @@ def generate_html(data: dict) -> str:
             source_url = item.get("source_url", "")
             item_date = item.get("date", "")
 
-            source_date = f"{source}"
-            if item_date:
-                source_date += f" · {item_date}"
-
             bullets_html = ""
             if bullets:
                 bullets_html = '<ul class="bullets">'
@@ -314,15 +381,19 @@ def generate_html(data: dict) -> str:
             source_line = ""
             if source:
                 if source_url:
-                    source_line = f'<div class="source">来源：<a href="{source_url}" target="_blank" rel="noopener">{source_date}</a></div>'
+                    source_line = f'<div class="source">来源：<a href="{source_url}" target="_blank" rel="noopener">{source}</a></div>'
                 else:
-                    source_line = f'<div class="source">来源：{source_date}</div>'
+                    source_line = f'<div class="source">来源：{source}</div>'
 
             tag_html = f'<span class="tag">{tag}</span>' if tag else ""
+            date_html = f'<span class="card-date">{item_date}</span>' if item_date else '<span class="card-date" style="color:#aaa">日期未知</span>'
 
             sections_html += f"""\
 <div class="news-card">
-  {tag_html}
+  <div class="card-top">
+    {tag_html}
+    {date_html}
+  </div>
   <h3>{title}</h3>
   <p class="summary">{summary}</p>
   {bullets_html}
@@ -337,6 +408,8 @@ def generate_html(data: dict) -> str:
             tag = company.get("tag", "企业动态")
             source = company.get("source", "")
             source_url = company.get("source_url", "")
+            comp_date = company.get("date", "")
+            date_html = f'<span class="card-date">{comp_date}</span>' if comp_date else '<span class="card-date" style="color:#aaa">日期未知</span>'
             source_line = ""
             if source and source_url:
                 source_line = f'<div class="source">来源：<a href="{source_url}" target="_blank" rel="noopener">{source}</a></div>'
@@ -345,7 +418,10 @@ def generate_html(data: dict) -> str:
 
             sections_html += f"""\
 <div class="company-card">
-  <span class="tag">{tag}</span>
+  <div class="card-top">
+    <span class="tag">{tag}</span>
+    {date_html}
+  </div>
   <h3>{name}</h3>
   <p>{desc}</p>
   {source_line}
@@ -367,6 +443,11 @@ def generate_html(data: dict) -> str:
 <body>
 <div class="container">
 
+  <div class="nav-bar">
+    <a href="archive.html">← 查看往期</a>
+    <span style="font-size:11px;color:var(--text-tertiary)">{issue_info}</span>
+  </div>
+
   <div class="header">
     <h1>Africa Off-Grid Solar Market News</h1>
     <p class="subtitle">非洲离网太阳能市场资讯</p>
@@ -384,6 +465,60 @@ def generate_html(data: dict) -> str:
 
   <div class="footer">
     Africa Solar News · {date_info} · 每日更新
+  </div>
+
+</div>
+</body>
+</html>"""
+
+
+def generate_archive_html(issues: list) -> str:
+    """生成往期目录页面"""
+    items_html = ""
+    for iss in issues:
+        fname = iss["file"]
+        issue = iss.get("issue", "?")
+        date_str = iss.get("date", "")
+        industry = iss.get("industry", 0)
+        company = iss.get("company", 0)
+        items_html += f"""\
+  <li class="archive-item">
+    <a href="{fname}">
+      <div>
+        <div class="issue-title">第 {issue} 期 · {date_str}</div>
+        <div class="issue-meta">行业 {industry} 篇 · 企业 {company} 篇</div>
+      </div>
+      <div class="issue-count">{industry + company} 篇</div>
+    </a>
+  </li>
+"""
+    return f"""\
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>非洲离网太阳能市场资讯 - 往期目录</title>
+<style>{CSS}
+.archive-header {{ text-align:center; padding:24px 0 8px; }}
+.archive-header h1 {{ font-size:18px; color:var(--green-dark); }}
+.archive-header p {{ font-size:12px; color:var(--text-tertiary); margin-top:4px; }}
+</style>
+</head>
+<body>
+<div class="container">
+
+  <div class="archive-header">
+    <h1>📚 往期资讯目录</h1>
+    <p>Africa Off-Grid Solar Market News Archive</p>
+  </div>
+
+  <ul class="archive-list">
+{items_html}
+  </ul>
+
+  <div class="footer">
+    共 {len(issues)} 期 · 每日更新
   </div>
 
 </div>

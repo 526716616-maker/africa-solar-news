@@ -111,6 +111,64 @@ SOURCES = {
         "date_sel": "time, .date",
         "summary_sel": "p, .excerpt",
     },
+    # ── 新增数据源 ──
+    "bgfa": {
+        "name": "BGFA (Beyond the Grid)",
+        "url": "https://beyondthegrid.africa/feed/",
+        "type": "rss",
+        "item_sel": "item",
+        "title_sel": "title",
+        "link_sel": "link",
+        "date_sel": "pubDate",
+        "summary_sel": "description",
+    },
+    "energynews-africa": {
+        "name": "Energy News Africa",
+        "url": "https://energynews.africa/feed/",
+        "type": "rss",
+        "item_sel": "item",
+        "title_sel": "title",
+        "link_sel": "link",
+        "date_sel": "pubDate",
+        "summary_sel": "description",
+        "keywords": ["solar", "off-grid", "mini-grid", "minigrid", "renewable",
+                     "clean energy", "electrification", "paygo"],
+    },
+    "africa-newsroom": {
+        "name": "Africa Newsroom",
+        "url": "https://www.africa-newsroom.com/press/tag/energy",
+        "type": "html",
+        "selector": "article, .press-item, .news-item, .post",
+        "title_sel": "h2, h3, .entry-title, .press-title",
+        "link_sel": "a",
+        "date_sel": "time, .date, .entry-date",
+        "summary_sel": "p, .excerpt, .entry-summary",
+        "keywords": ["solar", "off-grid", "offgrid", "energy access", "electrification",
+                     "renewable", "mini-grid", "minigrid", "clean energy", "paygo",
+                     "solar home", "mission 300", "power africa"],
+    },
+    "bboxx": {
+        "name": "BBOXX",
+        "url": "https://www.bboxx.com/feed/",
+        "type": "rss",
+        "item_sel": "item",
+        "title_sel": "title",
+        "link_sel": "link",
+        "date_sel": "pubDate",
+        "summary_sel": "description",
+    },
+    "techcabal-energy": {
+        "name": "TechCabal Energy",
+        "url": "https://techcabal.com/tag/energy/feed/",
+        "type": "rss",
+        "item_sel": "item",
+        "title_sel": "title",
+        "link_sel": "link",
+        "date_sel": "pubDate",
+        "summary_sel": "description",
+        "keywords": ["solar", "off-grid", "clean energy", "renewable", "mini-grid",
+                     "paygo", "energy access", "power", "electric", "grid"],
+    },
 }
 
 OUTPUT_DIR = os.path.join(os.path.dirname(__file__), "..", "output", "raw")
@@ -267,6 +325,15 @@ def extract_articles(soup: BeautifulSoup, cfg: dict, base_url: str) -> list[dict
                 break
         summary = safe_text(summary_el)
 
+        # HTML 关键词过滤
+        keywords = [k.lower() for k in cfg.get("keywords", [])]
+        if keywords and title:
+            title_lower = title.lower()
+            summary_lower = summary.lower()
+            matched = any(kw in title_lower or kw in summary_lower for kw in keywords)
+            if not matched:
+                continue
+
         if title:
             articles.append({
                 "title": title,
@@ -319,7 +386,7 @@ def main():
 
     parser = argparse.ArgumentParser(description="非洲离网太阳能市场周报爬虫")
     parser.add_argument("--source", choices=list(SOURCES.keys()), help="指定单个数据源")
-    parser.add_argument("--days", type=int, default=14, help="只看最近 N 天的文章 (默认 14)")
+    parser.add_argument("--days", type=int, default=7, help="只看最近 N 天的文章 (默认 7)")
     parser.add_argument("--json-only", action="store_true", help="仅输出 JSON，不写入文件")
     args = parser.parse_args()
 
