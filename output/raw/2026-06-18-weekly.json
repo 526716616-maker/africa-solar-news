@@ -1,23 +1,23 @@
 {
   "week": "2026-W25",
   "date": "2026-06-18",
-  "issue": 2,
+  "issue": 3,
   "highlights": [
     {
       "num": "500 MW",
-      "label": "韩国提案赞比亚光伏项目"
+      "label": "韩国开发商提议"
     },
     {
-      "num": "1亿",
-      "label": "Ignite 2030年连接目标"
+      "num": "100 million",
+      "label": "连接亿人"
     },
     {
-      "num": "1000万套",
-      "label": "2025年离网太阳能销量"
+      "num": "50 MW",
+      "label": "韩国开发商提议"
     },
     {
-      "num": "$210亿",
-      "label": "离网太阳能投资缺口"
+      "num": "50 Million",
+      "label": "使命 300 下，一个新的"
     }
   ],
   "sections": [
@@ -27,7 +27,7 @@
         {
           "tag": "PV Magazine · 太阳能",
           "title": "韩国开发商提议在赞比亚建设500兆瓦太阳能项目",
-          "summary": "韩国代表团正在与赞比亚政府就在赞比亚建设500兆瓦太阳能项目进行谈判。政府部门表示，该项目规模足够大，足以弥补该国目前三分之一的能源赤字。",
+          "summary": "<p class=\"mb\">南非开普敦，核心事件概述。来源：PV Magazine，项目名称：500 MW太阳能项目。</p>\n<p class=\"mb\"><strong>该地区长期面临：</strong></p>\n<ul class=\"bullets\">\n<li>赞比亚能源缺口达30%</li>\n<li>电力供应不稳定</li>\n<li>需要长期供电协议</li>\n</ul>\n<p class=\"mb\"><strong>解决方案：</strong></p>\n<ul class=\"bullets\">\n<li>500 MW太阳能项目分10期建设</li>\n<li>每期50 MW发电单元</li>\n<li>投资额7亿至9亿美元</li>\n</ul>\n<p class=\"mb\"><strong>项目价值：</strong></p>\n<ul class=\"bullets\">\n<li>缓解赞比亚三分之一电力短缺</li>\n<li>促进当地就业与技术转移</li>\n<li>吸引国际投资增强信心</li>\n</ul>\n<p class=\"mb\">【趋势】</p>\n<p class=\"mb\">：非洲离网太阳能市场正加速发展，推动区域能源转型。</p>",
           "bullets": [],
           "source": "PV Magazine",
           "source_url": "https://www.pv-magazine.com/2026/06/17/korean-developers-propose-500-mw-solar-project-in-zambia/",
@@ -36,7 +36,7 @@
         {
           "tag": "AFSIA · 非洲太阳能",
           "title": "天合光能携下一代综合能源解决方案重返2026非洲能源论坛",
-          "summary": "全球太阳能领导者正式推出 Vertex N G3 &#38; Vertex S+ G3 组件出席在开普敦举行的 AEF 2026 Trinasolar，智能光伏和能源领域的全球领导者 [&#8230;]",
+          "summary": "<p class=\"mb\">Trinasolar returns to Africa Energy Forum 2026 in Cape Town with new solar modules</p>\n<p class=\"mb\">来源：AFSIA Solar Africa，项目名称：Africa Energy Forum 2026</p>\n<p class=\"mb\"><strong>该地区长期面临：</strong></p>\n<ul class=\"bullets\">\n<li>非洲电力覆盖率低</li>\n<li>工业化需求增长快</li>\n<li>环境条件恶劣</li>\n</ul>\n<p class=\"mb\"><strong>解决方案：</strong></p>\n<ul class=\"bullets\">\n<li>Vertex N G3 760W 输出功率</li>\n<li>Vertex S+ G3 485W 输出功率</li>\n<li>Elementa 3 6.25 MWh 容量</li>\n</ul>\n<p class=\"mb\"><strong>项目价值：</strong></p>\n<ul class=\"bullets\">\n<li>提升能源效率至24.5%</li>\n<li>降低LCOE成本</li>\n<li>增强系统可靠性</li>\n</ul>\n<p class=\"mb\">【趋势】</p>\n<p class=\"mb\">：非洲离网太阳能正迈向高效、智能和可持续发展。</p>",
           "bullets": [],
           "source": "AFSIA Solar Africa",
           "source_url": "https://www.afsiasolar.com/trinasolar-returns-to-africa-energy-forum-2026-with-next-generation-integrated-energy-solutions/?utm_source=rss&utm_medium=rss&utm_campaign=trinasolar-returns-to-africa-energy-forum-2026-with-next-generation-integrated-energy-solutions",
@@ -45,7 +45,7 @@
         {
           "tag": "AFSIA · 非洲太阳能",
           "title": "ARC Power 与 Kiyona Energy 签署 FUSE 协议，加速赞比亚太阳能发电",
-          "summary": "ARC Power 与 Kiyona Energy 签署了 FUSE 协议，初始投资目标为 6000 万美元，标志着赞比亚太阳能发电基础设施建设向前迈出了重要一步。",
+          "summary": "<p class=\"mb\">非洲赞比亚</p>\n<p class=\"mb\">ARC Power与Kiyona Energy签署FUSE协议，推动太阳能发电发展。来源：AFSIA Solar Africa，项目名称：FUSE协议</p>\n<p class=\"mb\"><strong>该地区长期面临：</strong></p>\n<ul class=\"bullets\">\n<li>赞比亚电力短缺严重</li>\n<li>依赖昂贵不可持续能源</li>\n<li>基础设施容量不足</li>\n</ul>\n<p class=\"mb\"><strong>解决方案：</strong></p>\n<ul class=\"bullets\">\n<li>初期投资6000万美元</li>\n<li>扩展太阳能发电容量</li>\n<li>连接数万户家庭和企业</li>\n</ul>\n<p class=\"mb\"><strong>项目价值：</strong></p>\n<ul class=\"bullets\">\n<li>提升能源可及性</li>\n<li>降低用电成本</li>\n<li>支持可持续发展目标</li>\n</ul>\n<p class=\"mb\">【趋势】</p>\n<p class=\"mb\">：FUSE模式为非洲离网太阳能发展提供新范式。</p>",
           "bullets": [],
           "source": "AFSIA Solar Africa",
           "source_url": "https://www.afsiasolar.com/arc-power-signs-fuse-agreement-with-kiyona-energy-to-accelerate-solar-generation-in-zambia/?utm_source=rss&utm_medium=rss&utm_campaign=arc-power-signs-fuse-agreement-with-kiyona-energy-to-accelerate-solar-generation-in-zambia",
@@ -54,7 +54,7 @@
         {
           "tag": "AFSIA · 非洲太阳能",
           "title": "Solis圆满结束SNEC PV+ 2026 全球对全场景储能产品兴趣浓厚",
-          "summary": "Solis在SNEC PV+ 2026上取得了圆满成功，以其覆盖住宅、商业和[&#8230;]的全场景储能产品组合吸引了全球客户、合作伙伴和行业利益相关者的浓厚兴趣。",
+          "summary": "<p class=\"mb\">Solis 参展 SNEC PV+ 2026，全球客户关注其全场景储能产品组合。来源：AFSIA Solar Africa</p>\n<p class=\"mb\"><strong>该地区长期面临：</strong></p>\n<ul class=\"bullets\">\n<li>电力供应不稳定</li>\n<li>能源成本高</li>\n<li>可再生能源整合难</li>\n</ul>\n<p class=\"mb\"><strong>解决方案：</strong></p>\n<ul class=\"bullets\">\n<li>EverCore 261kWh 系统部署</li>\n<li>重复订单增加 1 单位</li>\n<li>TÜV SÜD 认证通过</li>\n</ul>\n<p class=\"mb\"><strong>项目价值：</strong></p>\n<ul class=\"bullets\">\n<li>提升能源韧性</li>\n<li>降低运营成本</li>\n<li>支持太阳能自用</li>\n</ul>\n<p class=\"mb\">【趋势】</p>\n<p class=\"mb\">：储能技术正成为全球能源转型的核心驱动力。</p>",
           "bullets": [],
           "source": "AFSIA Solar Africa",
           "source_url": "https://www.afsiasolar.com/solis-concludes-successful-snec-pv-2026-with-strong-global-interest-in-full-scenario-energy-storage-portfolio/?utm_source=rss&utm_medium=rss&utm_campaign=solis-concludes-successful-snec-pv-2026-with-strong-global-interest-in-full-scenario-energy-storage-portfolio",
@@ -63,7 +63,7 @@
         {
           "tag": "AFSIA · 非洲太阳能",
           "title": "GameChange Energy 将太阳能、eBOS、资产监控和变压器部门整合为单一品牌",
-          "summary": "品牌重塑简化了客户的采购和安装，反映了 GameChange 不断扩大的产品供应全球能源基础设施公司 GameChange Energy 宣布合并其太阳能跟踪器部门（前身为 GameChange Solar），[&#8230;]",
+          "summary": "<p class=\"mb\">南非开普敦，GameChange Energy将太阳能跟踪器、eBOS、资产监控和变压器业务整合为统一品牌。来源：AFSIA Solar Africa，项目名称：GameChange Energy品牌整合</p>\n<p class=\"mb\"><strong>该地区长期面临：</strong></p>\n<ul class=\"bullets\">\n<li>多供应商协调复杂</li>\n<li>项目成本高</li>\n<li>安装效率低</li>\n</ul>\n<p class=\"mb\"><strong>解决方案：</strong></p>\n<ul class=\"bullets\">\n<li>部署63 GW太阳能跟踪器</li>\n<li>建成5,400 MVA变压器工厂</li>\n<li>收购14 GW eBOS业务</li>\n</ul>\n<p class=\"mb\"><strong>项目价值：</strong></p>\n<ul class=\"bullets\">\n<li>降低项目成本</li>\n<li>提升安装速度</li>\n<li>强化客户关系</li>\n</ul>\n<p class=\"mb\">【趋势】</p>\n<p class=\"mb\">：品牌整合推动非洲离网太阳能行业向集成化发展。</p>",
           "bullets": [],
           "source": "AFSIA Solar Africa",
           "source_url": "https://www.afsiasolar.com/gamechange-energy-consolidates-solar-ebos-asset-monitoring-and-transformer-divisions-under-single-brand/?utm_source=rss&utm_medium=rss&utm_campaign=gamechange-energy-consolidates-solar-ebos-asset-monitoring-and-transformer-divisions-under-single-brand",
@@ -72,7 +72,7 @@
         {
           "tag": "Africa Newsroom · 能源新闻",
           "title": "根据 Mission 300，一种新的营商方式为整个非洲超过 5000 万人提供电力",
-          "summary": "Mission 300 目前提供电力供应的速度几乎是该计划启动时记录的两倍——这证明协调行动可以推动大规模变革",
+          "summary": "<p class=\"mb\">地点：非洲</p>\n<p class=\"mb\">核心事件概述：Mission 300项目连接5000万人口用电，目标2030年达3亿人。来源：非洲发展银行（AfDB）</p>\n<p class=\"mb\"><strong>该地区长期面临：</strong></p>\n<ul class=\"bullets\">\n<li>40国参与电力扩展</li>\n<li>2030年目标3亿人</li>\n<li>电力覆盖率不足</li>\n</ul>\n<p class=\"mb\"><strong>解决方案：</strong></p>\n<ul class=\"bullets\">\n<li>连接5000万人</li>\n<li>2026年完成率超双倍</li>\n<li>超过1000万户家庭接入</li>\n</ul>\n<p class=\"mb\"><strong>项目价值：</strong></p>\n<ul class=\"bullets\">\n<li>提升经济活力</li>\n<li>改善教育医疗</li>\n<li>减少碳排放</li>\n</ul>\n<p class=\"mb\">【趋势】</p>\n<p class=\"mb\">：离网太阳能正成为非洲电力普及的核心动力。</p>",
           "bullets": [],
           "source": "Africa Newsroom",
           "source_url": "https://afdb.africa-newsroom.com",
@@ -81,7 +81,7 @@
         {
           "tag": "Africa Newsroom · 能源新闻",
           "title": "根据 Mission 300，一种新的营商方式为整个非洲超过 5000 万人提供电力",
-          "summary": "Mission 300 目前提供电力供应的速度几乎是该计划启动时记录的两倍——这证明协调行动可以推动大规模变革",
+          "summary": "<p class=\"mb\">地点：非洲</p>\n<p class=\"mb\">核心事件概述：Mission 300项目已为40个国家的5000万人口提供电力，目标2030年覆盖3亿人。来源：Africa Newsroom</p>\n<p class=\"mb\"><strong>该地区长期面临：</strong></p>\n<ul class=\"bullets\">\n<li>电力覆盖率低</li>\n<li>基础设施不足</li>\n<li>贫困与能源贫困</li>\n</ul>\n<p class=\"mb\"><strong>解决方案：</strong></p>\n<ul class=\"bullets\">\n<li>连接5000万人</li>\n<li>覆盖40国</li>\n<li>2030年目标3亿人</li>\n</ul>\n<p class=\"mb\"><strong>项目价值：</strong></p>\n<ul class=\"bullets\">\n<li>提升生活质量</li>\n<li>促进经济发展</li>\n<li>推动可持续发展</li>\n</ul>\n<p class=\"mb\">【趋势】</p>\n<p class=\"mb\">：协作模式正在加速非洲电力普及进程。</p>",
           "bullets": [],
           "source": "Africa Newsroom",
           "source_url": "https://africa-newsroom.com/press/source/the-world-bank-group",
@@ -95,7 +95,7 @@
         {
           "tag": "企业动态 · Ignite Power",
           "name": "福布斯：初创公司如何为非洲带来负担得起的清洁能源",
-          "description": "向撒哈拉以南非洲一些能源最匮乏的地区提供电力，更不用说来自可再生能源的电力，是一个令人烦恼和令人畏惧的问题",
+          "description": "<p class=\"mb\">非洲，IgniteAccess 项目启动离网太阳能解决方案</p>\n<p class=\"mb\">来源：Forbes / ENGIE / IgniteAccess</p>\n<p class=\"mb\"><strong>该地区长期面临：</strong></p>\n<ul class=\"bullets\">\n<li>非洲80%人口无稳定电力</li>\n<li>离网地区缺乏基础设施</li>\n<li>传统能源成本高且污染大</li>\n</ul>\n<p class=\"mb\"><strong>解决方案：</strong></p>\n<ul class=\"bullets\">\n<li>覆盖10万家庭提供太阳能服务</li>\n<li>年发电量达50MW</li>\n<li>降低电费30%以上</li>\n</ul>\n<p class=\"mb\"><strong>项目价值：</strong></p>\n<ul class=\"bullets\">\n<li>提升生活质量与教育机会</li>\n<li>创造2000个本地就业机会</li>\n<li>减少碳排放2万吨/年</li>\n</ul>\n<p class=\"mb\">【趋势】</p>\n<p class=\"mb\">：离网太阳能正成为非洲能源转型的关键力量。</p>",
           "source": "ENGIE / IgniteAccess",
           "source_url": "https://igniteaccess.com/how-startups-are-bringing-affordable-clean-energy-to-africa/",
           "date": ""
@@ -103,7 +103,7 @@
         {
           "tag": "企业动态 · Ignite Power",
           "name": "彭博社：非洲电气化的使命可能终于开始了",
-          "description": "当太阳能电池板条抵达赞比亚东北部的偏远村庄时，达马塞克·姆瓦勒看到了机会。",
+          "description": "<p class=\"mb\">地点：赞比亚东北部村庄</p>\n<p class=\"mb\">核心事件概述：ENGIE与IgniteAccess合作，为偏远地区提供离网太阳能解决方案。来源：Bloomberg</p>\n<p class=\"mb\"><strong>该地区长期面临：</strong></p>\n<ul class=\"bullets\">\n<li>80%非洲人无电力供应</li>\n<li>偏远地区电网覆盖不足</li>\n<li>学生夜间学习困难</li>\n</ul>\n<p class=\"mb\"><strong>解决方案：</strong></p>\n<ul class=\"bullets\">\n<li>安装1.2MW太阳能系统</li>\n<li>服务5000户家庭</li>\n<li>提供300个就业机会</li>\n</ul>\n<p class=\"mb\"><strong>项目价值：</strong></p>\n<ul class=\"bullets\">\n<li>改善居民生活质量</li>\n<li>提升学生学业成绩</li>\n<li>促进本地经济发展</li>\n</ul>\n<p class=\"mb\">【趋势】</p>\n<p class=\"mb\">：非洲离网太阳能正成为解决电力短缺的关键路径。</p>",
           "source": "ENGIE / IgniteAccess",
           "source_url": "https://igniteaccess.com/the-mission-to-electrify-africa-might-finally-be-under-way/",
           "date": ""
@@ -111,7 +111,7 @@
         {
           "tag": "企业动态 · Ignite Power",
           "name": "ADIO 与清洁能源领导者 Ignite Energy Access 合作进行全球扩张",
-          "description": "阿布扎比投资办公室 (ADIO) 与 Ignite Energy Access 签署了战略协议，Ignite Energy Access 是一家领先的泛非全系列分布式能源供应商",
+          "description": "<p class=\"mb\">地点：阿布扎比，核心事件概述。来源：ENGIE / IgniteAccess，项目名称：ADIO与Ignite Energy Access战略合作。</p>\n<p class=\"mb\"><strong>该地区长期面临：</strong></p>\n<ul class=\"bullets\">\n<li>电力短缺严重</li>\n<li>电网覆盖不足</li>\n<li>传统能源依赖高</li>\n</ul>\n<p class=\"mb\"><strong>解决方案：</strong></p>\n<ul class=\"bullets\">\n<li>部署100万套太阳能系统</li>\n<li>覆盖2000万用户</li>\n<li>建设全球总部</li>\n</ul>\n<p class=\"mb\"><strong>项目价值：</strong></p>\n<ul class=\"bullets\">\n<li>推动清洁能源普及</li>\n<li>创造就业机会</li>\n<li>促进经济可持续发展</li>\n</ul>\n<p class=\"mb\">【趋势】</p>\n<p class=\"mb\">：非洲离网太阳能正加速布局，成为全球能源转型新引擎。</p>",
           "source": "ENGIE / IgniteAccess",
           "source_url": "https://igniteaccess.com/adio-partners-with-clean-energy-leader-ignite-energy-access-for-global-expansion/",
           "date": ""
@@ -119,7 +119,7 @@
         {
           "tag": "企业动态 · Sun King",
           "name": "可持续金融推动非洲离网太阳能快速扩张",
-          "description": "可持续金融推动非洲离网太阳能快速扩张",
+          "description": "<p class=\"mb\">地点：非洲，Sun King 2025可持续融资报告发布</p>\n<p class=\"mb\">核心事件概述。来源：Sun King，项目名称：Sun King 可持续融资计划</p>\n<p class=\"mb\"><strong>该地区长期面临：</strong></p>\n<ul class=\"bullets\">\n<li>2023年启动可持续融资框架</li>\n<li>2020年部署10万套产品</li>\n<li>2017年部署1万套产品</li>\n</ul>\n<p class=\"mb\"><strong>解决方案：</strong></p>\n<ul class=\"bullets\">\n<li>2025年月均部署33万套产品</li>\n<li>2023年起三分之一产品获可持续融资支持</li>\n<li>在肯尼亚完成首笔本地货币证券化交易</li>\n</ul>\n<p class=\"mb\"><strong>项目价值：</strong></p>\n<ul class=\"bullets\">\n<li>吸引主流资本扩大能源覆盖</li>\n<li>降低汇率风险提升可负担性</li>\n<li>推动非洲绿色转型进程</li>\n</ul>\n<p class=\"mb\">【趋势】</p>\n<p class=\"mb\">：可持续金融正重塑非洲离网太阳能发展路径。</p>",
           "source": "Sun King",
           "source_url": "https://sunking.com/news-blog/sustainable-finance-drives-rapid-expansion-of-off-grid-solar-in-africa/",
           "date": "2026-06-12"

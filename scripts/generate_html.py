@@ -192,22 +192,57 @@ body {
   margin-bottom: 6px;
   color: var(--text);
 }
-.news-card .summary {
+/* ===== 通用：卡片内列表 & 段落样式 ===== */
+.news-card .summary,
+.company-card .summary {
   font-size: 13px;
   color: var(--text-secondary);
   margin-bottom: 10px;
+  max-height: 200px;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  position: relative;
 }
-.news-card .bullets {
+.news-card .summary.expanded,
+.company-card .summary.expanded {
+  max-height: none;
+}
+.news-card .summary:not(.expanded)::after,
+.company-card .summary:not(.expanded)::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 30px;
+  background: linear-gradient(transparent, var(--card));
+}
+.fold-btn {
+  display: block;
+  text-align: center;
+  font-size: 11px;
+  color: var(--green-dark);
+  cursor: pointer;
+  margin-top: 4px;
+  padding: 4px 0;
+  user-select: none;
+}
+.fold-btn:hover { opacity: 0.7; }
+.news-card .bullets,
+.company-card .bullets {
   list-style: none;
   margin-bottom: 10px;
 }
-.news-card .bullets li {
+.news-card .bullets li,
+.company-card .bullets li {
   font-size: 12px;
   color: var(--text-secondary);
   padding: 2px 0 2px 16px;
   position: relative;
+  word-break: break-word;
 }
-.news-card .bullets li::before {
+.news-card .bullets li::before,
+.company-card .bullets li::before {
   content: "";
   position: absolute;
   left: 2px;
@@ -217,6 +252,10 @@ body {
   border-radius: 50%;
   background: var(--green-light);
 }
+.news-card .mb,
+.company-card .mb { margin-bottom: 8px; }
+.news-card .bullets,
+.company-card .bullets { margin-bottom: 0; }
 .news-card .source {
   font-size: 11px;
   color: var(--text-tertiary);
@@ -262,11 +301,6 @@ body {
   font-weight: 600;
   margin-bottom: 6px;
   color: var(--text);
-}
-.company-card p {
-  font-size: 13px;
-  color: var(--text-secondary);
-  line-height: 1.6;
 }
 .company-card .source {
   font-size: 11px;
@@ -395,7 +429,8 @@ def generate_html(data: dict) -> str:
     {date_html}
   </div>
   <h3>{title}</h3>
-  <p class="summary">{summary}</p>
+  <div class="summary">{summary}</div>
+  <div class="fold-btn" onclick="var s=this.previousElementSibling;s.classList.toggle('expanded');this.textContent=s.classList.contains('expanded')?'收起 ▲':'展开 ▼';">展开 ▼</div>
   {bullets_html}
   {source_line}
 </div>
@@ -423,7 +458,8 @@ def generate_html(data: dict) -> str:
     {date_html}
   </div>
   <h3>{name}</h3>
-  <p>{desc}</p>
+  <div class="summary">{desc}</div>
+  <div class="fold-btn" onclick="var s=this.previousElementSibling;s.classList.toggle('expanded');this.textContent=s.classList.contains('expanded')?'收起 ▲':'展开 ▼';">展开 ▼</div>
   {source_line}
 </div>
 """

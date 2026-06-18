@@ -4,6 +4,7 @@ import os
 import sys
 import re
 import time
+import requests
 from datetime import datetime, timezone
 from deep_translator import GoogleTranslator
 
@@ -41,6 +42,87 @@ def translate_text(text: str, retries: int = 2) -> str:
                 print(f"  [warn] 翻译失败: {e}", file=sys.stderr)
                 return text
 
+
+# ── AI 精读 ──
+QWEN_KEY = 'sk-f0d5f80034794f048e82c936ec3556f0'
+QWEN_API = 'https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions'
+
+DEEP_PROMPT = """你是非洲离网太阳能分析师。请用中文撰写一篇精读简报，严格使用以下格式，用一个空行分隔各小节：
+
+第一段：地点，核心事件概述。注明来源和项目名称。
+
+背景：
+- 问题1
+- 问题2
+- 问题3
+
+方案：
+- 成果1（具体数据）
+- 成果2（具体数据）
+- 成果3（具体数据）
+
+价值：
+- 价值1
+- 价值2
+- 价值3
+
+趋势总结：一句话收尾。
+
+要求：
+- 使用 - 符号开头列表项，每组之间空行分隔
+- 每个列表项不超过20字
+- 提取具体数字（MW、金额、户数等）
+- 总字数300-500字
+- 直接输出内容"""
+
+def deep_read(title, source_url, source_name, retries=1):
+    """获取文章全文并调用Qwen精读改写"""
+    content = ''
+    try:
+        resp = requests.get(source_url, headers={
+            'User-Agent': 'Mozilla/5.0 (compatible; AfricaSolarNews/1.0)'
+        }, timeout=20)
+        if resp.status_code == 200:
+            from bs4 import BeautifulSoup
+            soup = BeautifulSoup(resp.text, 'html.parser')
+            for tag in soup(['script', 'style', 'nav', 'footer', 'header', 'aside']):
+                tag.decompose()
+            for sel in ['article', 'main', '.post-content', '.entry-content', '.content', 'body']:
+                el = soup.select_one(sel)
+                if el:
+                    content = el.get_text(separator="\n", strip=True)
+                    break
+            content = content[:4000]
+    except Exception as e:
+        print(f'  [warn] 抓取原文失败 {source_url}: {e}', file=sys.stderr)
+
+    if not content or len(content) < 100:
+        return None
+
+    for attempt in range(retries + 1):
+        try:
+            resp = requests.post(QWEN_API, headers={
+                'Authorization': f'Bearer {QWEN_KEY}',
+                'Content-Type': 'application/json'
+            }, json={
+                'model': 'qwen-turbo',
+                'messages': [
+                    {'role': 'system', 'content': DEEP_PROMPT},
+                    {'role': 'user', 'content': f"标题：{title}\n来源：{source_name}\n\n正文：\n{content}"}
+                ],
+                'temperature': 0.7,
+                'max_tokens': 1200,
+            }, timeout=60)
+            result = resp.json()
+            return result['choices'][0]['message']['content'].strip()
+        except Exception as e:
+            if attempt < retries:
+                print(f'  [retry] Qwen精读重试 {attempt+1}: {e}', file=sys.stderr)
+                time.sleep(3)
+            else:
+                print(f'  [warn] Qwen精读失败: {e}', file=sys.stderr)
+                return None
+
 # ── 读取 raw JSON（自动找最新的） ──
 raw_dir = os.path.join(os.path.dirname(__file__), "..", "output", "raw")
 raw_dir = os.path.abspath(raw_dir)
@@ -64,15 +146,23 @@ issue_num = len(existing) + 1
 now = datetime.now(CST)
 
 # ── 清洗工具 ──
-def clean_summary(text: str, max_len: int = 300) -> str:
+def clean_summary(text: str, max_len: int = 600) -> str:
     """清洗 RSS/HTML 摘要：去标签、去垃圾文字、截断"""
     # 去掉 HTML 标签
     text = re.sub(r'<[^>]+>', ' ', text)
+    # 解码 HTML 实体
+    text = text.replace('&#038;', '&').replace('&#38;', '&')
+    text = text.replace('&#8217;', "'").replace('&#8216;', "'")
+    text = text.replace('&#8220;', '"').replace('&#8221;', '"')
+    text = text.replace('&#8230;', '...').replace('&#8211;', '-')
+    text = text.replace('&amp;', '&').replace('&nbsp;', ' ')
     # 去掉多余空白
     text = re.sub(r'\s+', ' ', text).strip()
     # 去掉 RSS 尾巴文字
     text = re.sub(r'The post .*? appeared first on .*?\.?$', '', text, flags=re.IGNORECASE)
     text = re.sub(r'The post .*?$', '', text, flags=re.IGNORECASE)
+    # 去掉 [...] 截断标记
+    text = re.sub(r'\s*\[\.\.\.\]\s*$', '', text)
     # 去掉结尾不完整的句子（截断在非句末处）
     text = text.strip()
     if text and text[-1] not in '.。!！?？':
@@ -81,6 +171,9 @@ def clean_summary(text: str, max_len: int = 300) -> str:
         if last_period > len(text) * 0.5:  # 至少过半
             text = text[:last_period+1]
     return text[:max_len].strip()
+
+from format_rich import format_rich
+
 def extract_numbers(text):
     """从文本中提取有意义的数字，返回列表"""
     nums = []
@@ -98,19 +191,62 @@ def extract_numbers(text):
                 seen.add(clean)
     return nums
 
-all_nums = []
-all_titles_for_nums = ""
+def num_value(s):
+    """提取数字大小用于排序"""
+    s_clean = s.replace("$", "").replace(",", "").strip()
+    parts = s_clean.split()
+    val = float(parts[0]) if parts else 0
+    unit = parts[1].lower() if len(parts) > 1 else ""
+    if unit in ("billion",):
+        val *= 1000
+    return val
+
+# ── 智能亮点提取（从已过滤的文章中提取） ──
+# 先收集有效文章
+valid_articles = []
 for src in raw["sources"]:
     for a in src["articles"]:
-        all_titles_for_nums += a["title"] + " " + a.get("summary", "") + " "
+        date = a.get("date", "")
+        cutoff_7d = (datetime.now(CST) - __import__('datetime').timedelta(days=7)).strftime("%Y-%m-%d")
+        if date and date < cutoff_7d:
+            continue
+        title = a["title"]
+        summary = a.get("summary", "")
+        if any(kw in title.lower() for kw in ["south asia", "flutterwave", "series e"]):
+            continue
+        valid_articles.append(a)
 
-# 手工补充本期明显的数字
-highlights = [
-    {"num": "500 MW", "label": "韩国提案赞比亚光伏项目"},
-    {"num": "1亿", "label": "Ignite 2030年连接目标"},
-    {"num": "1000万套", "label": "2025年离网太阳能销量"},
-    {"num": "$210亿", "label": "离网太阳能投资缺口"},
-]
+context_pairs = []
+seen = set()
+for a in valid_articles:
+    full_text = a["title"] + " " + a.get("summary", "")
+    nums = extract_numbers(full_text)
+    for n in nums:
+        n_key = n.replace("$", "").replace(",", "").strip().lower()
+        if n_key not in seen:
+            seen.add(n_key)
+            # 标签：取标题中不含数字的前 20 个有意义字符
+            label = a["title"][:50]
+            # 去掉 emoji 和数字开头
+            label = re.sub(r'[\U0001F600-\U0001FFFF]', '', label).strip()
+            label = re.sub(r'^[\d\s\$MWGWkits]+\s*', '', label)
+            if len(label) > 25:
+                label = label[:25]
+            if not label:
+                label = a.get("source_name", "")[:20]
+            context_pairs.append((n, label))
+
+context_pairs.sort(key=lambda x: num_value(x[0]), reverse=True)
+highlights = []
+for n, label in context_pairs[:4]:
+    highlights.append({"num": n, "label": label})
+
+if len(highlights) < 2:
+    highlights += [
+        {"num": str(len(industry_items)), "label": "本期行业动态"},
+        {"num": str(len(company_items)), "label": "本期企业动态"},
+    ]
+    highlights = highlights[:4]
 
 # ── 分配文章到板块 ──
 industry_items = []  # 一、行业动态
@@ -122,7 +258,7 @@ source_count = {}
 for src in raw["sources"]:
     for a in src["articles"]:
         title = a["title"]
-        summary = a.get("summary", "")[:300] if a.get("summary") else ""
+        summary = a.get("summary", "")[:600] if a.get("summary") else ""
         url = a.get("url", "")
         date = a.get("date", "")
 
@@ -141,6 +277,16 @@ for src in raw["sources"]:
         skip_keywords = ["south asia", "flutterwave", "series e"]
         if any(kw in title.lower() for kw in skip_keywords):
             continue
+
+        # AI 精读：抓原文+Qwen改写（失败则回退原摘要）
+        if url:
+            print(f"  [deep] 精读: {title[:60]}...")
+            deep = deep_read(title, url, src["name"])
+            if deep:
+                summary = format_rich(deep[:1000])  # AI输出转HTML
+                print(f"  [deep] OK ({len(deep)}字)")
+            else:
+                print(f"  [deep] 回退原摘要")
 
         # 根据来源分类
         company_sources = {"engie", "sunking", "bboxx"}
@@ -171,7 +317,7 @@ for src in raw["sources"]:
             company_items.append({
                 "tag": tag_prefix,
                 "name": title[:100],
-                "description": clean_summary(summary, 200) if summary else title[:200],
+                "description": summary if summary else title[:400],
                 "source": src["name"],
                 "source_url": url,
                 "date": date,
@@ -194,7 +340,7 @@ for src in raw["sources"]:
             industry_items.append({
                 "tag": tag,
                 "title": title[:120],
-                "summary": clean_summary(summary),
+                "summary": summary,  # format_rich 已生成HTML，不需要 clean_summary
                 "bullets": [],
                 "source": src["name"],
                 "source_url": url,
@@ -209,10 +355,17 @@ total_to_translate = len(industry_items) + len(company_items)
 print(f"[INFO] 正在翻译 {total_to_translate} 篇文章为中文...")
 for item in industry_items:
     item["title"] = translate_text(item["title"])
-    item["summary"] = translate_text(item["summary"])
+    # 已格式化的 HTML（含<ul>标签）直接跳过翻译
+    if "<ul" not in item["summary"]:
+        item["summary"] = translate_text(item["summary"])
 for item in company_items:
     item["name"] = translate_text(item["name"])
-    item["description"] = translate_text(item["description"])
+    if "<ul" not in item["description"]:
+        item["description"] = translate_text(item["description"])
+
+# 翻译亮点标签
+for h in highlights:
+    h["label"] = translate_text(h["label"])
 print("[INFO] 翻译完成")
 
 # ── 组装 curated JSON ──

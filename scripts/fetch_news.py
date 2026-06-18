@@ -187,7 +187,7 @@ def safe_text(el, default: str = "") -> str:
     if el is None:
         return default
     text = el.get_text(strip=True) if hasattr(el, "get_text") else str(el).strip()
-    return text[:300]  # 限制长度
+    return text[:800]  # 限制长度
 
 
 def parse_date(text: str) -> Optional[str]:
@@ -275,6 +275,12 @@ def extract_articles(soup: BeautifulSoup, cfg: dict, base_url: str) -> list[dict
 
             summary_el = item.select_one(cfg["summary_sel"])
             summary = safe_text(summary_el)
+            # RSS优先取全文 content:encoded，比 description 更长
+            full_el = item.select_one("content\\:encoded, encoded")
+            if full_el:
+                full_text = safe_text(full_el)
+                if len(full_text) > len(summary):
+                    summary = full_text
 
             articles.append({
                 "title": title,
