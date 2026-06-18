@@ -79,6 +79,38 @@ SOURCES = {
                      "off-grid", "mini-grid", "minigrid", "solar home", "paygo",
                      "gogla", "electrification"],
     },
+    # ── 更多 RSS ──
+    "afsia": {
+        "name": "AFSIA Solar Africa",
+        "url": "https://www.afsiasolar.com/feed/",
+        "type": "rss",
+        "item_sel": "item",
+        "title_sel": "title",
+        "link_sel": "link",
+        "date_sel": "pubDate",
+        "summary_sel": "description",
+    },
+    "lighting-global": {
+        "name": "Lighting Global",
+        "url": "https://www.lightingglobal.org/feed/",
+        "type": "rss",
+        "item_sel": "item",
+        "title_sel": "title",
+        "link_sel": "link",
+        "date_sel": "pubDate",
+        "summary_sel": "description",
+    },
+    # ── 企业动态（HTML）──
+    "sunking": {
+        "name": "Sun King",
+        "url": "https://sunking.com/news-and-blog/",
+        "type": "html",
+        "selector": "article, .post, .blog-entry, div[class*=post]",
+        "title_sel": "h2, h3",
+        "link_sel": "a",
+        "date_sel": "time, .date",
+        "summary_sel": "p, .excerpt",
+    },
 }
 
 OUTPUT_DIR = os.path.join(os.path.dirname(__file__), "..", "output", "raw")

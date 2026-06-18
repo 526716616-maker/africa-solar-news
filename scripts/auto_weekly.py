@@ -132,10 +132,11 @@ for src in raw["sources"]:
             continue
 
         # 根据来源分类
-        if src["key"] in ("engie",):
+        if src["key"] in ("engie", "sunking"):
             # 企业动态
+            tag_name = "企业动态 · Ignite Power" if src["key"] == "engie" else "企业动态 · Sun King"
             company_items.append({
-                "tag": "企业动态 · Ignite Power",
+                "tag": tag_name,
                 "name": title[:100],
                 "description": clean_summary(summary, 200) if summary else title[:200],
                 "source": src["name"],
@@ -147,6 +148,8 @@ for src in raw["sources"]:
                 "gogla": "GOGLA · 行业报告",
                 "techpoint": "Techpoint · 非洲科技",
                 "pv-magazine": "PV Magazine · 太阳能",
+                "afsia": "AFSIA · 非洲太阳能",
+                "lighting-global": "Lighting Global · 离网照明",
             }
             tag = tag_map.get(src["key"], src["name"])
 
