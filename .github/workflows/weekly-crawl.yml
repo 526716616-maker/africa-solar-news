@@ -1,0 +1,54 @@
+# =============================================================================
+# 非洲离网太阳能市场周报 - 全自动流水线
+# =============================================================================
+# 每周一 UTC 02:00 (北京时间 10:00) 自动执行:
+#   抓取 4 个源 → 清洗 → 英译中 → 生成 HTML → 提交回仓库
+#
+# 产出文件:
+#   output/raw/YYYY-MM-DD-raw.json     → 原始抓取数据
+#   output/raw/YYYY-MM-DD-weekly.json  → curated 数据
+#   output/html/week-NN-YYYY-MM-DD.html → 最终周报
+# =============================================================================
+
+name: Weekly Africa Solar Report
+
+on:
+  schedule:
+    - cron: "0 2 * * 1"    # 每周一 UTC 02:00 = 北京时间 10:00
+  workflow_dispatch:         # 手动触发
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+
+      - name: 安装 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 安装依赖
+        run: pip install -r requirements.txt deep-translator
+
+      - name: 运行爬虫
+        run: python scripts/fetch_news.py --days 14
+        env:
+          PYTHONIOENCODING: utf-8
+
+      - name: 生成周报（清洗+翻译+HTML）
+        run: python scripts/auto_weekly.py
+        env:
+          PYTHONIOENCODING: utf-8
+
+      - name: 提交所有产物
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "🤖 自动周报 $(date +%Y-%m-%d)"
+          file_pattern: "output/"
+          commit_user_name: "Weekly Crawler Bot"
+          commit_user_email: "bot@africa-solar-weekly.local"

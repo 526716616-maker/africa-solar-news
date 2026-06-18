@@ -1,0 +1,184 @@
+{
+  "crawled_at": "2026-06-18T11:07:25.164530+08:00",
+  "week": "2026-W25",
+  "sources": [
+    {
+      "key": "gogla",
+      "name": "GOGLA Newsroom",
+      "articles": [
+        {
+          "title": "Record Sales Highlight Off-Grid Solar’s Critical Role in Electrification",
+          "url": "https://newsroom.gogla.org/tags/market-trends-insights/",
+          "date": "2026-06-02",
+          "summary": "GOGLA calls for coordinated support as off-grid solar sales hit 10 million kits in 2025, powering progress toward global energy access and SDG7 goals.",
+          "source_name": "GOGLA Newsroom"
+        },
+        {
+          "title": "New Coalition Formed to Power Food Systems with Clean Energy",
+          "url": "https://newsroom.gogla.org/tags/climate-impact/",
+          "date": "2025-09-01",
+          "summary": "Agri-Energy Coalition unites global leaders to advance sustainable agriculture and clean energy access, addressing food security and energy challenges in developing regions.",
+          "source_name": "GOGLA Newsroom"
+        },
+        {
+          "title": "GOGLA Report Reveals Blended Finance Solutions to Bridge $21 Billion Off-Grid Solar Gap",
+          "url": "https://newsroom.gogla.org/tags/investment/",
+          "date": "2025-07-10",
+          "summary": "Discover how investment schemes that strategically combine public, private and philanthropic capital to mobilize private capital, can accelerate energy access and sustainable development in the off...",
+          "source_name": "GOGLA Newsroom"
+        },
+        {
+          "title": "20 million people improved their energy access through off-grid solar in 2024, according to the new Global Off-Grid S...",
+          "url": "https://newsroom.gogla.org/tags/market-trends-insights/",
+          "date": "2025-05-27",
+          "summary": "The total number of people benefitting from access through affiliates reached 138 million generating $10B in new income, GOGLA reports.",
+          "source_name": "GOGLA Newsroom"
+        },
+        {
+          "title": "Amid funding dip and consolidation, $300M flows to off-grid solar as market gathers momentum",
+          "url": "https://newsroom.gogla.org/tags/investment/",
+          "date": "2025-04-16",
+          "summary": "GOGLA's 2024 report shows $300M investment in off-grid solar, despite funding decline. Scale-ups show maturity, while start-ups face challenges. New equity funds and subsidies boost market momentum...",
+          "source_name": "GOGLA Newsroom"
+        },
+        {
+          "title": "SAFDE 2025 opens with an urgent call for investment and policy support to scale up solar energy in South Asia",
+          "url": "https://newsroom.gogla.org/tags/events/",
+          "date": "2025-04-08",
+          "summary": "The event emphasizes DRE potential with insights from leaders, advocating for partnerships and finance to build a low-carbon future in South Asia.",
+          "source_name": "GOGLA Newsroom"
+        },
+        {
+          "title": "New report highlights how the energy and agriculture sectors working together will enhance food security across Africa",
+          "url": "https://newsroom.gogla.org/tags/climate-impact/",
+          "date": "2025-04-03",
+          "summary": "GOGLA and partners push for nexus approaches in Africa, emphasizing off-grid solar's role in transforming agri-food systems for sustainable development.",
+          "source_name": "GOGLA Newsroom"
+        },
+        {
+          "title": "GOGLA and IKEA Foundation unveil new resources to enhance off-grid solar’s climate impact",
+          "url": "https://newsroom.gogla.org/tags/climate-impact/",
+          "date": "2025-03-13",
+          "summary": "These resources can be used by companies, climate funds, governments, and development organisations to design and implement off-grid solar business models, investments and programmes to improve res...",
+          "source_name": "GOGLA Newsroom"
+        },
+        {
+          "title": "Off-grid Solar Could Provide First-time Electricity Access to Almost 400 million People Globally by 2030",
+          "url": "https://newsroom.gogla.org/tags/market-trends-insights/",
+          "date": "2024-10-08",
+          "summary": "Investment in off-grid solar must increase to $21 billion to electrify 398M people, as highlighted in the 2024 Off-Grid Solar Market Trends Report.",
+          "source_name": "GOGLA Newsroom"
+        },
+        {
+          "title": "GOGLA and e-MFP Forge Strategic Partnership to Drive Financial Inclusion and Off-Grid Solar Expansion",
+          "url": "https://newsroom.gogla.org/tags/climate-impact/",
+          "date": "2024-09-19",
+          "summary": "GOGLA and e-MFP collaborate to expand financial services and off-grid solar energy access, enhancing productivity and resilience for millions.",
+          "source_name": "GOGLA Newsroom"
+        }
+      ]
+    },
+    {
+      "key": "techpoint",
+      "name": "Techpoint Africa",
+      "articles": [
+        {
+          "title": "Flutterwave lands Series E, pushes valuation to $3.2 billion",
+          "url": "https://techpoint.africa/insight/techpoint-digest-1368/",
+          "date": "",
+          "summary": "EXCLUSIVE",
+          "source_name": "Techpoint Africa"
+        }
+      ]
+    },
+    {
+      "key": "engie",
+      "name": "ENGIE / IgniteAccess",
+      "articles": [
+        {
+          "title": "Forbes: How Startups Are Bringing Affordable, Clean Energy To Africa",
+          "url": "https://igniteaccess.com/how-startups-are-bringing-affordable-clean-energy-to-africa/",
+          "date": "",
+          "summary": "Bringing electricity, let alone that from renewable sources, to some of the most energy poor parts of sub-Saharan Africa is a vexing question and daunting",
+          "source_name": "ENGIE / IgniteAccess"
+        },
+        {
+          "title": "Bloomberg: The mission to electrify Africa might finally be under way",
+          "url": "https://igniteaccess.com/the-mission-to-electrify-africa-might-finally-be-under-way/",
+          "date": "",
+          "summary": "When strips of solar panels arrived in his remote village in northeast Zambia, Damaseke Mwale saw an opportunity. He bought land, built a house and",
+          "source_name": "ENGIE / IgniteAccess"
+        },
+        {
+          "title": "ADIO partners with clean energy leader Ignite Energy Access for global expansion",
+          "url": "https://igniteaccess.com/adio-partners-with-clean-energy-leader-ignite-energy-access-for-global-expansion/",
+          "date": "",
+          "summary": "The Abu Dhabi Investment Office (ADIO) has signed a strategic agreement with Ignite Energy Access, a leading pan-African provider of the full range of Distributed",
+          "source_name": "ENGIE / IgniteAccess"
+        },
+        {
+          "title": "Connecting 100 million people to clean energy by 2030 to tackle energy poverty",
+          "url": "https://igniteaccess.com/connecting-100-million-people-to-clean-energy-by-2030-to-tackle-energy-poverty/",
+          "date": "",
+          "summary": "Ignite Energy Access aims to connect 100 million people to clean energy by 2030. What inspired this target, and how are you ensuring you stay",
+          "source_name": "ENGIE / IgniteAccess"
+        },
+        {
+          "title": "Ignite Power advances acquisition of ENGIE Energy Access to create Africa’s largest renewable energy provider",
+          "url": "https://igniteaccess.com/ignite-power-advances-acquisition-of-engie-energy-access-to-create-africas-largest-renewable-energy-provider/",
+          "date": "",
+          "summary": "The establishment of Africa’s largest distributed renewable energy provider has taken a significant step forward as Kenyan regulators have approved Ignite Power’s acquisition of ENGIE Energy",
+          "source_name": "ENGIE / IgniteAccess"
+        },
+        {
+          "title": "Power to the People: How Yariv Cohen is Shining a Light on Last-mile Communities",
+          "url": "https://igniteaccess.com/power-to-the-people-how-yariv-cohen-is-shining-a-light-on-last-mile-communities/",
+          "date": "",
+          "summary": "Yariv Cohen is not in the business of wasting time. He can’t afford to; he’s working toward an ambitious goal. And while the deadline is",
+          "source_name": "ENGIE / IgniteAccess"
+        },
+        {
+          "title": "Ignite Shortlisted for the 2025 Energy Heroes Award",
+          "url": "https://igniteaccess.com/ignite-shortlisted-for-the-2025-energy-heroes-award/",
+          "date": "",
+          "summary": "Sustainable Energy for All (SEforALL) is pleased to unveil the 2025 Energy Heroes Award shortlist, featuring groundbreaking solutions that promise to accelerate the transition to a greener",
+          "source_name": "ENGIE / IgniteAccess"
+        },
+        {
+          "title": "INTERVIEW – Ignite Power aims to reach 100m with distributed clean energy in Africa",
+          "url": "https://igniteaccess.com/interview-ignite-power-aims-to-reach-100m-with-distributed-clean-energy-in-africa/",
+          "date": "",
+          "summary": "Abu Dhabi-based distributed renewable energy (DRE) solutions provider Ignite Power will pursue both organic and inorganic growth, alongside results-based financing (RBF), to advance its goal",
+          "source_name": "ENGIE / IgniteAccess"
+        },
+        {
+          "title": "Rwanda’s Ministries of ICT and Education Partner with Ignite Power to Implement School Connectivity Initiative",
+          "url": "https://igniteaccess.com/rwandas-ministries-of-ict-and-education-partner-with-ignite-power-to-implement-school-connectivity-initiative/",
+          "date": "",
+          "summary": "KIGALI, RWANDA, December 12, 2023 /EINPresswire.com/ — The Government of Rwanda has forged a transformative partnership with Ignite Power, a leading provider of global solar-based solutions",
+          "source_name": "ENGIE / IgniteAccess"
+        }
+      ]
+    },
+    {
+      "key": "pv-magazine",
+      "name": "PV Magazine",
+      "articles": [
+        {
+          "title": "Korean developers propose 500 MW solar project in Zambia",
+          "url": "https://www.pv-magazine.com/2026/06/17/korean-developers-propose-500-mw-solar-project-in-zambia/",
+          "date": "2026-06-17",
+          "summary": "<p>A Korean delegation is in talks with the Zambian government to build a 500 MW solar project in Zambia. A government ministry says the project is large enough to close a third of the country's current energy deficit.</p>\n<p>The post <a href=\"https://www.pv-magazine.com/2026/06/17/korean-developers",
+          "source_name": "PV Magazine"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "gogla": 10,
+    "techpoint": 1,
+    "engie": 9,
+    "pv-magazine": 1,
+    "total": 21
+  }
+}
