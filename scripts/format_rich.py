@@ -21,6 +21,13 @@ def _split_clean(text: str) -> list:
 
 
 def format_rich(text: str) -> str:
+    # === 第0步：统一 emoji 标记 → 中文标记 ===
+    text = re.sub(r'[📍📌💡📈]\s*', '', text)
+    text = re.sub(r'(?<!\w)背景[：:]', '\n【问题】\n', text)
+    text = re.sub(r'(?<!\w)方案[：:]', '\n【方案】\n', text)
+    text = re.sub(r'(?<!\w)价值[：:]', '\n【价值】\n', text)
+    text = re.sub(r'(?<!\w)趋势[：:]\s*(?!总结)', '\n【趋势】\n', text)
+
     # === 第1步：统一标记 ===
     text = re.sub(r'【问题】\s*', '\n【问题】\n', text)
     text = re.sub(r'【方案】\s*', '\n【方案】\n', text)
