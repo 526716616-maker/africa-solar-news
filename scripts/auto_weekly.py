@@ -423,8 +423,13 @@ for src in raw["sources"]:
             # 精简描述（最多200字纯文本，不用AI精读格式）
             company_desc = ""
             if deep_succeeded and deep_text:
-                # 摘取AI精读第一段（地点+概述），去掉后续分段
-                first_para = deep_text.split('\n\n')[0] if '\n\n' in deep_text else deep_text.split('\n')[0]
+                # 摘取AI精读第一段（地点+概述），去掉后续分段和分隔符
+                cleaned = deep_text.strip()
+                # 去掉开头的 --- 分隔线
+                if cleaned.startswith('---'):
+                    cleaned = cleaned[3:].strip()
+                # 取第一段（双换行分隔）或第一行
+                first_para = cleaned.split('\n\n')[0] if '\n\n' in cleaned else cleaned.split('\n')[0]
                 # 去掉emoji标记
                 for emoji in ['\U0001F4CD', '\U0001F4CC', '\U0001F4A1', '\U0001F4C8']:
                     first_para = first_para.replace(emoji, '')
