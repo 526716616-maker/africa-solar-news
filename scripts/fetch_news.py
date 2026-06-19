@@ -331,6 +331,61 @@ SOURCES = {
                      "energy access", "electrification", "power", "electricity",
                      "climate", "green energy", "energy transition"],
     },
+    # ──────────────────────────────────────────────────────────────
+    # 第4批：有完整正文的高质量数据源（2026-06-19）
+    # ──────────────────────────────────────────────────────────────
+    "climate-change-news": {
+        "name": "Climate Change News",
+        "url": "https://www.climatechangenews.com/feed/",
+        "type": "rss",
+        "item_sel": "item",
+        "title_sel": "title",
+        "link_sel": "link",
+        "date_sel": "pubDate",
+        "summary_sel": "description",
+        "keywords": ["africa", "african", "solar", "off-grid", "renewable",
+                     "energy access", "electrification", "mini-grid",
+                     "climate", "clean energy", "green", "carbon",
+                     "nigeria", "kenya", "ghana", "tanzania", "ethiopia",
+                     "rwanda", "uganda", "zambia", "senegal", "mozambique"],
+    },
+    "worldbank-energy": {
+        "name": "World Bank Energy Blog",
+        "url": "https://blogs.worldbank.org/en/energy",
+        "type": "html",
+        "selector": ".post-block, .views-row, article, .blog-post",
+        "title_sel": "h2, h3, .post-title, .title",
+        "link_sel": "a",
+        "date_sel": "time, .date, .post-date",
+        "summary_sel": "p, .post-summary, .teaser",
+        "keywords": ["solar", "off-grid", "mini-grid", "minigrid", "energy access",
+                     "electrification", "africa", "renewable", "clean energy",
+                     "mission 300", "rural", "power"],
+    },
+    "renewablesnow-africa": {
+        "name": "Renewables Now Africa",
+        "url": "https://renewablesnow.com/regions/sub-saharan-africa/",
+        "type": "html",
+        "selector": ".news-item, .article-item, .post-item, .list-item, article, div[class*=news]",
+        "title_sel": "h2, h3, .title, .headline",
+        "link_sel": "a",
+        "date_sel": "time, .date, .published",
+        "summary_sel": "p, .summary, .excerpt, .teaser",
+        "keywords": ["solar", "off-grid", "mini-grid", "renewable", "africa",
+                     "energy", "power", "pv", "photovoltaic", "storage",
+                     "battery", "electrification", "wind", "hydro"],
+    },
+    "africa-minigrids": {
+        "name": "Africa Minigrids Program",
+        "url": "https://africaminigrids.org/category/news/",
+        "type": "html",
+        "selector": "article, .post, .news-item, .blog-entry, div[class*=post]",
+        "title_sel": "h2, h3, .entry-title, .post-title",
+        "link_sel": "a",
+        "date_sel": "time, .date, .entry-date, .published",
+        "summary_sel": "p, .excerpt, .entry-summary, .post-excerpt",
+        # 该源全是minigrid内容，无需关键词过滤
+    },
 }
 
 OUTPUT_DIR = os.path.join(os.path.dirname(__file__), "..", "output", "raw")

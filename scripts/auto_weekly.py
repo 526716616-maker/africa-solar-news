@@ -485,6 +485,10 @@ for src in raw["sources"]:
                 "google-solar-policy": "Google News · 太阳能政策",
                 "google-clean-energy": "Google News · 清洁能源",
                 "the-africa-report": "The Africa Report · 非洲综合",
+                "climate-change-news": "Climate News · 气候与能源",
+                "worldbank-energy": "World Bank · 能源博客",
+                "renewablesnow-africa": "Renewables Now · 非洲",
+                "africa-minigrids": "AMP · 迷你电网",
             }
             tag = tag_map.get(src["key"], src["name"])
 
