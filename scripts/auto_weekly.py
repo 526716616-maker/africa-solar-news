@@ -439,7 +439,7 @@ for src in raw["sources"]:
             else:
                 company_desc = title[:200]
             # 安全兜底：确保不为None或空
-            company_desc = company_desc or title[:200]
+            company_desc = (company_desc or title[:200] or "暂无描述")
             company_items.append({
                 "tag": tag_prefix,
                 "name": title[:100],
@@ -518,7 +518,9 @@ print(f"[INFO] 正在翻译 {total_to_translate} 篇文章为中文...")
 
 def translate_summary_html(html_text: str) -> str:
     """翻译 HTML 摘要：提取纯文本翻译后放回"""
-    if not html_text or "<" not in html_text:
+    if not html_text:
+        return ""
+    if "<" not in html_text:
         return translate_text(html_text)
     # 保留HTML结构，只翻译纯文本部分
     import re
@@ -536,7 +538,7 @@ for item in all_industry_items:
 
 for item in company_items:
     item["name"] = translate_text(item["name"])
-    item["description"] = translate_summary_html(item["description"])
+    item["description"] = translate_summary_html(item.get("description") or "") or item["name"]
 
 # 翻译亮点标签
 for h in highlights:
