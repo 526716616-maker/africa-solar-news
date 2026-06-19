@@ -521,6 +521,27 @@ def main():
         results["summary"][key] = len(articles)
         total += len(articles)
 
+    # ── 跨源去重：URL 相同的只保留第一篇（按源顺序优先） ──
+    seen_urls = set()
+    dedup_total = 0
+    for src in results["sources"]:
+        before = len(src["articles"])
+        unique = []
+        for a in src["articles"]:
+            url = a.get("url", "").strip().rstrip("/")
+            if url and url in seen_urls:
+                continue
+            if url:
+                seen_urls.add(url)
+            unique.append(a)
+        src["articles"] = unique
+        results["summary"][src["key"]] = len(unique)
+        dedup_total += len(unique)
+        deduped = before - len(unique)
+        if deduped:
+            print(f"  [dedup] {src['name']}: 去重 {deduped} 篇")
+
+    total = dedup_total
     results["summary"]["total"] = total
 
     if args.json_only:

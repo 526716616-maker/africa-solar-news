@@ -21,6 +21,7 @@ permissions:
 
 jobs:
   build:
+    if: ${{ !(github.event_name == 'push' && github.actor == 'github-actions[bot]') }}
     runs-on: ubuntu-latest
     steps:
       - name: 检出仓库
@@ -43,6 +44,7 @@ jobs:
         run: python scripts/auto_weekly.py
         env:
           PYTHONIOENCODING: utf-8
+          QWEN_API_KEY: ${{ secrets.QWEN_API_KEY }}
 
       - name: 提交产物到仓库
         uses: stefanzweifel/git-auto-commit-action@v5
@@ -58,6 +60,7 @@ jobs:
           path: output/html
 
   deploy:
+    if: ${{ !(github.event_name == 'push' && github.actor == 'github-actions[bot]') }}
     needs: build
     runs-on: ubuntu-latest
     environment:

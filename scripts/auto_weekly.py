@@ -44,7 +44,7 @@ def translate_text(text: str, retries: int = 2) -> str:
 
 
 # ── AI 精读 ──
-QWEN_KEY = 'sk-f0d5f80034794f048e82c936ec3556f0'
+QWEN_KEY = os.environ.get('QWEN_API_KEY', '') or 'sk-f0d5f80034794f048e82c936ec3556f0'
 QWEN_API = 'https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions'
 
 DEEP_PROMPT = """你是非洲离网太阳能分析师。请用中文撰写一篇精读简报，严格使用以下格式，用一个空行分隔各小节：
