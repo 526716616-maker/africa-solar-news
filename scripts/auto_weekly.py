@@ -47,33 +47,86 @@ def translate_text(text: str, retries: int = 2) -> str:
 QWEN_KEY = os.environ.get('QWEN_API_KEY', '') or 'sk-f0d5f80034794f048e82c936ec3556f0'
 QWEN_API = 'https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions'
 
-DEEP_PROMPT = """你是非洲离网太阳能分析师。请用中文撰写一篇精读简报，严格使用以下格式，用一个空行分隔各小节：
+DEEP_PROMPT = """你是非洲离网太阳能分析师。请用中文撰写一篇精读简报，严格使用以下格式，每组之间用一个空行分隔：
 
 第一段：地点，核心事件概述。注明来源和项目名称。
 
-背景：
-- 问题1
-- 问题2
-- 问题3
+📍 背景：
+- 背景1（事实陈述或面临的问题，含具体数据）
+- 背景2
+- 背景3
 
-方案：
-- 成果1（具体数据）
-- 成果2（具体数据）
-- 成果3（具体数据）
+📌 方案：
+- 举措1（含具体数据）
+- 举措2（含具体数据）
+- 举措3（含具体数据）
 
-价值：
+💡 价值：
 - 价值1
 - 价值2
 - 价值3
 
-趋势总结：一句话收尾。
+📈 趋势：一句话总结趋势。
 
 要求：
 - 使用 - 符号开头列表项，每组之间空行分隔
-- 每个列表项不超过20字
-- 提取具体数字（MW、金额、户数等）
+- 每个列表项不超过25字
+- 提取具体数字（MW、金额、户数、百分比等）
 - 总字数300-500字
-- 直接输出内容"""
+
+参考示例（同一天的多篇文章可能共用相同背景）：
+
+示例1 - 行业报告类：
+---
+地点：南非开普敦。GOGLA 2025年离网太阳能投资报告显示全球投资达3亿美元。
+📍 背景：
+- 离网太阳能需求激增
+- 资金分配不均加剧
+- 新兴企业融资困难
+📌 方案：
+- 投资额达3.0亿美元
+- 混合融资弥补210亿缺口
+- 本地货币证券化创新
+💡 价值：
+- 加速能源普及覆盖
+- 推动可持续发展
+- 提升企业融资能力
+📈 趋势：离网太阳能市场正从初创阶段向成熟阶段过渡。
+
+示例2 - 企业动态类：
+---
+地点：赞比亚。Ignite Power启动离网太阳能推广计划。
+📍 背景：
+- 80%人口无电力供应
+- 农村电力覆盖率极低
+- 柴油发电成本高昂
+📌 方案：
+- 安装1.2MW太阳能系统
+- 服务500户家庭
+- 建立社区充电网络
+💡 价值：
+- 提升生活质量和教育
+- 创造本地就业
+- 降低碳排放
+📈 趋势：离网太阳能正成为非洲电气化的关键路径。
+
+示例3 - 政策分析类：
+---
+地点：西非。ECOWAS宣布2030年可再生能源目标48%。
+📍 背景：
+- 1.9亿人无电力供应
+- 农村通电率仅12%
+- 电力损失率高达35%
+📌 方案：
+- 可再生能源占比48%
+- 电力损失降至35%以下
+- 区域电网互联互通
+💡 价值：
+- 推动清洁能源转型
+- 提升农村经济发展
+- 促进区域能源整合
+📈 趋势：西非正通过政策与合作加速能源变革。
+---"""
 
 def deep_read(title, source_url, source_name, retries=1):
     """获取文章全文并调用Qwen精读改写"""
@@ -96,7 +149,19 @@ def deep_read(title, source_url, source_name, retries=1):
     except Exception as e:
         print(f'  [warn] 抓取原文失败 {source_url}: {e}', file=sys.stderr)
 
-    if not content or len(content) < 100:
+    if not content or len(content) < 300:
+        return None
+
+    # 关键词密度检测：内容太泛（广告/导航文字）则跳过精读
+    solar_keywords = ["solar", "energy", "power", "electrification", "off.grid",
+                      "mini.grid", "renewable", "electricity", "grid", "africa",
+                      "sun", "pv", "photovoltaic", "battery", "storage",
+                      "climate", "emission", "carbon", "clean energy", "green"]
+    text_lower = content.lower()
+    kw_count = sum(1 for kw in solar_keywords if kw in text_lower)
+    density = kw_count / max(len(text_lower.split()), 1)
+    if density < 0.03:
+        print(f'  [warn] 关键词密度 {density:.1%} 过低，跳过精读', file=sys.stderr)
         return None
 
     for attempt in range(retries + 1):
