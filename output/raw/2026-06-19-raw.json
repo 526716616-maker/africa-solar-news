@@ -1,5 +1,5 @@
 {
-  "crawled_at": "2026-06-19T15:30:26.779070+08:00",
+  "crawled_at": "2026-06-19T15:38:33.926773+08:00",
   "week": "2026-W25",
   "sources": [
     {
@@ -406,6 +406,44 @@
           "source_name": "TechCabal Energy"
         }
       ]
+    },
+    {
+      "key": "renewable-energy-world",
+      "name": "Renewable Energy World Solar",
+      "articles": [
+        {
+          "title": "Solar and wind are overtaking coal and hydropower projects across Africa, industry leaders say",
+          "url": "https://www.renewableenergyworld.com/hydro-power/solar-and-wind-are-overtaking-coal-and-hydropower-projects-across-africa-industry-leaders-say/",
+          "date": "2026-06-01",
+          "summary": "African governments and investors are shifting away from coal and large hydropower dams in search of cheaper and faster electricity.",
+          "source_name": "Renewable Energy World Solar"
+        }
+      ]
+    },
+    {
+      "key": "solar-industry-mag",
+      "name": "Solar Industry Magazine",
+      "articles": []
+    },
+    {
+      "key": "freeing-energy",
+      "name": "Freeing Energy",
+      "articles": []
+    },
+    {
+      "key": "how-we-made-it",
+      "name": "How We Made It In Africa",
+      "articles": []
+    },
+    {
+      "key": "allafrica-energy",
+      "name": "AllAfrica Energy",
+      "articles": []
+    },
+    {
+      "key": "esi-africa",
+      "name": "ESI Africa",
+      "articles": []
     }
   ],
   "summary": {
@@ -421,6 +459,12 @@
     "africa-newsroom": 0,
     "bboxx": 10,
     "techcabal-energy": 5,
-    "total": 48
+    "renewable-energy-world": 1,
+    "solar-industry-mag": 0,
+    "freeing-energy": 0,
+    "how-we-made-it": 0,
+    "allafrica-energy": 0,
+    "esi-africa": 0,
+    "total": 49
   }
 }
