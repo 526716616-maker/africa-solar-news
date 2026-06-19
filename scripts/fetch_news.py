@@ -408,7 +408,7 @@ def extract_articles(soup: BeautifulSoup, cfg: dict, base_url: str) -> list[dict
         items = soup.select(cfg["item_sel"])
         keywords = [k.lower() for k in cfg.get("keywords", [])]
 
-        for item in items[:15]:
+        for item in items[:1]:
             title_el = item.select_one(cfg["title_sel"])
             title = safe_text(title_el)
             if not title:
@@ -458,7 +458,7 @@ def extract_articles(soup: BeautifulSoup, cfg: dict, base_url: str) -> list[dict
     if not cards:
         cards = soup.select("article, .post, .news-item, .td_module_wrap, .gb-query-loop-item")
 
-    for card in cards[:10]:
+    for card in cards[:1]:
         title_el = None
         for sel in cfg["title_sel"].split(", "):
             title_el = card.select_one(sel)
