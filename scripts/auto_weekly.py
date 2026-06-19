@@ -378,14 +378,15 @@ for src in raw["sources"]:
             continue
 
         # AI 精读：抓原文+Qwen改写（失败则回退原摘要）
+        deep_succeeded = False
+        deep_text = ""
         if url:
             print(f"  [deep] 精读: {title[:60]}...")
             deep = deep_read(title, url, src["name"])
             if deep:
-                # 先翻译AI输出（虽然是中文，但统一走翻译管道）再格式化HTML
-                deep_translated = translate_text(deep[:1000])
-                summary = format_rich(deep_translated)
-                print(f"  [deep] OK ({len(deep_translated)}字)")
+                deep_text = translate_text(deep[:1000])
+                deep_succeeded = True
+                print(f"  [deep] OK ({len(deep_text)}字)")
             else:
                 print(f"  [deep] 回退原摘要")
 
@@ -406,7 +407,7 @@ for src in raw["sources"]:
         )
 
         if is_company_article:
-            # 企业动态
+            # 企业动态 tag
             if src["key"] == "engie":
                 tag_prefix = "企业动态 · Ignite Power"
             elif src["key"] == "sunking":
@@ -419,10 +420,23 @@ for src in raw["sources"]:
                 tag_prefix = "企业动态 · d.light"
             else:
                 tag_prefix = "企业动态"
+            # 精简描述（最多200字纯文本，不用AI精读格式）
+            company_desc = ""
+            if deep_succeeded and deep_text:
+                # 摘取AI精读第一段（地点+概述），去掉后续分段
+                first_para = deep_text.split('\n\n')[0] if '\n\n' in deep_text else deep_text.split('\n')[0]
+                # 去掉emoji标记
+                for emoji in ['\U0001F4CD', '\U0001F4CC', '\U0001F4A1', '\U0001F4C8']:
+                    first_para = first_para.replace(emoji, '')
+                company_desc = first_para.strip()[:200]
+            elif summary:
+                company_desc = summary[:200]
+            else:
+                company_desc = title[:200]
             company_items.append({
                 "tag": tag_prefix,
                 "name": title[:100],
-                "description": summary if summary else title[:400],
+                "description": company_desc,
                 "source": src["name"],
                 "source_url": url,
                 "date": date,
@@ -453,10 +467,15 @@ for src in raw["sources"]:
             }
             tag = tag_map.get(src["key"], src["name"])
 
+            # 行业类文章：AI精读成功后用 format_rich 格式化
+            industry_summary = summary  # 默认用原摘要
+            if deep_succeeded and deep_text:
+                industry_summary = format_rich(deep_text)
+
             item = {
                 "tag": tag,
                 "title": title[:120],
-                "summary": summary,
+                "summary": industry_summary,
                 "bullets": [],
                 "source": src["name"],
                 "source_url": url,
