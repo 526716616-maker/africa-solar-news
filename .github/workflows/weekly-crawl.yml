@@ -21,7 +21,7 @@ permissions:
 
 jobs:
   build:
-    if: ${{ !(github.event_name == 'push' && github.actor == 'github-actions[bot]') }}
+    if: ${{ !(github.event_name == 'push' && (github.actor == 'github-actions[bot]' || github.actor == 'Daily Crawler Bot')) }}
     runs-on: ubuntu-latest
     steps:
       - name: 检出仓库
@@ -60,7 +60,7 @@ jobs:
           path: output/html
 
   deploy:
-    if: ${{ !(github.event_name == 'push' && github.actor == 'github-actions[bot]') }}
+    if: ${{ !(github.event_name == 'push' && (github.actor == 'github-actions[bot]' || github.actor == 'Daily Crawler Bot')) }}
     needs: build
     runs-on: ubuntu-latest
     environment:
