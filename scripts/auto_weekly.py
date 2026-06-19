@@ -20,8 +20,8 @@ def get_translator():
         _translator = GoogleTranslator(source='auto', target='zh-CN')
     return _translator
 
-def translate_text(text: str, retries: int = 2) -> str:
-    """翻译文本为中文，短文本跳过，失败返回原文"""
+def translate_text(text: str, retries: int = 3) -> str:
+    """翻译文本为中文，短文本跳过，失败返回原文（带重试+日志）"""
     if not text or len(text.strip()) < 5:
         return text
     if text in _cache:
@@ -32,14 +32,15 @@ def translate_text(text: str, retries: int = 2) -> str:
     for attempt in range(retries + 1):
         try:
             result = get_translator().translate(text)
-            _cache[text] = result
-            return result
+            if result and result != text:
+                _cache[text] = result
+                return result
         except Exception as e:
             if attempt < retries:
-                print(f"  [retry] 翻译重试 {attempt+1}: {e}", file=sys.stderr)
-                time.sleep(2)
+                print(f"  [retry] 翻译重试 {attempt+1}/{retries}: {e}", file=sys.stderr)
+                time.sleep(3 * (attempt + 1))  # 指数退避
             else:
-                print(f"  [warn] 翻译失败: {e}", file=sys.stderr)
+                print(f"  [warn] 翻译失败 ({type(e).__name__}): {str(e)[:80]}", file=sys.stderr)
                 return text
 
 
@@ -375,8 +376,10 @@ for src in raw["sources"]:
             print(f"  [deep] 精读: {title[:60]}...")
             deep = deep_read(title, url, src["name"])
             if deep:
-                summary = format_rich(deep[:1000])  # AI输出转HTML
-                print(f"  [deep] OK ({len(deep)}字)")
+                # 先翻译AI输出（虽然是中文，但统一走翻译管道）再格式化HTML
+                deep_translated = translate_text(deep[:1000])
+                summary = format_rich(deep_translated)
+                print(f"  [deep] OK ({len(deep_translated)}字)")
             else:
                 print(f"  [deep] 回退原摘要")
 
@@ -464,17 +467,31 @@ for src in raw["sources"]:
 # 不重复添加
 
 # ── 翻译为中文 ──
-total_to_translate = len(industry_items) + len(company_items)
+all_industry_items = policy_items + investment_items + industry_items
+total_to_translate = len(all_industry_items) + len(company_items)
 print(f"[INFO] 正在翻译 {total_to_translate} 篇文章为中文...")
-for item in industry_items:
+
+def translate_summary_html(html_text: str) -> str:
+    """翻译 HTML 摘要：提取纯文本翻译后放回"""
+    if not html_text or "<" not in html_text:
+        return translate_text(html_text)
+    # 保留HTML结构，只翻译纯文本部分
+    import re
+    parts = re.split(r'(<[^>]+>)', html_text)
+    for i, part in enumerate(parts):
+        if not part.startswith('<'):
+            translated = translate_text(part.strip())
+            if translated and translated != part.strip():
+                parts[i] = translated
+    return ''.join(parts)
+
+for item in all_industry_items:
     item["title"] = translate_text(item["title"])
-    # 已格式化的 HTML（含<ul>标签）直接跳过翻译
-    if "<ul" not in item["summary"]:
-        item["summary"] = translate_text(item["summary"])
+    item["summary"] = translate_summary_html(item["summary"])
+
 for item in company_items:
     item["name"] = translate_text(item["name"])
-    if "<ul" not in item["description"]:
-        item["description"] = translate_text(item["description"])
+    item["description"] = translate_summary_html(item["description"])
 
 # 翻译亮点标签
 for h in highlights:
