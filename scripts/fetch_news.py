@@ -353,11 +353,11 @@ SOURCES = {
         "name": "World Bank Energy Blog",
         "url": "https://blogs.worldbank.org/en/energy",
         "type": "html",
-        "selector": ".post-block, .views-row, article, .blog-post",
-        "title_sel": "h2, h3, .post-title, .title",
-        "link_sel": "a",
-        "date_sel": "time, .date, .post-date",
-        "summary_sel": "p, .post-summary, .teaser",
+        "selector": ".blog_teaser, .news-item, article, .post, .views-row",
+        "title_sel": "h2, h3, .title",
+        "link_sel": "a.blog_teaser__link_container, a[href*='/en/energy/']",
+        "date_sel": "time, .date",
+        "summary_sel": "p, .blog_teaser__content p, .teaser",
         "keywords": ["solar", "off-grid", "mini-grid", "minigrid", "energy access",
                      "electrification", "africa", "renewable", "clean energy",
                      "mission 300", "rural", "power"],
@@ -365,26 +365,28 @@ SOURCES = {
     "renewablesnow-africa": {
         "name": "Renewables Now Africa",
         "url": "https://renewablesnow.com/regions/sub-saharan-africa/",
-        "type": "html",
-        "selector": ".news-item, .article-item, .post-item, .list-item, article, div[class*=news]",
-        "title_sel": "h2, h3, .title, .headline",
-        "link_sel": "a",
-        "date_sel": "time, .date, .published",
-        "summary_sel": "p, .summary, .excerpt, .teaser",
+        "type": "rss",
+        "item_sel": "item",
+        "title_sel": "title",
+        "link_sel": "link",
+        "date_sel": "pubDate",
+        "summary_sel": "description",
         "keywords": ["solar", "off-grid", "mini-grid", "renewable", "africa",
-                     "energy", "power", "pv", "photovoltaic", "storage",
-                     "battery", "electrification", "wind", "hydro"],
+                     "energy", "power", "pv", "photovoltaic", "storage"],
+        # 该站HTML是JS渲染的，改用RSS尝试
+        "skip": True,  # 暂时跳过，RSS可能也不可用
     },
     "africa-minigrids": {
         "name": "Africa Minigrids Program",
         "url": "https://africaminigrids.org/category/news/",
-        "type": "html",
-        "selector": "article, .post, .news-item, .blog-entry, div[class*=post]",
-        "title_sel": "h2, h3, .entry-title, .post-title",
-        "link_sel": "a",
-        "date_sel": "time, .date, .entry-date, .published",
-        "summary_sel": "p, .excerpt, .entry-summary, .post-excerpt",
-        # 该源全是minigrid内容，无需关键词过滤
+        "type": "rss",
+        "item_sel": "item",
+        "title_sel": "title",
+        "link_sel": "link",
+        "date_sel": "pubDate",
+        "summary_sel": "description",
+        # WordPress 站通常有 /feed/，尝试RSS
+        "skip": True,  # 暂时跳过，先测试RSS可达性
     },
 }
 
@@ -581,6 +583,9 @@ def extract_articles(soup: BeautifulSoup, cfg: dict, base_url: str) -> list[dict
 def crawl_source(source_key: str) -> list[dict]:
     """爬取单个数据源"""
     cfg = SOURCES[source_key]
+    if cfg.get("skip"):
+        print(f"[SKIP] {cfg['name']}: 暂时跳过")
+        return []
     print(f"[INFO] 正在抓取 {cfg['name']} ...")
 
     is_rss = cfg.get("type") == "rss"
