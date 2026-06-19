@@ -1,5 +1,5 @@
 {
-  "crawled_at": "2026-06-19T19:02:10.970869+08:00",
+  "crawled_at": "2026-06-19T19:26:20.212365+08:00",
   "week": "2026-W25",
   "sources": [
     {
@@ -358,6 +358,13 @@
       "name": "Energy News Africa",
       "articles": [
         {
+          "title": "World Bank, AfDB and IFC Back a $176 Million Fund to Power 30 Million Africans",
+          "url": "https://energynews.africa/2026/06/19/world-bank-afdb-and-ifc-back-a-176-million-fund-to-power-30-million-africans/",
+          "date": "2026-06-19",
+          "summary": "<hr class=\"wp-block-separator has-alpha-channel-opacity is-style-wide\" />\n\n\n\n<p class=\"wp-block-paragraph\"><strong>KEY POINTS</strong></p>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity is-style-wide\" />\n\n\n\n<ul class=\"wp-block-list\">\n<li>Zafiri launched at $176 million at the Africa Energy Forum in Cape Town on June 17.</li>\n\n\n\n<li>The fund targets a final close of $300 million within 12 months and $1 billion long-term.</li>\n\n\n\n<li>Zafiri will provide patient equity to mini-grids, solar home systems and clean cooking enterprises.</li>\n</ul>\n\n\n\n<hr class=\"wp-block-separator has-alpha-channel-opacity is-style-wide\" />\n\n\n\n<p class=\"wp-block-paragraph\">The Africa Energy Forum in Cape Town produced a headline announcement on June 17. A $176 million fund designed to reach people that",
+          "source_name": "Energy News Africa"
+        },
+        {
           "title": "ECOWAS Wants 48% Renewable Energy by 2030 but Over 190 Million Still Lack Power",
           "url": "https://energynews.africa/2026/06/18/ecowas-wants-48-renewable-energy-by-2030-but-over-190-million-still-lack-power/",
           "date": "2026-06-18",
@@ -538,7 +545,7 @@
     "m-kopa": 10,
     "dlight": 0,
     "bgfa": 10,
-    "energynews-africa": 1,
+    "energynews-africa": 2,
     "africa-newsroom": 0,
     "bboxx": 10,
     "techcabal-energy": 5,
@@ -548,6 +555,6 @@
     "how-we-made-it": 0,
     "allafrica-energy": 0,
     "esi-africa": 0,
-    "total": 59
+    "total": 60
   }
 }
