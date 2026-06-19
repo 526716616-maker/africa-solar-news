@@ -1,10 +1,10 @@
 {
   "week": "2026-W25",
   "date": "2026-06-19",
-  "issue": 16,
+  "issue": 17,
   "highlights": [
     {
-      "num": "7",
+      "num": "2",
       "label": "本期行业动态"
     },
     {
@@ -14,41 +14,16 @@
   ],
   "sections": [
     {
-      "title": "一、政策规划",
-      "items": [
-        {
-          "tag": "Google News · 太阳能政策",
-          "title": "NERC 开始实施 2026 年净计费法规 - CNBC Africa",
-          "summary": "NERC 于 2026 年开始实施净计费法规",
-          "bullets": [],
-          "source": "Google News · 非洲太阳能政策",
-          "source_url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNDhDMkp3b3VRVllTZ0VKZXNDVXo2M0M4c1MxNTRuZ3NLSFZNOU00Nm85X0dRTWlMblpFNk9JN0swLWpXWkwtd2laTkFvVi1JRFZKYy1JZXJSanVCek5iVHZCMEZNNDhoQkRyOEtETUlOZ1ZpODhpVkR0V05jenMwdDM5YkZ0cGNnajB5ZGtlZlRkVEZWaHE3NnNpa0x2YXdaVHZLc0FxWHNvSzFU?oc=5",
-          "date": "Fri, 05 Ju",
-          "sub_category": "policy"
-        }
-      ]
-    },
-    {
       "title": "二、投资数据",
       "items": [
         {
           "tag": "GOGLA · 行业报告",
           "title": "离网太阳能投资标志着行业成熟、资本集中",
-          "summary": "<p class=\"mb\">---</p>\n<p class=\"mb\">地点：全球。 GOGLA 2025年报告指出离网太阳能投资增长，但资金集中度上升。</p>\n<p class=\"mb\"><strong>该地区长期面临：</strong></p>\n<ul class=\"bullets\">\n<li>2025年投资达3.0亿美元</li>\n<li>资金分配不均加剧</li>\n<li>新兴企业融资困难</li>\n</ul>\n<p class=\"mb\"><strong>解决方案：</strong></p>\n<ul class=\"bullets\">\n<li>混合融资弥补210亿缺口</li>\n<li>本地货币证券化创新</li>\n<li>启动ELEVATE计划提升融资能力</li>\n</ul>\n<p class=\"mb\"><strong>项目价值：</strong></p>\n<ul class=\"bullets\">\n<li>加速能源普及覆盖</li>\n<li>推动可持续发展</li>\n<li>提升企业融资能力</li>\n</ul>\n<p class=\"mb\">【趋势】</p>\n<p class=\"mb\">离网太阳能市场正从初创阶段向成熟阶段过渡。</p>",
+          "summary": "<p class=\"mb\">---</p>\n<p class=\"mb\">地点：全球。 GOGLA 2025年报告指出离网太阳能投资增长，但资金集中度上升。</p>\n<p class=\"mb\"><strong>该地区长期面临：</strong></p>\n<ul class=\"bullets\">\n<li>2025年投资达3.0亿美元</li>\n<li>2024年投资下降30%</li>\n<li>$210亿融资缺口未填补</li>\n</ul>\n<p class=\"mb\"><strong>解决方案：</strong></p>\n<ul class=\"bullets\">\n<li>结构化金融推动投资</li>\n<li>本地货币融资占比提升</li>\n<li>混合融资解决资金缺口</li>\n</ul>\n<p class=\"mb\"><strong>项目价值：</strong></p>\n<ul class=\"bullets\">\n<li>加速能源普及覆盖</li>\n<li>提升企业融资能力</li>\n<li>推动可持续发展</li>\n</ul>\n<p class=\"mb\">【趋势】</p>\n<p class=\"mb\">离网太阳能市场正从初创阶段向成熟阶段过渡。</p>\n<p class=\"mb\">---</p>",
           "bullets": [],
           "source": "GOGLA Newsroom",
           "source_url": "https://newsroom.gogla.org/tags/investment/",
           "date": "2026-06-15",
-          "sub_category": "investment"
-        },
-        {
-          "tag": "The Africa Report · 非洲综合",
-          "title": "TotalEnergies加倍努力在非洲寻找石油和天然气发现",
-          "summary": "<p class=\"mb\">---</p>\n<p class=\"mb\">地点：非洲。 TotalEnergies在西非和南部非洲加大油气投资，以应对西方银行撤资。</p>\n<p class=\"mb\"><strong>该地区长期面临：</strong></p>\n<ul class=\"bullets\">\n<li>2026年新增勘探项目</li>\n<li>西方银行减少化石燃料资金</li>\n<li>非洲石油需求持续增长</li>\n</ul>\n<p class=\"mb\"><strong>解决方案：</strong></p>\n<ul class=\"bullets\">\n<li>投资15亿美元新项目</li>\n<li>扩展尼日利亚和安哥拉业务</li>\n<li>建立区域能源枢纽</li>\n</ul>\n<p class=\"mb\"><strong>项目价值：</strong></p>\n<ul class=\"bullets\">\n<li>稳定能源供应</li>\n<li>创造就业岗位</li>\n<li>提升地区经济</li>\n</ul>\n<p class=\"mb\">【趋势】</p>\n<p class=\"mb\">非洲油气投资正从传统市场向新兴地区转移。</p>",
-          "bullets": [],
-          "source": "The Africa Report",
-          "source_url": "https://www.theafricareport.com/422565/totalenergies-doubles-down-on-africa-in-hunt-for-oil-and-gas-discoveries/",
-          "date": "2026-06-19",
           "sub_category": "investment"
         }
       ]
@@ -64,33 +39,6 @@
           "source": "Techpoint Africa",
           "source_url": "https://techpoint.africa/insight/cbn-data-localisation-push-raises-concerns/",
           "date": ""
-        },
-        {
-          "tag": "Google News · 离网太阳能",
-          "title": "随着尼日利亚推动经济复苏，全球每售出 10 套离网太阳能套件，非洲就会购买 9 套 - Business Insider Africa",
-          "summary": "随着尼日利亚推动经济复苏，全球每售出 10 套离网太阳能套件，非洲就会购买 9 套",
-          "bullets": [],
-          "source": "Google News · 非洲离网太阳能",
-          "source_url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQSm1oN2V2N1g4eUxSc08zdDE3ZERJWXM3X2hYdzJFMHBhZlRaUUNISEJDelBKZmZ6b19GbnRFejFsY0xibTN5NmlwaHRoUnNXWFU5U2J6d1ZPenBjblZrUURPajFsTWdpVHJjcXVTTGNYbVdzY2hzU1J5Ul9iQXdrbG9uZDBWRldvbEVvVG1heFNSN0t5QWxCVS1MZ28tWlF3RktxRVlWVkY1bUJldGJvZ0pqSnpNTnFFb3dVZVFjZDVRWHY4ei1lY1QycUtMeXEwcnZTMQ?oc=5",
-          "date": "Tue, 09 Ju"
-        },
-        {
-          "tag": "Google News · 太阳能投资",
-          "title": "即用即付太阳能行业的发展不应让非洲最弱势群体落后 - nature.com",
-          "summary": "即用即付太阳能行业的发展不应让非洲最脆弱的群体落后",
-          "bullets": [],
-          "source": "Google News · 非洲太阳能投资",
-          "source_url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5JZEdzQUFCN0pIczFHTHlmRWtleWN4WXlTQXJLa0dsdXV3aDgyNS1yS05fTmVYWm5ac3N4aFRaa3ZxNjZqbjBZUlQyTDA0Q3VsVHJ1VF9vTkloUzZIVmx3?oc=5",
-          "date": "Sat, 09 Ma"
-        },
-        {
-          "tag": "Google News · 清洁能源",
-          "title": "SOGREA 投标人研讨会标志着塞拉利昂离网可再生能源新时代的到来 - 人人享有可持续能源 | S",
-          "summary": "SOGREA 投标人研讨会标志着塞拉利昂离网可再生能源的新时代",
-          "bullets": [],
-          "source": "Google News · 非洲清洁能源",
-          "source_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQdWl3YzhzeU1VcUE5dExqdTB4cHhuVXF1SE5xc0l2QVZTZElsWm9SV0dDRFhWM1BESWdXanFIWlVYci1yTDVZZVFPRllnRzBZQW9vaTU4REZwdnNBLW1Wd2dDaWRrZnpseHp6eV9FZ2NmV0NCQzhBWlVmc053OEs1SEo0a0RmSC1uNDVneGt0ZDRXaGZ6a3Y2LXZodlRKem9qdnpMSmFLaUhqX1VCMG53SEd1Q3FYS3l0?oc=5",
-          "date": "Wed, 10 Ju"
         }
       ]
     },

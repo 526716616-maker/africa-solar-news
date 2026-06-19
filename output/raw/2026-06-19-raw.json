@@ -1,5 +1,5 @@
 {
-  "crawled_at": "2026-06-19T22:15:57.619034+08:00",
+  "crawled_at": "2026-06-19T22:26:56.115946+08:00",
   "week": "2026-W25",
   "sources": [
     {
@@ -165,91 +165,6 @@
       "key": "esi-africa",
       "name": "ESI Africa",
       "articles": []
-    },
-    {
-      "key": "google-solar-offgrid",
-      "name": "Google News · 非洲离网太阳能",
-      "articles": [
-        {
-          "title": "Africa buys 9 out of every 10 off-grid solar kits sold globally as Nigeria drives recovery - Business Insider Africa",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQSm1oN2V2N1g4eUxSc08zdDE3ZERJWXM3X2hYdzJFMHBhZlRaUUNISEJDelBKZmZ6b19GbnRFejFsY0xibTN5NmlwaHRoUnNXWFU5U2J6d1ZPenBjblZrUURPajFsTWdpVHJjcXVTTGNYbVdzY2hzU1J5Ul9iQXdrbG9uZDBWRldvbEVvVG1heFNSN0t5QWxCVS1MZ28tWlF3RktxRVlWVkY1bUJldGJvZ0pqSnpNTnFFb3dVZVFjZDVRWHY4ei1lY1QycUtMeXEwcnZTMQ?oc=5",
-          "date": "Tue, 09 Ju",
-          "summary": "<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxQSm1oN2V2N1g4eUxSc08zdDE3ZERJWXM3X2hYdzJFMHBhZlRaUUNISEJDelBKZmZ6b19GbnRFejFsY0xibTN5NmlwaHRoUnNXWFU5U2J6d1ZPenBjblZrUURPajFsTWdpVHJjcXVTTGNYbVdzY2hzU1J5Ul9iQXdrbG9uZDBWRldvbEVvVG1heFNSN0t5QWxCVS1MZ28tWlF3RktxRVlWVkY1bUJldGJvZ0pqSnpNTnFFb3dVZVFjZDVRWHY4ei1lY1QycUtMeXEwcnZTMQ?oc=5\" target=\"_blank\">Africa buys 9 out of every 10 off-grid solar kits sold globally as Nigeria drives recovery</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Business Insider Africa</font>",
-          "source_name": "Google News · 非洲离网太阳能"
-        }
-      ]
-    },
-    {
-      "key": "google-solar-investment",
-      "name": "Google News · 非洲太阳能投资",
-      "articles": [
-        {
-          "title": "The Pay-As-You-Go solar power sector evolution should not leave Africa’s most vulnerable behind - nature.com",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5JZEdzQUFCN0pIczFHTHlmRWtleWN4WXlTQXJLa0dsdXV3aDgyNS1yS05fTmVYWm5ac3N4aFRaa3ZxNjZqbjBZUlQyTDA0Q3VsVHJ1VF9vTkloUzZIVmx3?oc=5",
-          "date": "Sat, 09 Ma",
-          "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE5JZEdzQUFCN0pIczFHTHlmRWtleWN4WXlTQXJLa0dsdXV3aDgyNS1yS05fTmVYWm5ac3N4aFRaa3ZxNjZqbjBZUlQyTDA0Q3VsVHJ1VF9vTkloUzZIVmx3?oc=5\" target=\"_blank\">The Pay-As-You-Go solar power sector evolution should not leave Africa’s most vulnerable behind</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">nature.com</font>",
-          "source_name": "Google News · 非洲太阳能投资"
-        }
-      ]
-    },
-    {
-      "key": "google-solar-policy",
-      "name": "Google News · 非洲太阳能政策",
-      "articles": [
-        {
-          "title": "NERC commences implementation of net billing regulations 2026 - CNBC Africa",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNDhDMkp3b3VRVllTZ0VKZXNDVXo2M0M4c1MxNTRuZ3NLSFZNOU00Nm85X0dRTWlMblpFNk9JN0swLWpXWkwtd2laTkFvVi1JRFZKYy1JZXJSanVCek5iVHZCMEZNNDhoQkRyOEtETUlOZ1ZpODhpVkR0V05jenMwdDM5YkZ0cGNnajB5ZGtlZlRkVEZWaHE3NnNpa0x2YXdaVHZLc0FxWHNvSzFU?oc=5",
-          "date": "Fri, 05 Ju",
-          "summary": "<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxPNDhDMkp3b3VRVllTZ0VKZXNDVXo2M0M4c1MxNTRuZ3NLSFZNOU00Nm85X0dRTWlMblpFNk9JN0swLWpXWkwtd2laTkFvVi1JRFZKYy1JZXJSanVCek5iVHZCMEZNNDhoQkRyOEtETUlOZ1ZpODhpVkR0V05jenMwdDM5YkZ0cGNnajB5ZGtlZlRkVEZWaHE3NnNpa0x2YXdaVHZLc0FxWHNvSzFU?oc=5\" target=\"_blank\">NERC commences implementation of net billing regulations 2026</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">CNBC Africa</font>",
-          "source_name": "Google News · 非洲太阳能政策"
-        }
-      ]
-    },
-    {
-      "key": "google-clean-energy",
-      "name": "Google News · 非洲清洁能源",
-      "articles": [
-        {
-          "title": "SOGREA Bidders Workshop Signals a New Era for Off-Grid Renewable Energy in Sierra Leone - Sustainable Energy for All | SEforALL",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQdWl3YzhzeU1VcUE5dExqdTB4cHhuVXF1SE5xc0l2QVZTZElsWm9SV0dDRFhWM1BESWdXanFIWlVYci1yTDVZZVFPRllnRzBZQW9vaTU4REZwdnNBLW1Wd2dDaWRrZnpseHp6eV9FZ2NmV0NCQzhBWlVmc053OEs1SEo0a0RmSC1uNDVneGt0ZDRXaGZ6a3Y2LXZodlRKem9qdnpMSmFLaUhqX1VCMG53SEd1Q3FYS3l0?oc=5",
-          "date": "Wed, 10 Ju",
-          "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxQdWl3YzhzeU1VcUE5dExqdTB4cHhuVXF1SE5xc0l2QVZTZElsWm9SV0dDRFhWM1BESWdXanFIWlVYci1yTDVZZVFPRllnRzBZQW9vaTU4REZwdnNBLW1Wd2dDaWRrZnpseHp6eV9FZ2NmV0NCQzhBWlVmc053OEs1SEo0a0RmSC1uNDVneGt0ZDRXaGZ6a3Y2LXZodlRKem9qdnpMSmFLaUhqX1VCMG53SEd1Q3FYS3l0?oc=5\" target=\"_blank\">SOGREA Bidders Workshop Signals a New Era for Off-Grid Renewable Energy in Sierra Leone</a>&nbsp;&nbsp;<font color=\"#6f6f6f\">Sustainable Energy for All | SEforALL</font>",
-          "source_name": "Google News · 非洲清洁能源"
-        }
-      ]
-    },
-    {
-      "key": "the-africa-report",
-      "name": "The Africa Report",
-      "articles": [
-        {
-          "title": "TotalEnergies doubles down on Africa in hunt for  oil and gas discoveries",
-          "url": "https://www.theafricareport.com/422565/totalenergies-doubles-down-on-africa-in-hunt-for-oil-and-gas-discoveries/",
-          "date": "2026-06-19",
-          "summary": "TotalEnergies is self-funding its African oil and gas expansion by reinvesting regional profits, balancing traditional upstream projects with long-term renewable investments despite tightening Western capital.",
-          "source_name": "The Africa Report"
-        }
-      ]
-    },
-    {
-      "key": "climate-change-news",
-      "name": "Climate Change News",
-      "articles": []
-    },
-    {
-      "key": "worldbank-energy",
-      "name": "World Bank Energy Blog",
-      "articles": []
-    },
-    {
-      "key": "renewablesnow-africa",
-      "name": "Renewables Now Africa",
-      "articles": []
-    },
-    {
-      "key": "africa-minigrids",
-      "name": "Africa Minigrids Program",
-      "articles": []
     }
   ],
   "summary": {
@@ -273,15 +188,6 @@
     "how-we-made-it": 0,
     "allafrica-energy": 0,
     "esi-africa": 0,
-    "google-solar-offgrid": 1,
-    "google-solar-investment": 1,
-    "google-solar-policy": 1,
-    "google-clean-energy": 1,
-    "the-africa-report": 1,
-    "climate-change-news": 0,
-    "worldbank-energy": 0,
-    "renewablesnow-africa": 0,
-    "africa-minigrids": 0,
-    "total": 13
+    "total": 8
   }
 }
