@@ -132,10 +132,14 @@ DEEP_PROMPT = """你是非洲离网太阳能分析师。请用中文撰写一篇
 def deep_read(title, source_url, source_name, retries=1):
     """获取文章全文并调用Qwen精读改写"""
     content = ''
+    # Google News 链接是重定向页，没有正文内容，直接跳过
+    if 'news.google.com' in source_url:
+        return None
+
     try:
         resp = requests.get(source_url, headers={
             'User-Agent': 'Mozilla/5.0 (compatible; AfricaSolarNews/1.0)'
-        }, timeout=20)
+        }, timeout=15)
         if resp.status_code == 200:
             from bs4 import BeautifulSoup
             soup = BeautifulSoup(resp.text, 'html.parser')
@@ -164,7 +168,7 @@ def deep_read(title, source_url, source_name, retries=1):
     text_lower = content.lower()
     kw_count = sum(1 for kw in solar_keywords if kw in text_lower)
     density = kw_count / max(len(text_lower.split()), 1)
-    if density < 0.015:  # 从3%降至1.5%，因为网页含大量导航/页脚文字稀释
+    if density < 0.01:  # 1%阈值（网页含大量导航/页脚稀释）
         print(f'  [warn] 关键词密度 {density:.1%} 过低，跳过精读', file=sys.stderr)
         return None
 
