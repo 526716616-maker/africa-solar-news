@@ -338,6 +338,12 @@ for src in raw["sources"]:
                 "energynews-africa": "Energy News · 非洲能源",
                 "africa-newsroom": "Africa Newsroom · 能源新闻",
                 "techcabal-energy": "TechCabal · 能源科技",
+                "renewable-energy-world": "REW · 全球太阳能",
+                "solar-industry-mag": "Solar Industry · 行业杂志",
+                "freeing-energy": "Freeing Energy · 离网能源",
+                "how-we-made-it": "How We Made It · 非洲商业",
+                "allafrica-energy": "AllAfrica · 非洲能源",
+                "esi-africa": "ESI Africa · 非洲电力",
             }
             tag = tag_map.get(src["key"], src["name"])
 
