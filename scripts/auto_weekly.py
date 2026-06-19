@@ -297,74 +297,73 @@ def clean_summary(text: str, max_len: int = 600) -> str:
 from format_rich import format_rich
 
 def extract_numbers(text):
-    """从文本中提取有意义的数字，返回列表"""
+    """从文本中提取有意义的数字+单位，返回列表"""
     nums = []
     patterns = [
-        r'(\d+[\d,.]*\s*(?:million|billion|MW|GW|kits|people))',
-        r'(\$\d+[\d,.]*\s*(?:billion|million))',
-        r'(\d+[\d,.]*\s*(?:MW|GW))',
+        # 带显式单位
+        r'(\d+[\d,.]*\s*(?:MW|GW|kW|kWh|MWh|GWh))',
+        r'(\d+[\d,.]*\s*(?:million|billion|trillion))',
+        r'(\d+[\d,.]*\s*(?:people|households|families|customers|users|homes))',
+        # 货币
+        r'(\$[\d,.]+\s*(?:million|billion)?)',
+        r'([\d,.]+%\s*(?:of)?)',
+        # 无单位大数（千及以上）
+        r'(\d{1,3}(?:,\d{3})+(?:\s*people|\s*homes|\s*units|\s*kits)?)',
     ]
     seen = set()
     for pat in patterns:
         for m in re.findall(pat, text, re.IGNORECASE):
-            clean = m.strip()
+            clean = m.strip().rstrip('.').rstrip(',')
+            # 过滤纯年份和过小的数
+            if re.match(r'^\d{4}$', clean.replace(',','')):
+                continue
+            num_part = re.search(r'[\d,.]+', clean)
+            if num_part:
+                val_str = num_part.group().replace(',','')
+                try:
+                    val = float(val_str)
+                except ValueError:
+                    continue
+                if val < 1 and '%' not in clean:
+                    continue
             if clean not in seen:
                 nums.append(clean)
                 seen.add(clean)
     return nums
 
 def num_value(s):
-    """提取数字大小用于排序"""
-    s_clean = s.replace("$", "").replace(",", "").strip()
+    """提取数字大小用于排序（单位换算）"""
+    s_clean = s.replace("$", "").replace(",", "").replace("%", "").strip()
     parts = s_clean.split()
     try:
         val = float(parts[0]) if parts else 0
     except (ValueError, IndexError):
         return 0
-    unit = parts[1].lower() if len(parts) > 1 else ""
-    if unit in ("billion",):
+    unit = " ".join(parts[1:]).lower() if len(parts) > 1 else ""
+    if unit in ("billion", "trillion"):
         val *= 1000
+    if "people" in unit or "households" in unit or "families" in unit or "homes" in unit or "customers" in unit or "users" in unit:
+        val *= 100  # 人口类数字加权
     return val
 
-# ── 智能亮点提取（从已过滤的文章中提取） ──
-# 先收集有效文章
-valid_articles = []
-for src in raw["sources"]:
-    for a in src["articles"]:
-        date = a.get("date", "")
-        cutoff_7d = (datetime.now(CST) - __import__('datetime').timedelta(days=7)).strftime("%Y-%m-%d")
-        if date and date < cutoff_7d:
-            continue
-        title = a["title"]
-        summary = a.get("summary", "")
-        if any(kw in title.lower() for kw in ["south asia", "flutterwave", "series e"]):
-            continue
-        valid_articles.append(a)
+def smart_label(num_str, article_title, source_name):
+    """为数字生成简短标签"""
+    # 尝试从标题中提取关键词组
+    title_clean = re.sub(r'[\\U0001F600-\\U0001FFFF]', '', article_title)
+    title_clean = re.sub(r'[-–—|·•]', ' ', title_clean)
+    words = [w.strip() for w in re.split(r'[:\s,，、]+', title_clean) if len(w.strip()) >= 2]
+    # 过滤掉数字开头的词、纯数字
+    words = [w for w in words if not re.match(r'^[\d\$]', w) and len(w) >= 2]
+    # 取前3个有意义的词
+    if words:
+        label = ' '.join(words[:3])
+        if len(label) > 20:
+            label = label[:20]
+        return label
+    return source_name[:20]
 
-context_pairs = []
-seen = set()
-for a in valid_articles:
-    full_text = a["title"] + " " + a.get("summary", "")
-    nums = extract_numbers(full_text)
-    for n in nums:
-        n_key = n.replace("$", "").replace(",", "").strip().lower()
-        if n_key not in seen:
-            seen.add(n_key)
-            # 标签：取标题中不含数字的前 20 个有意义字符
-            label = a["title"][:50]
-            # 去掉 emoji 和数字开头
-            label = re.sub(r'[\U0001F600-\U0001FFFF]', '', label).strip()
-            label = re.sub(r'^[\d\s\$MWGWkits]+\s*', '', label)
-            if len(label) > 25:
-                label = label[:25]
-            if not label:
-                label = a.get("source_name", "")[:20]
-            context_pairs.append((n, label))
-
-context_pairs.sort(key=lambda x: num_value(x[0]), reverse=True)
-highlights = []
-for n, label in context_pairs[:4]:
-    highlights.append({"num": n, "label": label})
+# ── 智能亮点提取（从已分类的文章中提取具体数字）──
+# 注意：此段必须在文章处理之后才能拿到 AI 精读后的 summary
 
 # ── 分配文章到板块 ──
 policy_items = []      # 一、政策规划
@@ -551,13 +550,40 @@ for src in raw["sources"]:
 # 如果企业动态不够，从 ENGIE 文章中也加到行业动态
 # 不重复添加
 
-# ── 亮点兜底：如果数字亮点不足，用分类统计补充 ──
+# ── 智能亮点：从已分类文章中提取具体数字 ──
+context_pairs = []
+seen = set()
+
+# 收集所有已分类文章的文字
+def collect_highlight_texts():
+    texts = []
+    for item in policy_items + investment_items + industry_items:
+        texts.append((item.get("title", ""), item.get("summary", ""), item.get("source", "")))
+    for c in company_items:
+        texts.append((c.get("name", ""), c.get("description", ""), c.get("source", "")))
+    return texts
+
+for title, summary, source in collect_highlight_texts():
+    full_text = (title or "") + " " + (summary or "")
+    nums = extract_numbers(full_text)
+    for n in nums:
+        n_key = re.sub(r'[\s,\.\$\%]', '', n).lower()
+        if n_key not in seen and len(n_key) >= 2:
+            seen.add(n_key)
+            label = smart_label(n, title or source, source or "")
+            context_pairs.append((n, label))
+
+context_pairs.sort(key=lambda x: num_value(x[0]), reverse=True)
+highlights = []
+for n, label in context_pairs[:4]:
+    highlights.append({"num": n, "label": label})
+
+# 兜底：如果提取不到数字，用分类统计
 if len(highlights) < 2:
-    highlights += [
+    highlights = [
         {"num": str(len(industry_items) + len(policy_items) + len(investment_items)), "label": "本期行业动态"},
         {"num": str(len(company_items)), "label": "本期企业动态"},
-    ]
-    highlights = highlights[:4]
+    ][:4]
 
 # ── 翻译为中文 ──
 all_industry_items = policy_items + investment_items + industry_items
