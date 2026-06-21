@@ -509,7 +509,7 @@ for src in raw["sources"]:
                 print(f"  [light] 轻量精读...")
                 light = deep_read_light(title, summary, src["name"])
                 if light:
-                    deep_text = translate_text(light[:600])
+                    deep_text = translate_text(light[:600]) or ""
                     deep_succeeded = True
                     print(f"  [light] OK ({len(deep_text)}字)")
                 else:
