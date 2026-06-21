@@ -274,6 +274,31 @@ SOURCES = {
     # ──────────────────────────────────────────────────────────────
     # 第3批：各国+非洲综合媒体
     # Google News ×4 已移除 → 全是重定向页无正文；The Africa Report 已移除 → GitHub Actions 网络不通
+    # ──────────────────────────────────────────────────────────────
+    # 新增：有完整正文的非洲太阳能源（2026-06-21）
+    # ──────────────────────────────────────────────────────────────
+    "solarafrica": {
+        "name": "SolarAfrica Insights",
+        "url": "https://solarafrica.com/feed/",
+        "type": "rss",
+        "item_sel": "item",
+        "title_sel": "title",
+        "link_sel": "link",
+        "date_sel": "pubDate",
+        "summary_sel": "description",
+        # SolarAfrica 默认就是太阳能主题，无需过滤
+    },
+    "amda": {
+        "name": "AMDA Minigrids",
+        "url": "https://www.africamda.org/feed/",
+        "type": "rss",
+        "item_sel": "item",
+        "title_sel": "title",
+        "link_sel": "link",
+        "date_sel": "pubDate",
+        "summary_sel": "description",
+    },
+    # ── SOURCES 结束 ──
 }
 
 OUTPUT_DIR = os.path.join(os.path.dirname(__file__), "..", "output", "raw")

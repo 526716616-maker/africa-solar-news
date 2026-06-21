@@ -566,6 +566,8 @@ for src in raw["sources"]:
                 "how-we-made-it": "How We Made It · 非洲商业",
                 "allafrica-energy": "AllAfrica · 非洲能源",
                 "esi-africa": "ESI Africa · 非洲电力",
+                "solarafrica": "SolarAfrica · 太阳能洞察",
+                "amda": "AMDA · 迷你电网",
             }
             tag = tag_map.get(src["key"], src["name"])
 
