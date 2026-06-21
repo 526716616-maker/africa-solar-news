@@ -112,6 +112,9 @@ SOURCES = {
         "link_sel": "a",
         "date_sel": "time, .date, .published",
         "summary_sel": "p, .summary, .excerpt",
+        "keywords": ["solar", "energy", "off-grid", "power", "electricity", "renewable",
+                     "electrification", "clean energy", "green", "climate", "carbon",
+                     "sustainability", "impact", "access"],
     },
     # ── 新增数据源 ──
     "bgfa": {
@@ -123,6 +126,8 @@ SOURCES = {
         "link_sel": "link",
         "date_sel": "pubDate",
         "summary_sel": "description",
+        "keywords": ["solar", "off-grid", "energy", "power", "electricity", "renewable",
+                     "rural", "electrification", "mini-grid", "clean energy", "access"],
     },
     "bboxx": {
         "name": "BBOXX",
@@ -179,7 +184,9 @@ SOURCES = {
         "link_sel": "link",
         "date_sel": "pubDate",
         "summary_sel": "description",
-        # SolarAfrica 默认就是太阳能主题，无需过滤
+        "keywords": ["solar", "energy", "renewable", "clean energy", "project",
+                     "acquisition", "acquis", "power purchase", "ppa", "mw", "gw",
+                     "africa", "south africa", "off-grid", "storage", "battery"],
     },
     "amda": {
         "name": "AMDA Minigrids",
@@ -205,7 +212,8 @@ SOURCES = {
         "summary_sel": "description",
         "keywords": ["solar", "off-grid", "offgrid", "mini-grid", "minigrid",
                      "renewable energy", "electrification", "energy access",
-                     "photovoltaic", "clean energy", "power generation"],
+                     "photovoltaic", "clean energy", "power",
+                     "solaire", "energie", "electrification", "photovoltaique"],
     },
     "the-conversation-africa": {
         "name": "The Conversation Africa",
@@ -218,8 +226,10 @@ SOURCES = {
         "summary_sel": "summary, content",
         "keywords": ["solar", "off-grid", "offgrid", "mini-grid", "minigrid",
                      "renewable energy", "electrification", "energy access",
-                     "photovoltaic", "paygo", "solar home",
-                     "power africa", "mission 300", "microgrid"],
+                     "photovoltaic", "paygo", "solar home", "electricity",
+                     "power africa", "mission 300", "microgrid", "sdg7",
+                     "energy poverty", "rural electrification", "energy transition",
+                     "climate finance", "green energy", "clean cooking"],
     },
     # ── SOURCES 结束 ──
 }
