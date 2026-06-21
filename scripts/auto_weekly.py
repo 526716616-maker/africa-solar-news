@@ -737,15 +737,18 @@ highlights = []
 for n, label in context_pairs[:4]:
     highlights.append({"num": n, "label": label})
 
-# 兜底：如果提取不到数字，用分类统计
-if len(highlights) < 2:
-    highlights = [
-        {"num": str(len(industry_items) + len(policy_items) + len(investment_items)), "label": "本期行业动态"},
-        {"num": str(len(company_items)), "label": "本期企业动态"},
-    ][:4]
+# 兜底：补到4个，用有意义的标签
+while len(highlights) < 4:
+    total_all = len(policy_items) + len(investment_items) + len(industry_items) + len(company_items)
+    fallback_labels = ["篇行业深度分析", "家重点企业跟踪", "大政策动向", "项投资数据"]
+    idx = len(highlights) - len(context_pairs)
+    highlights.append({
+        "num": str(total_all),
+        "label": fallback_labels[min(idx, len(fallback_labels)-1)]
+    })
+highlights = highlights[:4]
 
 print("[INFO] 智能亮点生成完成")
-print("[INFO] 翻译完成")
 
 # ── 组装 curated JSON ──
 curated = {
