@@ -411,11 +411,10 @@ def smart_label(num_str, article_title, source_name):
 # ── 智能亮点提取（从已分类的文章中提取具体数字）──
 # 注意：此段必须在文章处理之后才能拿到 AI 精读后的 summary
 
-# ── 防重：读取已有周刊文章标题，跳过已出现的 ──
-seen_titles = set()
+# ── 防重：读取已有周刊文章URL，跳过已出现的 ──
+seen_urls = set()
 for fname in os.listdir(raw_dir_abs):
     if fname.endswith("-weekly.json") and not fname.startswith("latest"):
-        # 跳过今天自己的文件（允许本期覆盖）
         if fname.startswith(now.strftime("%Y-%m-%d")):
             continue
         try:
@@ -423,14 +422,13 @@ for fname in os.listdir(raw_dir_abs):
                 old = json.load(fp)
             for sec in old.get("sections", []):
                 for item in sec.get("items", []):
-                    t = item.get("title", "")
-                    if t:
-                        # 取前 60 字做模糊匹配（翻译后可能略有差异）
-                        seen_titles.add(t[:60].lower().strip())
+                    u = item.get("source_url", "")
+                    if u:
+                        seen_urls.add(u.strip().rstrip('/').lower())
                 for comp in sec.get("companies", []):
-                    n = comp.get("name", "")
-                    if n:
-                        seen_titles.add(n[:60].lower().strip())
+                    u = comp.get("source_url", "")
+                    if u:
+                        seen_urls.add(u.strip().rstrip('/').lower())
         except Exception:
             pass
 dedup_skipped = 0
@@ -469,8 +467,9 @@ for src in raw["sources"]:
     for a in src["articles"]:
         title = a["title"]
 
-        # 防重：已在往期出现过的文章跳过
-        if title[:60].lower().strip() in seen_titles:
+        # 防重：URL已在往期出现过的文章跳过
+        check_url = a.get("url", "").strip().rstrip('/').lower()
+        if check_url and check_url in seen_urls:
             dedup_skipped += 1
             continue
 
