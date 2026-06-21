@@ -34,7 +34,7 @@ jobs:
         run: pip install -r requirements.txt deep-translator
 
       - name: 运行爬虫（最近14天）
-        run: python scripts/fetch_news.py --days 14
+        run: python scripts/fetch_news.py --days 7
         env:
           PYTHONIOENCODING: utf-8
 

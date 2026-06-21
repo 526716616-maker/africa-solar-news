@@ -479,7 +479,7 @@ for src in raw["sources"]:
         date = a.get("date", "")
 
         # 只保留最近7天的资讯（无日期的保留，有日期但超7天则过滤）
-        cutoff_14d = (datetime.now(CST) - __import__('datetime').timedelta(days=14)).strftime("%Y-%m-%d")
+        cutoff_14d = (datetime.now(CST) - __import__('datetime').timedelta(days=7)).strftime("%Y-%m-%d")
         if date and date < cutoff_14d:
             continue
         # 无日期的源每源最多3篇

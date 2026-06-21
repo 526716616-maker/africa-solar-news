@@ -65,8 +65,8 @@ SOURCES = {
         "keywords": ["africa", "african", "nigeria", "kenya", "ghana", "senegal",
                      "uganda", "tanzania", "rwanda", "ethiopia", "zambia", "mozambique",
                      "sahel", "sahara", "congo", "ivory", "sudan", "angola",
-                     "off-grid", "mini-grid", "minigrid", "solar home", "paygo",
-                     "gogla", "electrification"],
+                     "solar", "off-grid", "mini-grid", "minigrid", "solar home", "paygo",
+                     "gogla", "electrification", "renewable", "photovoltaic", "energy access"],
     },
     # ── 更多 RSS ──
     "afsia": {
@@ -78,6 +78,9 @@ SOURCES = {
         "link_sel": "link",
         "date_sel": "pubDate",
         "summary_sel": "description",
+        "keywords": ["africa", "african", "solar", "kenya", "nigeria", "ghana",
+                     "tanzania", "uganda", "ethiopia", "rwanda", "zambia", "senegal",
+                     "off-grid", "minigrid", "photovoltaic", "electrification"],
     },
     "lighting-global": {
         "name": "Lighting Global",
@@ -141,7 +144,8 @@ SOURCES = {
         "date_sel": "pubDate",
         "summary_sel": "description",
         "keywords": ["solar", "off-grid", "clean energy", "renewable", "mini-grid",
-                     "paygo", "energy access", "power", "electric", "grid"],
+                     "paygo", "energy access", "electrification", "offgrid", "minigrid",
+                     "photovoltaic", "solar home", "power generation"],
     },
     # ──────────────────────────────────────────────────────────────
     # 新增数据源（2026-06-19 扩展）
@@ -296,7 +300,7 @@ def extract_articles(soup: BeautifulSoup, cfg: dict, base_url: str) -> list[dict
         items = soup.select(cfg["item_sel"])
         keywords = [k.lower() for k in cfg.get("keywords", [])]
 
-        for item in items[:1]:
+        for item in items[:2]:
             title_el = item.select_one(cfg["title_sel"])
             title = safe_text(title_el)
             if not title:
@@ -346,7 +350,7 @@ def extract_articles(soup: BeautifulSoup, cfg: dict, base_url: str) -> list[dict
     if not cards:
         cards = soup.select("article, .post, .news-item, .td_module_wrap, .gb-query-loop-item")
 
-    for card in cards[:1]:
+    for card in cards[:2]:
         title_el = None
         for sel in cfg["title_sel"].split(", "):
             title_el = card.select_one(sel)
