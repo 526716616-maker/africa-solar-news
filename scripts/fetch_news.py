@@ -32,13 +32,17 @@ SOURCES = {
     # ── 行业报告 / 协会 ──
     "gogla": {
         "name": "GOGLA Newsroom",
-        "url": "https://newsroom.gogla.org/",
-        "type": "html",
-        "selector": ".c-card__text-holder",
-        "title_sel": "h2.h5.c-card__title",
-        "link_sel": "a",
-        "date_sel": "time.c-card__time",
-        "summary_sel": "p",
+        "url": "https://newsroom.gogla.org/press_releases.atom",
+        "type": "rss",
+        "item_sel": "entry",
+        "title_sel": "title",
+        "link_sel": "link",
+        "date_sel": "published, updated",
+        "summary_sel": "content, summary",
+        "keywords": ["solar", "off-grid", "offgrid", "mini-grid", "minigrid",
+                     "africa", "energy access", "electrification", "investment",
+                     "renewable", "clean energy", "paygo", "mini.grid",
+                     "microgrid", "lighting", "storage", "battery"],
     },
     # ── 企业动态 ──
     "engie": {
