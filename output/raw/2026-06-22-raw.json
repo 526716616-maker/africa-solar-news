@@ -1,5 +1,5 @@
 {
-  "crawled_at": "2026-06-22T08:03:28.793303+08:00",
+  "crawled_at": "2026-06-22T10:25:47.568486+08:00",
   "week": "2026-W26",
   "sources": [
     {
@@ -7,8 +7,15 @@
       "name": "GOGLA Newsroom",
       "articles": [
         {
+          "title": "GOGLA and AMDA Announce Strategic Collaboration to Accelerate Energy Access",
+          "url": "https://newsroom.gogla.org/267203-gogla-and-amda-announce-strategic-collaboration-to-accelerate-energy-access/",
+          "date": "2026-06-18",
+          "summary": "The collaboration will strengthen policy, investment, and advocacy for off-grid solar and minigrid energy, driving progress toward universal access.",
+          "source_name": "GOGLA Newsroom"
+        },
+        {
           "title": "Off-grid solar investment signals sector maturation, capital concentration",
-          "url": "https://newsroom.gogla.org/tags/investment/",
+          "url": "https://newsroom.gogla.org/267019-off-grid-solar-investment-signals-sector-maturation-capital-concentration/",
           "date": "2026-06-15",
           "summary": "GOGLA reports growing off-grid solar investment in 2025, driven by structured finance and local currency, but warns of rising funding disparities.",
           "source_name": "GOGLA Newsroom"
@@ -16,22 +23,15 @@
       ]
     },
     {
-      "key": "engie",
-      "name": "ENGIE / IgniteAccess",
+      "key": "rockefeller",
+      "name": "Rockefeller Foundation",
       "articles": [
         {
-          "title": "Forbes: How Startups Are Bringing Affordable, Clean Energy To Africa",
-          "url": "https://igniteaccess.com/how-startups-are-bringing-affordable-clean-energy-to-africa/",
-          "date": "",
-          "summary": "Bringing electricity, let alone that from renewable sources, to some of the most energy poor parts of sub-Saharan Africa is a vexing question and daunting",
-          "source_name": "ENGIE / IgniteAccess"
-        },
-        {
-          "title": "Bloomberg: The mission to electrify Africa might finally be under way",
-          "url": "https://igniteaccess.com/the-mission-to-electrify-africa-might-finally-be-under-way/",
-          "date": "",
-          "summary": "When strips of solar panels arrived in his remote village in northeast Zambia, Damaseke Mwale saw an opportunity. He bought land, built a house and",
-          "source_name": "ENGIE / IgniteAccess"
+          "title": "Keeping the Lights On: Reshaping Renewable Energy Across Southern Africa",
+          "url": "https://www.rockefellerfoundation.org/perspective/keeping-the-lights-on-reshaping-renewable-energy-across-southern-africa/",
+          "date": "2026-05-26",
+          "summary": "<p>A severe drought in Zambia exposed the risks of hydropower dependence, but an innovative energy trading model is helping stabilize the grid and accelerate the transition to renewable energy across Southern Africa.</p>\n<p>The post <a href=\"https://www.rockefellerfoundation.org/perspective/keeping-the-lights-on-reshaping-renewable-energy-across-southern-africa/\">Keeping the Lights On: Reshaping Renewable Energy Across Southern Africa</a> appeared first on <a href=\"https://www.rockefellerfoundation.org\">The Rockefeller Foundation</a>.</p>",
+          "source_name": "Rockefeller Foundation"
         }
       ]
     },
@@ -51,7 +51,22 @@
     {
       "key": "afsia",
       "name": "AFSIA Solar Africa",
-      "articles": []
+      "articles": [
+        {
+          "title": "Solis to Showcase Full-Scenario Energy Storage Solutions at Intersolar Europe 2026",
+          "url": "https://www.afsiasolar.com/solis-to-showcase-full-scenario-energy-storage-solutions-at-intersolar-europe-2026/?utm_source=rss&utm_medium=rss&utm_campaign=solis-to-showcase-full-scenario-energy-storage-solutions-at-intersolar-europe-2026",
+          "date": "2026-06-18",
+          "summary": "<p><span style=\"font-weight: 400;\"><a href=\"https://www.solisinverters.com/global\"><strong>Solis</strong></a> will present its latest all-in-one energy storage systems for residential and C&amp;I applications, including FlexAIO and EverCore, as the company continues its move from inverter manufacturer to complete energy solution provider</span></p>\n<p><b> Munich, Germany, June 17 – </b><span style=\"font-weight: 400;\">Solis will return to Intersolar Europe 2026 in Munich from 23–25 June, showcasing its latest range of residential and commercial energy storage solutions in hall B3. </span></p>\n<p><span style=\"font-weight: 400;\">Backed by 20 years of power electronics experience, Solis will present a complete ESS portfolio for residential, commercial and industrial applications, combining sol",
+          "source_name": "AFSIA Solar Africa"
+        },
+        {
+          "title": "33rd World Record! JinkoSolar Sets New Efficiency Benchmark for Perovskite/TOPCon Tandem Cells at 34.82%",
+          "url": "https://www.afsiasolar.com/33rd-world-record-jinkosolar-sets-new-efficiency-benchmark-for-perovskite-topcon-tandem-cells-at-34-82/?utm_source=rss&utm_medium=rss&utm_campaign=33rd-world-record-jinkosolar-sets-new-efficiency-benchmark-for-perovskite-topcon-tandem-cells-at-34-82",
+          "date": "2026-06-18",
+          "summary": "<p><span style=\"font-weight: 400;\"><a href=\"https://jinkosolar.com/en\"><strong>JinkoSolar</strong></a>, the global leading PV and ESS supplier, recently announced that its self-developed N-type TOPCon perovskite tandem cell has achieved an efficiency of 34.82%, as certified by the Shanghai Institute of Microsystem and Information Technology of the Chinese Academy of Sciences. This breakthrough surpasses the company’s previous record of 34.76% for similar tandem cells, marking the 33rd time JinkoSolar has broken world records in cell efficiency and module power.</span></p>\n<p><span style=\"font-weight: 400;\"> </span></p>\n<p><span style=\"font-weight: 400;\">This efficiency breakthrough is attributed to JinkoSolar’s innovations in multiple core technologies, including the dual-layer composite p",
+          "source_name": "AFSIA Solar Africa"
+        }
+      ]
     },
     {
       "key": "lighting-global",
@@ -96,15 +111,7 @@
     {
       "key": "m-kopa",
       "name": "M-KOPA",
-      "articles": [
-        {
-          "title": "M-KOPA Ghana Impact Report reveals smartphones are unlocking health insurance and economic opportunity for Every Day Earners",
-          "url": "https://www.m-kopa.com/newsroom/m-kopa-ghana-impact-report-reveals-smartphones-are-unlocking-health-insurance-and-economic-opportunity-for-every-day-earners",
-          "date": "",
-          "summary": "",
-          "source_name": "M-KOPA"
-        }
-      ]
+      "articles": []
     },
     {
       "key": "bgfa",
@@ -215,53 +222,30 @@
     {
       "key": "solarafrica",
       "name": "SolarAfrica Insights",
-      "articles": [
-        {
-          "title": "SolarAfrica Acquires Nyakallo Solar Project from Norsk Renewables",
-          "url": "https://solarafrica.com/insights/solarafrica-norsk-renewables-nyakallo-solar-project/",
-          "date": "2026-06-04",
-          "summary": "<div data-elementor-type=\"wp-post\" data-elementor-id=\"15742\" class=\"elementor elementor-15742\" data-elementor-post-type=\"post\">\n\t\t\t\t<div class=\"has_eae_slider elementor-element elementor-element-7eed4e5a e-con-full e-flex e-con e-parent\" data-eae-slider=\"21657\" data-id=\"7eed4e5a\" data-element_type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t<div class=\"has_eae_slider elementor-element elementor-element-798c17a0 e-con-full e-flex e-con e-child\" data-eae-slider=\"95739\" data-id=\"798c17a0\" data-element_type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-b0fc10a elementor-widget elementor-widget-heading\" data-id=\"b0fc10a\" data-element_type=\"widget\" id=\"blog-category-type\" data-widget_type=\"heading.default\">\n\t\t\t\t<div class=\"elementor-w",
-          "source_name": "SolarAfrica Insights"
-        },
-        {
-          "title": "Reduce Business Electricity Bills: 4 Ways to Save Without Solar Ownership",
-          "url": "https://solarafrica.com/insights/reduce-business-electricity-bills-4-ways-to-save-in-sa/",
-          "date": "2026-04-24",
-          "summary": "<div data-elementor-type=\"wp-post\" data-elementor-id=\"15713\" class=\"elementor elementor-15713\" data-elementor-post-type=\"post\">\n\t\t\t\t<div class=\"has_eae_slider elementor-element elementor-element-7eed4e5a e-con-full e-flex e-con e-parent\" data-eae-slider=\"78266\" data-id=\"7eed4e5a\" data-element_type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t<div class=\"has_eae_slider elementor-element elementor-element-798c17a0 e-con-full e-flex e-con e-child\" data-eae-slider=\"61185\" data-id=\"798c17a0\" data-element_type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-e9e33de elementor-widget elementor-widget-heading\" data-id=\"e9e33de\" data-element_type=\"widget\" id=\"blog-solution-type\" data-widget_type=\"heading.default\">\n\t\t\t\t<div class=\"elementor-w",
-          "source_name": "SolarAfrica Insights"
-        }
-      ]
+      "articles": []
     },
     {
       "key": "amda",
       "name": "AMDA Minigrids",
-      "articles": [
-        {
-          "title": "AMDA and GOGLA Announce Strategic Collaboration to Accelerate Energy Access",
-          "url": "https://www.africamda.org/amda-and-gogla-announce-strategic-collaboration-to-accelerate-energy-access/",
-          "date": "2026-06-18",
-          "summary": "<p class=\"wp-block-paragraph\"><strong>Global off-grid solar association and Africa’s leading minigrid industry body partner to strengthen collective influence and call on governments to make National Energy Compacts investable</strong><br></p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img fetchpriority=\"high\" decoding=\"async\" width=\"1024\" height=\"1024\" src=\"https://www.africamda.org/wp-content/uploads/2026/06/682476-3G4A0353-2-eb4c62-original-1781703105-1024x1024.jpeg\" alt=\"\" class=\"wp-image-11181\" srcset=\"https://www.africamda.org/wp-content/uploads/2026/06/682476-3G4A0353-2-eb4c62-original-1781703105-980x980.jpeg 980w, https://www.africamda.org/wp-content/uploads/2026/06/682476-3G4A0353-2-eb4c62-original-1781703105-480x480.jpeg 480w\" sizes=\"(min-width: 0px) and (max-width: 480px) 480",
-          "source_name": "AMDA Minigrids"
-        }
-      ]
+      "articles": []
     }
   ],
   "summary": {
-    "gogla": 1,
-    "engie": 2,
+    "gogla": 2,
+    "rockefeller": 1,
     "pv-magazine": 1,
-    "afsia": 0,
+    "afsia": 2,
     "lighting-global": 2,
     "sunking": 2,
-    "m-kopa": 1,
+    "m-kopa": 0,
     "bgfa": 2,
     "bboxx": 2,
     "techcabal-energy": 1,
     "energy-news-network": 2,
     "sun-connect": 2,
     "pv-tech": 1,
-    "solarafrica": 2,
-    "amda": 1,
-    "total": 22
+    "solarafrica": 0,
+    "amda": 0,
+    "total": 20
   }
 }

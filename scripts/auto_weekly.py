@@ -705,11 +705,15 @@ def translate_summary_html(html_text: str) -> str:
 
 for item in all_industry_items:
     item["title"] = translate_text(item["title"])
+    time.sleep(0.5)
     item["summary"] = translate_summary_html(item["summary"])
+    time.sleep(0.3)
 
 for item in company_items:
     item["name"] = translate_text(item["name"])
+    time.sleep(0.3)
     item["description"] = translate_summary_html(item.get("description") or "") or item["name"]
+    time.sleep(0.3)
 
 # ── 智能亮点：从中文译文中提取数字 + 上下文标签 ──
 def collect_translated_texts():

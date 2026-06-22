@@ -34,6 +34,7 @@ SOURCES = {
         "name": "GOGLA Newsroom",
         "url": "https://newsroom.gogla.org/press_releases.atom",
         "type": "rss",
+        "max_items": 10,  # 不限制篇数，全部拉取
         "item_sel": "entry",
         "title_sel": "title",
         "link_sel": "link",
@@ -316,7 +317,7 @@ def extract_articles(soup: BeautifulSoup, cfg: dict, base_url: str) -> list[dict
         items = soup.select(cfg["item_sel"])
         keywords = [k.lower() for k in cfg.get("keywords", [])]
 
-        for item in items[:2]:
+        for item in items[:cfg.get("max_items", 2)]:
             title_el = item.select_one(cfg["title_sel"])
             title = safe_text(title_el)
             if not title:
@@ -366,7 +367,7 @@ def extract_articles(soup: BeautifulSoup, cfg: dict, base_url: str) -> list[dict
     if not cards:
         cards = soup.select("article, .post, .news-item, .td_module_wrap, .gb-query-loop-item")
 
-    for card in cards[:2]:
+    for card in cards[:cfg.get("max_items", 2)]:
         title_el = None
         for sel in cfg["title_sel"].split(", "):
             title_el = card.select_one(sel)

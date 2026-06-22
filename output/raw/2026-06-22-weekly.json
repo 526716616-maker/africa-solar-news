@@ -1,23 +1,23 @@
 {
   "week": "2026-W26",
   "date": "2026-06-22",
-  "issue": 4,
+  "issue": 2,
   "highlights": [
     {
-      "num": "90%",
-      "label": "90%成员来自非可再生能源领域"
+      "num": "34.82%",
+      "label": "34.82%JinkoSolar"
     },
     {
-      "num": "100GW",
-      "label": "100GW显示市场增长潜力"
+      "num": "6",
+      "label": "个政策动态"
     },
     {
-      "num": "3",
-      "label": "篇行业深度分析"
+      "num": "6",
+      "label": "项投资观察"
     },
     {
-      "num": "3",
-      "label": "家重点企业跟踪"
+      "num": "6",
+      "label": "篇行业快讯"
     }
   ],
   "sections": [
@@ -25,13 +25,13 @@
       "title": "一、政策规划",
       "items": [
         {
-          "tag": "PV Tech",
-          "title": "ABB推出Proteus产品组合，重新进军电力电子领域",
-          "summary": "<p class=\"mb\">**标题：ABB重新进入电力电子领域，推出Proteus产品组合**</p>\n<p class=\"mb\"><strong>投资亮点：</strong></p>\n<ul class=\"bullets\">\n<li>ABB瑞士公司推出Proteus产品组合，重新进入电力电子领域，涉及太阳能光伏和储能系统。</li>\n<li>该产品组合由其2025年收购的Gamesa Electric资产支持，未披露具体融资方式。</li>\n<li>欧洲太阳能逆变器制造能力已超过100GW，显示市场增长潜力。</li>\n</ul>\n<p class=\"mb\"><strong>关键数据：</strong></p>\n<ul class=\"bullets\">\n<li>ABB表示其已部署超过120GW的电力转换容量。</li>\n<li>Proteus产品包括4.7MVA中央逆变器，效率达99.45%。</li>\n</ul>\n<p class=\"mb\">【行业展望】</p>\n<p class=\"mb\">ABB的重新进入表明欧洲电力电子市场正加速发展，技术竞争日益激烈。</p>",
+          "tag": "GOGLA Newsroom",
+          "title": "GOGLA and AMDA Announce Strategic Collaboration to Accelerate Energy Access",
+          "summary": "The collaboration will strengthen policy, investment, and advocacy for off-grid solar and minigrid energy, driving progress toward universal access.",
           "bullets": [],
-          "source": "PV Tech",
-          "source_url": "https://www.pv-tech.org/abb-launches-proteus-portfolio-re-enters-power-electronics-sector/",
-          "date": "2026-06-19",
+          "source": "GOGLA Newsroom",
+          "source_url": "https://newsroom.gogla.org/267203-gogla-and-amda-announce-strategic-collaboration-to-accelerate-energy-access/",
+          "date": "2026-06-18",
           "sub_category": "policy"
         }
       ]
@@ -40,13 +40,13 @@
       "title": "二、投资数据",
       "items": [
         {
-          "tag": "Energy News Network",
-          "title": "Seriti Green 的 Chabisi Motloung 讲述非洲年轻人在可再生能源领域的职业生涯",
-          "summary": "<p class=\"mb\"><strong>行业事件：</strong></p>\n<ul class=\"bullets\">\n<li>Seriti Green 首席运营官 Chabisi Motloung 在非洲能源论坛上分享其从冶炼行业转型至可再生能源领域的经历，呼吁青年抓住能源转型带来的职业机遇。</li>\n<li>该公司的首个风电场位于姆普马兰加，未来将扩展至更远地区，推动本地化技能培训，重塑煤炭产业工人职业路径。</li>\n</ul>\n<p class=\"mb\"><strong>数据洞察：</strong></p>\n<ul class=\"bullets\">\n<li>非洲仍有约6亿人缺乏电力供应，为可再生能源发展提供巨大市场空间。</li>\n<li>Seriti Green 团队中约90%成员来自非可再生能源领域，显示行业人才结构正在快速转变。</li>\n</ul>\n<p class=\"mb\">结构化简报：</p>\n<p class=\"mb\">Seriti Green 首席运营官 Chabisi Motloung 在非洲能源论坛上强调，能源转型为非洲青年带来大量职业机会，尤其在风电和太阳能领域。公司正通过培训煤炭产业工人向可再生能源转型，推动本地就业。目前非洲仍有6亿人无电可用，这一缺口为可再生能源企业提供了广阔发展空间。</p>",
+          "tag": "GOGLA Newsroom",
+          "title": "Off-grid solar investment signals sector maturation, capital concentration",
+          "summary": "GOGLA reports growing off-grid solar investment in 2025, driven by structured finance and local currency, but warns of rising funding disparities.",
           "bullets": [],
-          "source": "Energy News Network",
-          "source_url": "https://energy-news-network.com/industry-news/seriti-greens-chabisi-motloung-on-the-careers-waiting-for-young-africans-in-renewables/",
-          "date": "2026-06-19",
+          "source": "GOGLA Newsroom",
+          "source_url": "https://newsroom.gogla.org/267019-off-grid-solar-investment-signals-sector-maturation-capital-concentration/",
+          "date": "2026-06-15",
           "sub_category": "investment"
         }
       ]
@@ -55,12 +55,57 @@
       "title": "三、行业动态",
       "items": [
         {
+          "tag": "PV Magazine",
+          "title": "The energy transition needs a new leadership playbook",
+          "summary": "This week, Women in Solar+ Europe (WiSEu) reflects on one of the most pressing challenges facing the energy transition: leadership. Ahead of the inaugural Solar+ Leaders workshop, \"Reshaping Leadership for the AI Era: You Can't Lead Tomorrow With Yesterday's Playbook,\" taking place at Intersolar Europe, this new leadership ecosystem, welcoming all experts and leaders, explores why traditional leadership models are increasingly struggling to keep pace with a world shaped by complexity, interconnected systems, rapid technological change, and artificial intelligence. The post The energy transitio",
+          "bullets": [],
+          "source": "PV Magazine",
+          "source_url": "https://www.pv-magazine.com/2026/06/19/the-energy-transition-needs-a-new-leadership-playbook/",
+          "date": "2026-06-19"
+        },
+        {
+          "tag": "AFSIA Solar Africa",
+          "title": "Solis to Showcase Full-Scenario Energy Storage Solutions at Intersolar Europe 2026",
+          "summary": "Solis will present its latest all-in-one energy storage systems for residential and C&amp;I applications, including FlexAIO and EverCore, as the company continues its move from inverter manufacturer to complete energy solution provider Munich, Germany, June 17 – Solis will return to Intersolar Europe 2026 in Munich from 23–25 June, showcasing its latest range of residential and commercial energy storage solutions in hall B3. Backed by 20 years of power electronics experience, Solis will present a complete ESS portfolio for residential, commercial and industrial applications, combining sol",
+          "bullets": [],
+          "source": "AFSIA Solar Africa",
+          "source_url": "https://www.afsiasolar.com/solis-to-showcase-full-scenario-energy-storage-solutions-at-intersolar-europe-2026/?utm_source=rss&utm_medium=rss&utm_campaign=solis-to-showcase-full-scenario-energy-storage-solutions-at-intersolar-europe-2026",
+          "date": "2026-06-18"
+        },
+        {
+          "tag": "AFSIA Solar Africa",
+          "title": "33rd World Record! JinkoSolar Sets New Efficiency Benchmark for Perovskite/TOPCon Tandem Cells at 34.82%",
+          "summary": "JinkoSolar , the global leading PV and ESS supplier, recently announced that its self-developed N-type TOPCon perovskite tandem cell has achieved an efficiency of 34.82%, as certified by the Shanghai Institute of Microsystem and Information Technology of the Chinese Academy of Sciences. This breakthrough surpasses the company’s previous record of 34.76% for similar tandem cells, marking the 33rd time JinkoSolar has broken world records in cell efficiency and module power. This efficiency breakthrough is attributed to JinkoSolar’s innovations in multiple core technologies, including the dual-la",
+          "bullets": [],
+          "source": "AFSIA Solar Africa",
+          "source_url": "https://www.afsiasolar.com/33rd-world-record-jinkosolar-sets-new-efficiency-benchmark-for-perovskite-topcon-tandem-cells-at-34-82/?utm_source=rss&utm_medium=rss&utm_campaign=33rd-world-record-jinkosolar-sets-new-efficiency-benchmark-for-perovskite-topcon-tandem-cells-at-34-82",
+          "date": "2026-06-18"
+        },
+        {
           "tag": "Energy News Network",
-          "title": "Pele Green Energy 的 Jolene 谈如何在能源转型中找到自己的位置",
-          "summary": "<p class=\"mb\">【行业事件】</p>\n<p class=\"mb\"><strong>Pele Green Energy 首席执行官 Jolene Shaw 在 2026 年非洲能源论坛上分享了其公司从社会企业转型为南非领先独立发电商的经验。她强调，年轻创业者应耐心坚持长期目标，寻找适合自身能力的能源价值链位置，并重视社区与工业化的同步发展。</strong></p>\n<ul class=\"bullets\">\n<li>技术、模式或趋势亮点：</li>\n</ul>\n<p class=\"mb\">Pele 提出“非发电”机会，如气候科技、数字创新和环境工作，显示能源行业生态系统的多元化发展。公司更注重会计等支持性角色，体现商业模式的扩展。</p>\n<p class=\"mb\"><strong>数据洞察：</strong></p>\n<ul class=\"bullets\">\n<li>南非青年失业率高达 46%，创业成为创造就业的重要途径。</li>\n<li>Pele 成立至今已近 16 年，表明能源转型需要长期投入与可持续资金支持。</li>\n</ul>",
+          "title": "Seriti Green’s Chabisi Motloung on the careers waiting for young Africans in renewables",
+          "summary": "Four months ago Chabisi Motloung was a smelting man. Now he is Chief Operating Officer of a renewable energy company, and his message to the young people at the Youth Energy Summit was that the same move is open to them. Speaking to ENN at the Africa Energy Forum , the Seriti Green COO made the case that the energy transition is where the opportunities, and the careers, now sit. The summit closed the conference on Youth Day, marking the anniversary of 16 June 1976, and Motloung said the timing made it all the more meaningful. The aim was to show young people the",
+          "bullets": [],
+          "source": "Energy News Network",
+          "source_url": "https://energy-news-network.com/industry-news/seriti-greens-chabisi-motloung-on-the-careers-waiting-for-young-africans-in-renewables/",
+          "date": "2026-06-19"
+        },
+        {
+          "tag": "Energy News Network",
+          "title": "Pele Green Energy’s Jolene on finding your place in the energy transition",
+          "summary": "Pele Green Energy did not begin as a power company at all. Its founders wanted to change the lives of young South Africans, and energy became the means through which they could do it. That origin story sits at the heart of what Jolene Shaw, General Manager at Knowledge Pele, told ENN at the Africa Energy Forum , and it still shapes the advice she offers young entrepreneurs today. Pele is now one of South Africa&#8217;s leading independent power producers, though Shaw was keen to stress how far it has come from those beginnings. The transformation the founders were chasing, structural change fo",
           "bullets": [],
           "source": "Energy News Network",
           "source_url": "https://energy-news-network.com/industry-news/pele-green-energys-jolene-on-finding-your-place-in-the-energy-transition/",
+          "date": "2026-06-19"
+        },
+        {
+          "tag": "PV Tech",
+          "title": "ABB launches Proteus portfolio, re-enters power electronics sector",
+          "summary": "Swiss electrification company ABB has launched a new power conversion portfolio for the solar PV and BESS industries.",
+          "bullets": [],
+          "source": "PV Tech",
+          "source_url": "https://www.pv-tech.org/abb-launches-proteus-portfolio-re-enters-power-electronics-sector/",
           "date": "2026-06-19"
         }
       ]
