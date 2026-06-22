@@ -196,7 +196,7 @@ body {
 .news-card .summary,
 .company-card .summary {
   font-size: 14px;
-  color: var(--text-secondary);
+  color: #000000;
   margin-bottom: 12px;
   line-height: 1.7;
 }
