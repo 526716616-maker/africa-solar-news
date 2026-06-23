@@ -53,8 +53,8 @@ def translate_text(text: str, retries: int = 3) -> str:
 
 
 # ── AI 精读 ──
-QWEN_KEY = os.environ.get('QWEN_API_KEY', '') or 'sk-f0d5f80034794f048e82c936ec3556f0'
-QWEN_API = 'https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions'
+QWEN_KEY = 'sk-DlJFF226cnK9WstHFYcrvLDYxevCwJUJrosj7fISIhyjsEcz'
+QWEN_API = 'https://apihub.agnes-ai.com/v1/chat/completions'
 
 # ── 按内容类型的AI精读模板 ──
 
@@ -180,7 +180,7 @@ def deep_read_light(title, summary_text, source_name, source_key=""):
             'Authorization': f'Bearer {QWEN_KEY}',
             'Content-Type': 'application/json'
         }, json={
-            'model': 'qwen-turbo',
+            'model': 'agnes-2.0-flash',
             'messages': [
                 {'role': 'system', 'content': system_prompt},
                 {'role': 'user', 'content': user_content}
@@ -255,7 +255,7 @@ def deep_read(title, source_url, source_name, summary_hint="", source_key="", re
                 'Authorization': f'Bearer {QWEN_KEY}',
                 'Content-Type': 'application/json'
             }, json={
-                'model': 'qwen-turbo',
+                'model': 'agnes-2.0-flash',
                 'messages': [
                     {'role': 'system', 'content': system_prompt},
                     {'role': 'user', 'content': user_content}
