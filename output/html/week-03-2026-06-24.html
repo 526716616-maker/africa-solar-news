@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>非洲离网太阳能市场资讯 2026-06-24 第 3 期</title>
+<style>/* ===== 非洲离网太阳能市场资讯 - 样式 ===== */
+:root {
+  --bg: #f8f9fa;
+  --card: #ffffff;
+  --text: #1a1a2e;
+  --text-secondary: #555770;
+  --text-tertiary: #8e8ea0;
+  --border: #e8e8ee;
+  --green-dark: #0F6E56;
+  --green-light: #1D9E75;
+  --green-bg: #E1F5EE;
+  --green-tag-bg: rgba(15,110,86,0.08);
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans SC", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+.container {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 32px 24px 56px;
+}
+
+/* ===== Header ===== */
+.header {
+  background: var(--green-dark);
+  color: #fff;
+  padding: 36px 32px 28px;
+  border-radius: var(--radius-lg);
+  margin-bottom: 28px;
+}
+.header h1 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 4px;
+  letter-spacing: -0.01em;
+}
+.header .subtitle {
+  font-size: 15px;
+  opacity: 0.78;
+  font-weight: 400;
+}
+.header .meta {
+  display: flex;
+  gap: 10px;
+  margin-top: 18px;
+  flex-wrap: wrap;
+}
+.header .meta span {
+  background: rgba(255,255,255,0.15);
+  border-radius: var(--radius-sm);
+  padding: 4px 12px;
+  font-size: 13px;
+  letter-spacing: 0.02em;
+}
+
+/* ===== Stats Row ===== */
+.section-title {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text-tertiary);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin: 36px 0 14px;
+}
+.stats-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin-bottom: 10px;
+}
+.stat-box {
+  background: var(--card);
+  border: 0.5px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 18px 16px;
+  text-align: center;
+}
+.stat-box .num {
+  font-size: 26px;
+  font-weight: 800;
+  color: var(--green-dark);
+  margin-bottom: 6px;
+}
+.stat-box .lbl {
+  font-size: 12px;
+  color: var(--text-secondary);
+  line-height: 1.4;
+}
+@media (max-width: 560px) {
+  .stats-row { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* ===== News Card ===== */
+.news-card {
+  background: var(--card);
+  border: 0.5px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 22px 24px;
+  margin-bottom: 16px;
+  transition: border-color 0.15s;
+}
+.news-card:hover { border-color: var(--green-light); }
+.news-card .tag {
+  display: inline-block;
+  background: var(--green-tag-bg);
+  color: var(--green-dark);
+  font-size: 12px;
+  font-weight: 500;
+  padding: 3px 12px;
+  border-radius: 100px;
+}
+.news-card .card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.news-card .card-date {
+  font-size: 12px;
+  color: var(--text-tertiary);
+  white-space: nowrap;
+}
+.news-card h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: var(--text);
+}
+/* ===== 通用：卡片内列表 & 段落样式 ===== */
+.news-card .summary,
+.company-card .summary {
+  font-size: 14px;
+  color: #000000;
+  margin-bottom: 12px;
+  line-height: 1.7;
+}
+.news-card .bullets,
+.company-card .bullets {
+  list-style: none;
+  margin-bottom: 12px;
+}
+.news-card .bullets li,
+.company-card .bullets li {
+  font-size: 13px;
+  color: var(--text-secondary);
+  padding: 3px 0 3px 18px;
+  position: relative;
+  word-break: break-word;
+}
+.news-card .bullets li::before,
+.company-card .bullets li::before {
+  content: "";
+  position: absolute;
+  left: 2px;
+  top: 10px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--green-light);
+}
+.news-card .mb,
+.company-card .mb { margin-bottom: 10px; }
+.news-card .bullets,
+.company-card .bullets { margin-bottom: 0; }
+.news-card .source {
+  font-size: 12px;
+  color: var(--text-tertiary);
+  margin-top: 4px;
+}
+.news-card .source a {
+  color: var(--green-dark);
+  text-decoration: none;
+}
+.news-card .source a:hover { text-decoration: underline; }
+
+/* ===== Company Card ===== */
+.company-card {
+  background: var(--card);
+  border: 0.5px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 22px 24px;
+  margin-bottom: 16px;
+  transition: border-color 0.15s;
+}
+.company-card:hover { border-color: var(--green-light); }
+.company-card .tag {
+  display: inline-block;
+  background: var(--green-tag-bg);
+  color: var(--green-dark);
+  font-size: 12px;
+  font-weight: 500;
+  padding: 3px 12px;
+  border-radius: 100px;
+}
+.company-card .card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.company-card .card-date {
+  font-size: 12px;
+  color: var(--text-tertiary);
+  white-space: nowrap;
+}
+.company-card h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: var(--text);
+}
+.company-card .source {
+  font-size: 12px;
+  color: var(--text-tertiary);
+  margin-top: 10px;
+}
+.company-card .source a {
+  color: var(--green-dark);
+  text-decoration: none;
+}
+.company-card .source a:hover { text-decoration: underline; }
+
+/* ===== Archive Nav ===== */
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.nav-bar a {
+  font-size: 14px;
+  color: var(--green-dark);
+  text-decoration: none;
+  padding: 4px 0;
+  font-weight: 500;
+}
+.nav-bar a:hover { text-decoration: underline; }
+
+/* ===== Archive Page ===== */
+.archive-list {
+  list-style: none;
+}
+.archive-item {
+  background: var(--card);
+  border: 0.5px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 18px 22px;
+  margin-bottom: 12px;
+  transition: border-color 0.15s;
+}
+.archive-item:hover { border-color: var(--green-light); }
+.archive-item a {
+  text-decoration: none;
+  color: var(--text);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.archive-item .issue-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+.archive-item .issue-meta {
+  font-size: 13px;
+  color: var(--text-tertiary);
+  margin-top: 6px;
+}
+.archive-item .issue-count {
+  font-size: 14px;
+  color: var(--green-dark);
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+/* ===== Footer ===== */
+.footer {
+  text-align: center;
+  font-size: 13px;
+  color: var(--text-tertiary);
+  border-top: 0.5px solid var(--border);
+  padding-top: 24px;
+  margin-top: 40px;
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+  <div class="nav-bar">
+    <a href="archive.html">← 查看往期</a>
+    <span style="font-size:13px;color:var(--text-tertiary)">第 3 期</span>
+  </div>
+
+  <div class="header">
+    <h1>Africa Off-Grid Solar Market News</h1>
+    <p class="subtitle">非洲离网太阳能市场资讯</p>
+    <div class="meta">
+      <span>第 3 期</span>
+      <span>2026-06-24</span>
+      <span>行业动态 · 企业跟踪</span>
+    </div>
+  </div>
+
+  <div class="section-title">本期数据亮点</div>
+  <div class="stats-row"><div class="stat-box"><div class="num">99.5%</div><div class="lbl">99.5%的转换效率</div></div><div class="stat-box"><div class="num">51.5 GW</div><div class="lbl">51.5 GW较同期典型水平高出约10</div></div><div class="stat-box"><div class="num">44%</div><div class="lbl">44%的客户首次获得产品或服务</div></div><div class="stat-box"><div class="num">9</div><div class="lbl">篇行业深度分析</div></div></div>
+
+  <div class="section-title">一、政策规划</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">GEAPP Energy Alliance</span>
+    <span class="card-date">2026-06-18</span>
+  </div>
+  <h3>危机沟通：气候行动需要做好准备，而不仅仅是应对</h3>
+  
+  
+  <div class="source">来源：<a href="https://energyalliance.org/crisis-communication-climate-action-requires-preparedness-not-just-response/" target="_blank" rel="noopener">GEAPP Energy Alliance</a></div>
+</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">FSD Africa</span>
+    <span class="card-date">2026-06-22</span>
+  </div>
+  <h3>启动绿色项目准备基金以释放加纳气候基础设施投资</h3>
+  <div class="summary">FSD Africa、英国高级专员公署和加纳基础设施投资基金 (GIIF) 启动了绿色项目准备基金 (PPF)，该平台旨在通过准备气候相关的投资项目来弥补加纳的基础设施融资缺口。该设施昨天晚上在阿克拉正式启动。 PPF 最初由英国政府承诺提供 500 万英镑的资金，是在总统任期内首次宣布的。作为英国-加纳增长伙伴关系的一部分，约翰·德拉马尼·马哈马对英国的访问。该设施将由 FSD Af 托管和管理</div>
+  
+  <div class="source">来源：<a href="https://fsdafrica.org/launch-of-green-project-preparation-facility-to-unlock-investment-in-climate-infrastructure-in-ghana/" target="_blank" rel="noopener">FSD Africa</a></div>
+</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">FSD Africa</span>
+    <span class="card-date">2026-06-19</span>
+  </div>
+  <h3>负责任的投资已满 20 岁。下一章必须写在风险最大、机遇最大的地方</h3>
+  <div class="summary"><p class="mb">**</p>
+<p class="mb">【政策要点】</p>
+<p class="mb"><strong>**</strong></p>
+<ul class="bullets">
+<li>**政策名称**：负责任投资原则（PRI）后续发展框架；**发布机构**：联合国负责任投资原则组织（PRI）；**覆盖范围**：全球资产管理行业。</li>
+<li>**目标数字**：无具体量化指标，旨在将“负责任投资”确立为全球行业的运营词汇和操作惯例。</li>
+<li>**时间节点**：PRI成立20周年之际（2026年5月14日约翰内斯堡会议），标志着从早期签署者到行业主流标准的转变。</li>
+</ul>
+<p class="mb">**</p>
+<p class="mb">【影响分析】</p>
+<p class="mb"><strong>**</strong></p>
+<ul class="bullets">
+<li>**对行业/企业的直接影响**：负责任投资已不再是边缘理念，而是成为全球金融业的通用语言和核心运营标准，深刻改变了资产所有者的行为模式和沟通话语体系。</li>
+<li>**实施挑战或风险**：虽然已成为行业惯例，但报告强调下一阶段需在风险最尖锐、机遇最大的地区（隐含指非洲等新兴市场）书写新篇章，意味着需解决地域不平衡及深化实质性问题。</li>
+</ul>
+<p class="mb">**</p>
+<p class="mb">【前景】</p>
+<p class="mb">**</p>
+<p class="mb">负责任投资已进入成熟期，未来关键在于在高风险高回报区域深化实践，以应对全球不平等的风险分布并捕捉新兴机遇。</p></div>
+  
+  <div class="source">来源：<a href="https://fsdafrica.org/responsible-investing-turns-20-the-next-chapter-must-be-written-where-the-risks-are-sharpest-and-the-opportunity-greatest/" target="_blank" rel="noopener">FSD Africa</a></div>
+</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">PV Magazine · 太阳能</span>
+    <span class="card-date">2026-06-23</span>
+  </div>
+  <h3>比利时、荷兰和德国电价创历史新高</h3>
+  <div class="summary"><p class="mb"><strong>行业事件：</strong></p>
+<ul class="bullets">
+<li>受欧洲持续热浪影响，比利时、荷兰和德国在6月23日创下日内电力价格纪录。高温导致光伏板效率降低，同时抑制了联合循环燃气轮机（CCGT）的发电效能。</li>
+<li>傍晚时段阳光减弱而空调需求激增，造成供需严重失衡，迫使市场依赖高价电源维持平衡。预计热浪将持续至7月初。</li>
+</ul>
+<p class="mb"><strong>数据洞察：</strong></p>
+<ul class="bullets">
+<li>比利时盘中电价创历史新高，达1,038.25欧元/MWh；荷兰为902.47欧元/MWh；丹麦DK1区域为786.83欧元/MWh；德国为747.10欧元/MWh。</li>
+<li>德国残余负荷升至51.5 GW，较同期典型水平高出约10.4 GW。</li>
+<li>CCGT每升温1摄氏度，发电量损失0.5%-0.9%。</li>
+</ul>
+<p class="mb">此事件凸显极端天气对可再生能源出力及传统电力稳定性的双重冲击，加剧了欧洲电网的短期供应紧张局面。</p></div>
+  
+  <div class="source">来源：<a href="https://www.pv-magazine.com/2026/06/23/record-high-power-prices-in-belgium-netherlands-and-germany/" target="_blank" rel="noopener">PV Magazine</a></div>
+</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">PV Magazine · 太阳能</span>
+    <span class="card-date">2026-06-23</span>
+  </div>
+  <h3>Moonwatt 展示适用于公用事业规模应用的钠离子存储解决方案</h3>
+  <div class="summary"><p class="mb">**非洲离网太阳能行业快讯：钠离子电池模块化方案亮相**</p>
+<p class="mb">荷兰初创企业Moonwatt在慕尼黑Smarter E展会上展示了专为公用事业级光伏设计的模块化钠离子储能系统，为非洲离网及大型地面电站提供新选择。该系统摒弃传统集装箱式布局，采用无锂、钴的NFPP钠离子电芯，通过被动冷却技术实现零辅助能耗，较主动冷却锂电系统每循环节能约25%。</p>
+<p class="mb">核心产品Monopod支持DC/AC耦合架构，DC耦合版宣称将电气平衡成本降低50%，光电到网效率高达94%；AC耦合版效率达93%，并省去额外变压器安装。系统具备高扩展性，单逆变器块可集成1至7个单元，功率覆盖50kW至354kW，能量容量202kWh至1,416kWh，寿命达12,000次循环。其IP68/IP65防护等级及轻量化设计（单体3.5吨），特别适合非洲高温环境下对低维护、高可靠性储能的需求，有望推动离网光伏系统降本增效。</p></div>
+  
+  <div class="source">来源：<a href="https://www.pv-magazine.com/2026/06/23/moonwatt-showcases-sodium-ion-storage-solutions-for-utility-scale-applications/" target="_blank" rel="noopener">PV Magazine</a></div>
+</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">PV Tech</span>
+    <span class="card-date">2026-06-23</span>
+  </div>
+  <h3>Intersolar Europe 2026：SMA Solar 推出并网逆变器和管理软件</h3>
+  <div class="summary"><p class="mb"><strong>行业事件：</strong></p>
+<ul class="bullets">
+<li>德国逆变器制造商SMA Solar在Intersolar Europe 2026上发布“稳定性增强型直流耦合混合解决方案”，包含构网型逆变器及电厂管理软件，旨在应对市场挑战并提升项目韧性。</li>
+<li>该方案整合了Sunny Central存储UP-S电池逆变器和Sunny Central FLEX DC/DC Skid，初期将在澳大利亚、德国和英国推出，预计7月初报价。</li>
+</ul>
+<p class="mb"><strong>数据洞察：</strong></p>
+<ul class="bullets">
+<li>SMA采用SiC MOSFET半导体技术，实现高达99.5%的转换效率，驱动电网稳定运行。</li>
+<li>随着混合解决方案成为确保长期项目可行性和稳定收入的关键，SMA重申其在亏损后重启美国制造的战略调整，以强化全球竞争力。</li>
+</ul></div>
+  
+  <div class="source">来源：<a href="https://www.pv-tech.org/intersolar-europe-2026-sma-solar-launches-suite-of-products-mvps-grid-forming-inverters-management-software/" target="_blank" rel="noopener">PV Tech</a></div>
+</div>
+<div class="section-title">二、投资数据</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">PV Tech</span>
+    <span class="card-date">2026-06-23</span>
+  </div>
+  <h3>I Squared Capital 与 GS E&C 合资公司将在韩国开发 1.5GW 太阳能光伏发电和 BESS</h3>
+  <div class="summary"><p class="mb">标题：I Squared Capital与GS E&C合资进军韩国可再生能源市场</p>
+<p class="mb"><strong>投资亮点：</strong></p>
+<ul class="bullets">
+<li>**投资规模与参与方**：基础设施投资机构I Squared Capital与韩国建设巨头GS E&C建立合资企业（JV），共同开发韩国可再生能源项目。</li>
+<li>**融资与合作模式**：采用合资模式，由GS E&C通过专门的开发公司（DevCo）负责前期机会开发、许可审批、选址及项目管理，结合I Squared Capital的资金与投资策略。</li>
+<li>**增长背景**：合作契合韩国政府加速能源转型的战略，旨在支持该国从37GW向2030年100GW可再生能源装机容量的跃升目标。</li>
+</ul>
+<p class="mb"><strong>关键数据：</strong></p>
+<ul class="bullets">
+<li>**关键数字**：计划至2035年累计开发1.5GW的光伏（PV）和电池储能系统（BESS）。其中，光伏项目占比超过半数，约为820MW。</li>
+<li>**政策对比**：韩国政府目标是将运营中的可再生能源容量在十年内几乎翻三倍，显示出巨大的市场增长潜力和政策驱动力。</li>
+</ul>
+<p class="mb">【行业展望】</p>
+<p class="mb">随着韩国确立2030年可再生能源发电占比20%的目标，韩企技术优势与国际资本的结合将推动该国光伏及储能项目进入规模化开发快车道。</p></div>
+  
+  <div class="source">来源：<a href="https://www.pv-tech.org/i-squared-capital-gs-ec-jv-to-develop-1-5gw-solar-pv-bess-in-south-korea/" target="_blank" rel="noopener">PV Tech</a></div>
+</div>
+<div class="section-title">三、行业动态</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">GEAPP Energy Alliance</span>
+    <span class="card-date">2026-06-17</span>
+  </div>
+  <h3>构建最后一英里</h3>
+  <div class="summary"><p class="mb"><strong>行业事件：</strong></p>
+<ul class="bullets">
+<li>**全球能源联盟（GEAPP）**联合Lightrock等机构发布新报告，旨在解决非洲离网太阳能融资瓶颈。尽管“Mission 300”已实现5000万连接，但服务偏远及贫困群体的难度加大。</li>
+<li>**核心趋势**：提出从“孤立部署”转向“混合技术+模块化扩展”，通过划定服务区域并保障运营收入，将电气化视为基础设施融资，以吸引私人资本。</li>
+</ul>
+<p class="mb"><strong>数据洞察：</strong></p>
+<ul class="bullets">
+<li>**关键挑战**：私人电气化融资持续下降，现有项目缺乏规模与质量，难以满足各国需求。</li>
+<li>**成本结构**：长期服务价格日益由运营成本主导，而非一次性资本支出；密度对降低成本至关重要。</li>
+<li>**目标导向**：强调供电需具备“普遍性、持续性、充足性”，以确保电力真正赋能农业与工商业发展，助力SDG7目标达成。</li>
+</ul></div>
+  
+  <div class="source">来源：<a href="https://energyalliance.org/structuring-for-the-last-mile/" target="_blank" rel="noopener">GEAPP Energy Alliance</a></div>
+</div>
+<div class="section-title">四、重点企业动态</div>
+<div class="company-card">
+  <div class="card-top">
+    <span class="tag">企业动态</span>
+    <span class="card-date" style="color:#aaa">日期未知</span>
+  </div>
+  <h3>M-KOPA 加纳影响报告显示智能手机正在释放健康保险和经济机会</h3>
+  <div class="summary">政策要点： - **政策名称**：M-KOPA“不止于手机”（More than a Phone）嵌入式服务平台；**发布机构**：M-KOPA Ghana；**覆盖范围**：加纳全国16个地区。 - **目标数字**：使44%的客户首次获得产品或服务，其中67%的客户通过该平台首次获取健康保险。 - **时间节点**：平台于2025年1月上市，自2021年启动以来累计解锁超12亿塞地信贷。</div>
+  <div class="source">来源：<a href="https://www.m-kopa.com/newsroom/m-kopa-ghana-impact-report-reveals-smartphones-are-unlocking-health-insurance-and-economic-opportunity-for-every-day-earners" target="_blank" rel="noopener">M-KOPA</a></div>
+</div>
+
+
+  <div class="footer">
+    Africa Solar News · 2026-06-24 · 每周更新
+  </div>
+
+</div>
+</body>
+</html>
