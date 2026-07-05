@@ -1,0 +1,55 @@
+{
+  "week": "2026-W28",
+  "date": "2026-07-06",
+  "issue": 6,
+  "highlights": [
+    {
+      "num": "9.2MW",
+      "label": "9.2MWp 太阳能微电网 行业事"
+    },
+    {
+      "num": "2",
+      "label": "篇行业深度分析"
+    },
+    {
+      "num": "2",
+      "label": "家重点企业跟踪"
+    },
+    {
+      "num": "2",
+      "label": "大政策动向"
+    }
+  ],
+  "sections": [
+    {
+      "title": "一、政策规划",
+      "items": [
+        {
+          "tag": "PV Tech",
+          "title": "AGL 将在南澳大利亚交付 9.2MWp 太阳能微电网",
+          "summary": "<p class=\"mb\"><strong>行业事件：</strong></p>\n<ul class=\"bullets\">\n<li>澳大利亚能源巨头AGL宣布在南澳州Riverland地区的Koompartu农场交付一座9.2MWp光储微电网。这是澳大利亚最大的私人非采矿微电网之一，由美国私募股权基金RRG Capital Management投资，AGL负责建设、拥有及运营，并通过20年购电协议（PPA）提供电力。</li>\n<li>项目采用“太阳能+储能”模式，配备单轴跟踪光伏阵列及10.2MWh电池储能系统，旨在解决大型农业企业的能源可靠性需求，并减轻配电网压力。</li>\n</ul>\n<p class=\"mb\"><strong>数据洞察：</strong></p>\n<ul class=\"bullets\">\n<li>系统规模达9.2MWp，覆盖15公顷土地，包含超15,600块组件及19公里地下高压线路。</li>\n<li>该农场峰值用电需求为6.7MW。预计项目实施后，柴油发电机使用量将大幅减少88%，显着降低碳排放并提升灌溉系统的供电韧性。</li>\n</ul>",
+          "bullets": [],
+          "source": "PV Tech",
+          "source_url": "https://www.pv-tech.org/agl-to-deliver-9-2mwp-solar-microgrid-in-south-australia/",
+          "date": "2026-07-05",
+          "sub_category": "policy"
+        }
+      ]
+    },
+    {
+      "title": "二、投资数据",
+      "items": [
+        {
+          "tag": "PV Tech",
+          "title": "不丹获得亚行1.6亿美元贷款用于310兆瓦太阳能扩建项目",
+          "summary": "<p class=\"mb\">**标题：不丹获亚行1.6亿美元贷款扩建310MW光伏，开启能源转型新篇章**</p>\n<p class=\"mb\">**</p>\n<p class=\"mb\">【投资亮点】</p>\n<p class=\"mb\"><strong>**</strong></p>\n<ul class=\"bullets\">\n<li>**投资规模与参与方**：总投资规模达1.6亿美元，由亚洲开发银行（ADB）提供贷款支持。主要实施方包括不丹国有Druk Green Power Corporation（DGPC）及印度塔塔电力可再生能源公司（Tata Power）。</li>\n<li>**融资模式创新**：该项目标志着不丹能源领域首个以私营部门为主的公私合作伙伴关系（PPP），其中150MW Dramthang项目通过合资形式交付，旨在吸引私人资本并降低对水电的季节性依赖。</li>\n<li>**增长驱动力**：受冬季水电出力下降及需求激增影响，不丹亟需多元化电力结构，该项目是缓解电力短缺、减少昂贵进口电力的关键举措。</li>\n</ul>\n<p class=\"mb\">**</p>\n<p class=\"mb\">【关键数据】</p>\n<p class=\"mb\"><strong>**</strong></p>\n<ul class=\"bullets\">\n<li>**关键指标**：贷款金额1.6亿美元；新增光伏装机容量至少310MW（含Wobthang 120MW、Pedseling 40MW、Dramthang 150MW）；配套建设46公里输电线路。</li>\n<li>**市场趋势**：峰值冬季用电需求从2021年的487MW飙升至2025年的1,477MW，预计2030年供需缺口将超过1GW；国家长期目标为2040年前部署5GW太阳能。</li>\n</ul>\n<p class=\"mb\">**</p>\n<p class=\"mb\">【行业展望】</p>\n<p class=\"mb\">**</p>\n<p class=\"mb\">随着首个私营主导PPP落地及产能扩张，不丹正加速从单一水电依赖向“水光互补”的多元化、韧性能源体系转型。</p>",
+          "bullets": [],
+          "source": "PV Tech",
+          "source_url": "https://www.pv-tech.org/bhutan-secures-us160-million-adb-loan-for-310mw-solar-expansion/",
+          "date": "2026-07-03",
+          "sub_category": "investment"
+        }
+      ]
+    }
+  ]
+}
