@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>非洲离网太阳能市场资讯 2026-07-27 第 7 期</title>
+<style>/* ===== 非洲离网太阳能市场资讯 - 样式 ===== */
+:root {
+  --bg: #f8f9fa;
+  --card: #ffffff;
+  --text: #1a1a2e;
+  --text-secondary: #555770;
+  --text-tertiary: #8e8ea0;
+  --border: #e8e8ee;
+  --green-dark: #0F6E56;
+  --green-light: #1D9E75;
+  --green-bg: #E1F5EE;
+  --green-tag-bg: rgba(15,110,86,0.08);
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans SC", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+.container {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 32px 24px 56px;
+}
+
+/* ===== Header ===== */
+.header {
+  background: var(--green-dark);
+  color: #fff;
+  padding: 36px 32px 28px;
+  border-radius: var(--radius-lg);
+  margin-bottom: 28px;
+}
+.header h1 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 4px;
+  letter-spacing: -0.01em;
+}
+.header .subtitle {
+  font-size: 15px;
+  opacity: 0.78;
+  font-weight: 400;
+}
+.header .meta {
+  display: flex;
+  gap: 10px;
+  margin-top: 18px;
+  flex-wrap: wrap;
+}
+.header .meta span {
+  background: rgba(255,255,255,0.15);
+  border-radius: var(--radius-sm);
+  padding: 4px 12px;
+  font-size: 13px;
+  letter-spacing: 0.02em;
+}
+
+/* ===== Stats Row ===== */
+.section-title {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text-tertiary);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin: 36px 0 14px;
+}
+.stats-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin-bottom: 10px;
+}
+.stat-box {
+  background: var(--card);
+  border: 0.5px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 18px 16px;
+  text-align: center;
+}
+.stat-box .num {
+  font-size: 26px;
+  font-weight: 800;
+  color: var(--green-dark);
+  margin-bottom: 6px;
+}
+.stat-box .lbl {
+  font-size: 12px;
+  color: var(--text-secondary);
+  line-height: 1.4;
+}
+@media (max-width: 560px) {
+  .stats-row { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* ===== News Card ===== */
+.news-card {
+  background: var(--card);
+  border: 0.5px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 22px 24px;
+  margin-bottom: 16px;
+  transition: border-color 0.15s;
+}
+.news-card:hover { border-color: var(--green-light); }
+.news-card .tag {
+  display: inline-block;
+  background: var(--green-tag-bg);
+  color: var(--green-dark);
+  font-size: 12px;
+  font-weight: 500;
+  padding: 3px 12px;
+  border-radius: 100px;
+}
+.news-card .card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.news-card .card-date {
+  font-size: 12px;
+  color: var(--text-tertiary);
+  white-space: nowrap;
+}
+.news-card h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: var(--text);
+}
+/* ===== 通用：卡片内列表 & 段落样式 ===== */
+.news-card .summary,
+.company-card .summary {
+  font-size: 14px;
+  color: #000000;
+  margin-bottom: 12px;
+  line-height: 1.7;
+}
+.news-card .bullets,
+.company-card .bullets {
+  list-style: none;
+  margin-bottom: 12px;
+}
+.news-card .bullets li,
+.company-card .bullets li {
+  font-size: 13px;
+  color: var(--text-secondary);
+  padding: 3px 0 3px 18px;
+  position: relative;
+  word-break: break-word;
+}
+.news-card .bullets li::before,
+.company-card .bullets li::before {
+  content: "";
+  position: absolute;
+  left: 2px;
+  top: 10px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--green-light);
+}
+.news-card .mb,
+.company-card .mb { margin-bottom: 10px; }
+.news-card .bullets,
+.company-card .bullets { margin-bottom: 0; }
+.news-card .source {
+  font-size: 12px;
+  color: var(--text-tertiary);
+  margin-top: 4px;
+}
+.news-card .source a {
+  color: var(--green-dark);
+  text-decoration: none;
+}
+.news-card .source a:hover { text-decoration: underline; }
+
+/* ===== Company Card ===== */
+.company-card {
+  background: var(--card);
+  border: 0.5px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 22px 24px;
+  margin-bottom: 16px;
+  transition: border-color 0.15s;
+}
+.company-card:hover { border-color: var(--green-light); }
+.company-card .tag {
+  display: inline-block;
+  background: var(--green-tag-bg);
+  color: var(--green-dark);
+  font-size: 12px;
+  font-weight: 500;
+  padding: 3px 12px;
+  border-radius: 100px;
+}
+.company-card .card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.company-card .card-date {
+  font-size: 12px;
+  color: var(--text-tertiary);
+  white-space: nowrap;
+}
+.company-card h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: var(--text);
+}
+.company-card .source {
+  font-size: 12px;
+  color: var(--text-tertiary);
+  margin-top: 10px;
+}
+.company-card .source a {
+  color: var(--green-dark);
+  text-decoration: none;
+}
+.company-card .source a:hover { text-decoration: underline; }
+
+/* ===== Archive Nav ===== */
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.nav-bar a {
+  font-size: 14px;
+  color: var(--green-dark);
+  text-decoration: none;
+  padding: 4px 0;
+  font-weight: 500;
+}
+.nav-bar a:hover { text-decoration: underline; }
+
+/* ===== Archive Page ===== */
+.archive-list {
+  list-style: none;
+}
+.archive-item {
+  background: var(--card);
+  border: 0.5px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 18px 22px;
+  margin-bottom: 12px;
+  transition: border-color 0.15s;
+}
+.archive-item:hover { border-color: var(--green-light); }
+.archive-item a {
+  text-decoration: none;
+  color: var(--text);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.archive-item .issue-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+.archive-item .issue-meta {
+  font-size: 13px;
+  color: var(--text-tertiary);
+  margin-top: 6px;
+}
+.archive-item .issue-count {
+  font-size: 14px;
+  color: var(--green-dark);
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+/* ===== Footer ===== */
+.footer {
+  text-align: center;
+  font-size: 13px;
+  color: var(--text-tertiary);
+  border-top: 0.5px solid var(--border);
+  padding-top: 24px;
+  margin-top: 40px;
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+  <div class="nav-bar">
+    <a href="archive.html">← 查看往期</a>
+    <span style="font-size:13px;color:var(--text-tertiary)">第 7 期</span>
+  </div>
+
+  <div class="header">
+    <h1>Africa Off-Grid Solar Market News</h1>
+    <p class="subtitle">非洲离网太阳能市场资讯</p>
+    <div class="meta">
+      <span>第 7 期</span>
+      <span>2026-07-27</span>
+      <span>行业动态 · 企业跟踪</span>
+    </div>
+  </div>
+
+  <div class="section-title">本期数据亮点</div>
+  <div class="stats-row"><div class="stat-box"><div class="num">48%</div><div class="lbl">48%可再生能源）：解决超过2</div></div><div class="stat-box"><div class="num">20MW</div><div class="lbl">20MW/40MWh</div></div><div class="stat-box"><div class="num">15GW</div><div class="lbl">15GW卢旺加计划部署5GWe </div></div><div class="stat-box"><div class="num">6GW</div><div class="lbl">6GW工厂生产 HJT 太阳能</div></div></div>
+
+  <div class="section-title">一、政策规划</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">GEAPP Energy Alliance</span>
+    <span class="card-date">2026-07-24</span>
+  </div>
+  <h3>马拉维委托第一个独立公用事业规模的电池存储项目，以增强电网可靠性并释放能源</h3>
+  <div class="summary"><p class="mb">**政策要点**：</p>
+<p class="mb">马拉维政府联合全球能源联盟（GEAPP）与马拉维电力公司（ESCOM），于2026年7月24日正式启用该国首个独立商用级电池储能系统（BESS）。该项目位于利隆圭卡内戈，装机容量为20MW/40MWh，并获得2000万美元催化性赠款支持。</p>
+<p class="mb">**影响分析**：</p>
+<p class="mb">*   **行业/企业影响**：项目直接稳定国家电网电压并减少系统损耗，预计每年减少1万吨碳排放；同时释放约100MW的现有可再生能源发电能力，降低了对昂贵柴油备用发电的依赖，提升了工商业及居民用电的可及性与可靠性。</p>
+<p class="mb">*   **实施挑战**：马拉维电网长期面临水电占比过高、弃风弃光严重及基础设施老化的结构性约束，此次部署标志着从单一技术向将储能整合为核心电网基础设施的战略转型，旨在构建更具韧性的现代电力系统以应对气候冲击。</p>
+<p class="mb">**前景**：</p>
+<p class="mb">作为“未来电网”计划的关键试点，该工程为马拉维乃至新兴市场国家提供了通过数字化和储能技术实现能源安全与经济可持续发展的可复制范本。</p></div>
+  
+  <div class="source">来源：<a href="https://energyalliance.org/malawi-commissions-first-standalone-utility-scale-battery-storage/" target="_blank" rel="noopener">GEAPP Energy Alliance</a></div>
+</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">FSD Africa</span>
+    <span class="card-date">2026-07-23</span>
+  </div>
+  <h3>投资背后：解锁低收入保障性租赁住房市场</h3>
+  <div class="summary"><p class="mb"><strong>政策要点：</strong></p>
+<ul class="bullets">
+<li>（政策名称、发布机构、覆盖范围）：南非国家住房计划，FSD Africa，覆盖城镇密集城市社区的低收入可负担租赁住房市场。</li>
+<li>（目标数字：如48%可再生能源）：解决超过200万套的全国住房缺口。</li>
+<li>（时间节点）：未明确具体时间节点，但强调当前正在执行中。</li>
+</ul>
+<p class="mb"><strong>影响分析：</strong></p>
+<ul class="bullets">
+<li>（对行业/企业的直接影响）：微型开发商和土地所有者在建设中起关键作用，但与传统金融系统的连接不足限制了其扩展能力。</li>
+<li>（实施挑战或风险）：非正式住房市场与正规金融体系之间的脱节是主要障碍，导致难以扩大规模以满足需求。</li>
+</ul>
+<p class="mb">【前景】</p>
+<p class="mb">一句话总结。通过加强非正式住房市场与金融体系的对接，有望有效缓解南非严重的低收入住房短缺问题。</p></div>
+  
+  <div class="source">来源：<a href="https://fsdafrica.org/behind-the-investment-unlocking-the-low-income-affordable-rental-housing-market/" target="_blank" rel="noopener">FSD Africa</a></div>
+</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">PV Magazine · 太阳能</span>
+    <span class="card-date">2026-07-24</span>
+  </div>
+  <h3>如何获胜，如何不输：足球世界杯决赛教会我们如何引领能源转型</h3>
+  <div class="summary"><p class="mb">【行业事件】</p>
+<p class="mb">Women in Solar+ Europe与Solar+ Leaders创始人Carmen Madrid于2026年7月24日发表观点文章，借西班牙vs阿根廷世界杯决赛案例，探讨能源转型中集体领导、情商、品格与问责制的重要性。文章强调，在高压环境下，团队协作优于个人英雄主义，情绪管理与责任承担决定组织成败。</p>
+<p class="mb"><strong>数据洞察：</strong></p>
+<ul class="bullets">
+<li>无具体市场或技术数据，但引用沃伦·巴菲特名言“从未与品行不佳者达成好交易”，凸显品格在领导力中的权重；</li>
+<li>西班牙队被评价为“最团结球队”，体现团队凝聚力对绩效的关键作用；</li>
+<li>阿根廷队因情绪失控导致行为失当，反衬情绪智力在危机管理中的决定性影响。</li>
+</ul></div>
+  
+  <div class="source">来源：<a href="https://www.pv-magazine.com/2026/07/24/how-to-win-and-how-not-to-lose-what-the-football-world-cup-final-teaches-us-about-leading-the-energy-transition/" target="_blank" rel="noopener">PV Magazine</a></div>
+</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">Energy News Network</span>
+    <span class="card-date">2026-07-26</span>
+  </div>
+  <h3>由于小型反应堆适合较小的电网，非洲核电取得了进步</h3>
+  <div class="summary"><p class="mb"><strong>政策要点：</strong></p>
+<ul class="bullets">
+<li>**非洲核能发展计划**，由非洲联盟（African Union）及国际原子能机构（IAEA）推动，覆盖至少10个国家（包括埃及、卢旺加、加纳等），旨在通过小型模块化反应堆（SMR）提升电力供应。</li>
+<li>**目标数字**：到2035年中，大陆核电装机容量约15GW；卢旺加计划部署5GWe SMR fleet，首座预计2030年代初投运。</li>
+<li>**时间节点**：埃及El Dabaa核电站首台机组2028年运行；多国计划在2030年代初期至中期建成首座核电站。</li>
+</ul>
+<p class="mb"><strong>影响分析：</strong></p>
+<ul class="bullets">
+<li>**对行业/企业的直接影响**：吸引Holtec、Rosatom、NuScale等国际供应商参与非洲市场，推动本地能源基础设施升级与产业链合作。</li>
+<li>**实施挑战或风险**：多数国家缺乏即时财政能力支撑核电厂建设；融资依赖世界银行、OECD等机构对新项目的审批与资金支持；公众信任与监管框架尚待完善。</li>
+</ul>
+<p class="mb">【前景】</p>
+<p class="mb">随着小堆技术适配非洲电网规模与国际金融支持落地，核电正成为区域能源转型的重要选项，但规模化仍受制于资金与制度准备度。</p></div>
+  
+  <div class="source">来源：<a href="https://energy-news-network.com/industry-news/africa-nuclear-power-small-modular-reactors/" target="_blank" rel="noopener">Energy News Network</a></div>
+</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">Energy News Network</span>
+    <span class="card-date">2026-07-25</span>
+  </div>
+  <h3>Exxaro计划在其Lephalale太阳能发电厂建设100MW电池和第二阶段</h3>
+  <div class="summary"><p class="mb">**政策要点**：南非Exxaro矿业公司旗下可再生能源子公司Cennergi宣布，计划在其Lephalale太阳能电站（68MW）旁建设100MW电池储能系统，并启动二期扩建。该项目旨在为Grootegeluk煤矿供电，目标是在2030年前实现所有煤矿由绿能覆盖。当前Cennergi已持有近500MW风能与光伏装机，预计明年末达1,000MW，2030年达1,600MW。</p>
+<p class="mb">**影响分析**：直接降低矿区电力成本（年省超R1亿），减少Scope II排放约17%，提升运营韧性与长期竞争力；但项目未公布具体投资与时间表，且依赖内部消纳+有限并网（最多20MW至Eskom），电网协同与融资落地存在不确定性。</p>
+<p class="mb">**前景**：Exxaro正推动“矿-能一体化”绿色转型，以自发自用模式重塑非洲采矿业能源结构，为资源型经济体脱碳提供可复制范本。</p></div>
+  
+  <div class="source">来源：<a href="https://energy-news-network.com/industry-news/exxaro-lephalale-solar-battery-second-phase/" target="_blank" rel="noopener">Energy News Network</a></div>
+</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">PV Tech</span>
+    <span class="card-date">2026-07-24</span>
+  </div>
+  <h3>阿特斯阳光电力开始在美国 6GW 工厂生产 HJT 太阳能电池</h3>
+  <div class="summary"><p class="mb">作为非洲能源政策分析师，我注意到您提供的文章标题和正文内容（Canadian Solar在美国投产HJT电池厂）与“非洲能源政策”主题存在明显偏差。本文主要报道美国本土光伏制造业动态，未涉及任何非洲国家政策、目标数字或区域影响分析。</p>
+<p class="mb">因此，我无法基于该非相关性文本生成符合要求的政策摘要。建议提供聚焦非洲可再生能源政策（如各国2030年可再生能源占比目标、电网扩张计划等）的原始材料，以便我准确完成分析任务。</p></div>
+  
+  <div class="source">来源：<a href="https://www.pv-tech.org/canadian-solar-begins-us-hjt-solar-cell-production-at-6gw-facility/" target="_blank" rel="noopener">PV Tech</a></div>
+</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">PV Tech</span>
+    <span class="card-date">2026-07-24</span>
+  </div>
+  <h3>HOPS 支持 Pantheon Atlas 人工智能数据中心项目的 500MW 太阳能光伏设施</h3>
+  <div class="summary"><p class="mb">**行业快讯：克罗地亚批准Pantheon Atlas 1GW AI数据中心及500MW光伏项目**</p>
+<p class="mb">**</p>
+<p class="mb">【行业事件】</p>
+<p class="mb">**</p>
+<p class="mb">*   **地点与参与方：** 克罗地亚托普斯科（Topusko），由HOPS（国家传输系统运营商）批准，投资方为Pantheon Atlas。</p>
+<p class="mb">*   **技术亮点：** 项目包含一个500MW太阳能PV设施及8,000MWh电池储能系统（BESS），旨在满足Nvidia千兆瓦级AI工厂标准；同时配套超过5亿欧元的输电基础设施升级，解决区域电网瓶颈。</p>
+<p class="mb">**</p>
+<p class="mb">【数据洞察】</p>
+<p class="mb">**</p>
+<p class="mb">*   **规模数据：** 规划占地310英亩，可扩展至450英亩，总容量达1GW，可用IT负载800MW。</p>
+<p class="mb">*   **投资与影响：** 预计2027年初动工，建成后将向克罗地亚政府移交基础设施；该项目将释放超5GW的新增可再生能源发电潜力，并填补中东欧地区千兆瓦级AI算力中心的空白。</p></div>
+  
+  <div class="source">来源：<a href="https://www.pv-tech.org/hops-backs-500mw-solar-pv-facility-pantheon-atlas-ai-data-centre-project/" target="_blank" rel="noopener">PV Tech</a></div>
+</div>
+
+
+  <div class="footer">
+    Africa Solar News · 2026-07-27 · 每周更新
+  </div>
+
+</div>
+</body>
+</html>
