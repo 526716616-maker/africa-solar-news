@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>非洲离网太阳能市场资讯 2026-08-03 第 8 期</title>
+<style>/* ===== 非洲离网太阳能市场资讯 - 样式 ===== */
+:root {
+  --bg: #f8f9fa;
+  --card: #ffffff;
+  --text: #1a1a2e;
+  --text-secondary: #555770;
+  --text-tertiary: #8e8ea0;
+  --border: #e8e8ee;
+  --green-dark: #0F6E56;
+  --green-light: #1D9E75;
+  --green-bg: #E1F5EE;
+  --green-tag-bg: rgba(15,110,86,0.08);
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans SC", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+.container {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 32px 24px 56px;
+}
+
+/* ===== Header ===== */
+.header {
+  background: var(--green-dark);
+  color: #fff;
+  padding: 36px 32px 28px;
+  border-radius: var(--radius-lg);
+  margin-bottom: 28px;
+}
+.header h1 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 4px;
+  letter-spacing: -0.01em;
+}
+.header .subtitle {
+  font-size: 15px;
+  opacity: 0.78;
+  font-weight: 400;
+}
+.header .meta {
+  display: flex;
+  gap: 10px;
+  margin-top: 18px;
+  flex-wrap: wrap;
+}
+.header .meta span {
+  background: rgba(255,255,255,0.15);
+  border-radius: var(--radius-sm);
+  padding: 4px 12px;
+  font-size: 13px;
+  letter-spacing: 0.02em;
+}
+
+/* ===== Stats Row ===== */
+.section-title {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text-tertiary);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin: 36px 0 14px;
+}
+.stats-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin-bottom: 10px;
+}
+.stat-box {
+  background: var(--card);
+  border: 0.5px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 18px 16px;
+  text-align: center;
+}
+.stat-box .num {
+  font-size: 26px;
+  font-weight: 800;
+  color: var(--green-dark);
+  margin-bottom: 6px;
+}
+.stat-box .lbl {
+  font-size: 12px;
+  color: var(--text-secondary);
+  line-height: 1.4;
+}
+@media (max-width: 560px) {
+  .stats-row { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* ===== News Card ===== */
+.news-card {
+  background: var(--card);
+  border: 0.5px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 22px 24px;
+  margin-bottom: 16px;
+  transition: border-color 0.15s;
+}
+.news-card:hover { border-color: var(--green-light); }
+.news-card .tag {
+  display: inline-block;
+  background: var(--green-tag-bg);
+  color: var(--green-dark);
+  font-size: 12px;
+  font-weight: 500;
+  padding: 3px 12px;
+  border-radius: 100px;
+}
+.news-card .card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.news-card .card-date {
+  font-size: 12px;
+  color: var(--text-tertiary);
+  white-space: nowrap;
+}
+.news-card h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: var(--text);
+}
+/* ===== 通用：卡片内列表 & 段落样式 ===== */
+.news-card .summary,
+.company-card .summary {
+  font-size: 14px;
+  color: #000000;
+  margin-bottom: 12px;
+  line-height: 1.7;
+}
+.news-card .bullets,
+.company-card .bullets {
+  list-style: none;
+  margin-bottom: 12px;
+}
+.news-card .bullets li,
+.company-card .bullets li {
+  font-size: 13px;
+  color: var(--text-secondary);
+  padding: 3px 0 3px 18px;
+  position: relative;
+  word-break: break-word;
+}
+.news-card .bullets li::before,
+.company-card .bullets li::before {
+  content: "";
+  position: absolute;
+  left: 2px;
+  top: 10px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--green-light);
+}
+.news-card .mb,
+.company-card .mb { margin-bottom: 10px; }
+.news-card .bullets,
+.company-card .bullets { margin-bottom: 0; }
+.news-card .source {
+  font-size: 12px;
+  color: var(--text-tertiary);
+  margin-top: 4px;
+}
+.news-card .source a {
+  color: var(--green-dark);
+  text-decoration: none;
+}
+.news-card .source a:hover { text-decoration: underline; }
+
+/* ===== Company Card ===== */
+.company-card {
+  background: var(--card);
+  border: 0.5px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 22px 24px;
+  margin-bottom: 16px;
+  transition: border-color 0.15s;
+}
+.company-card:hover { border-color: var(--green-light); }
+.company-card .tag {
+  display: inline-block;
+  background: var(--green-tag-bg);
+  color: var(--green-dark);
+  font-size: 12px;
+  font-weight: 500;
+  padding: 3px 12px;
+  border-radius: 100px;
+}
+.company-card .card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.company-card .card-date {
+  font-size: 12px;
+  color: var(--text-tertiary);
+  white-space: nowrap;
+}
+.company-card h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: var(--text);
+}
+.company-card .source {
+  font-size: 12px;
+  color: var(--text-tertiary);
+  margin-top: 10px;
+}
+.company-card .source a {
+  color: var(--green-dark);
+  text-decoration: none;
+}
+.company-card .source a:hover { text-decoration: underline; }
+
+/* ===== Archive Nav ===== */
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.nav-bar a {
+  font-size: 14px;
+  color: var(--green-dark);
+  text-decoration: none;
+  padding: 4px 0;
+  font-weight: 500;
+}
+.nav-bar a:hover { text-decoration: underline; }
+
+/* ===== Archive Page ===== */
+.archive-list {
+  list-style: none;
+}
+.archive-item {
+  background: var(--card);
+  border: 0.5px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 18px 22px;
+  margin-bottom: 12px;
+  transition: border-color 0.15s;
+}
+.archive-item:hover { border-color: var(--green-light); }
+.archive-item a {
+  text-decoration: none;
+  color: var(--text);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.archive-item .issue-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+.archive-item .issue-meta {
+  font-size: 13px;
+  color: var(--text-tertiary);
+  margin-top: 6px;
+}
+.archive-item .issue-count {
+  font-size: 14px;
+  color: var(--green-dark);
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+/* ===== Footer ===== */
+.footer {
+  text-align: center;
+  font-size: 13px;
+  color: var(--text-tertiary);
+  border-top: 0.5px solid var(--border);
+  padding-top: 24px;
+  margin-top: 40px;
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+  <div class="nav-bar">
+    <a href="archive.html">← 查看往期</a>
+    <span style="font-size:13px;color:var(--text-tertiary)">第 8 期</span>
+  </div>
+
+  <div class="header">
+    <h1>Africa Off-Grid Solar Market News</h1>
+    <p class="subtitle">非洲离网太阳能市场资讯</p>
+    <div class="meta">
+      <span>第 8 期</span>
+      <span>2026-08-03</span>
+      <span>行业动态 · 企业跟踪</span>
+    </div>
+  </div>
+
+  <div class="section-title">本期数据亮点</div>
+  <div class="stats-row"><div class="stat-box"><div class="num">20%</div><div class="lbl">20%行业事件：</div></div><div class="stat-box"><div class="num">20MW</div><div class="lbl">20MW/40MWh电池储能系统</div></div><div class="stat-box"><div class="num">300MW</div><div class="lbl">300MW热电项目政策分析摘要</div></div><div class="stat-box"><div class="num">7</div><div class="lbl">篇行业深度分析</div></div></div>
+
+  <div class="section-title">一、政策规划</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">GEAPP Energy Alliance</span>
+    <span class="card-date">2026-07-28</span>
+  </div>
+  <h3>交付马拉维首个公用事业规模电池存储系统的主要收获</h3>
+  <div class="summary"><p class="mb">**</p>
+<p class="mb">【政策要点】</p>
+<p class="mb"><strong>**</strong></p>
+<ul class="bullets">
+<li>**马拉维国家能源协议（National Energy Compact）**，由马拉维政府主导，覆盖全国电力供应体系；**非洲Mission 300倡议**，由非洲联盟推动，覆盖全非电力接入。</li>
+<li>**目标数字：** 2030年电力接入率达70%；全非连接3亿人口。</li>
+<li>**时间节点：** 2030年。</li>
+</ul>
+<p class="mb">**</p>
+<p class="mb">【影响分析】</p>
+<p class="mb"><strong>**</strong></p>
+<ul class="bullets">
+<li>**直接影响：** 马拉维20MW/40MWh电池储能系统已稳定国家电网，减少柴油发电依赖，惠及超200万电网用户；已培训44名电力行业人员，南部非洲BESS卓越中心落户姆祖祖大学，为区域储能项目提供数据与人才支持。</li>
+<li>**实施挑战或风险：** 资金可持续性、技术人才储备仍待加强，依赖国际合作伙伴与捐赠方支持。</li>
+</ul>
+<p class="mb">**</p>
+<p class="mb">【前景】</p>
+<p class="mb">** 马拉维储能项目为非洲提供了可复制的公私合作清洁能源发展路径，有望引领区域能源转型。</p></div>
+  
+  <div class="source">来源：<a href="https://energyalliance.org/key-takeaways-from-delivering-malawis-first-utility-scale-battery-storage-system/" target="_blank" rel="noopener">GEAPP Energy Alliance</a></div>
+</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">PV Magazine · 太阳能</span>
+    <span class="card-date">2026-07-31</span>
+  </div>
+  <h3>随着市场准备插入式发电，英国太阳能装机容量达到 22.8 吉瓦</h3>
+  <div class="summary"><p class="mb"><strong>行业事件：</strong></p>
+<ul class="bullets">
+<li>英国太阳能市场迎来政策与技术双重驱动，插电式太阳能新规将于2026年8月27日正式生效，允许每户自装最高800W系统，降低分布式光伏准入门槛，租赁市场有望受益。</li>
+</ul>
+<p class="mb">-</p></div>
+  
+  <div class="source">来源：<a href="https://www.pv-magazine.com/2026/07/31/uk-solar-capacity-hits-22-8-gw-as-market-prepares-for-plug-in-launch/" target="_blank" rel="noopener">PV Magazine</a></div>
+</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">PV Magazine · 太阳能</span>
+    <span class="card-date">2026-07-31</span>
+  </div>
+  <h3>太阳能在欧盟电力需求中的份额连续三个月超过20%</h3>
+  <div class="summary"><p class="mb"><strong>行业事件：</strong></p>
+<ul class="bullets">
+<li>欧盟太阳能发电占比连续三个月突破20%，创历史新高。拉脱维亚6月太阳能满足49%电力需求，刷新欧盟纪录。德国、瑞士、西班牙、希腊、保加利亚等国均刷新本国纪录。</li>
+</ul>
+<p class="mb"><strong>数据洞察：</strong></p>
+<ul class="bullets">
+<li>5-7月欧盟太阳能发电占比分别为20.3%、21.1%、21.5%，较去年同期的17.3%-18.8%显着提升。德国连续三个月超30%（5月30.3%、6月30.4%、7月31.6%），瑞士超25%，西班牙与希腊均稳定在35%以上，保加利亚突破30%。法国最高14.6</li>
+</ul></div>
+  
+  <div class="source">来源：<a href="https://www.pv-magazine.com/2026/07/31/solars-share-of-eu-electricity-demand-tops-20-for-three-consecutive-months/" target="_blank" rel="noopener">PV Magazine</a></div>
+</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">AFSIA · 非洲太阳能</span>
+    <span class="card-date">2026-08-02</span>
+  </div>
+  <h3>在 KragDag 2026 上与 Solis 一起探索智能能源的未来</h3>
+  <div class="summary"><p class="mb"><strong>政策要点：</strong></p>
+<ul class="bullets">
+<li>无明确政策名称，聚焦南非能源转型趋势</li>
+<li>目标：提升家庭与企业能源自主管理能力</li>
+<li>时间节点：2026年KragDag展会</li>
+</ul>
+<p class="mb"><strong>影响分析：</strong></p>
+<ul class="bullets">
+<li>直接推动太阳能逆变器及储能技术市场需求增长，利好Solis等头部企业</li>
+<li>实施挑战：电网稳定性不足、电价上涨压力持续</li>
+</ul>
+<p class="mb">【前景】</p>
+<p class="mb">南非能源市场正从单一发电向储能与管理一体化转型，智能能源解决方案将成为应对电网危机与成本压力的关键路径。</p></div>
+  
+  <div class="source">来源：<a href="https://www.afsiasolar.com/discover-the-future-of-intelligent-energy-with-solis-at-kragdag-2026/?utm_source=rss&utm_medium=rss&utm_campaign=discover-the-future-of-intelligent-energy-with-solis-at-kragdag-2026" target="_blank" rel="noopener">AFSIA Solar Africa</a></div>
+</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">Energy News Network</span>
+    <span class="card-date">2026-08-02</span>
+  </div>
+  <h3>赞比亚火电在 ZESCO 承购下增加了 300 兆瓦，还有翻倍的空间</h3>
+  <div class="summary"><p class="mb">## 赞比亚300MW热电项目政策分析摘要</p>
+<p class="mb">**</p>
+<p class="mb">【政策要点】</p>
+<p class="mb"><strong>**</strong></p>
+<ul class="bullets">
+<li>**项目**：赞比亚新增300MW热电项目，由Ever Great Energy与Wonderful Group Services合资开发，新加坡Ziquan Group负责EPC总包，与ZESCO签署购电协议</li>
+<li>**目标容量**：第一阶段300MW（两个150MW循环流化床机组），第二阶段可扩展至600MW</li>
+<li>**时间节点**：第一阶段投运后五年内完成二期扩建</li>
+</ul>
+<p class="mb">**</p>
+<p class="mb">【影响分析】</p>
+<p class="mb"><strong>**</strong></p>
+<ul class="bullets">
+<li>**直接影响**：为赞比亚电网新增稳定基荷电源，缓解对水电的过度依赖。铜矿消耗全国约三分之一电力，2024年干旱已暴露工业供电脆弱性，热电项目可增强能源安全</li>
+<li>**实施挑战**：水电占比超80%的单一结构风险依然突出；项目需配套水处理设施及输电基础设施；二期扩容取决于先决条件落实进度</li>
+</ul>
+<p class="mb">**前景**：该项目标志着赞比亚在多元化电源结构中迈出关键一步，为应对气候风险、保障矿业用电安全提供重要支撑，但水电依赖的根本性转型仍需长期努力。</p></div>
+  
+  <div class="source">来源：<a href="https://energy-news-network.com/industry-news/zambia-thermal-power-plant-zccm-ih/" target="_blank" rel="noopener">Energy News Network</a></div>
+</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">Energy News Network</span>
+    <span class="card-date">2026-08-02</span>
+  </div>
+  <h3>加纳开始建设 1.5GW 工业太阳能项目中的第一个 100MW</h3>
+  <div class="summary"><p class="mb"># 加纳1.5GW工业太阳能项目首期动工</p>
+<p class="mb"><strong>##  投资亮点</strong></p>
+<ul class="bullets">
+<li>**投资规模与参与方**：加纳政府主导，联合开发协议（2025年4月签署），首期100MW于2025年8月动工，总规划1.5GW公用事业规模太阳能+储能项目。</li>
+<li>**融资方式**：政府聚合工业园区、内陆港口及物流枢纽用电需求，为发电方提供**保证购电协议**，降低投资风险。</li>
+<li>**增长趋势**：能源部已启动200MW竞争性太阳能招标，并制定2026-2030年**34亿美元战略计划**，覆盖可再生能源价值链、电动交通及三大绿色经济区（中央、沃尔特、萨凡纳）。</li>
+</ul>
+<p class="mb"><strong>##  数据</strong></p>
+<ul class="bullets">
+<li>首期建设：**100MW**</li>
+<li>总目标：**1.5GW**太阳能+储能</li>
+<li>国家太阳能目标：**1,000MW**</li>
+<li>战略投资计划：**34亿美元**（2026-2030）</li>
+<li>配套招标：**200MW**竞争性太阳能项目</li>
+</ul>
+<p class="mb">## 展望</p>
+<p class="mb">加纳以工业用电需求驱动公用事业级太阳能+储能部署，通过保证购电模式降低投资风险，为非洲工业离网/园区太阳能投资树立标杆。</p></div>
+  
+  <div class="source">来源：<a href="https://energy-news-network.com/industry-news/ghana-starts-building-the-first-100mw-of-a-1-5gw-solar-programme-for-industry/" target="_blank" rel="noopener">Energy News Network</a></div>
+</div>
+<div class="section-title">四、重点企业动态</div>
+<div class="company-card">
+  <div class="card-top">
+    <span class="tag">企业动态 · Sun King</span>
+    <span class="card-date">2026-07-29</span>
+  </div>
+  <h3>太阳王承诺为马达加斯加带来经济实惠的太阳能</h3>
+  
+  <div class="source">来源：<a href="https://sunking.com/news-blog/sun-king-commits-to-bring-affordable-solar-energy-to-madagascar/" target="_blank" rel="noopener">Sun King</a></div>
+</div>
+
+
+  <div class="footer">
+    Africa Solar News · 2026-08-03 · 每周更新
+  </div>
+
+</div>
+</body>
+</html>
