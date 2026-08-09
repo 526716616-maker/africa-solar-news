@@ -1,0 +1,83 @@
+{
+  "week": "2026-W33",
+  "date": "2026-08-10",
+  "issue": 9,
+  "highlights": [
+    {
+      "num": "5",
+      "label": "篇行业深度分析"
+    },
+    {
+      "num": "5",
+      "label": "家重点企业跟踪"
+    },
+    {
+      "num": "5",
+      "label": "大政策动向"
+    },
+    {
+      "num": "5",
+      "label": "项投资数据"
+    }
+  ],
+  "sections": [
+    {
+      "title": "一、政策规划",
+      "items": [
+        {
+          "tag": "FSD Africa",
+          "title": "启动了一项为莫桑比克小型和成长型企业提供融资的新计划“RAIZ Mozambique”",
+          "summary": "<p class=\"mb\"># 莫桑比克\"RAIZ\"融资计划投资分析</p>\n<p class=\"mb\">##</p>\n<p class=\"mb\"><strong>投资亮点：</strong></p>\n<ul class=\"bullets\">\n<li>**投资规模、参与方、地区**：FSD Africa（区域专业金融部门发展机构）启动\"RAIZ\"计划，由英国政府资助，覆盖莫桑比克全国，聚焦小型和成长型企业（SGBs）融资</li>\n<li>**融资方式、债务/股权/补贴**：通过资本提供者、投资者及其他利益相关方合作，为SGBs提供替代性融资渠道，强调建立本土化融资生态</li>\n<li>**资金缺口或增长趋势**：小型和成长型企业长期面临融资渠道不足，被视为莫桑比克经济增长的核心引擎</li>\n</ul>\n<p class=\"mb\">##</p>\n<p class=\"mb\"><strong>关键数据：</strong></p>\n<ul class=\"bullets\">\n<li>**关键数字**：计划覆盖莫桑比克全国，具体融资金额、MW数及受益户数未在摘要中披露</li>\n<li>**增长率或对比**：SGBs被认定为莫桑比克经济\"引擎\"，但缺乏具体量化增长数据</li>\n</ul>\n<p class=\"mb\">##</p>\n<p class=\"mb\">【行业展望】</p>\n<p class=\"mb\">莫桑比克小型企业融资生态正通过国际机构合作加速完善，替代性融资渠道的建立有望释放经济引擎潜力。</p>\n<p class=\"mb\">---</p>\n<p class=\"mb\">*注：本文摘要信息有限，未涉及离网太阳能具体投资数据，以上分析严格基于原文内容提取。 *</p>",
+          "bullets": [],
+          "source": "FSD Africa",
+          "source_url": "https://fsdafrica.org/raiz-mozambique-a-new-programme-to-finance-small-and-growing-businesses-in-mozambique-is-launched/",
+          "date": "2026-08-05",
+          "sub_category": "policy"
+        },
+        {
+          "tag": "PV Magazine · 太阳能",
+          "title": "传统的购电协议在南部非洲正在消亡吗？",
+          "summary": "<p class=\"mb\">## 南部非洲可再生能源PPA转型政策分析摘要</p>\n<p class=\"mb\">**</p>\n<p class=\"mb\">【政策要点】</p>\n<p class=\"mb\"><strong>**</strong></p>\n<ul class=\"bullets\">\n<li>南部非洲可再生能源市场正经历从传统购电协议（PPA）向多元化收入模式的结构性转型，涉及企业采购、开放准入、输电机制、区域电力交易及储能部署等多重路径</li>\n<li>过去15年，传统PPA作为核心商业合同，通过降低市场风险、创造可预测现金流，推动了非洲独立电力投资的浪潮</li>\n<li>未来项目或将融合企业PPA、交易商销售、短期市场敞口、Merchant尾段及储能收益等多重收入组件</li>\n</ul>\n<p class=\"mb\">**</p>\n<p class=\"mb\">【影响分析】</p>\n<p class=\"mb\"><strong>**</strong></p>\n<ul class=\"bullets\">\n<li>对开发商和独立电力生产商（IPPs）：项目设计将从\"以兆瓦为单位\"转向\"以产品为导向\"，需关注发电曲线、储能时长、电网位置、弃电风险及交易对手可及性</li>\n<li>实施挑战：银行仍要求可预测现金流与下行风险保护，融资文件需适应多合同、多交易对手及复杂的调度、平衡、信用覆盖条款，对承销能力提出更高要求</li>\n</ul>\n<p class=\"mb\">**</p>\n<p class=\"mb\">【前景】</p>\n<p class=\"mb\">** 南部非洲可再生能源市场正从单纯出售电量转向出售确定性、灵活性、时机与能源安全，传统单一PPA模式正被多元化合同组合所取代。</p>",
+          "bullets": [],
+          "source": "PV Magazine",
+          "source_url": "https://www.pv-magazine.com/2026/08/07/is-the-traditional-ppa-dying-in-southern-africa/",
+          "date": "2026-08-07",
+          "sub_category": "policy"
+        },
+        {
+          "tag": "Energy News Network",
+          "title": "尼日利亚主权基金将国内资本投入分布式可再生能源",
+          "summary": "<p class=\"mb\"># 尼日利亚主权基金支持分布式可再生能源投资分析</p>\n<p class=\"mb\">**</p>\n<p class=\"mb\">【投资亮点】</p>\n<p class=\"mb\"><strong>**</strong></p>\n<ul class=\"bullets\">\n<li>尼日利亚主权投资基金（NSIA）管理该国主权财富，通过三个隔离基金运作，已在尼日利亚市场搭建分布式可再生能源投资平台</li>\n<li>融资方式为主权财富基金直接投入，属于股权类国内资本，填补市场早期风险资金缺口</li>\n<li>行业核心瓶颈并非项目稀缺，而是缺乏愿意承担早期风险的资本，NSIA的介入具有战略意义</li>\n</ul>\n<p class=\"mb\">**</p>\n<p class=\"mb\">【关键数据】</p>\n<p class=\"mb\"><strong>**</strong></p>\n<ul class=\"bullets\">\n<li>三个隔离基金运作，具体投资金额未披露</li>\n<li>尼日利亚主权基金在国内投资的模式相对罕见，多数主权基金倾向于海外配置资产</li>\n</ul>\n<p class=\"mb\">**</p>\n<p class=\"mb\">【行业展望】</p>\n<p class=\"mb\">** 主权资本本土化配置将为尼日利亚分布式可再生能源市场注入关键早期风险资金，推动离网太阳能投资持续增长。</p>",
+          "bullets": [],
+          "source": "Energy News Network",
+          "source_url": "https://energy-news-network.com/industry-news/nigeria-sovereign-investment-authority-distributed-renewables/",
+          "date": "2026-08-09",
+          "sub_category": "policy"
+        }
+      ]
+    },
+    {
+      "title": "三、行业动态",
+      "items": [
+        {
+          "tag": "GEAPP Energy Alliance",
+          "title": "报告：建设非洲未来的电网",
+          "summary": "<p class=\"mb\"><strong>行业事件：</strong></p>\n<ul class=\"bullets\">\n<li>GEAPP Energy Alliance联合波士顿咨询公司(BCG)发布报告《Building Africa's Grids of the Future》，聚焦非洲电网现代化转型，依托Mission 300倡议推动清洁能源转型。</li>\n<li>报告强调数字技术、AI及创新融资模式在电网建设中的应用，助力公用事业公司提升系统韧性。</li>\n</ul>\n<p class=\"mb\"><strong>数据洞察：</strong></p>\n<ul class=\"bullets\">\n<li>Mission 300倡议目标到2030年为非洲3亿人口接入电力。</li>\n<li>电网现代化被视为解锁经济增长、吸引投资及扩大可靠能源覆盖的核心驱动力。</li>\n</ul>",
+          "bullets": [],
+          "source": "GEAPP Energy Alliance",
+          "source_url": "https://energyalliance.org/report-building-africas-grids-of-the-future/",
+          "date": "2026-08-05"
+        },
+        {
+          "tag": "GEAPP Energy Alliance",
+          "title": "案例研究：培养印度的清洁技术创新者",
+          "summary": "",
+          "bullets": [],
+          "source": "GEAPP Energy Alliance",
+          "source_url": "https://energyalliance.org/case-study-nurturing-indias-clean-tech-innovators/",
+          "date": "2026-08-04"
+        }
+      ]
+    }
+  ]
+}

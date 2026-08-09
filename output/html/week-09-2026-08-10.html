@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>非洲离网太阳能市场资讯 2026-08-10 第 9 期</title>
+<style>/* ===== 非洲离网太阳能市场资讯 - 样式 ===== */
+:root {
+  --bg: #f8f9fa;
+  --card: #ffffff;
+  --text: #1a1a2e;
+  --text-secondary: #555770;
+  --text-tertiary: #8e8ea0;
+  --border: #e8e8ee;
+  --green-dark: #0F6E56;
+  --green-light: #1D9E75;
+  --green-bg: #E1F5EE;
+  --green-tag-bg: rgba(15,110,86,0.08);
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans SC", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+.container {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 32px 24px 56px;
+}
+
+/* ===== Header ===== */
+.header {
+  background: var(--green-dark);
+  color: #fff;
+  padding: 36px 32px 28px;
+  border-radius: var(--radius-lg);
+  margin-bottom: 28px;
+}
+.header h1 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 4px;
+  letter-spacing: -0.01em;
+}
+.header .subtitle {
+  font-size: 15px;
+  opacity: 0.78;
+  font-weight: 400;
+}
+.header .meta {
+  display: flex;
+  gap: 10px;
+  margin-top: 18px;
+  flex-wrap: wrap;
+}
+.header .meta span {
+  background: rgba(255,255,255,0.15);
+  border-radius: var(--radius-sm);
+  padding: 4px 12px;
+  font-size: 13px;
+  letter-spacing: 0.02em;
+}
+
+/* ===== Stats Row ===== */
+.section-title {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text-tertiary);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin: 36px 0 14px;
+}
+.stats-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin-bottom: 10px;
+}
+.stat-box {
+  background: var(--card);
+  border: 0.5px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 18px 16px;
+  text-align: center;
+}
+.stat-box .num {
+  font-size: 26px;
+  font-weight: 800;
+  color: var(--green-dark);
+  margin-bottom: 6px;
+}
+.stat-box .lbl {
+  font-size: 12px;
+  color: var(--text-secondary);
+  line-height: 1.4;
+}
+@media (max-width: 560px) {
+  .stats-row { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* ===== News Card ===== */
+.news-card {
+  background: var(--card);
+  border: 0.5px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 22px 24px;
+  margin-bottom: 16px;
+  transition: border-color 0.15s;
+}
+.news-card:hover { border-color: var(--green-light); }
+.news-card .tag {
+  display: inline-block;
+  background: var(--green-tag-bg);
+  color: var(--green-dark);
+  font-size: 12px;
+  font-weight: 500;
+  padding: 3px 12px;
+  border-radius: 100px;
+}
+.news-card .card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.news-card .card-date {
+  font-size: 12px;
+  color: var(--text-tertiary);
+  white-space: nowrap;
+}
+.news-card h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: var(--text);
+}
+/* ===== 通用：卡片内列表 & 段落样式 ===== */
+.news-card .summary,
+.company-card .summary {
+  font-size: 14px;
+  color: #000000;
+  margin-bottom: 12px;
+  line-height: 1.7;
+}
+.news-card .bullets,
+.company-card .bullets {
+  list-style: none;
+  margin-bottom: 12px;
+}
+.news-card .bullets li,
+.company-card .bullets li {
+  font-size: 13px;
+  color: var(--text-secondary);
+  padding: 3px 0 3px 18px;
+  position: relative;
+  word-break: break-word;
+}
+.news-card .bullets li::before,
+.company-card .bullets li::before {
+  content: "";
+  position: absolute;
+  left: 2px;
+  top: 10px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--green-light);
+}
+.news-card .mb,
+.company-card .mb { margin-bottom: 10px; }
+.news-card .bullets,
+.company-card .bullets { margin-bottom: 0; }
+.news-card .source {
+  font-size: 12px;
+  color: var(--text-tertiary);
+  margin-top: 4px;
+}
+.news-card .source a {
+  color: var(--green-dark);
+  text-decoration: none;
+}
+.news-card .source a:hover { text-decoration: underline; }
+
+/* ===== Company Card ===== */
+.company-card {
+  background: var(--card);
+  border: 0.5px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 22px 24px;
+  margin-bottom: 16px;
+  transition: border-color 0.15s;
+}
+.company-card:hover { border-color: var(--green-light); }
+.company-card .tag {
+  display: inline-block;
+  background: var(--green-tag-bg);
+  color: var(--green-dark);
+  font-size: 12px;
+  font-weight: 500;
+  padding: 3px 12px;
+  border-radius: 100px;
+}
+.company-card .card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.company-card .card-date {
+  font-size: 12px;
+  color: var(--text-tertiary);
+  white-space: nowrap;
+}
+.company-card h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: var(--text);
+}
+.company-card .source {
+  font-size: 12px;
+  color: var(--text-tertiary);
+  margin-top: 10px;
+}
+.company-card .source a {
+  color: var(--green-dark);
+  text-decoration: none;
+}
+.company-card .source a:hover { text-decoration: underline; }
+
+/* ===== Archive Nav ===== */
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.nav-bar a {
+  font-size: 14px;
+  color: var(--green-dark);
+  text-decoration: none;
+  padding: 4px 0;
+  font-weight: 500;
+}
+.nav-bar a:hover { text-decoration: underline; }
+
+/* ===== Archive Page ===== */
+.archive-list {
+  list-style: none;
+}
+.archive-item {
+  background: var(--card);
+  border: 0.5px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 18px 22px;
+  margin-bottom: 12px;
+  transition: border-color 0.15s;
+}
+.archive-item:hover { border-color: var(--green-light); }
+.archive-item a {
+  text-decoration: none;
+  color: var(--text);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.archive-item .issue-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+.archive-item .issue-meta {
+  font-size: 13px;
+  color: var(--text-tertiary);
+  margin-top: 6px;
+}
+.archive-item .issue-count {
+  font-size: 14px;
+  color: var(--green-dark);
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+/* ===== Footer ===== */
+.footer {
+  text-align: center;
+  font-size: 13px;
+  color: var(--text-tertiary);
+  border-top: 0.5px solid var(--border);
+  padding-top: 24px;
+  margin-top: 40px;
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+  <div class="nav-bar">
+    <a href="archive.html">← 查看往期</a>
+    <span style="font-size:13px;color:var(--text-tertiary)">第 9 期</span>
+  </div>
+
+  <div class="header">
+    <h1>Africa Off-Grid Solar Market News</h1>
+    <p class="subtitle">非洲离网太阳能市场资讯</p>
+    <div class="meta">
+      <span>第 9 期</span>
+      <span>2026-08-10</span>
+      <span>行业动态 · 企业跟踪</span>
+    </div>
+  </div>
+
+  <div class="section-title">本期数据亮点</div>
+  <div class="stats-row"><div class="stat-box"><div class="num">5</div><div class="lbl">篇行业深度分析</div></div><div class="stat-box"><div class="num">5</div><div class="lbl">家重点企业跟踪</div></div><div class="stat-box"><div class="num">5</div><div class="lbl">大政策动向</div></div><div class="stat-box"><div class="num">5</div><div class="lbl">项投资数据</div></div></div>
+
+  <div class="section-title">一、政策规划</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">FSD Africa</span>
+    <span class="card-date">2026-08-05</span>
+  </div>
+  <h3>启动了一项为莫桑比克小型和成长型企业提供融资的新计划“RAIZ Mozambique”</h3>
+  <div class="summary"><p class="mb"># 莫桑比克"RAIZ"融资计划投资分析</p>
+<p class="mb">##</p>
+<p class="mb"><strong>投资亮点：</strong></p>
+<ul class="bullets">
+<li>**投资规模、参与方、地区**：FSD Africa（区域专业金融部门发展机构）启动"RAIZ"计划，由英国政府资助，覆盖莫桑比克全国，聚焦小型和成长型企业（SGBs）融资</li>
+<li>**融资方式、债务/股权/补贴**：通过资本提供者、投资者及其他利益相关方合作，为SGBs提供替代性融资渠道，强调建立本土化融资生态</li>
+<li>**资金缺口或增长趋势**：小型和成长型企业长期面临融资渠道不足，被视为莫桑比克经济增长的核心引擎</li>
+</ul>
+<p class="mb">##</p>
+<p class="mb"><strong>关键数据：</strong></p>
+<ul class="bullets">
+<li>**关键数字**：计划覆盖莫桑比克全国，具体融资金额、MW数及受益户数未在摘要中披露</li>
+<li>**增长率或对比**：SGBs被认定为莫桑比克经济"引擎"，但缺乏具体量化增长数据</li>
+</ul>
+<p class="mb">##</p>
+<p class="mb">【行业展望】</p>
+<p class="mb">莫桑比克小型企业融资生态正通过国际机构合作加速完善，替代性融资渠道的建立有望释放经济引擎潜力。</p>
+<p class="mb">---</p>
+<p class="mb">*注：本文摘要信息有限，未涉及离网太阳能具体投资数据，以上分析严格基于原文内容提取。 *</p></div>
+  
+  <div class="source">来源：<a href="https://fsdafrica.org/raiz-mozambique-a-new-programme-to-finance-small-and-growing-businesses-in-mozambique-is-launched/" target="_blank" rel="noopener">FSD Africa</a></div>
+</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">PV Magazine · 太阳能</span>
+    <span class="card-date">2026-08-07</span>
+  </div>
+  <h3>传统的购电协议在南部非洲正在消亡吗？</h3>
+  <div class="summary"><p class="mb">## 南部非洲可再生能源PPA转型政策分析摘要</p>
+<p class="mb">**</p>
+<p class="mb">【政策要点】</p>
+<p class="mb"><strong>**</strong></p>
+<ul class="bullets">
+<li>南部非洲可再生能源市场正经历从传统购电协议（PPA）向多元化收入模式的结构性转型，涉及企业采购、开放准入、输电机制、区域电力交易及储能部署等多重路径</li>
+<li>过去15年，传统PPA作为核心商业合同，通过降低市场风险、创造可预测现金流，推动了非洲独立电力投资的浪潮</li>
+<li>未来项目或将融合企业PPA、交易商销售、短期市场敞口、Merchant尾段及储能收益等多重收入组件</li>
+</ul>
+<p class="mb">**</p>
+<p class="mb">【影响分析】</p>
+<p class="mb"><strong>**</strong></p>
+<ul class="bullets">
+<li>对开发商和独立电力生产商（IPPs）：项目设计将从"以兆瓦为单位"转向"以产品为导向"，需关注发电曲线、储能时长、电网位置、弃电风险及交易对手可及性</li>
+<li>实施挑战：银行仍要求可预测现金流与下行风险保护，融资文件需适应多合同、多交易对手及复杂的调度、平衡、信用覆盖条款，对承销能力提出更高要求</li>
+</ul>
+<p class="mb">**</p>
+<p class="mb">【前景】</p>
+<p class="mb">** 南部非洲可再生能源市场正从单纯出售电量转向出售确定性、灵活性、时机与能源安全，传统单一PPA模式正被多元化合同组合所取代。</p></div>
+  
+  <div class="source">来源：<a href="https://www.pv-magazine.com/2026/08/07/is-the-traditional-ppa-dying-in-southern-africa/" target="_blank" rel="noopener">PV Magazine</a></div>
+</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">Energy News Network</span>
+    <span class="card-date">2026-08-09</span>
+  </div>
+  <h3>尼日利亚主权基金将国内资本投入分布式可再生能源</h3>
+  <div class="summary"><p class="mb"># 尼日利亚主权基金支持分布式可再生能源投资分析</p>
+<p class="mb">**</p>
+<p class="mb">【投资亮点】</p>
+<p class="mb"><strong>**</strong></p>
+<ul class="bullets">
+<li>尼日利亚主权投资基金（NSIA）管理该国主权财富，通过三个隔离基金运作，已在尼日利亚市场搭建分布式可再生能源投资平台</li>
+<li>融资方式为主权财富基金直接投入，属于股权类国内资本，填补市场早期风险资金缺口</li>
+<li>行业核心瓶颈并非项目稀缺，而是缺乏愿意承担早期风险的资本，NSIA的介入具有战略意义</li>
+</ul>
+<p class="mb">**</p>
+<p class="mb">【关键数据】</p>
+<p class="mb"><strong>**</strong></p>
+<ul class="bullets">
+<li>三个隔离基金运作，具体投资金额未披露</li>
+<li>尼日利亚主权基金在国内投资的模式相对罕见，多数主权基金倾向于海外配置资产</li>
+</ul>
+<p class="mb">**</p>
+<p class="mb">【行业展望】</p>
+<p class="mb">** 主权资本本土化配置将为尼日利亚分布式可再生能源市场注入关键早期风险资金，推动离网太阳能投资持续增长。</p></div>
+  
+  <div class="source">来源：<a href="https://energy-news-network.com/industry-news/nigeria-sovereign-investment-authority-distributed-renewables/" target="_blank" rel="noopener">Energy News Network</a></div>
+</div>
+<div class="section-title">三、行业动态</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">GEAPP Energy Alliance</span>
+    <span class="card-date">2026-08-05</span>
+  </div>
+  <h3>报告：建设非洲未来的电网</h3>
+  <div class="summary"><p class="mb"><strong>行业事件：</strong></p>
+<ul class="bullets">
+<li>GEAPP Energy Alliance联合波士顿咨询公司(BCG)发布报告《Building Africa's Grids of the Future》，聚焦非洲电网现代化转型，依托Mission 300倡议推动清洁能源转型。</li>
+<li>报告强调数字技术、AI及创新融资模式在电网建设中的应用，助力公用事业公司提升系统韧性。</li>
+</ul>
+<p class="mb"><strong>数据洞察：</strong></p>
+<ul class="bullets">
+<li>Mission 300倡议目标到2030年为非洲3亿人口接入电力。</li>
+<li>电网现代化被视为解锁经济增长、吸引投资及扩大可靠能源覆盖的核心驱动力。</li>
+</ul></div>
+  
+  <div class="source">来源：<a href="https://energyalliance.org/report-building-africas-grids-of-the-future/" target="_blank" rel="noopener">GEAPP Energy Alliance</a></div>
+</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">GEAPP Energy Alliance</span>
+    <span class="card-date">2026-08-04</span>
+  </div>
+  <h3>案例研究：培养印度的清洁技术创新者</h3>
+  
+  
+  <div class="source">来源：<a href="https://energyalliance.org/case-study-nurturing-indias-clean-tech-innovators/" target="_blank" rel="noopener">GEAPP Energy Alliance</a></div>
+</div>
+
+
+  <div class="footer">
+    Africa Solar News · 2026-08-10 · 每周更新
+  </div>
+
+</div>
+</body>
+</html>
