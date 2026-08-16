@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>非洲离网太阳能市场资讯 2026-08-17 第 10 期</title>
+<style>/* ===== 非洲离网太阳能市场资讯 - 样式 ===== */
+:root {
+  --bg: #f8f9fa;
+  --card: #ffffff;
+  --text: #1a1a2e;
+  --text-secondary: #555770;
+  --text-tertiary: #8e8ea0;
+  --border: #e8e8ee;
+  --green-dark: #0F6E56;
+  --green-light: #1D9E75;
+  --green-bg: #E1F5EE;
+  --green-tag-bg: rgba(15,110,86,0.08);
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans SC", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+.container {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 32px 24px 56px;
+}
+
+/* ===== Header ===== */
+.header {
+  background: var(--green-dark);
+  color: #fff;
+  padding: 36px 32px 28px;
+  border-radius: var(--radius-lg);
+  margin-bottom: 28px;
+}
+.header h1 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 4px;
+  letter-spacing: -0.01em;
+}
+.header .subtitle {
+  font-size: 15px;
+  opacity: 0.78;
+  font-weight: 400;
+}
+.header .meta {
+  display: flex;
+  gap: 10px;
+  margin-top: 18px;
+  flex-wrap: wrap;
+}
+.header .meta span {
+  background: rgba(255,255,255,0.15);
+  border-radius: var(--radius-sm);
+  padding: 4px 12px;
+  font-size: 13px;
+  letter-spacing: 0.02em;
+}
+
+/* ===== Stats Row ===== */
+.section-title {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text-tertiary);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin: 36px 0 14px;
+}
+.stats-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin-bottom: 10px;
+}
+.stat-box {
+  background: var(--card);
+  border: 0.5px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 18px 16px;
+  text-align: center;
+}
+.stat-box .num {
+  font-size: 26px;
+  font-weight: 800;
+  color: var(--green-dark);
+  margin-bottom: 6px;
+}
+.stat-box .lbl {
+  font-size: 12px;
+  color: var(--text-secondary);
+  line-height: 1.4;
+}
+@media (max-width: 560px) {
+  .stats-row { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* ===== News Card ===== */
+.news-card {
+  background: var(--card);
+  border: 0.5px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 22px 24px;
+  margin-bottom: 16px;
+  transition: border-color 0.15s;
+}
+.news-card:hover { border-color: var(--green-light); }
+.news-card .tag {
+  display: inline-block;
+  background: var(--green-tag-bg);
+  color: var(--green-dark);
+  font-size: 12px;
+  font-weight: 500;
+  padding: 3px 12px;
+  border-radius: 100px;
+}
+.news-card .card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.news-card .card-date {
+  font-size: 12px;
+  color: var(--text-tertiary);
+  white-space: nowrap;
+}
+.news-card h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: var(--text);
+}
+/* ===== 通用：卡片内列表 & 段落样式 ===== */
+.news-card .summary,
+.company-card .summary {
+  font-size: 14px;
+  color: #000000;
+  margin-bottom: 12px;
+  line-height: 1.7;
+}
+.news-card .bullets,
+.company-card .bullets {
+  list-style: none;
+  margin-bottom: 12px;
+}
+.news-card .bullets li,
+.company-card .bullets li {
+  font-size: 13px;
+  color: var(--text-secondary);
+  padding: 3px 0 3px 18px;
+  position: relative;
+  word-break: break-word;
+}
+.news-card .bullets li::before,
+.company-card .bullets li::before {
+  content: "";
+  position: absolute;
+  left: 2px;
+  top: 10px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--green-light);
+}
+.news-card .mb,
+.company-card .mb { margin-bottom: 10px; }
+.news-card .bullets,
+.company-card .bullets { margin-bottom: 0; }
+.news-card .source {
+  font-size: 12px;
+  color: var(--text-tertiary);
+  margin-top: 4px;
+}
+.news-card .source a {
+  color: var(--green-dark);
+  text-decoration: none;
+}
+.news-card .source a:hover { text-decoration: underline; }
+
+/* ===== Company Card ===== */
+.company-card {
+  background: var(--card);
+  border: 0.5px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 22px 24px;
+  margin-bottom: 16px;
+  transition: border-color 0.15s;
+}
+.company-card:hover { border-color: var(--green-light); }
+.company-card .tag {
+  display: inline-block;
+  background: var(--green-tag-bg);
+  color: var(--green-dark);
+  font-size: 12px;
+  font-weight: 500;
+  padding: 3px 12px;
+  border-radius: 100px;
+}
+.company-card .card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.company-card .card-date {
+  font-size: 12px;
+  color: var(--text-tertiary);
+  white-space: nowrap;
+}
+.company-card h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: var(--text);
+}
+.company-card .source {
+  font-size: 12px;
+  color: var(--text-tertiary);
+  margin-top: 10px;
+}
+.company-card .source a {
+  color: var(--green-dark);
+  text-decoration: none;
+}
+.company-card .source a:hover { text-decoration: underline; }
+
+/* ===== Archive Nav ===== */
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.nav-bar a {
+  font-size: 14px;
+  color: var(--green-dark);
+  text-decoration: none;
+  padding: 4px 0;
+  font-weight: 500;
+}
+.nav-bar a:hover { text-decoration: underline; }
+
+/* ===== Archive Page ===== */
+.archive-list {
+  list-style: none;
+}
+.archive-item {
+  background: var(--card);
+  border: 0.5px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 18px 22px;
+  margin-bottom: 12px;
+  transition: border-color 0.15s;
+}
+.archive-item:hover { border-color: var(--green-light); }
+.archive-item a {
+  text-decoration: none;
+  color: var(--text);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.archive-item .issue-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+.archive-item .issue-meta {
+  font-size: 13px;
+  color: var(--text-tertiary);
+  margin-top: 6px;
+}
+.archive-item .issue-count {
+  font-size: 14px;
+  color: var(--green-dark);
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+/* ===== Footer ===== */
+.footer {
+  text-align: center;
+  font-size: 13px;
+  color: var(--text-tertiary);
+  border-top: 0.5px solid var(--border);
+  padding-top: 24px;
+  margin-top: 40px;
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+  <div class="nav-bar">
+    <a href="archive.html">← 查看往期</a>
+    <span style="font-size:13px;color:var(--text-tertiary)">第 10 期</span>
+  </div>
+
+  <div class="header">
+    <h1>Africa Off-Grid Solar Market News</h1>
+    <p class="subtitle">非洲离网太阳能市场资讯</p>
+    <div class="meta">
+      <span>第 10 期</span>
+      <span>2026-08-17</span>
+      <span>行业动态 · 企业跟踪</span>
+    </div>
+  </div>
+
+  <div class="section-title">本期数据亮点</div>
+  <div class="stats-row"><div class="stat-box"><div class="num">16,300 MW</div><div class="lbl">000-16,300 MW</div></div><div class="stat-box"><div class="num">2.2 GW</div><div class="lbl">2.2 GWNeom H2 项目开始</div></div><div class="stat-box"><div class="num">330MW</div><div class="lbl">330MW加州太阳能项目投资6</div></div><div class="stat-box"><div class="num">10</div><div class="lbl">篇行业深度分析</div></div></div>
+
+  <div class="section-title">一、政策规划</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">FSD Africa</span>
+    <span class="card-date">2026-08-12</span>
+  </div>
+  <h3>投资背后：非洲首个专门的普惠保险风险基金</h3>
+  <div class="summary"><p class="mb"><strong>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</strong></p>
+<ul class="bullets">
+<li>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</li>
+<li>发布机构：FSD Africa联合ZEP-Re（PTA再保险公司）共同牵头</li>
+<li>覆盖范围：非洲保险初创生态系统</li>
+<li>目标数字：首期融资1200万美元，最终目标3000万美元</li>
+<li>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</li>
+</ul>
+<p class="mb"><strong>影响分析：</strong></p>
+<ul class="bullets">
+<li>对行业/企业的直接影响：基金将向技术驱动的保险企业投资，投资阶段覆盖从种子轮到B轮，旨在解决非洲大陆保险保障缺口问题</li>
+<li>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</li>
+</ul>
+<p class="mb">【前景】</p>
+<p class="mb">Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</p></div>
+  
+  <div class="source">来源：<a href="https://fsdafrica.org/behind-the-investment-africas-first-dedicated-inclusive-insurance-venture-fund/" target="_blank" rel="noopener">FSD Africa</a></div>
+</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">PV Magazine · 太阳能</span>
+    <span class="card-date">2026-08-14</span>
+  </div>
+  <h3>氢流：沙特阿拉伯 2.2 GW Neom H2 项目开始调试</h3>
+  <div class="summary"><p class="mb">错误 500（服务器错误）！！1500。这是一个错误。出现错误。请稍后重试。我们只知道这些。</p></div>
+  
+  <div class="source">来源：<a href="https://www.pv-magazine.com/2026/08/14/the-hydrogen-stream-commissioning-begins-for-2-2-gw-neom-h2-project-in-saudi-arabia/" target="_blank" rel="noopener">PV Magazine</a></div>
+</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">AFSIA · 非洲太阳能</span>
+    <span class="card-date">2026-08-13</span>
+  </div>
+  <h3>晶科能源推出适用于零售和超市的“Sunny 365”集成光伏存储解决方案</h3>
+  <div class="summary"><p class="mb">错误 500（服务器错误）！！1500。这是一个错误。出现错误。请稍后重试。我们只知道这些。</p></div>
+  
+  <div class="source">来源：<a href="https://www.afsiasolar.com/jinkosolar-unveils-sunny-365-integrated-pv-storage-solutions-for-retail-and-supermarkets/?utm_source=rss&utm_medium=rss&utm_campaign=jinkosolar-unveils-sunny-365-integrated-pv-storage-solutions-for-retail-and-supermarkets" target="_blank" rel="noopener">AFSIA Solar Africa</a></div>
+</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">AFSIA · 非洲太阳能</span>
+    <span class="card-date">2026-08-12</span>
+  </div>
+  <h3>索利斯任命亚洲短跑冠军陈玉杰为零碳大使，加强南非清洁能源的获取</h3>
+  <div class="summary"><p class="mb"><strong>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</strong></p>
+<ul class="bullets">
+<li>本文为企业宣传稿，未涉及具体政策文件、发布机构或量化目标</li>
+<li>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</li>
+</ul>
+<p class="mb"><strong>影响分析：</strong></p>
+<ul class="bullets">
+<li>对行业/企业：南非家庭和企业将太阳能+储能视为能源安全与韧性工具，推动逆变器及储能系统需求增长；本土技术支持、安装服务与售后成为竞争关键</li>
+<li>实施挑战：文章未明确政策障碍，但指出客户长期价值依赖本地技术能力、安装支持、系统监控与售后服务等配套能力</li>
+</ul>
+<p class="mb">【前景】</p>
+<p class="mb">南非能源转型正由技术可用性与服务配套能力共同驱动，清洁能源市场潜力取决于本土化服务能力建设。</p>
+<p class="mb">（注：原文为企业新闻稿，非政策文件，未提供具体政策名称、目标数字或时间节点，摘要严格基于正文内容整理。）</p></div>
+  
+  <div class="source">来源：<a href="https://www.afsiasolar.com/solis-names-asian-sprinting-champion-chen-yujie-as-zero-carbon-ambassador-strengthening-clean-energy-access-in-south-africa/?utm_source=rss&utm_medium=rss&utm_campaign=solis-names-asian-sprinting-champion-chen-yujie-as-zero-carbon-ambassador-strengthening-clean-energy-access-in-south-africa" target="_blank" rel="noopener">AFSIA Solar Africa</a></div>
+</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">Energy News Network</span>
+    <span class="card-date">2026-08-16</span>
+  </div>
+  <h3>尼日利亚离网计划在 2028 年 12 月之前需要找到 1100 万个连接</h3>
+  <div class="summary"><p class="mb">错误 500（服务器错误）！！1500。这是一个错误。出现错误。请稍后重试。我们只知道这些。</p></div>
+  
+  <div class="source">来源：<a href="https://energy-news-network.com/industry-news/nigeria-dares-off-grid-connections-target/" target="_blank" rel="noopener">Energy News Network</a></div>
+</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">Energy News Network</span>
+    <span class="card-date">2026-08-15</span>
+  </div>
+  <h3>一个市场，两个时钟：南非的贸易规则实际上决定了什么</h3>
+  <div class="summary">在利益相关者要求更多时间后，NERSA 将南非批发电力市场规则第三版的评论窗口延长至 8 月 28 日。 Eskom 对五张贸易许可证的法庭质疑被搁置而不是撤回，这使得起草工作既是一次协商，也是一次协商。</div>
+  
+  <div class="source">来源：<a href="https://energy-news-network.com/industry-news/south-africa-electricity-market-rules-nersa-sawem/" target="_blank" rel="noopener">Energy News Network</a></div>
+</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">PV Tech</span>
+    <span class="card-date">2026-08-14</span>
+  </div>
+  <h3>在引入 OBBBA 和 232 关税后，美国太阳能政策格局出现“很多好消息”</h3>
+  <div class="summary"><p class="mb">错误 500（服务器错误）！！1500。这是一个错误。出现错误。请稍后重试。我们只知道这些。</p></div>
+  
+  <div class="source">来源：<a href="https://www.pv-tech.org/us-solar-policy-landscape-good-news-obbba-section-232/" target="_blank" rel="noopener">PV Tech</a></div>
+</div>
+<div class="section-title">二、投资数据</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">PV Tech</span>
+    <span class="card-date">2026-08-14</span>
+  </div>
+  <h3>Recurrent Energy为330MW加州太阳能项目投资6.95亿美元</h3>
+  <div class="summary"><p class="mb"># Recurrent Energy获6.95亿美元融资开发加州330MW太阳能项目</p>
+<p class="mb"><strong>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</strong></p>
+<ul class="bullets">
+<li>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</li>
+<li>**参与方**：Recurrent Energy（加拿大太阳能子公司）开发，Blattner Energy担任EPC承包商</li>
+<li>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</li>
+<li>**融资方式**：债务融资4.84亿美元（三菱UFJ和Nord/LB牵头）+ 税收股权融资2.11亿美元（富国银行）</li>
+</ul>
+<p class="mb"><strong>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</strong></p>
+<ul class="bullets">
+<li>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</li>
+<li>融资总额：6.95亿美元</li>
+<li>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</li>
+<li>税收股权：2.11亿美元</li>
+<li>预计商业运营：2027年底</li>
+<li>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</li>
+<li>Q1 2026运营亏损：6000万美元</li>
+</ul>
+<p class="mb">## 展望</p>
+<p class="mb">美国大型公用事业级太阳能项目持续获得巨额融资，反映OBBBA政策引入及关税环境改善推动可再生能源投资热度回升，但开发商需应对母公司Canadian Solar面临的制造业挑战及海外产品审查压力。</p></div>
+  
+  <div class="source">来源：<a href="https://www.pv-tech.org/recurrent-energy-bags-us695-million-for-330mw-california-solar-project/" target="_blank" rel="noopener">PV Tech</a></div>
+</div>
+<div class="section-title">三、行业动态</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">GEAPP Energy Alliance</span>
+    <span class="card-date">2026-08-12</span>
+  </div>
+  <h3>在一场毁灭性的地震中，哥伦比亚一个村庄的力量和希望的故事</h3>
+  <div class="summary"><p class="mb"><strong>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</strong></p>
+<ul class="bullets">
+<li>GEAPP（全球能源联盟）与GivePower合作，在哥伦比亚乔科省太平洋沿岸偏远社区El Tigre安装离网太阳能系统。该地区地处偏远，需经飞机、陆路及船运近一天才能抵达，凸显离网地区电力基础设施建设的物流挑战。</li>
+<li>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</li>
+</ul>
+<p class="mb"><strong>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</strong></p>
+<ul class="bullets">
+<li>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</li>
+<li>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</li>
+<li>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</li>
+</ul>
+<p class="mb">Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</p></div>
+  
+  <div class="source">来源：<a href="https://energyalliance.org/choco-earthquake-el-tigre-solar-hope/" target="_blank" rel="noopener">GEAPP Energy Alliance</a></div>
+</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">GEAPP Energy Alliance</span>
+    <span class="card-date">2026-08-10</span>
+  </div>
+  <h3>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</h3>
+  <div class="summary"><p class="mb"><strong>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</strong></p>
+<ul class="bullets">
+<li>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</li>
+<li>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</li>
+</ul>
+<p class="mb"><strong>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</strong></p>
+<ul class="bullets">
+<li>越南2030年电池储能目标10,000-16,300 MW，但截至2025年初实际装机不足100 MW，实施缺口显着</li>
+<li>集中式太阳能项目强制要求配备不低于10%容量的储能（2小时），EVN拟新增约1,700 MW储能容量</li>
+</ul>
+<p class="mb">Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</p></div>
+  
+  <div class="source">来源：<a href="https://energyalliance.org/how-vietnam-can-meet-rising-energy-demand-more-efficiently/" target="_blank" rel="noopener">GEAPP Energy Alliance</a></div>
+</div>
+
+
+  <div class="footer">
+    Africa Solar News · 2026-08-17 · 每周更新
+  </div>
+
+</div>
+</body>
+</html>
