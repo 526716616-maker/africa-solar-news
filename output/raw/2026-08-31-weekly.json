@@ -1,0 +1,110 @@
+{
+  "week": "2026-W36",
+  "date": "2026-08-31",
+  "issue": 12,
+  "highlights": [
+    {
+      "num": "126.48 billion",
+      "label": "Energy News Network"
+    },
+    {
+      "num": "23.2%",
+      "label": "23.2%BC组件效率阈值23"
+    },
+    {
+      "num": "15%",
+      "label": "15%关税"
+    },
+    {
+      "num": "6GW",
+      "label": "6GW**"
+    }
+  ],
+  "sections": [
+    {
+      "title": "一、政策规划",
+      "items": [
+        {
+          "tag": "GOGLA · 行业报告",
+          "title": "GOGLA与国际太阳能联盟续签并扩大离网太阳能全球合作",
+          "summary": "新的谅解备忘录通过标准、市场情报、政策和私人资本动员加强了离网太阳能行业。",
+          "bullets": [],
+          "source": "GOGLA Newsroom",
+          "source_url": "https://newsroom.gogla.org/269657-gogla-and-the-international-solar-alliance-renew-and-expand-global-cooperation-on-off-grid-solar/",
+          "date": "2026-08-26",
+          "sub_category": "policy"
+        },
+        {
+          "tag": "GEAPP Energy Alliance",
+          "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+          "summary": "",
+          "bullets": [],
+          "source": "GEAPP Energy Alliance",
+          "source_url": "https://energyalliance.org/pernambuco-signs-cooperation-agreement/",
+          "date": "2026-08-26",
+          "sub_category": "policy"
+        },
+        {
+          "tag": "PV Magazine · 太阳能",
+          "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+          "summary": "<p class=\"mb\"># 智利混合光储项目投资分析摘要</p>\n<p class=\"mb\"><strong>##  投资亮点</strong></p>\n<ul class=\"bullets\">\n<li>**投资规模与地区**：智利公用事业规模太阳能+储能项目，聚焦北部发电区与圣地亚哥等需求中心</li>\n<li>**政策驱动**：2024年通过激励法律，推动电池开发与大型太阳能电站配套建设</li>\n<li>**盈利模式**：容量支付机制结合电力套利收入，使混合光储项目具备高盈利性</li>\n<li>**融资方式**：政策激励+市场化收益双轮驱动，吸引大量项目宣布</li>\n</ul>\n<p class=\"mb\"><strong>##  数据</strong></p>\n<ul class=\"bullets\">\n<li>**装机目标**：到2026年底，智利BESS容量预计突破**6GW**</li>\n<li>**增长趋势**：法律通过后，大型电池项目宣告量激增</li>\n<li>**基础设施**：正在建设连接北部产区与首都圣地亚哥的输电线路</li>\n</ul>\n<p class=\"mb\">Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</p>\n<p class=\"mb\">智利混合光储市场在政策与商业模式双重驱动下正进入高速增长期，预计2026年储能装机将实现跨越式突破。</p>",
+          "bullets": [],
+          "source": "PV Magazine",
+          "source_url": "https://www.pv-magazine.com/2026/08/29/chiles-hybrid-heroics/",
+          "date": "2026-08-29",
+          "sub_category": "policy"
+        },
+        {
+          "tag": "PV Magazine · 太阳能",
+          "title": "彭博新能源财经称，上半年对并置太阳能+储能的投资达到 250 亿美元",
+          "summary": "<p class=\"mb\">**</p>\n<p class=\"mb\">【政策要点】</p>\n<p class=\"mb\">**</p>\n<p class=\"mb\">BloombergNEF（BNEF）发布2026年上半年全球可再生能源投资报告，覆盖美国、中国等关键市场。上半年全球可再生能源投资达3275亿美元，光储一体化项目融资达250亿美元，但较2024年下半年创纪录水平下降21%。</p>\n<p class=\"mb\">**</p>\n<p class=\"mb\">【影响分析】</p>\n<p class=\"mb\">**</p>\n<p class=\"mb\">投资正加速向储能混合项目倾斜，独立公用事业规模太阳能融资降幅显着。美国和中国等市场的监管变化对行业形成不确定性，但可再生能源部署整体仍按轨道推进。企业需调整策略，关注具备收入管理灵活性的资产组合。</p>\n<p class=\"mb\">**</p>\n<p class=\"mb\">【前景】</p>\n<p class=\"mb\">**</p>\n<p class=\"mb\">尽管短期投资增速放缓，储能驱动的混合项目正成为可再生能源投资新引擎，行业结构持续优化。</p>",
+          "bullets": [],
+          "source": "PV Magazine",
+          "source_url": "https://www.pv-magazine.com/2026/08/28/investments-in-co-located-solar-plus-storage-reach-25-billion-in-h1-says-bloombergnef/",
+          "date": "2026-08-28",
+          "sub_category": "policy"
+        },
+        {
+          "tag": "AFSIA · 非洲太阳能",
+          "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+          "summary": "<p class=\"mb\"><strong>政策要点：</strong></p>\n<ul class=\"bullets\">\n<li>政策名称：历史上最严格的\"标准化规则\"（Standardization Rule），由中国光伏产品质量检测认证中心（CPVT）负责认证</li>\n<li>目标数字：TOPCon和HJT组件效率阈值23.2%，BC组件效率阈值23.5%</li>\n<li>覆盖范围：光伏组件生产、销售、进口及提供全链条</li>\n<li>时间节点：未明确提及</li>\n</ul>\n<p class=\"mb\"><strong>影响分析：</strong></p>\n<ul class=\"bullets\">\n<li>对行业/企业的直接影响：不符合强制效率阈值的组件将被禁止生产、销售、进口或提供；晶科能源Tiger Neo 3.0已获Grade 1认证，正面功率输出达650W-670W，率先合规</li>\n<li>实施挑战或风险：BC电池因双面性及实际性能劣势被单独设定更高效率门槛，技术路线分化加剧，中小厂商面临淘汰压力</li>\n</ul>\n<p class=\"mb\">【前景】</p>\n<p class=\"mb\">新规以强制性效率门槛加速光伏行业技术升级与产能出清，头部企业凭借高效产品巩固竞争优势。</p>",
+          "bullets": [],
+          "source": "AFSIA Solar Africa",
+          "source_url": "https://www.afsiasolar.com/jinkosolar-reaches-a-new-height-tiger-neo-3-0-complies-with-and-surpasses-multiple-latest-national-efficiency-standards/?utm_source=rss&utm_medium=rss&utm_campaign=jinkosolar-reaches-a-new-height-tiger-neo-3-0-complies-with-and-surpasses-multiple-latest-national-efficiency-standards",
+          "date": "2026-08-25",
+          "sub_category": "policy"
+        },
+        {
+          "tag": "Energy News Network",
+          "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+          "summary": "<p class=\"mb\">错误 500（服务器错误）！！1500。这是一个错误。出现错误。 Please try again later.That’s all we know.</p>",
+          "bullets": [],
+          "source": "Energy News Network",
+          "source_url": "https://energy-news-network.com/industry-news/ghana-ecg-private-sector-participation-transaction-adviser/",
+          "date": "2026-08-30",
+          "sub_category": "policy"
+        },
+        {
+          "tag": "Energy News Network",
+          "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+          "summary": "2026 年第一季度，联邦政府承担了尼日利亚 3583.2 亿奈拉的发电成本，略低于发电公司在这三个月内开具的 6897.2 亿奈拉发票的 52%。 The monthly figures ran N126.48 billion in January, N116.34 billion in February and N115.50 billion in March.与 2025 年最后一个季度记录的 4187.9 亿尼日利亚奈拉相比，下降了 14.44%，尼日利亚电力监管委员会将这一下降归因于配电公司的用电量下降了 8.56%，而不是任何其他电力公司造成的。",
+          "bullets": [],
+          "source": "Energy News Network",
+          "source_url": "https://energy-news-network.com/industry-news/nigeria-electricity-subsidy-removal-2027/",
+          "date": "2026-08-29",
+          "sub_category": "policy"
+        },
+        {
+          "tag": "PV Tech",
+          "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+          "summary": "<p class=\"mb\"><strong>政策要点：</strong></p>\n<ul class=\"bullets\">\n<li>政策名称：Section 232关税（多晶硅基产品）；发布机构：美国政府；覆盖范围：多晶硅、硅锭/硅片、太阳能电池及组件</li>\n<li>目标数字：组件最低进口价格（MIP）0.38美元/瓦，电池0.22美元/瓦，外加15%关税；硅片MIP为100美元/千克</li>\n<li>时间节点：预计2027年美国本土组件制造商将主导市场</li>\n</ul>\n<p class=\"mb\"><strong>影响分析：</strong></p>\n<ul class=\"bullets\">\n<li>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</li>\n<li>实施风险：供应链成本传导至终端组件价格上升，非垂直整合企业面临竞争力削弱</li>\n</ul>\n<p class=\"mb\">【前景】</p>\n<p class=\"mb\">Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</p>",
+          "bullets": [],
+          "source": "PV Tech",
+          "source_url": "https://www.pv-tech.org/importing-solar-modules-to-us-no-longer-makes-sense-under-section-232-intertek-cea/",
+          "date": "2026-08-28",
+          "sub_category": "policy"
+        }
+      ]
+    }
+  ]
+}
