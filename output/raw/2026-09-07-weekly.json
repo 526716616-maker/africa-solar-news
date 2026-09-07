@@ -1,0 +1,100 @@
+{
+  "week": "2026-W37",
+  "date": "2026-09-07",
+  "issue": 13,
+  "highlights": [
+    {
+      "num": "10 MW",
+      "label": "10 MW及以上数据中心"
+    },
+    {
+      "num": "7",
+      "label": "篇行业深度分析"
+    },
+    {
+      "num": "7",
+      "label": "家重点企业跟踪"
+    },
+    {
+      "num": "7",
+      "label": "大政策动向"
+    }
+  ],
+  "sections": [
+    {
+      "title": "一、政策规划",
+      "items": [
+        {
+          "tag": "PV Magazine · 太阳能",
+          "title": "爱尔兰对数据中心供电的信心飞跃",
+          "summary": "<p class=\"mb\">## 政策分析摘要</p>\n<p class=\"mb\">**</p>\n<p class=\"mb\">【政策要点】</p>\n<p class=\"mb\"><strong>**</strong></p>\n<ul class=\"bullets\">\n<li>**政策名称**：大型能源用户行动计划（LEAP）</li>\n<li>**发布机构**：爱尔兰政府</li>\n<li>**覆盖范围**：10 MW及以上数据中心</li>\n<li>**目标数字**：至少80%能源需求通过新建现场可再生能源发电与储能设施满足</li>\n<li>**投资规模**：€18.9 billion（约$22.2 billion）电网基础设施投资</li>\n<li>**时间节点**：至2030年；2026年底太阳能并网容量预计超3.3 GW</li>\n</ul>\n<p class=\"mb\">**</p>\n<p class=\"mb\">【影响分析】</p>\n<p class=\"mb\"><strong>**</strong></p>\n<ul class=\"bullets\">\n<li>数据中心已占爱尔兰2025年全国电力消费的23%，LEAP强制其承担可再生能源供应责任，将直接推动储能与光伏产业链投资</li>\n<li>实施核心风险在于电网扩建进度——若输电基础设施滞后，数据中心将无法消纳新增可再生能源，减碳目标将大打折扣</li>\n</ul>\n<p class=\"mb\">**</p>\n<p class=\"mb\">【前景】</p>\n<p class=\"mb\">**</p>\n<p class=\"mb\">爱尔兰以巨额电网投资为杠杆，试图在数据中心激增与脱碳目标之间寻求平衡，成败系于电网建设能否如期推进。</p>",
+          "bullets": [],
+          "source": "PV Magazine",
+          "source_url": "https://www.pv-magazine.com/2026/09/05/irelands-leap-of-faith-to-power-data-centers/",
+          "date": "2026-09-05",
+          "sub_category": "policy"
+        },
+        {
+          "tag": "PV Magazine · 太阳能",
+          "title": "韩国将 2027 年农场太阳能和农业光伏预算增加一倍",
+          "summary": "<p class=\"mb\">Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</p>\n<p class=\"mb\">**</p>\n<p class=\"mb\">Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</p>\n<p class=\"mb\">**</p>\n<p class=\"mb\">Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</p>\n<p class=\"mb\">**</p>\n<p class=\"mb\">Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</p>\n<p class=\"mb\">**</p>\n<p class=\"mb\">Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</p>\n<p class=\"mb\">**</p>\n<p class=\"mb\">【前景】</p>\n<p class=\"mb\">**</p>\n<p class=\"mb\">Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</p>",
+          "bullets": [],
+          "source": "PV Magazine",
+          "source_url": "https://www.pv-magazine.com/2026/09/04/south-korea-to-double-2027-budget-for-farm-solar-agrivoltaics/",
+          "date": "2026-09-04",
+          "sub_category": "policy"
+        },
+        {
+          "tag": "AFSIA · 非洲太阳能",
+          "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+          "summary": "<p class=\"mb\"><strong>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</strong></p>\n<ul class=\"bullets\">\n<li>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</li>\n</ul>\n<p class=\"mb\"><strong>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</strong></p>\n<ul class=\"bullets\">\n<li>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</li>\n<li>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</li>\n<li>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</li>\n</ul>\n<p class=\"mb\">Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</p>",
+          "bullets": [],
+          "source": "AFSIA Solar Africa",
+          "source_url": "https://www.afsiasolar.com/trina-storage-to-launch-next-generation-elementa-electra-solution-at-middle-east-energy-2026/?utm_source=rss&utm_medium=rss&utm_campaign=trina-storage-to-launch-next-generation-elementa-electra-solution-at-middle-east-energy-2026",
+          "date": "2026-09-01",
+          "sub_category": "policy"
+        },
+        {
+          "tag": "AFSIA · 非洲太阳能",
+          "title": "Solis 获得标准普尔全球能源公司和彭博新能源财经的一级认可",
+          "summary": "<p class=\"mb\">Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</p>\n<p class=\"mb\">Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</p>\n<p class=\"mb\"><strong>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</strong></p>\n<ul class=\"bullets\">\n<li>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</li>\n<li>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</li>\n<li>无政策时间节点</li>\n<li>无非洲相关背景或政策影响分析</li>\n</ul>\n<p class=\"mb\">Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</p>",
+          "bullets": [],
+          "source": "AFSIA Solar Africa",
+          "source_url": "https://www.afsiasolar.com/solis-earns-tier-1-recognition-from-both-sp-global-energy-and-bloombergnef/?utm_source=rss&utm_medium=rss&utm_campaign=solis-earns-tier-1-recognition-from-both-sp-global-energy-and-bloombergnef",
+          "date": "2026-08-31",
+          "sub_category": "policy"
+        },
+        {
+          "tag": "Energy News Network",
+          "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+          "summary": "<p class=\"mb\">Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</p>\n<p class=\"mb\"><strong>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</strong></p>\n<ul class=\"bullets\">\n<li>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</li>\n<li>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</li>\n<li>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</li>\n<li>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</li>\n<li>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</li>\n</ul>\n<p class=\"mb\"><strong>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</strong></p>\n<ul class=\"bullets\">\n<li>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</li>\n<li>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</li>\n</ul>",
+          "bullets": [],
+          "source": "Energy News Network",
+          "source_url": "https://energy-news-network.com/industry-news/nersa-generation-registrations-804mw-quarter/",
+          "date": "2026-09-05",
+          "sub_category": "policy"
+        },
+        {
+          "tag": "Energy News Network",
+          "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+          "summary": "<p class=\"mb\">**</p>\n<p class=\"mb\">Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</p>\n<p class=\"mb\"><strong>**</strong></p>\n<ul class=\"bullets\">\n<li>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</li>\n<li>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</li>\n<li>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</li>\n<li>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</li>\n<li>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</li>\n</ul>\n<p class=\"mb\">**</p>\n<p class=\"mb\">Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</p>\n<p class=\"mb\"><strong>**</strong></p>\n<ul class=\"bullets\">\n<li>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</li>\n<li>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</li>\n</ul>\n<p class=\"mb\">**</p>\n<p class=\"mb\">【前景】</p>\n<p class=\"mb\">Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</p>",
+          "bullets": [],
+          "source": "Energy News Network",
+          "source_url": "https://energy-news-network.com/industry-news/maamba-phase-two-zambia-generation-share/",
+          "date": "2026-09-04",
+          "sub_category": "policy"
+        },
+        {
+          "tag": "PV Tech",
+          "title": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.",
+          "summary": "<p class=\"mb\"><strong>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</strong></p>\n<ul class=\"bullets\">\n<li>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</li>\n<li>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</li>\n</ul>\n<p class=\"mb\"><strong>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</strong></p>\n<ul class=\"bullets\">\n<li>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</li>\n<li>Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</li>\n</ul>\n<p class=\"mb\">Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know.</p>",
+          "bullets": [],
+          "source": "PV Tech",
+          "source_url": "https://www.pv-tech.org/inox-solar-americas-signs-767mw-us-module-supply-agreement/",
+          "date": "2026-09-04",
+          "sub_category": "policy"
+        }
+      ]
+    }
+  ]
+}
