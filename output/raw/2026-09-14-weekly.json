@@ -1,0 +1,131 @@
+{
+  "week": "2026-W38",
+  "date": "2026-09-14",
+  "issue": 14,
+  "highlights": [
+    {
+      "num": "93 million",
+      "label": "nd roughly93 million"
+    },
+    {
+      "num": "15%",
+      "label": "15%以太阳能为主、夏季峰值负"
+    },
+    {
+      "num": "12 million",
+      "label": "nching a $12 million"
+    },
+    {
+      "num": "10",
+      "label": "篇行业深度分析"
+    }
+  ],
+  "sections": [
+    {
+      "title": "一、政策规划",
+      "items": [
+        {
+          "tag": "PV Magazine · 太阳能",
+          "title": "The race for space solar",
+          "summary": "There’s a flurry of activity above our heads, and it will be powered, as it has been for more than 70 years, by solar energy. Working in the high-tech solar segment, it’s hard to look past the surge in investment and the scaling of both public and private sector activity in the emerging space industries. The funding really does appear to represent a new opportunity for the solar industry to expand into a high-value market – although its ultimate scale and significance are only beginning to come into focus. While much of the media attention and discussion has been focused on IPOs and lofty ambi",
+          "bullets": [],
+          "source": "PV Magazine",
+          "source_url": "https://www.pv-magazine.com/2026/09/12/the-race-for-space-solar/",
+          "date": "2026-09-12",
+          "sub_category": "policy"
+        },
+        {
+          "tag": "PV Magazine · 太阳能",
+          "title": "U.S. DOE seeks ‘mass, radiation tolerance, and durability’ in space solar cell manufacturing",
+          "summary": "The U.S. Department of Energy (DOE) Integrated Energy Systems Office (IESO) and Office of Critical Minerals and Energy Innovation are seeking innovative techniques to move space based solar power forward. The groups are launching a $12 million funding opportunity open to research laboratories and companies around the country. Space based solar has gotten a lot of attention lately . Some propose to power data centers in space , while others seek to beam the energy to Earth .",
+          "bullets": [],
+          "source": "PV Magazine",
+          "source_url": "https://www.pv-magazine.com/2026/09/12/doe-seeks-mass-radiation-tolerance-and-durability-in-space-solar-cell-manufacturing/",
+          "date": "2026-09-12",
+          "sub_category": "policy"
+        },
+        {
+          "tag": "AFSIA · 非洲太阳能",
+          "title": "PIDG and IFDK join Sanlam in backing the growth of Africa GreenCo’s  market-enabling renewable energy platform.",
+          "summary": "Lusaka, Zambia: Pioneering regional energy trader and intermediary off taker, Africa GreenCo, has today announced an additional USD 11.5m investment from its existing shareholders - the Private Infrastructure Development Group ( PIDG ) and Impact Fund Denmark ( IFDK – formerly IFU). The announcement follows recent news of the entry of new private-sector investor, Sanlam Alternative Investments, one of Africa’s largest institutional investors, bringing the total third close fund raise to USD 21.5m.",
+          "bullets": [],
+          "source": "AFSIA Solar Africa",
+          "source_url": "https://www.afsiasolar.com/pidg-and-ifdk-join-sanlam-in-backing-the-growth-of-africa-greencos-market-enabling-renewable-energy-platform/?utm_source=rss&utm_medium=rss&utm_campaign=pidg-and-ifdk-join-sanlam-in-backing-the-growth-of-africa-greencos-market-enabling-renewable-energy-platform",
+          "date": "2026-09-11",
+          "sub_category": "policy"
+        },
+        {
+          "tag": "Energy News Network",
+          "title": "Europe closes its Russian gas contracts by 2027 and African suppliers are the nearest replacement",
+          "summary": "Long-term LNG contracts with Russian suppliers become prohibited across the European Union from January 2027, with long-term pipeline contracts ending later that year. African gas production sits closer to European ports than any alternative, and roughly 93 million tonnes a year of new global capacity is arriving at the same time. European Union member states will be prohibited from concluding long-term LNG contracts with Russian suppliers from January 2027 under a provisional agreement that also ends long-term pipeline gas contracts by September or November of that year, the later date applyi",
+          "bullets": [],
+          "source": "Energy News Network",
+          "source_url": "https://energy-news-network.com/industry-news/eu-russian-gas-deadline-african-lng-supply/",
+          "date": "2026-09-13",
+          "sub_category": "policy"
+        },
+        {
+          "tag": "PV Tech",
+          "title": "Why Enerparc insolvency is a warning sign for European solar’s new reality",
+          "summary": "The financial difficulties of one of Europe’s best-known downstream solar companies highlight the faultlines running through the continent’s PV and energy storage business.",
+          "bullets": [],
+          "source": "PV Tech",
+          "source_url": "https://www.pv-tech.org/enerparc-insolvency-faultlines-european-downstream-solar-business/",
+          "date": "2026-09-11",
+          "sub_category": "policy"
+        },
+        {
+          "tag": "PV Tech",
+          "title": "‘First of its kind’ solar critical material recovery centre planned in Texas",
+          "summary": "Plans for the US’ “first end-to-end” solar PV critical materials recovery and recycling facility have been announced.",
+          "bullets": [],
+          "source": "PV Tech",
+          "source_url": "https://www.pv-tech.org/first-of-its-kind-solar-critical-material-recovery-centre-planned-in-texas/",
+          "date": "2026-09-11",
+          "sub_category": "policy"
+        }
+      ]
+    },
+    {
+      "title": "三、行业动态",
+      "items": [
+        {
+          "tag": "Rockefeller Foundation",
+          "title": "How Energy Storage Can Power Energy Abundance in Low- and Middle-Income Countries",
+          "summary": "<p class=\"mb\"><strong>行业事件：</strong></p>\n<ul class=\"bullets\">\n<li>洛克菲勒基金会支持Powerhouse Innovation发布中低收入国家（LMICs）储能技术部署框架，聚焦最后 mile 社区电力可及性。</li>\n<li>短期最优路径：提升2-4小时电池储能效率、本地可及性与可负担性；钠离子电池因碳酸钠资源丰富，供应链约束更少，成为替代方案。</li>\n<li>印度作为LMICs中电力需求最大国，当前电网储能连接量极低，部署潜力突出。</li>\n</ul>\n<p class=\"mb\"><strong>数据洞察：</strong></p>\n<ul class=\"bullets\">\n<li>多数LMICs可再生能源占比低于15%，以太阳能为主、夏季峰值负荷为特征，长时储能（8小时+）适用性有限。</li>\n<li>铁-空气电池、压缩空气储能（CAES）等中长时间储能技术成熟后成本有望降至20美元/kWh。</li>\n<li>电池+可再生能源组合或于2050年满足大部分需求，印度等市场正成为储能规模化部署的关键节点。</li>\n</ul>",
+          "bullets": [],
+          "source": "Rockefeller Foundation",
+          "source_url": "https://www.rockefellerfoundation.org/perspective/how-energy-storage-can-power-energy-abundance-in-low-and-middle-income-countries/",
+          "date": "2026-09-08"
+        },
+        {
+          "tag": "GEAPP Energy Alliance",
+          "title": "FAS and Global Energy Alliance bring solar power to the Brazilian Amazon, turning açaí into economic opportunity and off",
+          "summary": "",
+          "bullets": [],
+          "source": "GEAPP Energy Alliance",
+          "source_url": "https://energyalliance.org/fas-and-global-energy-alliance-bring-solar-power-to-the-brazilian-amazon-turning-acai-into-economic-opportunity-and-offering-a-model-for-remote-communities/",
+          "date": "2026-09-09"
+        },
+        {
+          "tag": "AFSIA · 非洲太阳能",
+          "title": "Introducing Segen Solar & Segen Tanzania: Your Renewable Energy Distribution Partner for Growth Across Africa",
+          "summary": "AFSIA is pleased to introduce our Corporate Member, SegenSolar , one of Africa's leading distributors of solar PV and energy storage solutions. Backed by the global Segen Group, established in the United Kingdom in 2004, Segen has grown into a trusted international renewable energy distribution business, combining global expertise, world-class supplier partnerships, and innovative digital tools to support the growth of the solar industry across multiple markets.",
+          "bullets": [],
+          "source": "AFSIA Solar Africa",
+          "source_url": "https://www.afsiasolar.com/introducing-segen-solar-segen-tanzania-your-renewable-energy-distribution-partner-for-growth-across-africa/?utm_source=rss&utm_medium=rss&utm_campaign=introducing-segen-solar-segen-tanzania-your-renewable-energy-distribution-partner-for-growth-across-africa",
+          "date": "2026-09-07"
+        },
+        {
+          "tag": "Energy News Network",
+          "title": "EXCLUSIVE: Two days without mains power in Lagos and Sambal’s dehydrators kept running",
+          "summary": "Blessing Unoka won the Pan-African Low Carbon Track at the Future of Energy Conference Innovation Challenge in Accra. Speaking to ENN, the Sambal Enterprise founder describes processing soya milk and maize flour at a Lagos farm gate on solar and battery storage, sending the waste to a biodigester, and returning the fertiliser to the farmers she buys from.",
+          "bullets": [],
+          "source": "Energy News Network",
+          "source_url": "https://energy-news-network.com/industry-news/exclusive-two-days-without-mains-power-in-lagos-and-sambals-dehydrators-kept-running/",
+          "date": "2026-09-12"
+        }
+      ]
+    }
+  ]
+}
