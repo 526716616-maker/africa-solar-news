@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>非洲离网太阳能市场资讯 2026-09-28 第 16 期</title>
+<style>/* ===== 非洲离网太阳能市场资讯 - 样式 ===== */
+:root {
+  --bg: #f8f9fa;
+  --card: #ffffff;
+  --text: #1a1a2e;
+  --text-secondary: #555770;
+  --text-tertiary: #8e8ea0;
+  --border: #e8e8ee;
+  --green-dark: #0F6E56;
+  --green-light: #1D9E75;
+  --green-bg: #E1F5EE;
+  --green-tag-bg: rgba(15,110,86,0.08);
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans SC", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+.container {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 32px 24px 56px;
+}
+
+/* ===== Header ===== */
+.header {
+  background: var(--green-dark);
+  color: #fff;
+  padding: 36px 32px 28px;
+  border-radius: var(--radius-lg);
+  margin-bottom: 28px;
+}
+.header h1 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 4px;
+  letter-spacing: -0.01em;
+}
+.header .subtitle {
+  font-size: 15px;
+  opacity: 0.78;
+  font-weight: 400;
+}
+.header .meta {
+  display: flex;
+  gap: 10px;
+  margin-top: 18px;
+  flex-wrap: wrap;
+}
+.header .meta span {
+  background: rgba(255,255,255,0.15);
+  border-radius: var(--radius-sm);
+  padding: 4px 12px;
+  font-size: 13px;
+  letter-spacing: 0.02em;
+}
+
+/* ===== Stats Row ===== */
+.section-title {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text-tertiary);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin: 36px 0 14px;
+}
+.stats-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin-bottom: 10px;
+}
+.stat-box {
+  background: var(--card);
+  border: 0.5px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 18px 16px;
+  text-align: center;
+}
+.stat-box .num {
+  font-size: 26px;
+  font-weight: 800;
+  color: var(--green-dark);
+  margin-bottom: 6px;
+}
+.stat-box .lbl {
+  font-size: 12px;
+  color: var(--text-secondary);
+  line-height: 1.4;
+}
+@media (max-width: 560px) {
+  .stats-row { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* ===== News Card ===== */
+.news-card {
+  background: var(--card);
+  border: 0.5px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 22px 24px;
+  margin-bottom: 16px;
+  transition: border-color 0.15s;
+}
+.news-card:hover { border-color: var(--green-light); }
+.news-card .tag {
+  display: inline-block;
+  background: var(--green-tag-bg);
+  color: var(--green-dark);
+  font-size: 12px;
+  font-weight: 500;
+  padding: 3px 12px;
+  border-radius: 100px;
+}
+.news-card .card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.news-card .card-date {
+  font-size: 12px;
+  color: var(--text-tertiary);
+  white-space: nowrap;
+}
+.news-card h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: var(--text);
+}
+/* ===== 通用：卡片内列表 & 段落样式 ===== */
+.news-card .summary,
+.company-card .summary {
+  font-size: 14px;
+  color: #000000;
+  margin-bottom: 12px;
+  line-height: 1.7;
+}
+.news-card .bullets,
+.company-card .bullets {
+  list-style: none;
+  margin-bottom: 12px;
+}
+.news-card .bullets li,
+.company-card .bullets li {
+  font-size: 13px;
+  color: var(--text-secondary);
+  padding: 3px 0 3px 18px;
+  position: relative;
+  word-break: break-word;
+}
+.news-card .bullets li::before,
+.company-card .bullets li::before {
+  content: "";
+  position: absolute;
+  left: 2px;
+  top: 10px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--green-light);
+}
+.news-card .mb,
+.company-card .mb { margin-bottom: 10px; }
+.news-card .bullets,
+.company-card .bullets { margin-bottom: 0; }
+.news-card .source {
+  font-size: 12px;
+  color: var(--text-tertiary);
+  margin-top: 4px;
+}
+.news-card .source a {
+  color: var(--green-dark);
+  text-decoration: none;
+}
+.news-card .source a:hover { text-decoration: underline; }
+
+/* ===== Company Card ===== */
+.company-card {
+  background: var(--card);
+  border: 0.5px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 22px 24px;
+  margin-bottom: 16px;
+  transition: border-color 0.15s;
+}
+.company-card:hover { border-color: var(--green-light); }
+.company-card .tag {
+  display: inline-block;
+  background: var(--green-tag-bg);
+  color: var(--green-dark);
+  font-size: 12px;
+  font-weight: 500;
+  padding: 3px 12px;
+  border-radius: 100px;
+}
+.company-card .card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.company-card .card-date {
+  font-size: 12px;
+  color: var(--text-tertiary);
+  white-space: nowrap;
+}
+.company-card h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: var(--text);
+}
+.company-card .source {
+  font-size: 12px;
+  color: var(--text-tertiary);
+  margin-top: 10px;
+}
+.company-card .source a {
+  color: var(--green-dark);
+  text-decoration: none;
+}
+.company-card .source a:hover { text-decoration: underline; }
+
+/* ===== Archive Nav ===== */
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.nav-bar a {
+  font-size: 14px;
+  color: var(--green-dark);
+  text-decoration: none;
+  padding: 4px 0;
+  font-weight: 500;
+}
+.nav-bar a:hover { text-decoration: underline; }
+
+/* ===== Archive Page ===== */
+.archive-list {
+  list-style: none;
+}
+.archive-item {
+  background: var(--card);
+  border: 0.5px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 18px 22px;
+  margin-bottom: 12px;
+  transition: border-color 0.15s;
+}
+.archive-item:hover { border-color: var(--green-light); }
+.archive-item a {
+  text-decoration: none;
+  color: var(--text);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.archive-item .issue-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+.archive-item .issue-meta {
+  font-size: 13px;
+  color: var(--text-tertiary);
+  margin-top: 6px;
+}
+.archive-item .issue-count {
+  font-size: 14px;
+  color: var(--green-dark);
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+/* ===== Footer ===== */
+.footer {
+  text-align: center;
+  font-size: 13px;
+  color: var(--text-tertiary);
+  border-top: 0.5px solid var(--border);
+  padding-top: 24px;
+  margin-top: 40px;
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+  <div class="nav-bar">
+    <a href="archive.html">← 查看往期</a>
+    <span style="font-size:13px;color:var(--text-tertiary)">第 16 期</span>
+  </div>
+
+  <div class="header">
+    <h1>Africa Off-Grid Solar Market News</h1>
+    <p class="subtitle">非洲离网太阳能市场资讯</p>
+    <div class="meta">
+      <span>第 16 期</span>
+      <span>2026-09-28</span>
+      <span>行业动态 · 企业跟踪</span>
+    </div>
+  </div>
+
+  <div class="section-title">本期数据亮点</div>
+  <div class="stats-row"><div class="stat-box"><div class="num">5.1 billion</div><div class="lbl">Energy News Network</div></div><div class="stat-box"><div class="num">200 Million</div><div class="lbl">Sun King</div></div><div class="stat-box"><div class="num">30GW</div><div class="lbl">30GW**</div></div><div class="stat-box"><div class="num">9.1GW</div><div class="lbl">9.1GWof renewable</div></div></div>
+
+  <div class="section-title">一、政策规划</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">AFSIA · 非洲太阳能</span>
+    <span class="card-date">2026-09-25</span>
+  </div>
+  <h3>Tiger Neo 3.0 one of top selling panels to date</h3>
+  <div class="summary"><p class="mb"># 非洲离网太阳能行业快讯</p>
+<p class="mb">---</p>
+<p class="mb">##  行业事件</p>
+<p class="mb">晶科太阳能（JinkoSolar）Tiger Neo 3.0组件自2024年11月上市以来，**10个月内全球累计订单突破30GW**，跻身史上最畅销组件行列。该组件已在**中东、欧洲、亚太、拉美及国内市场**斩获多个GW级订单，充分印证市场对其N型技术路线的高度认可。</p>
+<p class="mb">技术亮点方面，Tiger Neo 3.0采用高效钝化接触技术，**首年衰减低于1%**，**年线性衰减仅0.35%**，并率先通过CPVT Class 1能效合规验证，为650W+高功率组件时代树立新标杆。</p>
+<p class="mb">---</p>
+<p class="mb"><strong>##  数据洞察</strong></p>
+<ul class="bullets">
+<li>**累计订单**：30GW+（发布10个月内）</li>
+<li>**转换效率**：24.8%，远超GB 47834-2</li>
+</ul></div>
+  
+  <div class="source">来源：<a href="https://www.afsiasolar.com/tiger-neo-3-0-one-of-top-selling-panels-to-date/?utm_source=rss&utm_medium=rss&utm_campaign=tiger-neo-3-0-one-of-top-selling-panels-to-date" target="_blank" rel="noopener">AFSIA Solar Africa</a></div>
+</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">BGFA · 离网基金</span>
+    <span class="card-date">2026-09-21</span>
+  </div>
+  <h3>Webinar on 30 September: Maximising Results-Based Financing Results: Lessons from BGFA programme</h3>
+  <div class="summary">Join a webinar by ESMAP and GOGLA , in collaboration with Nefco - the Nordic Green Bank , Facility manager of the Beyond the Grid Fund for Africa (BGFA) , on 30 September at 15:00 – 16:30 CET for an engaging discussion on how results-based financing (RBF) can be designed to deliver greater efficiency, effectiveness and long-term impact in different market contexts.</div>
+  
+  <div class="source">来源：<a href="https://beyondthegrid.africa/event/webinar-on-30-september-maximising-results-based-financing-results-lessons-from-bgfa-programme/" target="_blank" rel="noopener">BGFA (Beyond the Grid)</a></div>
+</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">Energy News Network</span>
+    <span class="card-date">2026-09-27</span>
+  </div>
+  <h3>AfDB crisis response framework: up to $5.1bn for energy and fertiliser shocks</h3>
+  <div class="summary">The African Development Bank's board approved a crisis framework on 1 September worth up to $5.1 billion, raising the Bank Group's 2026 lending target to about $12.7 billion. It runs for a year and is aimed at countries absorbing higher prices for imported energy and fertiliser as trade routes are disrupte d.</div>
+  
+  <div class="source">来源：<a href="https://energy-news-network.com/industry-news/afdb-crisis-response-framework-energy-fertiliser/" target="_blank" rel="noopener">Energy News Network</a></div>
+</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">Energy News Network</span>
+    <span class="card-date">2026-09-26</span>
+  </div>
+  <h3>President William Ruto demands global financial architecture overhaul to unlock green capital pipelines</h3>
+  <div class="summary">Kenyan President William Ruto has addressed the United Nations General Assembly to demand systemic structural reform of multilateral development banks. The policy intervention targets sovereign debt sustainability frameworks and credit rating methodologies to reduce the cost of infrastructure capital across sub-Saharan clean energy projects. At the United Nations headquarters in New York, international policy planners have received a formal framework to restructure sovereign debt distress parameters. The Kenyan executive address focused on global capital allocation rules that systematically pe</div>
+  
+  <div class="source">来源：<a href="https://energy-news-network.com/industry-news/ruto-unga-financial-architecture-reform-sovereign-debt/" target="_blank" rel="noopener">Energy News Network</a></div>
+</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">PV Tech</span>
+    <span class="card-date">2026-09-27</span>
+  </div>
+  <h3>Australia connects record 9.1GW of renewables and storage as NEM pipeline reaches 75.4GW</h3>
+  <div class="summary">AEMO said a record 9.1GW of new renewable energy and storage capacity connected to the National Electricity Market (NEM) in FY26.</div>
+  
+  <div class="source">来源：<a href="https://www.pv-tech.org/australia-connects-record-9-1gw-of-renewables-and-storage-as-nem-pipeline-reaches-75-4gw/" target="_blank" rel="noopener">PV Tech</a></div>
+</div>
+<div class="section-title">三、行业动态</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">PV Tech</span>
+    <span class="card-date">2026-09-25</span>
+  </div>
+  <h3>Best of the Week: IRENA’s latest report, US module prices climb and Abu Dhabi raises solar ambitions</h3>
+  <div class="summary">Welcome to the PV Tech Best of the Week roundup, covering the week's biggest stories from the global solar industry.</div>
+  
+  <div class="source">来源：<a href="https://www.pv-tech.org/best-of-the-week-irena-us-module-prices-abu-dhabi/" target="_blank" rel="noopener">PV Tech</a></div>
+</div>
+<div class="section-title">四、重点企业动态</div>
+<div class="company-card">
+  <div class="card-top">
+    <span class="tag">企业动态 · Sun King</span>
+    <span class="card-date">2026-09-24</span>
+  </div>
+  <h3>Sun King Joins UN Energy Compacts with Pledge to Reach 200 Million People by 2030</h3>
+  
+  <div class="source">来源：<a href="https://sunking.com/news-blog/sun-king-joins-un-energy-compacts-with-pledge-to-reach-200-million-people-by-2030/" target="_blank" rel="noopener">Sun King</a></div>
+</div>
+<div class="company-card">
+  <div class="card-top">
+    <span class="tag">企业动态 · Sun King</span>
+    <span class="card-date">2026-09-23</span>
+  </div>
+  <h3>Acumen invests $5 million in Sun King to scale pay-as-you-go solar energy access in Zambia</h3>
+  
+  <div class="source">来源：<a href="https://sunking.com/news-blog/acumen-invests-5-million-in-sun-king-to-scale-pay-as-you-go-solar-energy-access-in-zambia/" target="_blank" rel="noopener">Sun King</a></div>
+</div>
+
+
+  <div class="footer">
+    Africa Solar News · 2026-09-28 · 每周更新
+  </div>
+
+</div>
+</body>
+</html>

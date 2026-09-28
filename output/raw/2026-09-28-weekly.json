@@ -1,0 +1,115 @@
+{
+  "week": "2026-W40",
+  "date": "2026-09-28",
+  "issue": 16,
+  "highlights": [
+    {
+      "num": "5.1 billion",
+      "label": "Energy News Network"
+    },
+    {
+      "num": "200 Million",
+      "label": "Sun King"
+    },
+    {
+      "num": "30GW",
+      "label": "30GW**"
+    },
+    {
+      "num": "9.1GW",
+      "label": "9.1GWof renewable"
+    }
+  ],
+  "sections": [
+    {
+      "title": "一、政策规划",
+      "items": [
+        {
+          "tag": "AFSIA · 非洲太阳能",
+          "title": "Tiger Neo 3.0 one of top selling panels to date",
+          "summary": "<p class=\"mb\"># 非洲离网太阳能行业快讯</p>\n<p class=\"mb\">---</p>\n<p class=\"mb\">##  行业事件</p>\n<p class=\"mb\">晶科太阳能（JinkoSolar）Tiger Neo 3.0组件自2024年11月上市以来，**10个月内全球累计订单突破30GW**，跻身史上最畅销组件行列。该组件已在**中东、欧洲、亚太、拉美及国内市场**斩获多个GW级订单，充分印证市场对其N型技术路线的高度认可。</p>\n<p class=\"mb\">技术亮点方面，Tiger Neo 3.0采用高效钝化接触技术，**首年衰减低于1%**，**年线性衰减仅0.35%**，并率先通过CPVT Class 1能效合规验证，为650W+高功率组件时代树立新标杆。</p>\n<p class=\"mb\">---</p>\n<p class=\"mb\"><strong>##  数据洞察</strong></p>\n<ul class=\"bullets\">\n<li>**累计订单**：30GW+（发布10个月内）</li>\n<li>**转换效率**：24.8%，远超GB 47834-2</li>\n</ul>",
+          "bullets": [],
+          "source": "AFSIA Solar Africa",
+          "source_url": "https://www.afsiasolar.com/tiger-neo-3-0-one-of-top-selling-panels-to-date/?utm_source=rss&utm_medium=rss&utm_campaign=tiger-neo-3-0-one-of-top-selling-panels-to-date",
+          "date": "2026-09-25",
+          "sub_category": "policy"
+        },
+        {
+          "tag": "BGFA · 离网基金",
+          "title": "Webinar on 30 September: Maximising Results-Based Financing Results: Lessons from BGFA programme",
+          "summary": "Join a webinar by ESMAP and GOGLA , in collaboration with Nefco - the Nordic Green Bank , Facility manager of the Beyond the Grid Fund for Africa (BGFA) , on 30 September at 15:00 – 16:30 CET for an engaging discussion on how results-based financing (RBF) can be designed to deliver greater efficiency, effectiveness and long-term impact in different market contexts.",
+          "bullets": [],
+          "source": "BGFA (Beyond the Grid)",
+          "source_url": "https://beyondthegrid.africa/event/webinar-on-30-september-maximising-results-based-financing-results-lessons-from-bgfa-programme/",
+          "date": "2026-09-21",
+          "sub_category": "policy"
+        },
+        {
+          "tag": "Energy News Network",
+          "title": "AfDB crisis response framework: up to $5.1bn for energy and fertiliser shocks",
+          "summary": "The African Development Bank's board approved a crisis framework on 1 September worth up to $5.1 billion, raising the Bank Group's 2026 lending target to about $12.7 billion. It runs for a year and is aimed at countries absorbing higher prices for imported energy and fertiliser as trade routes are disrupte d.",
+          "bullets": [],
+          "source": "Energy News Network",
+          "source_url": "https://energy-news-network.com/industry-news/afdb-crisis-response-framework-energy-fertiliser/",
+          "date": "2026-09-27",
+          "sub_category": "policy"
+        },
+        {
+          "tag": "Energy News Network",
+          "title": "President William Ruto demands global financial architecture overhaul to unlock green capital pipelines",
+          "summary": "Kenyan President William Ruto has addressed the United Nations General Assembly to demand systemic structural reform of multilateral development banks. The policy intervention targets sovereign debt sustainability frameworks and credit rating methodologies to reduce the cost of infrastructure capital across sub-Saharan clean energy projects. At the United Nations headquarters in New York, international policy planners have received a formal framework to restructure sovereign debt distress parameters. The Kenyan executive address focused on global capital allocation rules that systematically pe",
+          "bullets": [],
+          "source": "Energy News Network",
+          "source_url": "https://energy-news-network.com/industry-news/ruto-unga-financial-architecture-reform-sovereign-debt/",
+          "date": "2026-09-26",
+          "sub_category": "policy"
+        },
+        {
+          "tag": "PV Tech",
+          "title": "Australia connects record 9.1GW of renewables and storage as NEM pipeline reaches 75.4GW",
+          "summary": "AEMO said a record 9.1GW of new renewable energy and storage capacity connected to the National Electricity Market (NEM) in FY26.",
+          "bullets": [],
+          "source": "PV Tech",
+          "source_url": "https://www.pv-tech.org/australia-connects-record-9-1gw-of-renewables-and-storage-as-nem-pipeline-reaches-75-4gw/",
+          "date": "2026-09-27",
+          "sub_category": "policy"
+        }
+      ]
+    },
+    {
+      "title": "三、行业动态",
+      "items": [
+        {
+          "tag": "PV Tech",
+          "title": "Best of the Week: IRENA’s latest report, US module prices climb and Abu Dhabi raises solar ambitions",
+          "summary": "Welcome to the PV Tech Best of the Week roundup, covering the week's biggest stories from the global solar industry.",
+          "bullets": [],
+          "source": "PV Tech",
+          "source_url": "https://www.pv-tech.org/best-of-the-week-irena-us-module-prices-abu-dhabi/",
+          "date": "2026-09-25"
+        }
+      ]
+    },
+    {
+      "title": "四、重点企业动态",
+      "companies": [
+        {
+          "tag": "企业动态 · Sun King",
+          "name": "Sun King Joins UN Energy Compacts with Pledge to Reach 200 Million People by 2030",
+          "description": "Sun King Joins UN Energy Compacts with Pledge to Reach 200 Million People by 2030",
+          "source": "Sun King",
+          "source_url": "https://sunking.com/news-blog/sun-king-joins-un-energy-compacts-with-pledge-to-reach-200-million-people-by-2030/",
+          "date": "2026-09-24"
+        },
+        {
+          "tag": "企业动态 · Sun King",
+          "name": "Acumen invests $5 million in Sun King to scale pay-as-you-go solar energy access in Zambia",
+          "description": "Acumen invests $5 million in Sun King to scale pay-as-you-go solar energy access in Zambia",
+          "source": "Sun King",
+          "source_url": "https://sunking.com/news-blog/acumen-invests-5-million-in-sun-king-to-scale-pay-as-you-go-solar-energy-access-in-zambia/",
+          "date": "2026-09-23"
+        }
+      ]
+    }
+  ]
+}
