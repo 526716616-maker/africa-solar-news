@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>非洲离网太阳能市场资讯 2026-10-05 第 17 期</title>
+<style>/* ===== 非洲离网太阳能市场资讯 - 样式 ===== */
+:root {
+  --bg: #f8f9fa;
+  --card: #ffffff;
+  --text: #1a1a2e;
+  --text-secondary: #555770;
+  --text-tertiary: #8e8ea0;
+  --border: #e8e8ee;
+  --green-dark: #0F6E56;
+  --green-light: #1D9E75;
+  --green-bg: #E1F5EE;
+  --green-tag-bg: rgba(15,110,86,0.08);
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans SC", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+.container {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 32px 24px 56px;
+}
+
+/* ===== Header ===== */
+.header {
+  background: var(--green-dark);
+  color: #fff;
+  padding: 36px 32px 28px;
+  border-radius: var(--radius-lg);
+  margin-bottom: 28px;
+}
+.header h1 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 4px;
+  letter-spacing: -0.01em;
+}
+.header .subtitle {
+  font-size: 15px;
+  opacity: 0.78;
+  font-weight: 400;
+}
+.header .meta {
+  display: flex;
+  gap: 10px;
+  margin-top: 18px;
+  flex-wrap: wrap;
+}
+.header .meta span {
+  background: rgba(255,255,255,0.15);
+  border-radius: var(--radius-sm);
+  padding: 4px 12px;
+  font-size: 13px;
+  letter-spacing: 0.02em;
+}
+
+/* ===== Stats Row ===== */
+.section-title {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text-tertiary);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin: 36px 0 14px;
+}
+.stats-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin-bottom: 10px;
+}
+.stat-box {
+  background: var(--card);
+  border: 0.5px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 18px 16px;
+  text-align: center;
+}
+.stat-box .num {
+  font-size: 26px;
+  font-weight: 800;
+  color: var(--green-dark);
+  margin-bottom: 6px;
+}
+.stat-box .lbl {
+  font-size: 12px;
+  color: var(--text-secondary);
+  line-height: 1.4;
+}
+@media (max-width: 560px) {
+  .stats-row { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* ===== News Card ===== */
+.news-card {
+  background: var(--card);
+  border: 0.5px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 22px 24px;
+  margin-bottom: 16px;
+  transition: border-color 0.15s;
+}
+.news-card:hover { border-color: var(--green-light); }
+.news-card .tag {
+  display: inline-block;
+  background: var(--green-tag-bg);
+  color: var(--green-dark);
+  font-size: 12px;
+  font-weight: 500;
+  padding: 3px 12px;
+  border-radius: 100px;
+}
+.news-card .card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.news-card .card-date {
+  font-size: 12px;
+  color: var(--text-tertiary);
+  white-space: nowrap;
+}
+.news-card h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: var(--text);
+}
+/* ===== 通用：卡片内列表 & 段落样式 ===== */
+.news-card .summary,
+.company-card .summary {
+  font-size: 14px;
+  color: #000000;
+  margin-bottom: 12px;
+  line-height: 1.7;
+}
+.news-card .bullets,
+.company-card .bullets {
+  list-style: none;
+  margin-bottom: 12px;
+}
+.news-card .bullets li,
+.company-card .bullets li {
+  font-size: 13px;
+  color: var(--text-secondary);
+  padding: 3px 0 3px 18px;
+  position: relative;
+  word-break: break-word;
+}
+.news-card .bullets li::before,
+.company-card .bullets li::before {
+  content: "";
+  position: absolute;
+  left: 2px;
+  top: 10px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--green-light);
+}
+.news-card .mb,
+.company-card .mb { margin-bottom: 10px; }
+.news-card .bullets,
+.company-card .bullets { margin-bottom: 0; }
+.news-card .source {
+  font-size: 12px;
+  color: var(--text-tertiary);
+  margin-top: 4px;
+}
+.news-card .source a {
+  color: var(--green-dark);
+  text-decoration: none;
+}
+.news-card .source a:hover { text-decoration: underline; }
+
+/* ===== Company Card ===== */
+.company-card {
+  background: var(--card);
+  border: 0.5px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 22px 24px;
+  margin-bottom: 16px;
+  transition: border-color 0.15s;
+}
+.company-card:hover { border-color: var(--green-light); }
+.company-card .tag {
+  display: inline-block;
+  background: var(--green-tag-bg);
+  color: var(--green-dark);
+  font-size: 12px;
+  font-weight: 500;
+  padding: 3px 12px;
+  border-radius: 100px;
+}
+.company-card .card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.company-card .card-date {
+  font-size: 12px;
+  color: var(--text-tertiary);
+  white-space: nowrap;
+}
+.company-card h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: var(--text);
+}
+.company-card .source {
+  font-size: 12px;
+  color: var(--text-tertiary);
+  margin-top: 10px;
+}
+.company-card .source a {
+  color: var(--green-dark);
+  text-decoration: none;
+}
+.company-card .source a:hover { text-decoration: underline; }
+
+/* ===== Archive Nav ===== */
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.nav-bar a {
+  font-size: 14px;
+  color: var(--green-dark);
+  text-decoration: none;
+  padding: 4px 0;
+  font-weight: 500;
+}
+.nav-bar a:hover { text-decoration: underline; }
+
+/* ===== Archive Page ===== */
+.archive-list {
+  list-style: none;
+}
+.archive-item {
+  background: var(--card);
+  border: 0.5px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 18px 22px;
+  margin-bottom: 12px;
+  transition: border-color 0.15s;
+}
+.archive-item:hover { border-color: var(--green-light); }
+.archive-item a {
+  text-decoration: none;
+  color: var(--text);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.archive-item .issue-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+.archive-item .issue-meta {
+  font-size: 13px;
+  color: var(--text-tertiary);
+  margin-top: 6px;
+}
+.archive-item .issue-count {
+  font-size: 14px;
+  color: var(--green-dark);
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+/* ===== Footer ===== */
+.footer {
+  text-align: center;
+  font-size: 13px;
+  color: var(--text-tertiary);
+  border-top: 0.5px solid var(--border);
+  padding-top: 24px;
+  margin-top: 40px;
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+  <div class="nav-bar">
+    <a href="archive.html">← 查看往期</a>
+    <span style="font-size:13px;color:var(--text-tertiary)">第 17 期</span>
+  </div>
+
+  <div class="header">
+    <h1>Africa Off-Grid Solar Market News</h1>
+    <p class="subtitle">非洲离网太阳能市场资讯</p>
+    <div class="meta">
+      <span>第 17 期</span>
+      <span>2026-10-05</span>
+      <span>行业动态 · 企业跟踪</span>
+    </div>
+  </div>
+
+  <div class="section-title">本期数据亮点</div>
+  <div class="stats-row"><div class="stat-box"><div class="num">37% of</div><div class="lbl">37% ofnew U</div></div><div class="stat-box"><div class="num">10%</div><div class="lbl">10%Trinasolar</div></div><div class="stat-box"><div class="num">30MW</div><div class="lbl">30MWp of solar w</div></div><div class="stat-box"><div class="num">8</div><div class="lbl">篇行业深度分析</div></div></div>
+
+  <div class="section-title">一、政策规划</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">GEAPP Energy Alliance</span>
+    <span class="card-date">2026-09-30</span>
+  </div>
+  <h3>Solar now powers irrigation, rice milling and milk cooling for about 5,000 farmers in Malawi</h3>
+  
+  
+  <div class="source">来源：<a href="https://energyalliance.org/solar-energy-agriculture-malawi/" target="_blank" rel="noopener">GEAPP Energy Alliance</a></div>
+</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">PV Magazine · 太阳能</span>
+    <span class="card-date">2026-10-03</span>
+  </div>
+  <h3>Battery storage paired with 37% of new U.S. residential solar systems in 2025</h3>
+  <div class="summary">More than one-third of new residential solar installations in the United States included battery storage in 2025, as batteries increasingly shift from an optional addition to a standard component of rooftop solar projects. Battery storage was paired with 37% of new residential photovoltaic systems in 2025, up from 25% in 2024, according to Lawrence Berkeley National Laboratory’s latest U.S. Distributed Solar and Storage Data update.</div>
+  
+  <div class="source">来源：<a href="https://www.pv-magazine.com/2026/10/03/battery-storage-paired-with-37-of-new-u-s-residential-solar-systems-in-2025/" target="_blank" rel="noopener">PV Magazine</a></div>
+</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">AFSIA · 非洲太阳能</span>
+    <span class="card-date">2026-09-28</span>
+  </div>
+  <h3>Trinasolar Wins EcoVadis 2026 Silver Medal for Sustainability Achievement and Ranks in the Global Top 10%</h3>
+  <div class="summary">Trinasolar, a global leader in smart solar and energy storage solutions, has been awarded the Silver Medal in EcoVadis 2026 Sustainability Rating, ranking among the top 10% of companies assessed worldwide with an overall score of 77/100. As the only PV module manufacturer to have participated in the EcoVadis assessment for 12 consecutive years, Trinasolar continues to demonstrate sustained excellence across environment, labor and human rights, ethics, and sustainable procurement. The company excelled particularly in Environment (80 points) and Ethics (79 points), underscoring its ongoing leade</div>
+  
+  <div class="source">来源：<a href="https://www.afsiasolar.com/trinasolar-wins-ecovadis-2026-silver-medal-for-sustainability-achievement-and-ranks-in-the-global-top-10/" target="_blank" rel="noopener">AFSIA Solar Africa</a></div>
+</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">Energy News Network</span>
+    <span class="card-date">2026-10-04</span>
+  </div>
+  <h3>Gassi and Lamadji reach first drawdown on a €37.9m solar and storage package</h3>
+  <div class="summary">Qair has drawn the first funds under a €37.9 million package for two hybrid solar plants near N'Djamena, combining 30MWp of solar with 8MW and 8MWh of battery storage. The African Development Bank and Proparco each lent €15.2 million, under a 20-year power purchase agreement with Tchadelec. Qair agreed a framework with the Republic of Chad for two hybrid solar plants at Gassi and Lamadji, both sited on the 90kV loop that rings N'Djamena, with a 20-year power purchase agreement signed with the national utility Tchadelec behind them. Assembling the money took several institutions rather than one</div>
+  
+  <div class="source">来源：<a href="https://energy-news-network.com/industry-news/chad-solar-storage-financing-gassi-lamadji/" target="_blank" rel="noopener">Energy News Network</a></div>
+</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">Energy News Network</span>
+    <span class="card-date">2026-10-03</span>
+  </div>
+  <h3>Mercuria puts $250m behind Zambian generation and transmission through Exergy</h3>
+  <div class="summary">Mercuria and Exergy signed a $250 million financing agreement in Lusaka on 25 September, covering generation and transmission projects run by two Exergy subsidiaries. It is among the largest private commitments made to Zambia's power sector and the commodities group's first move into the region's electricity market. Exergy and Mercuria signed a $250 million financing agreement in Lusaka on 25 September, directed at generation and transmission projects in Zambia and across Southern Africa. Two Exergy subsidiaries hold the projects the money is intended for.</div>
+  
+  <div class="source">来源：<a href="https://energy-news-network.com/industry-news/mercuria-exergy-zambia-power-financing/" target="_blank" rel="noopener">Energy News Network</a></div>
+</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">PV Tech</span>
+    <span class="card-date">2026-10-02</span>
+  </div>
+  <h3>Best of the Week: US policy drives manufacturing, why PV DC connector failures are a challenge and Linton sues Jingsheng</h3>
+  <div class="summary">Welcome to the PV Tech Best of the Week roundup, covering the week’s biggest stories from the global solar PV industry.</div>
+  
+  <div class="source">来源：<a href="https://www.pv-tech.org/best-of-the-week-us-policy-drives-manufacturing-dc-connector-failures-linton-sues-jingsheng/" target="_blank" rel="noopener">PV Tech</a></div>
+</div>
+<div class="section-title">三、行业动态</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">GEAPP Energy Alliance</span>
+    <span class="card-date">2026-09-29</span>
+  </div>
+  <h3>Energy system ‘acupuncture’: small interventions, big results</h3>
+  
+  
+  <div class="source">来源：<a href="https://energyalliance.org/catalytic-philanthropy-energy-transition-latin-america-caribbean/" target="_blank" rel="noopener">GEAPP Energy Alliance</a></div>
+</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">PV Tech</span>
+    <span class="card-date">2026-10-02</span>
+  </div>
+  <h3>Navigating the quality challenges of US module procurement</h3>
+  <div class="summary">The US solar industry is contending with variable module quality as new suppliers jostle to serve this lucrative market.</div>
+  
+  <div class="source">来源：<a href="https://www.pv-tech.org/navigating-the-quality-challenges-us-module-procurement/" target="_blank" rel="noopener">PV Tech</a></div>
+</div>
+
+
+  <div class="footer">
+    Africa Solar News · 2026-10-05 · 每周更新
+  </div>
+
+</div>
+</body>
+</html>

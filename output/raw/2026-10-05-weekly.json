@@ -1,0 +1,113 @@
+{
+  "week": "2026-W41",
+  "date": "2026-10-05",
+  "issue": 17,
+  "highlights": [
+    {
+      "num": "37% of",
+      "label": "37% ofnew U"
+    },
+    {
+      "num": "10%",
+      "label": "10%Trinasolar"
+    },
+    {
+      "num": "30MW",
+      "label": "30MWp of solar w"
+    },
+    {
+      "num": "8",
+      "label": "篇行业深度分析"
+    }
+  ],
+  "sections": [
+    {
+      "title": "一、政策规划",
+      "items": [
+        {
+          "tag": "GEAPP Energy Alliance",
+          "title": "Solar now powers irrigation, rice milling and milk cooling for about 5,000 farmers in Malawi",
+          "summary": "",
+          "bullets": [],
+          "source": "GEAPP Energy Alliance",
+          "source_url": "https://energyalliance.org/solar-energy-agriculture-malawi/",
+          "date": "2026-09-30",
+          "sub_category": "policy"
+        },
+        {
+          "tag": "PV Magazine · 太阳能",
+          "title": "Battery storage paired with 37% of new U.S. residential solar systems in 2025",
+          "summary": "More than one-third of new residential solar installations in the United States included battery storage in 2025, as batteries increasingly shift from an optional addition to a standard component of rooftop solar projects. Battery storage was paired with 37% of new residential photovoltaic systems in 2025, up from 25% in 2024, according to Lawrence Berkeley National Laboratory’s latest U.S. Distributed Solar and Storage Data update.",
+          "bullets": [],
+          "source": "PV Magazine",
+          "source_url": "https://www.pv-magazine.com/2026/10/03/battery-storage-paired-with-37-of-new-u-s-residential-solar-systems-in-2025/",
+          "date": "2026-10-03",
+          "sub_category": "policy"
+        },
+        {
+          "tag": "AFSIA · 非洲太阳能",
+          "title": "Trinasolar Wins EcoVadis 2026 Silver Medal for Sustainability Achievement and Ranks in the Global Top 10%",
+          "summary": "Trinasolar, a global leader in smart solar and energy storage solutions, has been awarded the Silver Medal in EcoVadis 2026 Sustainability Rating, ranking among the top 10% of companies assessed worldwide with an overall score of 77/100. As the only PV module manufacturer to have participated in the EcoVadis assessment for 12 consecutive years, Trinasolar continues to demonstrate sustained excellence across environment, labor and human rights, ethics, and sustainable procurement. The company excelled particularly in Environment (80 points) and Ethics (79 points), underscoring its ongoing leade",
+          "bullets": [],
+          "source": "AFSIA Solar Africa",
+          "source_url": "https://www.afsiasolar.com/trinasolar-wins-ecovadis-2026-silver-medal-for-sustainability-achievement-and-ranks-in-the-global-top-10/",
+          "date": "2026-09-28",
+          "sub_category": "policy"
+        },
+        {
+          "tag": "Energy News Network",
+          "title": "Gassi and Lamadji reach first drawdown on a €37.9m solar and storage package",
+          "summary": "Qair has drawn the first funds under a €37.9 million package for two hybrid solar plants near N'Djamena, combining 30MWp of solar with 8MW and 8MWh of battery storage. The African Development Bank and Proparco each lent €15.2 million, under a 20-year power purchase agreement with Tchadelec. Qair agreed a framework with the Republic of Chad for two hybrid solar plants at Gassi and Lamadji, both sited on the 90kV loop that rings N'Djamena, with a 20-year power purchase agreement signed with the national utility Tchadelec behind them. Assembling the money took several institutions rather than one",
+          "bullets": [],
+          "source": "Energy News Network",
+          "source_url": "https://energy-news-network.com/industry-news/chad-solar-storage-financing-gassi-lamadji/",
+          "date": "2026-10-04",
+          "sub_category": "policy"
+        },
+        {
+          "tag": "Energy News Network",
+          "title": "Mercuria puts $250m behind Zambian generation and transmission through Exergy",
+          "summary": "Mercuria and Exergy signed a $250 million financing agreement in Lusaka on 25 September, covering generation and transmission projects run by two Exergy subsidiaries. It is among the largest private commitments made to Zambia's power sector and the commodities group's first move into the region's electricity market. Exergy and Mercuria signed a $250 million financing agreement in Lusaka on 25 September, directed at generation and transmission projects in Zambia and across Southern Africa. Two Exergy subsidiaries hold the projects the money is intended for.",
+          "bullets": [],
+          "source": "Energy News Network",
+          "source_url": "https://energy-news-network.com/industry-news/mercuria-exergy-zambia-power-financing/",
+          "date": "2026-10-03",
+          "sub_category": "policy"
+        },
+        {
+          "tag": "PV Tech",
+          "title": "Best of the Week: US policy drives manufacturing, why PV DC connector failures are a challenge and Linton sues Jingsheng",
+          "summary": "Welcome to the PV Tech Best of the Week roundup, covering the week’s biggest stories from the global solar PV industry.",
+          "bullets": [],
+          "source": "PV Tech",
+          "source_url": "https://www.pv-tech.org/best-of-the-week-us-policy-drives-manufacturing-dc-connector-failures-linton-sues-jingsheng/",
+          "date": "2026-10-02",
+          "sub_category": "policy"
+        }
+      ]
+    },
+    {
+      "title": "三、行业动态",
+      "items": [
+        {
+          "tag": "GEAPP Energy Alliance",
+          "title": "Energy system ‘acupuncture’: small interventions, big results",
+          "summary": "",
+          "bullets": [],
+          "source": "GEAPP Energy Alliance",
+          "source_url": "https://energyalliance.org/catalytic-philanthropy-energy-transition-latin-america-caribbean/",
+          "date": "2026-09-29"
+        },
+        {
+          "tag": "PV Tech",
+          "title": "Navigating the quality challenges of US module procurement",
+          "summary": "The US solar industry is contending with variable module quality as new suppliers jostle to serve this lucrative market.",
+          "bullets": [],
+          "source": "PV Tech",
+          "source_url": "https://www.pv-tech.org/navigating-the-quality-challenges-us-module-procurement/",
+          "date": "2026-10-02"
+        }
+      ]
+    }
+  ]
+}
