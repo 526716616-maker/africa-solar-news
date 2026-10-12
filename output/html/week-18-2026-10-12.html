@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>非洲离网太阳能市场资讯 2026-10-12 第 18 期</title>
+<style>/* ===== 非洲离网太阳能市场资讯 - 样式 ===== */
+:root {
+  --bg: #f8f9fa;
+  --card: #ffffff;
+  --text: #1a1a2e;
+  --text-secondary: #555770;
+  --text-tertiary: #8e8ea0;
+  --border: #e8e8ee;
+  --green-dark: #0F6E56;
+  --green-light: #1D9E75;
+  --green-bg: #E1F5EE;
+  --green-tag-bg: rgba(15,110,86,0.08);
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans SC", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+.container {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 32px 24px 56px;
+}
+
+/* ===== Header ===== */
+.header {
+  background: var(--green-dark);
+  color: #fff;
+  padding: 36px 32px 28px;
+  border-radius: var(--radius-lg);
+  margin-bottom: 28px;
+}
+.header h1 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 4px;
+  letter-spacing: -0.01em;
+}
+.header .subtitle {
+  font-size: 15px;
+  opacity: 0.78;
+  font-weight: 400;
+}
+.header .meta {
+  display: flex;
+  gap: 10px;
+  margin-top: 18px;
+  flex-wrap: wrap;
+}
+.header .meta span {
+  background: rgba(255,255,255,0.15);
+  border-radius: var(--radius-sm);
+  padding: 4px 12px;
+  font-size: 13px;
+  letter-spacing: 0.02em;
+}
+
+/* ===== Stats Row ===== */
+.section-title {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text-tertiary);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin: 36px 0 14px;
+}
+.stats-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin-bottom: 10px;
+}
+.stat-box {
+  background: var(--card);
+  border: 0.5px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 18px 16px;
+  text-align: center;
+}
+.stat-box .num {
+  font-size: 26px;
+  font-weight: 800;
+  color: var(--green-dark);
+  margin-bottom: 6px;
+}
+.stat-box .lbl {
+  font-size: 12px;
+  color: var(--text-secondary);
+  line-height: 1.4;
+}
+@media (max-width: 560px) {
+  .stats-row { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* ===== News Card ===== */
+.news-card {
+  background: var(--card);
+  border: 0.5px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 22px 24px;
+  margin-bottom: 16px;
+  transition: border-color 0.15s;
+}
+.news-card:hover { border-color: var(--green-light); }
+.news-card .tag {
+  display: inline-block;
+  background: var(--green-tag-bg);
+  color: var(--green-dark);
+  font-size: 12px;
+  font-weight: 500;
+  padding: 3px 12px;
+  border-radius: 100px;
+}
+.news-card .card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.news-card .card-date {
+  font-size: 12px;
+  color: var(--text-tertiary);
+  white-space: nowrap;
+}
+.news-card h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: var(--text);
+}
+/* ===== 通用：卡片内列表 & 段落样式 ===== */
+.news-card .summary,
+.company-card .summary {
+  font-size: 14px;
+  color: #000000;
+  margin-bottom: 12px;
+  line-height: 1.7;
+}
+.news-card .bullets,
+.company-card .bullets {
+  list-style: none;
+  margin-bottom: 12px;
+}
+.news-card .bullets li,
+.company-card .bullets li {
+  font-size: 13px;
+  color: var(--text-secondary);
+  padding: 3px 0 3px 18px;
+  position: relative;
+  word-break: break-word;
+}
+.news-card .bullets li::before,
+.company-card .bullets li::before {
+  content: "";
+  position: absolute;
+  left: 2px;
+  top: 10px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--green-light);
+}
+.news-card .mb,
+.company-card .mb { margin-bottom: 10px; }
+.news-card .bullets,
+.company-card .bullets { margin-bottom: 0; }
+.news-card .source {
+  font-size: 12px;
+  color: var(--text-tertiary);
+  margin-top: 4px;
+}
+.news-card .source a {
+  color: var(--green-dark);
+  text-decoration: none;
+}
+.news-card .source a:hover { text-decoration: underline; }
+
+/* ===== Company Card ===== */
+.company-card {
+  background: var(--card);
+  border: 0.5px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 22px 24px;
+  margin-bottom: 16px;
+  transition: border-color 0.15s;
+}
+.company-card:hover { border-color: var(--green-light); }
+.company-card .tag {
+  display: inline-block;
+  background: var(--green-tag-bg);
+  color: var(--green-dark);
+  font-size: 12px;
+  font-weight: 500;
+  padding: 3px 12px;
+  border-radius: 100px;
+}
+.company-card .card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.company-card .card-date {
+  font-size: 12px;
+  color: var(--text-tertiary);
+  white-space: nowrap;
+}
+.company-card h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: var(--text);
+}
+.company-card .source {
+  font-size: 12px;
+  color: var(--text-tertiary);
+  margin-top: 10px;
+}
+.company-card .source a {
+  color: var(--green-dark);
+  text-decoration: none;
+}
+.company-card .source a:hover { text-decoration: underline; }
+
+/* ===== Archive Nav ===== */
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.nav-bar a {
+  font-size: 14px;
+  color: var(--green-dark);
+  text-decoration: none;
+  padding: 4px 0;
+  font-weight: 500;
+}
+.nav-bar a:hover { text-decoration: underline; }
+
+/* ===== Archive Page ===== */
+.archive-list {
+  list-style: none;
+}
+.archive-item {
+  background: var(--card);
+  border: 0.5px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 18px 22px;
+  margin-bottom: 12px;
+  transition: border-color 0.15s;
+}
+.archive-item:hover { border-color: var(--green-light); }
+.archive-item a {
+  text-decoration: none;
+  color: var(--text);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.archive-item .issue-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+.archive-item .issue-meta {
+  font-size: 13px;
+  color: var(--text-tertiary);
+  margin-top: 6px;
+}
+.archive-item .issue-count {
+  font-size: 14px;
+  color: var(--green-dark);
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+/* ===== Footer ===== */
+.footer {
+  text-align: center;
+  font-size: 13px;
+  color: var(--text-tertiary);
+  border-top: 0.5px solid var(--border);
+  padding-top: 24px;
+  margin-top: 40px;
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+  <div class="nav-bar">
+    <a href="archive.html">← 查看往期</a>
+    <span style="font-size:13px;color:var(--text-tertiary)">第 18 期</span>
+  </div>
+
+  <div class="header">
+    <h1>Africa Off-Grid Solar Market News</h1>
+    <p class="subtitle">非洲离网太阳能市场资讯</p>
+    <div class="meta">
+      <span>第 18 期</span>
+      <span>2026-10-12</span>
+      <span>行业动态 · 企业跟踪</span>
+    </div>
+  </div>
+
+  <div class="section-title">本期数据亮点</div>
+  <div class="stats-row"><div class="stat-box"><div class="num">777 million</div><div class="lbl">GEAPP Energy Allianc</div></div><div class="stat-box"><div class="num">127 million</div><div class="lbl">FSD Africa</div></div><div class="stat-box"><div class="num">17%</div><div class="lbl">17%and monthly </div></div><div class="stat-box"><div class="num">6GW</div><div class="lbl">6GWof renewable</div></div></div>
+
+  <div class="section-title">一、政策规划</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">FSD Africa</span>
+    <span class="card-date">2026-10-06</span>
+  </div>
+  <h3>Jubilee Group, FSD Africa partner with BimaLab Insurtechs to expand insurance access in Kenya</h3>
+  <div class="summary">Seven insurtech firms will develop new insurance solutions for underserved SMEs, informal workers, farmers and low-income households, with pilots set to begin in November NAIROBI, Kenya, 22 September 2026 – Jubilee Group and FSD Africa have partnered with seven insurtech companies to develop and test affordable insurance solutions for underserved Kenyans, targeting small and medium-sized enterprises (SMEs), informal sector workers, farmers and low-income households that have limited access to formal insurance.</div>
+  
+  <div class="source">来源：<a href="https://fsdafrica.org/jubilee-group-fsd-africa-partner-with-bimalab-insurtechs-to-expand-insurance-access-in-kenya/" target="_blank" rel="noopener">FSD Africa</a></div>
+</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">PV Magazine · 太阳能</span>
+    <span class="card-date">2026-10-10</span>
+  </div>
+  <h3>Brazil’s retail electricity market opening raises credit and liquidity concerns, study finds</h3>
+  <div class="summary">Brazil’s planned opening of its free electricity market to low-voltage consumers could require stronger credit assessment, liquidity management, regulatory oversight and consumer protection mechanisms, according to a study by energy market specialists Guilherme Susteras and Alexandre Bueno. The study draws on a Wattio database covering 88,000 consumer units linked to 1,400 shared solar plants across the service areas of 40 electricity distributors between January 2025 and May 2026. The researchers found an average monthly payment delinquency rate of 17% and monthly customer churn of 4%, potent</div>
+  
+  <div class="source">来源：<a href="https://www.pv-magazine.com/2026/10/10/brazils-retail-electricity-market-opening-raises-credit-and-liquidity-concerns-study-finds/" target="_blank" rel="noopener">PV Magazine</a></div>
+</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">PV Magazine · 太阳能</span>
+    <span class="card-date">2026-10-10</span>
+  </div>
+  <h3>Austria: 43,300 applications for solar subsidies submitted in just ten minutes</h3>
+  <div class="summary">Austria opened its third and final funding round of the year for photovoltaic systems and battery storage on Thursday afternoon. Demand was even higher than in the previous round, according to an announcement issued Friday by the Federal Ministry for Economic Affairs, Energy and Tourism. Preliminary figures show that around 43,300 application tickets were issued within 10 minutes of the opening of the Renewable Energy Expansion Act (EAG) funding portal, operated by funding agency OeMAG. By comparison, the second funding round in the summer attracted 24,900 tickets in its first 10 minutes. The</div>
+  
+  <div class="source">来源：<a href="https://www.pv-magazine.com/2026/10/10/austria-43300-applications-for-solar-subsidies-submitted-in-just-ten-minutes/" target="_blank" rel="noopener">PV Magazine</a></div>
+</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">Energy News Network</span>
+    <span class="card-date">2026-10-11</span>
+  </div>
+  <h3>Eskom Green seeks partners for up to 6GW of renewables and storage</h3>
+  <div class="summary">Eskom has opened a request for qualification to find co-development and co-investment partners for up to 6GW of renewable generation and battery storage, the first phase of its new utility-scale renewables business. Eskom Green, being incorporated as a wholly owned subsidiary, will contribute at least 2GW of solar and 1GW of batteries. Eskom Green is aiming for 32GW of renewable generation by 2040, with 2GW this year and 6GW by 2030, Eskom’s general manager for strategy, Matthew Mflathelwa, told the Joburg Indaba on 8 October, and the next day the utility opened the procurement meant to start</div>
+  
+  <div class="source">来源：<a href="https://energy-news-network.com/industry-news/eskom-green-6gw-renewable-partners/" target="_blank" rel="noopener">Energy News Network</a></div>
+</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">Energy News Network</span>
+    <span class="card-date">2026-10-11</span>
+  </div>
+  <h3>EACOP pipeline to take crude by December as first oil moves to 2027</h3>
+  <div class="summary">The 1,443km East African Crude Oil Pipeline will be ready to receive crude by mid-December, Ugandan officials say, with first commercial oil from the Tilenga and Kingfisher fields now expected before the end of June 2027. The Petroleum Authority of Uganda links the change to disrupted equipment shipments from the Middle East.</div>
+  
+  <div class="source">来源：<a href="https://energy-news-network.com/industry-news/eacop-pipeline-to-take-crude-by-december-as-first-oil-moves-to-2027/" target="_blank" rel="noopener">Energy News Network</a></div>
+</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">PV Tech</span>
+    <span class="card-date">2026-10-09</span>
+  </div>
+  <h3>Axian, Africa GreenCo ink 240MW PV PPA in Zambia</h3>
+  <div class="summary">Pan-African renewables developer Axian Energy has signed a power purchase agreement (PPA) with energy aggregator and trader Africa GreenCo in Zambia.</div>
+  
+  <div class="source">来源：<a href="https://www.pv-tech.org/axian-africa-greenco-ink-240mw-pv-ppa-in-zambia/" target="_blank" rel="noopener">PV Tech</a></div>
+</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">PV Tech</span>
+    <span class="card-date">2026-10-09</span>
+  </div>
+  <h3>India’s MNRE issues 12th solar cell ALMM revision, capacity reaches 37.8GW</h3>
+  <div class="summary">India’s MNRE issued the 12th revision of its Approved List of Models and Manufacturers (ALMM) List-II for solar PV cells on 8 October 2026.</div>
+  
+  <div class="source">来源：<a href="https://www.pv-tech.org/indias-mnre-issues-12th-solar-cell-almm-revision-capacity-reaches-37-8gw/" target="_blank" rel="noopener">PV Tech</a></div>
+</div>
+<div class="section-title">二、投资数据</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">GEAPP Energy Alliance</span>
+    <span class="card-date">2026-10-07</span>
+  </div>
+  <h3>How catalytic capital unlocked a $777 million renewable energy market in Ecuador</h3>
+  
+  
+  <div class="source">来源：<a href="https://energyalliance.org/ecuador-renewable-energy-liquidity-guarantee/" target="_blank" rel="noopener">GEAPP Energy Alliance</a></div>
+</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">FSD Africa</span>
+    <span class="card-date">2026-10-09</span>
+  </div>
+  <h3>FSD Africa Investments Member Spotlight with Anne-Marie Chidzero, Chief Investments Officer</h3>
+  <div class="summary">This article was first published on the Convergence website. FSD Africa Investments (FSDAi) is a specialist financial sector investor. Established by FSD Africa and the United Kingdom's Foreign, Commonwealth & Development Office, FSDAi invests patient, risk-bearing capital in financial intermediaries, facilities, and instruments that advance how the African financial system drives green, economic growth. To date, they have committed about GBP 127 million across 21 investments.</div>
+  
+  <div class="source">来源：<a href="https://fsdafrica.org/fsd-africa-investments-member-spotlight-with-anne-marie-chidzero-chief-investments-officer/" target="_blank" rel="noopener">FSD Africa</a></div>
+</div>
+
+
+  <div class="footer">
+    Africa Solar News · 2026-10-12 · 每周更新
+  </div>
+
+</div>
+</body>
+</html>

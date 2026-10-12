@@ -1,0 +1,125 @@
+{
+  "week": "2026-W42",
+  "date": "2026-10-12",
+  "issue": 18,
+  "highlights": [
+    {
+      "num": "777 million",
+      "label": "GEAPP Energy Allianc"
+    },
+    {
+      "num": "127 million",
+      "label": "FSD Africa"
+    },
+    {
+      "num": "17%",
+      "label": "17%and monthly "
+    },
+    {
+      "num": "6GW",
+      "label": "6GWof renewable"
+    }
+  ],
+  "sections": [
+    {
+      "title": "一、政策规划",
+      "items": [
+        {
+          "tag": "FSD Africa",
+          "title": "Jubilee Group, FSD Africa partner with BimaLab Insurtechs to expand insurance access in Kenya",
+          "summary": "Seven insurtech firms will develop new insurance solutions for underserved SMEs, informal workers, farmers and low-income households, with pilots set to begin in November NAIROBI, Kenya, 22 September 2026 – Jubilee Group and FSD Africa have partnered with seven insurtech companies to develop and test affordable insurance solutions for underserved Kenyans, targeting small and medium-sized enterprises (SMEs), informal sector workers, farmers and low-income households that have limited access to formal insurance.",
+          "bullets": [],
+          "source": "FSD Africa",
+          "source_url": "https://fsdafrica.org/jubilee-group-fsd-africa-partner-with-bimalab-insurtechs-to-expand-insurance-access-in-kenya/",
+          "date": "2026-10-06",
+          "sub_category": "policy"
+        },
+        {
+          "tag": "PV Magazine · 太阳能",
+          "title": "Brazil’s retail electricity market opening raises credit and liquidity concerns, study finds",
+          "summary": "Brazil’s planned opening of its free electricity market to low-voltage consumers could require stronger credit assessment, liquidity management, regulatory oversight and consumer protection mechanisms, according to a study by energy market specialists Guilherme Susteras and Alexandre Bueno. The study draws on a Wattio database covering 88,000 consumer units linked to 1,400 shared solar plants across the service areas of 40 electricity distributors between January 2025 and May 2026. The researchers found an average monthly payment delinquency rate of 17% and monthly customer churn of 4%, potent",
+          "bullets": [],
+          "source": "PV Magazine",
+          "source_url": "https://www.pv-magazine.com/2026/10/10/brazils-retail-electricity-market-opening-raises-credit-and-liquidity-concerns-study-finds/",
+          "date": "2026-10-10",
+          "sub_category": "policy"
+        },
+        {
+          "tag": "PV Magazine · 太阳能",
+          "title": "Austria: 43,300 applications for solar subsidies submitted in just ten minutes",
+          "summary": "Austria opened its third and final funding round of the year for photovoltaic systems and battery storage on Thursday afternoon. Demand was even higher than in the previous round, according to an announcement issued Friday by the Federal Ministry for Economic Affairs, Energy and Tourism. Preliminary figures show that around 43,300 application tickets were issued within 10 minutes of the opening of the Renewable Energy Expansion Act (EAG) funding portal, operated by funding agency OeMAG. By comparison, the second funding round in the summer attracted 24,900 tickets in its first 10 minutes. The",
+          "bullets": [],
+          "source": "PV Magazine",
+          "source_url": "https://www.pv-magazine.com/2026/10/10/austria-43300-applications-for-solar-subsidies-submitted-in-just-ten-minutes/",
+          "date": "2026-10-10",
+          "sub_category": "policy"
+        },
+        {
+          "tag": "Energy News Network",
+          "title": "Eskom Green seeks partners for up to 6GW of renewables and storage",
+          "summary": "Eskom has opened a request for qualification to find co-development and co-investment partners for up to 6GW of renewable generation and battery storage, the first phase of its new utility-scale renewables business. Eskom Green, being incorporated as a wholly owned subsidiary, will contribute at least 2GW of solar and 1GW of batteries. Eskom Green is aiming for 32GW of renewable generation by 2040, with 2GW this year and 6GW by 2030, Eskom’s general manager for strategy, Matthew Mflathelwa, told the Joburg Indaba on 8 October, and the next day the utility opened the procurement meant to start",
+          "bullets": [],
+          "source": "Energy News Network",
+          "source_url": "https://energy-news-network.com/industry-news/eskom-green-6gw-renewable-partners/",
+          "date": "2026-10-11",
+          "sub_category": "policy"
+        },
+        {
+          "tag": "Energy News Network",
+          "title": "EACOP pipeline to take crude by December as first oil moves to 2027",
+          "summary": "The 1,443km East African Crude Oil Pipeline will be ready to receive crude by mid-December, Ugandan officials say, with first commercial oil from the Tilenga and Kingfisher fields now expected before the end of June 2027. The Petroleum Authority of Uganda links the change to disrupted equipment shipments from the Middle East.",
+          "bullets": [],
+          "source": "Energy News Network",
+          "source_url": "https://energy-news-network.com/industry-news/eacop-pipeline-to-take-crude-by-december-as-first-oil-moves-to-2027/",
+          "date": "2026-10-11",
+          "sub_category": "policy"
+        },
+        {
+          "tag": "PV Tech",
+          "title": "Axian, Africa GreenCo ink 240MW PV PPA in Zambia",
+          "summary": "Pan-African renewables developer Axian Energy has signed a power purchase agreement (PPA) with energy aggregator and trader Africa GreenCo in Zambia.",
+          "bullets": [],
+          "source": "PV Tech",
+          "source_url": "https://www.pv-tech.org/axian-africa-greenco-ink-240mw-pv-ppa-in-zambia/",
+          "date": "2026-10-09",
+          "sub_category": "policy"
+        },
+        {
+          "tag": "PV Tech",
+          "title": "India’s MNRE issues 12th solar cell ALMM revision, capacity reaches 37.8GW",
+          "summary": "India’s MNRE issued the 12th revision of its Approved List of Models and Manufacturers (ALMM) List-II for solar PV cells on 8 October 2026.",
+          "bullets": [],
+          "source": "PV Tech",
+          "source_url": "https://www.pv-tech.org/indias-mnre-issues-12th-solar-cell-almm-revision-capacity-reaches-37-8gw/",
+          "date": "2026-10-09",
+          "sub_category": "policy"
+        }
+      ]
+    },
+    {
+      "title": "二、投资数据",
+      "items": [
+        {
+          "tag": "GEAPP Energy Alliance",
+          "title": "How catalytic capital unlocked a $777 million renewable energy market in Ecuador",
+          "summary": "",
+          "bullets": [],
+          "source": "GEAPP Energy Alliance",
+          "source_url": "https://energyalliance.org/ecuador-renewable-energy-liquidity-guarantee/",
+          "date": "2026-10-07",
+          "sub_category": "investment"
+        },
+        {
+          "tag": "FSD Africa",
+          "title": "FSD Africa Investments Member Spotlight with Anne-Marie Chidzero, Chief Investments Officer",
+          "summary": "This article was first published on the Convergence website. FSD Africa Investments (FSDAi) is a specialist financial sector investor. Established by FSD Africa and the United Kingdom's Foreign, Commonwealth & Development Office, FSDAi invests patient, risk-bearing capital in financial intermediaries, facilities, and instruments that advance how the African financial system drives green, economic growth. To date, they have committed about GBP 127 million across 21 investments.",
+          "bullets": [],
+          "source": "FSD Africa",
+          "source_url": "https://fsdafrica.org/fsd-africa-investments-member-spotlight-with-anne-marie-chidzero-chief-investments-officer/",
+          "date": "2026-10-09",
+          "sub_category": "investment"
+        }
+      ]
+    }
+  ]
+}
