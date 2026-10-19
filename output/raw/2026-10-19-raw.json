@@ -1,0 +1,364 @@
+{
+  "crawled_at": "2026-10-19T08:35:25.935120+08:00",
+  "week": "2026-W43",
+  "sources": [
+    {
+      "key": "gogla",
+      "name": "GOGLA Newsroom",
+      "articles": [
+        {
+          "title": "Global off-grid solar leaders to gather in Rwanda with the aim to scale investment, innovation, and energy access",
+          "url": "https://newsroom.gogla.org/270885-global-off-grid-solar-leaders-to-gather-in-rwanda-with-the-aim-to-scale-investment-innovation-and-energy-access/",
+          "date": "2026-09-17",
+          "summary": "GOGLA and ESMAP, hosted by the Government of Rwanda, organize the 9th Global Off-Grid Solar Forum & Expo, where investors, ministers and companies will advance off-grid solar for 600 million people.",
+          "source_name": "GOGLA Newsroom"
+        },
+        {
+          "title": "GOGLA and the International Solar Alliance Renew and Expand Global Cooperation on Off-Grid Solar",
+          "url": "https://newsroom.gogla.org/269657-gogla-and-the-international-solar-alliance-renew-and-expand-global-cooperation-on-off-grid-solar/",
+          "date": "2026-08-26",
+          "summary": "The renewed MoU strengthens the off-grid solar sector with standards, market intelligence, policy, and private capital mobilisation.",
+          "source_name": "GOGLA Newsroom"
+        },
+        {
+          "title": "GOGLA and AMDA Announce Strategic Collaboration to Accelerate Energy Access",
+          "url": "https://newsroom.gogla.org/267203-gogla-and-amda-announce-strategic-collaboration-to-accelerate-energy-access/",
+          "date": "2026-06-18",
+          "summary": "The collaboration will strengthen policy, investment, and advocacy for off-grid solar and minigrid energy, driving progress toward universal access.",
+          "source_name": "GOGLA Newsroom"
+        },
+        {
+          "title": "Off-grid solar investment signals sector maturation, capital concentration",
+          "url": "https://newsroom.gogla.org/267019-off-grid-solar-investment-signals-sector-maturation-capital-concentration/",
+          "date": "2026-06-15",
+          "summary": "GOGLA reports growing off-grid solar investment in 2025, driven by structured finance and local currency, but warns of rising funding disparities.",
+          "source_name": "GOGLA Newsroom"
+        },
+        {
+          "title": "Record Sales Highlight Off-Grid Solar’s Critical Role in Electrification",
+          "url": "https://newsroom.gogla.org/266354-record-sales-highlight-off-grid-solar-s-critical-role-in-electrification/",
+          "date": "2026-06-02",
+          "summary": "GOGLA calls for coordinated support as off-grid solar sales hit 10 million kits in 2025, powering progress toward global energy access and SDG7 goals.",
+          "source_name": "GOGLA Newsroom"
+        },
+        {
+          "title": "New Coalition Formed to Power Food Systems with Clean Energy",
+          "url": "https://newsroom.gogla.org/253706-new-coalition-formed-to-power-food-systems-with-clean-energy/",
+          "date": "2025-09-01",
+          "summary": "Agri-Energy Coalition unites global leaders to advance sustainable agriculture and clean energy access, addressing food security and energy challenges in developing regions.",
+          "source_name": "GOGLA Newsroom"
+        },
+        {
+          "title": "GOGLA Report Reveals Blended Finance Solutions to Bridge $21 Billion Off-Grid Solar Gap",
+          "url": "https://newsroom.gogla.org/251956-gogla-report-reveals-blended-finance-solutions-to-bridge-21-billion-off-grid-solar-gap/",
+          "date": "2025-07-10",
+          "summary": "Discover how investment schemes that strategically combine public, private and philanthropic capital to mobilize private capital, can accelerate energy access and sustainable development in the off-grid solar sector.",
+          "source_name": "GOGLA Newsroom"
+        },
+        {
+          "title": "20 million people improved their energy access through off-grid solar in 2024, according to the new Global Off-Grid Solar Market Report",
+          "url": "https://newsroom.gogla.org/250358-20-million-people-improved-their-energy-access-through-off-grid-solar-in-2024-according-to-the-new-global-off-grid-solar-market-report/",
+          "date": "2025-05-27",
+          "summary": "The total number of people benefitting from access through affiliates reached 138 million generating $10B in new income, GOGLA reports.",
+          "source_name": "GOGLA Newsroom"
+        },
+        {
+          "title": "Amid funding dip and consolidation, $300M flows to off-grid solar as market gathers momentum",
+          "url": "https://newsroom.gogla.org/249036-amid-funding-dip-and-consolidation-300m-flows-to-off-grid-solar-as-market-gathers-momentum/",
+          "date": "2025-04-16",
+          "summary": "GOGLA's 2024 report shows $300M investment in off-grid solar, despite funding decline. Scale-ups show maturity, while start-ups face challenges. New equity funds and subsidies boost market momentum and resilience.",
+          "source_name": "GOGLA Newsroom"
+        },
+        {
+          "title": "SAFDE 2025 opens with an urgent call for investment and policy support to scale up solar energy in South Asia",
+          "url": "https://newsroom.gogla.org/248734-safde-2025-opens-with-an-urgent-call-for-investment-and-policy-support-to-scale-up-solar-energy-in-south-asia/",
+          "date": "2025-04-08",
+          "summary": "The event emphasizes DRE potential with insights from leaders, advocating for partnerships and finance to build a low-carbon future in South Asia.",
+          "source_name": "GOGLA Newsroom"
+        }
+      ]
+    },
+    {
+      "key": "rockefeller",
+      "name": "Rockefeller Foundation",
+      "articles": [
+        {
+          "title": "How Energy Storage Can Power Energy Abundance in Low- and Middle-Income Countries",
+          "url": "https://www.rockefellerfoundation.org/perspective/how-energy-storage-can-power-energy-abundance-in-low-and-middle-income-countries/",
+          "date": "2026-09-08",
+          "summary": "<p>New analysis explores how affordable, short-duration battery storage can expand renewable energy, improve grid reliability, and increase access to electricity in low- and middle-income countries.</p>\n<p>The post <a href=\"https://www.rockefellerfoundation.org/perspective/how-energy-storage-can-power-energy-abundance-in-low-and-middle-income-countries/\">How Energy Storage Can Power Energy Abundance in Low- and Middle-Income Countries</a> appeared first on <a href=\"https://www.rockefellerfoundation.org\">The Rockefeller Foundation</a>.</p>",
+          "source_name": "Rockefeller Foundation"
+        }
+      ]
+    },
+    {
+      "key": "geapp",
+      "name": "GEAPP Energy Alliance",
+      "articles": [
+        {
+          "title": "How catalytic capital unlocked a $777 million renewable energy market in Ecuador",
+          "url": "https://energyalliance.org/ecuador-renewable-energy-liquidity-guarantee/",
+          "date": "2026-10-07",
+          "summary": "<p>The post <a href=\"https://energyalliance.org/ecuador-renewable-energy-liquidity-guarantee/\">How catalytic capital unlocked a $777 million renewable energy market in Ecuador</a> appeared first on <a href=\"https://energyalliance.org\">Global Energy Alliance for People and Planet</a>.</p>",
+          "source_name": "GEAPP Energy Alliance"
+        },
+        {
+          "title": "Solar now powers irrigation, rice milling and milk cooling for about 5,000 farmers in Malawi",
+          "url": "https://energyalliance.org/solar-energy-agriculture-malawi/",
+          "date": "2026-09-30",
+          "summary": "<p>The post <a href=\"https://energyalliance.org/solar-energy-agriculture-malawi/\">Solar now powers irrigation, rice milling and milk cooling for about 5,000 farmers in Malawi</a> appeared first on <a href=\"https://energyalliance.org\">Global Energy Alliance for People and Planet</a>.</p>",
+          "source_name": "GEAPP Energy Alliance"
+        }
+      ]
+    },
+    {
+      "key": "fsd-africa",
+      "name": "FSD Africa",
+      "articles": [
+        {
+          "title": "First-of-its-kind Africa Nature Impact Fund Targets USD 100m For Nature-Based Solutions in Africa",
+          "url": "https://fsdafrica.org/first-of-its-kind-africa-nature-impact-fund-targets-usd-100m-for-nature-based-solutions-in-africa-2/",
+          "date": "2026-10-13",
+          "summary": "<p><a href=\"https://finance.earth/\">Finance Earth</a>, FSD Africa and FSD Africa Investments (FSDAi) have partnered to launch the <a href=\"https://africanature.earth/\">Africa Nature Impact Fund</a> (“Africa Nature”), a first-of-its-kind financing platform with a target of raising USD 100 million for early-stage nature and nature-based carbon projects. The announcement today at the Carbon Markets Africa Summit in Kigali marks a key milestone in the development of the platform which is seeking to reach first close in 2027 at USD 20 million with a cornerstone commitment from FSDAi of GBP 5 million (USD 6.6 million).</p>\n<p>While more than 62% of Africa’s GDP is dependent on natural capital, investment in nature-based carbon and biodiversity projects remains far below what is needed, leaving m",
+          "source_name": "FSD Africa"
+        }
+      ]
+    },
+    {
+      "key": "pv-magazine",
+      "name": "PV Magazine",
+      "articles": [
+        {
+          "title": "Qcells to introduce U.S. domestic frames for residential solar panel lineup",
+          "url": "https://www.pv-magazine.com/2026/10/17/qcells-to-introduce-u-s-domestic-frames-for-residential-solar-panel-lineup/",
+          "date": "2026-10-17",
+          "summary": "<p>Qcells announced plans to launch new versions of its residential solar panel series featuring U.S.-made aluminum frames by the end of 2026.&nbsp;</p>\n\n\n\n<p>The updated residential product offerings, which include the company’s Q.Tron  AC and Q.Peak Duo AC lines, will incorporate aluminum frames extruded, anodized, and fabricated at supplier Aluko Group’s integrated facility in Halls, Tennessee. The initiative is aimed at helping residential installers and third-party ownership TPO providers qualify for the Investment Tax Credit ITC domestic content bonus adder. </p>\n\n\n\n<p>Under the Treasury Department&#8217;s domestic content guidance, solar hardware must meet specific domestic manufacturing thresholds to qualify for the 10% tax credit bonus. Qcells noted that keeping all three core sta",
+          "source_name": "PV Magazine"
+        },
+        {
+          "title": "Brazil’s new curtailment rules unlikely to revive utility-scale solar investment",
+          "url": "https://www.pv-magazine.com/2026/10/17/brazils-new-curtailment-rules-unlikely-to-revive-utility-scale-solar-investment/",
+          "date": "2026-10-17",
+          "summary": "<p>Large-scale solar developers in Brazil have received two updates on past and future generation curtailment. Curtailment rates of around 25%, combined with uncertainty over compensation, have frequently been cited as reasons for developers to surrender project authorizations. While the new curtailment rules offer greater certainty and predictability, a recovery in investment will depend on other factors.</p>\n\n\n\n<p>In 2026 alone, developers surrendered authorizations for 923 solar projects in Brazil, representing more than 40.6 GW of capacity and BRL 134 billion ($26.3 billion) in lost investment, according to a study by the Brazilian Solar Photovoltaic Energy Association (ABsolar). The association said the figures show that curtailment, along with the lack of clear criteria for classifyi",
+          "source_name": "PV Magazine"
+        }
+      ]
+    },
+    {
+      "key": "afsia",
+      "name": "AFSIA Solar Africa",
+      "articles": [
+        {
+          "title": "Sineng Electric Supports Zambia’s 100 MW Maamba Solar PV Project, Advancing Solar Energy in Africa",
+          "url": "https://www.afsiasolar.com/sineng-electric-supports-zambias-100-mw-maamba-solar-pv-project-advancing-solar-energy-in-africa/",
+          "date": "2026-10-15",
+          "summary": "<p class=\"wp-block-paragraph\">Sineng Electric is supporting Zambia’s renewable energy development with its high-efficiency central inverters deployed at the 100 MW Maamba PV Power Station in Southern Province, which was commissioned on September 24, 2026. The project will add utility-scale solar generation capacity to the national grid, supporting the diversification of Zambia’s energy mix and enhancing its long-term energy security.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Located in Maamba, Sinazongwe District, the project is being constructed by Sinoma Energy Conservation Ltd., which serves as the engineering, procurement and construction (EPC) contractor. In July, Jito Kayumba, Advisor to the President of Zambia, visited the project on behalf of President Hakainde Hichilema to inspect the ",
+          "source_name": "AFSIA Solar Africa"
+        }
+      ]
+    },
+    {
+      "key": "lighting-global",
+      "name": "Lighting Global",
+      "articles": [
+        {
+          "title": "Off-grid Solar Could Provide First-time Electricity Access to Almost 400 Million People Globally by 2030",
+          "url": "https://www.lightingglobal.org/off-grid-solar-could-provide-first-time-electricity-access-to-almost-400-million-people-globally-by-2030/",
+          "date": "2024-10-08",
+          "summary": "<p>Nairobi, 8 October 2024—Off-grid solar is the most cost-effective way to power 41% of people globally by 2030 who are still living without energy access. The sector already provided 55%<a class=\"moretag\"\n href=\"https://www.lightingglobal.org/off-grid-solar-could-provide-first-time-electricity-access-to-almost-400-million-people-globally-by-2030/\"> ...Read More<span></span></a></p>\n<p>The post <a href=\"https://www.lightingglobal.org/off-grid-solar-could-provide-first-time-electricity-access-to-almost-400-million-people-globally-by-2030/\">Off-grid Solar Could Provide First-time Electricity Access to Almost 400 Million People Globally by 2030</a> first appeared on <a href=\"https://www.lightingglobal.org\">Lighting Global</a>.</p>",
+          "source_name": "Lighting Global"
+        },
+        {
+          "title": "New Report Stresses the Need for Responsibly Designed End-User Subsidies",
+          "url": "https://www.lightingglobal.org/new-report-stresses-the-need-for-responsibly-designed-subsidies/",
+          "date": "2024-09-16",
+          "summary": "<p>A new report, Designing Responsible End-User Subsidies for Energy Access: A toolkit featuring case studies for the design of subsidies in off-grid solar and clean cooking, was just released. Produced<a class=\"moretag\"\n href=\"https://www.lightingglobal.org/new-report-stresses-the-need-for-responsibly-designed-subsidies/\"> ...Read More<span></span></a></p>\n<p>The post <a href=\"https://www.lightingglobal.org/new-report-stresses-the-need-for-responsibly-designed-subsidies/\">New Report Stresses the Need for Responsibly Designed End-User Subsidies</a> first appeared on <a href=\"https://www.lightingglobal.org\">Lighting Global</a>.</p>",
+          "source_name": "Lighting Global"
+        }
+      ]
+    },
+    {
+      "key": "sunking",
+      "name": "Sun King",
+      "articles": [
+        {
+          "title": "Sun King Joins UN Energy Compacts with Pledge to Reach 200 Million People by 2030",
+          "url": "https://sunking.com/news-blog/sun-king-joins-un-energy-compacts-with-pledge-to-reach-200-million-people-by-2030/",
+          "date": "2026-09-24",
+          "summary": "",
+          "source_name": "Sun King"
+        },
+        {
+          "title": "Acumen invests $5 million in Sun King to scale pay-as-you-go solar energy access in Zambia",
+          "url": "https://sunking.com/news-blog/acumen-invests-5-million-in-sun-king-to-scale-pay-as-you-go-solar-energy-access-in-zambia/",
+          "date": "2026-09-23",
+          "summary": "",
+          "source_name": "Sun King"
+        }
+      ]
+    },
+    {
+      "key": "m-kopa",
+      "name": "M-KOPA",
+      "articles": []
+    },
+    {
+      "key": "bgfa",
+      "name": "BGFA (Beyond the Grid)",
+      "articles": [
+        {
+          "title": "Webinar on 30 September: Maximising Results-Based Financing Results: Lessons from BGFA programme",
+          "url": "https://beyondthegrid.africa/event/webinar-on-30-september-maximising-results-based-financing-results-lessons-from-bgfa-programme/",
+          "date": "2026-09-21",
+          "summary": "<p class=\"wp-block-paragraph\">Join a webinar by <strong>ESMAP</strong> and <strong>GOGLA</strong>, in collaboration with <strong>Nefco &#8211; the Nordic Green Bank</strong>, Facility manager of the <strong>Beyond the Grid Fund for Africa (BGFA)</strong>, on 30 September at<strong> 15:00 – 16:30 CET </strong>for an engaging discussion on how results-based financing (RBF) can be designed to deliver greater efficiency, effectiveness and long-term impact in different market contexts.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Drawing on findings from the recently completed BGFA mid-term evaluation, the session will explore key lessons from one of Africa’s ongoing RBF programmes, using results-based financing to support private sector delivery and scale-up of off-grid energy solutions across Sub-Sah",
+          "source_name": "BGFA (Beyond the Grid)"
+        },
+        {
+          "title": "Solar power provides new business opportunities in the south‑western part of Burkina Faso",
+          "url": "https://beyondthegrid.africa/case-story/solar-power-provides-new-business-opportunities-in-burkina-faso/",
+          "date": "2026-06-09",
+          "summary": "<p class=\"wp-block-paragraph\"><em>A female small business owner and customer of one of our financed portfolio companies in Burkina Faso, Oolu by Ignite, can now contribute to the household economy thanks to an installed off-grid solar kit that provides electricity for running a refrigerator.</em></p>\n\n\n\n<p class=\"wp-block-paragraph\">In a neighbourhood of Bobo-Dioulasso, where grid infrastructure exists but electricity has yet to arrive, <strong>Tinta Setou</strong> and her family used to rely on charcoal, gas and small solar lamps for their daily energy needs. The lamps provided only a few hours of light each night, limiting household activities and business opportunities.</p>\n\n\n\n<p class=\"wp-block-paragraph\">Her husband, a state security officer, invested their savings in a small, informa",
+          "source_name": "BGFA (Beyond the Grid)"
+        }
+      ]
+    },
+    {
+      "key": "bboxx",
+      "name": "BBOXX",
+      "articles": [
+        {
+          "title": "Award-winning Oxford University research is already extending battery life and reliability for Bboxx customers",
+          "url": "https://www.bboxx.com/news/award-winning-oxford-research-is-already-extending-battery-life-and-reliability-for-bboxx-customers/",
+          "date": "2026-09-15",
+          "summary": "<p class=\"wp-block-paragraph\">Kigali, Rwanda and London, United Kingdom, September 2026</p>\n\n\n\n<p class=\"wp-block-paragraph\">Bboxx and the University of Oxford have won the Battery Innovation Programme Innovation Award at the Faraday Institution Community Awards 2026. The award recognises more than a decade of joint research, and that research has already started changing how Bboxx manages its batteries, showing up for customers as longer battery life and more reliable service.</p>\n\n\n\n<p class=\"wp-block-paragraph\">The collaboration has been led by Professor David Howey of the University of Oxford and Chris Baker-Brian, co-founder of Bboxx and Asopo Technologies, working alongside research and engineering teams at both institutions. Their starting point was simple. A battery tested under co",
+          "source_name": "BBOXX"
+        },
+        {
+          "title": "What standardized KPIs can’t tell you about PAYGo risk",
+          "url": "https://www.bboxx.com/news/what-standardized-kpis-can-t-tell-you-about-paygo-risk/",
+          "date": "2026-08-21",
+          "summary": "<p class=\"wp-block-paragraph\"><em>By Simone Vaccari, Chief Credit Officer, Bboxx</em></p>\n\n\n\n<p class=\"wp-block-paragraph\"><strong>A common language for capital</strong></p>\n\n\n\n<p class=\"wp-block-paragraph\">Standardized metrics are no longer just a reporting exercise in this sector. They have become core infrastructure, and that shift is both necessary and overdue. Capital moves faster when everyone is speaking the same language, and PAYGo has needed that language for years. That was the point I made as a panelist on GOGLA&#8217;s recent webinar on the revamped PERFORM KPI framework.</p>\n\n\n\n<p class=\"wp-block-paragraph\">That point carries a second half, though. Infrastructure is not the whole building, because PERFORM was built for covenant reporting to lenders, deliberately narrow rather ",
+          "source_name": "BBOXX"
+        }
+      ]
+    },
+    {
+      "key": "techcabal-energy",
+      "name": "TechCabal Energy",
+      "articles": [
+        {
+          "title": "Africa has seen oil shocks before. Why 2026 could be the turning point for clean energy",
+          "url": "https://techcabal.com/2026/05/15/africa-has-seen-oil-shocks-before-2026-could-be-the-turning-point-for-clean-energy-in-africa/",
+          "date": "2026-05-15",
+          "summary": "<p>Africa has been here before. Oil climbs above $100, import bills balloon, Finance ministers across the continent convene emergency sessions, and somewhere in a development bank boardroom, a clean energy investment pipeline gets quietly deprioritised while everyone waits for the price to come back down.</p>\n\n\n\n<p>In 2008, the global financial crisis interrupted a Brent spike that had touched $147. In 2014, the <a href=\"https://www.bakerinstitute.org/research/market-impacts-new-natural-gas-directed-policies-united-states\" target=\"_blank\" rel=\"noreferrer noopener\">shale revolution</a> drove prices from nearly $100 to below $40 in eighteen months, pulling the fiscal rug from under the African governments that had been using commodity revenues to fund energy access programmes.&nbsp;</p>\n\n\n\n<",
+          "source_name": "TechCabal Energy"
+        }
+      ]
+    },
+    {
+      "key": "energy-news-network",
+      "name": "Energy News Network",
+      "articles": [
+        {
+          "title": "Can Enugu price 100MW of solar at a tariff its people can afford?",
+          "url": "https://energy-news-network.com/industry-news/enugu-solar-100mw-eauxwell-tariff/",
+          "date": "2026-10-18",
+          "summary": "<p class=\"wp-block-paragraph\"><em>Eauxwell Nigeria has put a $200m programme for 100MW of distributed solar with battery storage to Enugu State. Governor Peter Mbah welcomed it but wants the investors’ tariff assumptions reviewed first. The state’s regulator has set Band A at ₦160.4 per kWh, and the state is building out its own grid.</em></p>\n\n\n\n<figure class=\"wp-block-image size-large\"><img fetchpriority=\"high\" decoding=\"async\" width=\"1024\" height=\"593\" src=\"https://energy-news-network.com/app/uploads/2026/10/Screenshot-2026-10-15-091432-1024x593.png\" alt=\"\" class=\"wp-image-20618\" srcset=\"https://energy-news-network.com/app/uploads/2026/10/Screenshot-2026-10-15-091432-1024x593.png 1024w, https://energy-news-network.com/app/uploads/2026/10/Screenshot-2026-10-15-091432-300x174.png 300w, ht",
+          "source_name": "Energy News Network"
+        },
+        {
+          "title": "Selous solar project for Afrochine’s smelter gets a parent-company payment guarantee",
+          "url": "https://energy-news-network.com/industry-news/selous-solar-project-afrochine-dinson-guarantee/",
+          "date": "2026-10-18",
+          "summary": "<p class=\"wp-block-paragraph\"><em>A direct agreement signed in Harare puts Zhejiang Dinson Holding Group behind the electricity payments its subsidiary Afrochine Smelting owes the 115MW Selous Solar PV Project in Zimbabwe, adding security for lenders led by the Trade and Development Bank as the plant heads for commissioning in 2027.</em></p>\n\n\n\n<p class=\"wp-block-paragraph\">A US$87.5m long-term facility led by the Trade and Development Bank and a US$65m bridge from Sinohydro Leasing International, a PowerChina subsidiary, are financing the 115MW Selous Solar PV Project in Zimbabwe, where a direct agreement signed in Harare last week puts Zhejiang Dinson Holding Group behind the electricity payments its local subsidiary, Afrochine Smelting, owes the developer and its lenders.</p>\n\n\n\n<p clas",
+          "source_name": "Energy News Network"
+        }
+      ]
+    },
+    {
+      "key": "sun-connect",
+      "name": "Sun Connect News",
+      "articles": [
+        {
+          "title": "Nigeria’s solar boom faces cost and policy barriers",
+          "url": "https://www.dw.com/en/nigerias-solar-boom-faces-cost-and-policy-barriers/a-77122375#new_tab",
+          "date": "2026-05-12",
+          "summary": "",
+          "source_name": "Sun Connect News"
+        },
+        {
+          "title": "Fossil fuel wealth fails Africa’s development promise, says report",
+          "url": "https://www.downtoearth.org.in/africa/fossil-fuel-wealth-fails-africas-development-promise-says-report#new_tab",
+          "date": "2026-05-12",
+          "summary": "",
+          "source_name": "Sun Connect News"
+        }
+      ]
+    },
+    {
+      "key": "pv-tech",
+      "name": "PV Tech",
+      "articles": [
+        {
+          "title": "Recurrent Energy begins commercial operations at 200MW Villameca solar project in Spain",
+          "url": "https://www.pv-tech.org/recurrent-energy-begins-commercial-operations-200mw-villameca-solar-project-spain/",
+          "date": "2026-10-16",
+          "summary": "Recurrent Energy has announced the start of commercial operations at the 200MWp Villameca Project in Castilla y León, Spain.",
+          "source_name": "PV Tech"
+        },
+        {
+          "title": "More than module assembly: building a resilient solar ecosystem in the US",
+          "url": "https://www.pv-tech.org/more-than-module-assembly-building-a-resilient-solar-ecosystem-in-the-us/",
+          "date": "2026-10-16",
+          "summary": "Markus Beck of RCT Solutions discusses how the US PV manufacturing can be sustained beyond the current boom.",
+          "source_name": "PV Tech"
+        }
+      ]
+    },
+    {
+      "key": "solarafrica",
+      "name": "SolarAfrica Insights",
+      "articles": [
+        {
+          "title": "SolarAfrica and MPower Build 184MW Highveld Hybrid Energy",
+          "url": "https://solarafrica.com/insights/solarafrica-mpower-184mw-highveld-hybrid-energy/",
+          "date": "2026-08-18",
+          "summary": "<div data-elementor-type=\"wp-post\" data-elementor-id=\"15866\" class=\"elementor elementor-15866\" data-elementor-post-type=\"post\">\n\t\t\t\t<div class=\"has_eae_slider elementor-element elementor-element-7eed4e5a e-con-full e-flex e-con e-parent\" data-eae-slider=\"25579\" data-id=\"7eed4e5a\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t<div class=\"has_eae_slider elementor-element elementor-element-798c17a0 e-con-full e-flex e-con e-child\" data-eae-slider=\"87651\" data-id=\"798c17a0\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-b0fc10a elementor-widget elementor-widget-heading\" data-id=\"b0fc10a\" data-element_type=\"widget\" data-e-type=\"widget\" id=\"blog-category-",
+          "source_name": "SolarAfrica Insights"
+        },
+        {
+          "title": "Electricity Wheeling for AI Data Centres Africa’s Renewable Energy Advantage | SolarAfrica",
+          "url": "https://solarafrica.com/insights/electricity-wheeling-for-ai-data-centres-africas-renewable-energy-advantage-solarafrica/",
+          "date": "2026-08-18",
+          "summary": "<div data-elementor-type=\"wp-post\" data-elementor-id=\"15803\" class=\"elementor elementor-15803\" data-elementor-post-type=\"post\">\n\t\t\t\t<div class=\"has_eae_slider elementor-element elementor-element-7eed4e5a e-con-full e-flex e-con e-parent\" data-eae-slider=\"14059\" data-id=\"7eed4e5a\" data-element_type=\"container\" data-e-type=\"container\" data-settings=\"{&quot;background_background&quot;:&quot;classic&quot;}\">\n\t\t<div class=\"has_eae_slider elementor-element elementor-element-798c17a0 e-con-full e-flex e-con e-child\" data-eae-slider=\"19016\" data-id=\"798c17a0\" data-element_type=\"container\" data-e-type=\"container\">\n\t\t\t\t<div class=\"elementor-element elementor-element-b0fc10a elementor-widget elementor-widget-heading\" data-id=\"b0fc10a\" data-element_type=\"widget\" data-e-type=\"widget\" id=\"blog-category-",
+          "source_name": "SolarAfrica Insights"
+        }
+      ]
+    },
+    {
+      "key": "amda",
+      "name": "AMDA Minigrids",
+      "articles": []
+    }
+  ],
+  "summary": {
+    "gogla": 10,
+    "rockefeller": 1,
+    "geapp": 2,
+    "fsd-africa": 1,
+    "pv-magazine": 2,
+    "afsia": 1,
+    "lighting-global": 2,
+    "sunking": 2,
+    "m-kopa": 0,
+    "bgfa": 2,
+    "bboxx": 2,
+    "techcabal-energy": 1,
+    "energy-news-network": 2,
+    "sun-connect": 2,
+    "pv-tech": 2,
+    "solarafrica": 2,
+    "amda": 0,
+    "total": 34
+  }
+}

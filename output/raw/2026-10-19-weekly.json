@@ -1,0 +1,114 @@
+{
+  "week": "2026-W43",
+  "date": "2026-10-19",
+  "issue": 19,
+  "highlights": [
+    {
+      "num": "$200",
+      "label": "$200m programme "
+    },
+    {
+      "num": "100 million",
+      "label": "FSD Africa"
+    },
+    {
+      "num": "100 MW",
+      "label": "100 MWMaamba Solar"
+    },
+    {
+      "num": "40.6 GW",
+      "label": "40.6 GWof capacity "
+    }
+  ],
+  "sections": [
+    {
+      "title": "一、政策规划",
+      "items": [
+        {
+          "tag": "FSD Africa",
+          "title": "First-of-its-kind Africa Nature Impact Fund Targets USD 100m For Nature-Based Solutions in Africa",
+          "summary": "Finance Earth , FSD Africa and FSD Africa Investments (FSDAi) have partnered to launch the Africa Nature Impact Fund (“Africa Nature”), a first-of-its-kind financing platform with a target of raising USD 100 million for early-stage nature and nature-based carbon projects. The announcement today at the Carbon Markets Africa Summit in Kigali marks a key milestone in the development of the platform which is seeking to reach first close in 2027 at USD 20 million with a cornerstone commitment from FSDAi of GBP 5 million (USD 6.6 million).",
+          "bullets": [],
+          "source": "FSD Africa",
+          "source_url": "https://fsdafrica.org/first-of-its-kind-africa-nature-impact-fund-targets-usd-100m-for-nature-based-solutions-in-africa-2/",
+          "date": "2026-10-13",
+          "sub_category": "policy"
+        },
+        {
+          "tag": "PV Magazine · 太阳能",
+          "title": "Qcells to introduce U.S. domestic frames for residential solar panel lineup",
+          "summary": "Qcells announced plans to launch new versions of its residential solar panel series featuring U.S.-made aluminum frames by the end of 2026. The updated residential product offerings, which include the company’s Q.Tron AC and Q.Peak Duo AC lines, will incorporate aluminum frames extruded, anodized, and fabricated at supplier Aluko Group’s integrated facility in Halls, Tennessee. The initiative is aimed at helping residential installers and third-party ownership TPO providers qualify for the Investment Tax Credit ITC domestic content bonus adder. Under the Treasury Department's domestic content",
+          "bullets": [],
+          "source": "PV Magazine",
+          "source_url": "https://www.pv-magazine.com/2026/10/17/qcells-to-introduce-u-s-domestic-frames-for-residential-solar-panel-lineup/",
+          "date": "2026-10-17",
+          "sub_category": "policy"
+        },
+        {
+          "tag": "PV Magazine · 太阳能",
+          "title": "Brazil’s new curtailment rules unlikely to revive utility-scale solar investment",
+          "summary": "Large-scale solar developers in Brazil have received two updates on past and future generation curtailment. Curtailment rates of around 25%, combined with uncertainty over compensation, have frequently been cited as reasons for developers to surrender project authorizations. While the new curtailment rules offer greater certainty and predictability, a recovery in investment will depend on other factors. In 2026 alone, developers surrendered authorizations for 923 solar projects in Brazil, representing more than 40.6 GW of capacity and BRL 134 billion ($26.3 billion) in lost investment, accordi",
+          "bullets": [],
+          "source": "PV Magazine",
+          "source_url": "https://www.pv-magazine.com/2026/10/17/brazils-new-curtailment-rules-unlikely-to-revive-utility-scale-solar-investment/",
+          "date": "2026-10-17",
+          "sub_category": "policy"
+        },
+        {
+          "tag": "AFSIA · 非洲太阳能",
+          "title": "Sineng Electric Supports Zambia’s 100 MW Maamba Solar PV Project, Advancing Solar Energy in Africa",
+          "summary": "Sineng Electric is supporting Zambia’s renewable energy development with its high-efficiency central inverters deployed at the 100 MW Maamba PV Power Station in Southern Province, which was commissioned on September 24, 2026. The project will add utility-scale solar generation capacity to the national grid, supporting the diversification of Zambia’s energy mix and enhancing its long-term energy security. Located in Maamba, Sinazongwe District, the project is being constructed by Sinoma Energy Conservation Ltd., which serves as the engineering, procurement and construction (EPC) contractor.",
+          "bullets": [],
+          "source": "AFSIA Solar Africa",
+          "source_url": "https://www.afsiasolar.com/sineng-electric-supports-zambias-100-mw-maamba-solar-pv-project-advancing-solar-energy-in-africa/",
+          "date": "2026-10-15",
+          "sub_category": "policy"
+        },
+        {
+          "tag": "Energy News Network",
+          "title": "Can Enugu price 100MW of solar at a tariff its people can afford?",
+          "summary": "Eauxwell Nigeria has put a $200m programme for 100MW of distributed solar with battery storage to Enugu State. Governor Peter Mbah welcomed it but wants the investors’ tariff assumptions reviewed first. The state’s regulator has set Band A at ₦160.4 per kWh, and the state is building out its own grid.",
+          "bullets": [],
+          "source": "Energy News Network",
+          "source_url": "https://energy-news-network.com/industry-news/enugu-solar-100mw-eauxwell-tariff/",
+          "date": "2026-10-18",
+          "sub_category": "policy"
+        },
+        {
+          "tag": "Energy News Network",
+          "title": "Selous solar project for Afrochine’s smelter gets a parent-company payment guarantee",
+          "summary": "A direct agreement signed in Harare puts Zhejiang Dinson Holding Group behind the electricity payments its subsidiary Afrochine Smelting owes the 115MW Selous Solar PV Project in Zimbabwe, adding security for lenders led by the Trade and Development Bank as the plant heads for commissioning in 2027. A US$87.5m long-term facility led by the Trade and Development Bank and a US$65m bridge from Sinohydro Leasing International, a PowerChina subsidiary, are financing the 115MW Selous Solar PV Project in Zimbabwe, where a direct agreement signed in Harare last week puts Zhejiang Dinson Holding Group",
+          "bullets": [],
+          "source": "Energy News Network",
+          "source_url": "https://energy-news-network.com/industry-news/selous-solar-project-afrochine-dinson-guarantee/",
+          "date": "2026-10-18",
+          "sub_category": "policy"
+        },
+        {
+          "tag": "PV Tech",
+          "title": "More than module assembly: building a resilient solar ecosystem in the US",
+          "summary": "Markus Beck of RCT Solutions discusses how the US PV manufacturing can be sustained beyond the current boom.",
+          "bullets": [],
+          "source": "PV Tech",
+          "source_url": "https://www.pv-tech.org/more-than-module-assembly-building-a-resilient-solar-ecosystem-in-the-us/",
+          "date": "2026-10-16",
+          "sub_category": "policy"
+        }
+      ]
+    },
+    {
+      "title": "三、行业动态",
+      "items": [
+        {
+          "tag": "PV Tech",
+          "title": "Recurrent Energy begins commercial operations at 200MW Villameca solar project in Spain",
+          "summary": "Recurrent Energy has announced the start of commercial operations at the 200MWp Villameca Project in Castilla y León, Spain.",
+          "bullets": [],
+          "source": "PV Tech",
+          "source_url": "https://www.pv-tech.org/recurrent-energy-begins-commercial-operations-200mw-villameca-solar-project-spain/",
+          "date": "2026-10-16"
+        }
+      ]
+    }
+  ]
+}
