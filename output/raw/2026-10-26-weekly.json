@@ -1,0 +1,132 @@
+{
+  "week": "2026-W44",
+  "date": "2026-10-26",
+  "issue": 20,
+  "highlights": [
+    {
+      "num": "56 billion",
+      "label": " raise US$56 billion"
+    },
+    {
+      "num": "54,000",
+      "label": "54,000visitors tha"
+    },
+    {
+      "num": "221 million",
+      "label": "PV Tech"
+    },
+    {
+      "num": "50 Million",
+      "label": "O Sign EUR50 Million"
+    }
+  ],
+  "sections": [
+    {
+      "title": "一、政策规划",
+      "items": [
+        {
+          "tag": "FSD Africa",
+          "title": "Nigeria unveils ten-year capital markets plan and national savings plan to raise US$ 56 billion to   support the US$1 tr",
+          "summary": "New roadmap, developed with support from FSD Africa and the UK Government , aims to mobilise investment, deepen financial markets and strengthen Nigeria’s position as a regional financial hub. Abuja, Nigeria, 19 October 2026: Nigeria has launched a ten-year roadmap to deepen its capital markets, mobilise domestic and international investment, and support its ambition to build a US$1 trillion economy by 2030. Also launched was a national savings plan. The Nigeria Capital Market Masterplan 2.0, covering 2026 to 2036, sets out reforms to create a more diverse, efficient and transparent market and",
+          "bullets": [],
+          "source": "FSD Africa",
+          "source_url": "https://fsdafrica.org/nigeria-unveils-ten-year-capital-markets-plan-and-national-savings-plan-to-raise-us-56-billion-to-support-the-us1-trillion-economy-ambition/",
+          "date": "2026-10-19",
+          "sub_category": "policy"
+        },
+        {
+          "tag": "PV Magazine · 太阳能",
+          "title": "Gritt Robotics brings AI-assisted robotics to bolster shrinking solar workforce",
+          "summary": "Robots are most effective in laboratories or controlled environments, such as a factory floor. When robots are required to automate tasks outdoors, the range of applications narrows with the number variables encountered. For this reason, construction sites remain labor-intensive locations resistant to robotics. Solar construction sites may admit more automation than other sorts because of the regularity and essentially two-dimensional aspect of their layouts. Placement of heavy bases and even tracker tubes have been automated to some degree on many utility-scale solar projects for years. A key",
+          "bullets": [],
+          "source": "PV Magazine",
+          "source_url": "https://www.pv-magazine.com/2026/10/24/gritt-robotics-brings-ai-assisted-robotics-to-bolster-shrinking-solar-workforce/",
+          "date": "2026-10-24",
+          "sub_category": "policy"
+        },
+        {
+          "tag": "AFSIA · 非洲太阳能",
+          "title": "Africa Via, AXIAN, PIDG and FMO Sign EUR 50 Million Financing Agreement for the Kong Solaire Project",
+          "summary": "Kong Solaire SAS, a project company owned by Africa Via, Axian and the Private Infrastructure Development Group (PIDG) through InfraCo, its project development solution, has signed a financing agreement with FMO, the Dutch entrepreneurial development bank, for the Kong solar photovoltaic power plant in Côte d’Ivoire. FMO is providing the project’s entire long-term financing, amounting to up to EUR 55.5 million, with a 20-year tenor. The financing incorporates adaptations to conventional project finance structures to reflect the specific context of emerging markets in West Africa, developed joi",
+          "bullets": [],
+          "source": "AFSIA Solar Africa",
+          "source_url": "https://www.afsiasolar.com/africa-via-axian-pidg-and-fmo-sign-eur-50-million-financing-agreement-for-the-kong-solaire-project/",
+          "date": "2026-10-20",
+          "sub_category": "policy"
+        },
+        {
+          "tag": "Energy News Network",
+          "title": "Kong Solaire signs 20-year FMO financing for 50MWp of solar in northern Côte d’Ivoire",
+          "summary": "FMO is providing all the long-term debt for Kong Solaire, a 50MWp plant near Kong in northern Côte d’Ivoire developed by Africa Via, in which AXIAN holds a majority, and PIDG’s InfraCo. Construction is under way, with commissioning planned for 2028 and power sold to CI-ENERGIES for 25 years. Work on Kong Solaire began with the Ivorian State in 2020, according to Minkaila Salami, chief executive of the developer Africa Via.",
+          "bullets": [],
+          "source": "Energy News Network",
+          "source_url": "https://energy-news-network.com/industry-news/kong-solaire-fmo-financing-cote-divoire/",
+          "date": "2026-10-25",
+          "sub_category": "policy"
+        },
+        {
+          "tag": "Energy News Network",
+          "title": "Oyo gets 17.7MW of interconnected mini-grids as Tegbe rules out a tariff rise",
+          "summary": "Minister of Power Joseph Tegbe has flagged off five interconnected hybrid solar mini-grids totalling 17.7MW across five local government areas of Oyo State. They are financed by the World Bank and developed by Paras Energy, and Tegbe told Nigerians there is no plan to raise electricity tariffs. Five interconnected hybrid solar mini-grids with a combined 17.7MW are going up across Oyo State, at Bola, Jiboye, Molade-Adelubi, Ogo Oluwa and Sooko-Elega. Minister of Power Joseph Tegbe flagged off construction in Ibadan on 16 October on behalf of President Bola Tinubu.",
+          "bullets": [],
+          "source": "Energy News Network",
+          "source_url": "https://energy-news-network.com/industry-news/oyo-solar-mini-grids-17-7mw-tegbe-tariffs/",
+          "date": "2026-10-25",
+          "sub_category": "policy"
+        },
+        {
+          "tag": "PV Tech",
+          "title": "Scatec and EBRD establish US$221 million renewable energy investment platform for Egypt",
+          "summary": "Scatec and the EBRD have signed a share purchase agreement establishing a renewable energy investment platform for Egypt.",
+          "bullets": [],
+          "source": "PV Tech",
+          "source_url": "https://www.pv-tech.org/scatec-ebrd-establish-us221-million-renewable-energy-investment-platform-egypt/",
+          "date": "2026-10-23",
+          "sub_category": "policy"
+        },
+        {
+          "tag": "SolarAfrica · 太阳能洞察",
+          "title": "Commercial Energy Strategy: The High Cost of Delaying Renewable Energy Investments",
+          "summary": "<div class=\"elementor-element elementor-element-b0fc10a elementor-widget elementor-widget-heading\" data-id=\"b0fc10a\" data-element_type=\"widget\" data-e-type=\"widget\" id=\"blog-category-",
+          "bullets": [],
+          "source": "SolarAfrica Insights",
+          "source_url": "https://solarafrica.com/insights/commercial-renewable-energy-strategy-cost-of-delay/",
+          "date": "2026-10-20",
+          "sub_category": "policy"
+        }
+      ]
+    },
+    {
+      "title": "三、行业动态",
+      "items": [
+        {
+          "tag": "PV Magazine · 太阳能",
+          "title": "Renewable Energy India Expo 2026: Three key takeaways",
+          "summary": "India’s solar and energy storage industry has grown to massive proportions, reflected in the more than 54,000 visitors that descended on Greater Noida’s India Expo Center this week for Renewable Energy India Expo (REI) and the Battery Show India, and the more than 1,000 exhibitors that filled the center beyond its capacity, with temporary buildings added and exhibits flowing out into the car park. After three days navigating the halls and meeting with companies from up and down the solar supply chain, pv magazine has these three key takeaways from REI 2026. Survival of the biggest Previous yea",
+          "bullets": [],
+          "source": "PV Magazine",
+          "source_url": "https://www.pv-magazine.com/2026/10/24/renewable-energy-india-expo-2026-three-key-takeaways/",
+          "date": "2026-10-24"
+        },
+        {
+          "tag": "AFSIA · 非洲太阳能",
+          "title": "POWER MORE PROJECTS FOR LESS WITH SEGEN’S OCTOBER MANIA PROMOTION!",
+          "summary": "Exclusive Sunsynk + Jinko package deals available through Segen Tanzania for a limited time only. Looking to deliver more value on your next solar installation? Take advantage of our specially priced Sunsynk + Jinko bundled packages , combining high-performance inverters, battery storage, and trusted solar modules in one convenient solution.",
+          "bullets": [],
+          "source": "AFSIA Solar Africa",
+          "source_url": "https://www.afsiasolar.com/power-more-projects-for-less-with-segens-october-mania-promotion/",
+          "date": "2026-10-22"
+        },
+        {
+          "tag": "BGFA · 离网基金",
+          "title": "Global Off-Grid Solar Forum & Expo 2026",
+          "summary": "The 9th Global Off-Grid Solar Forum and Expo 2026 is a key event for the off-grid solar sector that will feature discussions on energy access, showcase new technologies and provide opportunities to build partnerships that support the sector’s growth and development.",
+          "bullets": [],
+          "source": "BGFA (Beyond the Grid)",
+          "source_url": "https://beyondthegrid.africa/event/global-off-grid-solar-forum-expo-2026/",
+          "date": "2026-10-20"
+        }
+      ]
+    }
+  ]
+}

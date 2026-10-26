@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>非洲离网太阳能市场资讯 2026-10-26 第 20 期</title>
+<style>/* ===== 非洲离网太阳能市场资讯 - 样式 ===== */
+:root {
+  --bg: #f8f9fa;
+  --card: #ffffff;
+  --text: #1a1a2e;
+  --text-secondary: #555770;
+  --text-tertiary: #8e8ea0;
+  --border: #e8e8ee;
+  --green-dark: #0F6E56;
+  --green-light: #1D9E75;
+  --green-bg: #E1F5EE;
+  --green-tag-bg: rgba(15,110,86,0.08);
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans SC", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+.container {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 32px 24px 56px;
+}
+
+/* ===== Header ===== */
+.header {
+  background: var(--green-dark);
+  color: #fff;
+  padding: 36px 32px 28px;
+  border-radius: var(--radius-lg);
+  margin-bottom: 28px;
+}
+.header h1 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 4px;
+  letter-spacing: -0.01em;
+}
+.header .subtitle {
+  font-size: 15px;
+  opacity: 0.78;
+  font-weight: 400;
+}
+.header .meta {
+  display: flex;
+  gap: 10px;
+  margin-top: 18px;
+  flex-wrap: wrap;
+}
+.header .meta span {
+  background: rgba(255,255,255,0.15);
+  border-radius: var(--radius-sm);
+  padding: 4px 12px;
+  font-size: 13px;
+  letter-spacing: 0.02em;
+}
+
+/* ===== Stats Row ===== */
+.section-title {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text-tertiary);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin: 36px 0 14px;
+}
+.stats-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin-bottom: 10px;
+}
+.stat-box {
+  background: var(--card);
+  border: 0.5px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 18px 16px;
+  text-align: center;
+}
+.stat-box .num {
+  font-size: 26px;
+  font-weight: 800;
+  color: var(--green-dark);
+  margin-bottom: 6px;
+}
+.stat-box .lbl {
+  font-size: 12px;
+  color: var(--text-secondary);
+  line-height: 1.4;
+}
+@media (max-width: 560px) {
+  .stats-row { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* ===== News Card ===== */
+.news-card {
+  background: var(--card);
+  border: 0.5px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 22px 24px;
+  margin-bottom: 16px;
+  transition: border-color 0.15s;
+}
+.news-card:hover { border-color: var(--green-light); }
+.news-card .tag {
+  display: inline-block;
+  background: var(--green-tag-bg);
+  color: var(--green-dark);
+  font-size: 12px;
+  font-weight: 500;
+  padding: 3px 12px;
+  border-radius: 100px;
+}
+.news-card .card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.news-card .card-date {
+  font-size: 12px;
+  color: var(--text-tertiary);
+  white-space: nowrap;
+}
+.news-card h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: var(--text);
+}
+/* ===== 通用：卡片内列表 & 段落样式 ===== */
+.news-card .summary,
+.company-card .summary {
+  font-size: 14px;
+  color: #000000;
+  margin-bottom: 12px;
+  line-height: 1.7;
+}
+.news-card .bullets,
+.company-card .bullets {
+  list-style: none;
+  margin-bottom: 12px;
+}
+.news-card .bullets li,
+.company-card .bullets li {
+  font-size: 13px;
+  color: var(--text-secondary);
+  padding: 3px 0 3px 18px;
+  position: relative;
+  word-break: break-word;
+}
+.news-card .bullets li::before,
+.company-card .bullets li::before {
+  content: "";
+  position: absolute;
+  left: 2px;
+  top: 10px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--green-light);
+}
+.news-card .mb,
+.company-card .mb { margin-bottom: 10px; }
+.news-card .bullets,
+.company-card .bullets { margin-bottom: 0; }
+.news-card .source {
+  font-size: 12px;
+  color: var(--text-tertiary);
+  margin-top: 4px;
+}
+.news-card .source a {
+  color: var(--green-dark);
+  text-decoration: none;
+}
+.news-card .source a:hover { text-decoration: underline; }
+
+/* ===== Company Card ===== */
+.company-card {
+  background: var(--card);
+  border: 0.5px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 22px 24px;
+  margin-bottom: 16px;
+  transition: border-color 0.15s;
+}
+.company-card:hover { border-color: var(--green-light); }
+.company-card .tag {
+  display: inline-block;
+  background: var(--green-tag-bg);
+  color: var(--green-dark);
+  font-size: 12px;
+  font-weight: 500;
+  padding: 3px 12px;
+  border-radius: 100px;
+}
+.company-card .card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.company-card .card-date {
+  font-size: 12px;
+  color: var(--text-tertiary);
+  white-space: nowrap;
+}
+.company-card h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: var(--text);
+}
+.company-card .source {
+  font-size: 12px;
+  color: var(--text-tertiary);
+  margin-top: 10px;
+}
+.company-card .source a {
+  color: var(--green-dark);
+  text-decoration: none;
+}
+.company-card .source a:hover { text-decoration: underline; }
+
+/* ===== Archive Nav ===== */
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.nav-bar a {
+  font-size: 14px;
+  color: var(--green-dark);
+  text-decoration: none;
+  padding: 4px 0;
+  font-weight: 500;
+}
+.nav-bar a:hover { text-decoration: underline; }
+
+/* ===== Archive Page ===== */
+.archive-list {
+  list-style: none;
+}
+.archive-item {
+  background: var(--card);
+  border: 0.5px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 18px 22px;
+  margin-bottom: 12px;
+  transition: border-color 0.15s;
+}
+.archive-item:hover { border-color: var(--green-light); }
+.archive-item a {
+  text-decoration: none;
+  color: var(--text);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.archive-item .issue-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+.archive-item .issue-meta {
+  font-size: 13px;
+  color: var(--text-tertiary);
+  margin-top: 6px;
+}
+.archive-item .issue-count {
+  font-size: 14px;
+  color: var(--green-dark);
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+/* ===== Footer ===== */
+.footer {
+  text-align: center;
+  font-size: 13px;
+  color: var(--text-tertiary);
+  border-top: 0.5px solid var(--border);
+  padding-top: 24px;
+  margin-top: 40px;
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+  <div class="nav-bar">
+    <a href="archive.html">← 查看往期</a>
+    <span style="font-size:13px;color:var(--text-tertiary)">第 20 期</span>
+  </div>
+
+  <div class="header">
+    <h1>Africa Off-Grid Solar Market News</h1>
+    <p class="subtitle">非洲离网太阳能市场资讯</p>
+    <div class="meta">
+      <span>第 20 期</span>
+      <span>2026-10-26</span>
+      <span>行业动态 · 企业跟踪</span>
+    </div>
+  </div>
+
+  <div class="section-title">本期数据亮点</div>
+  <div class="stats-row"><div class="stat-box"><div class="num">56 billion</div><div class="lbl"> raise US$56 billion</div></div><div class="stat-box"><div class="num">54,000</div><div class="lbl">54,000visitors tha</div></div><div class="stat-box"><div class="num">221 million</div><div class="lbl">PV Tech</div></div><div class="stat-box"><div class="num">50 Million</div><div class="lbl">O Sign EUR50 Million</div></div></div>
+
+  <div class="section-title">一、政策规划</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">FSD Africa</span>
+    <span class="card-date">2026-10-19</span>
+  </div>
+  <h3>Nigeria unveils ten-year capital markets plan and national savings plan to raise US$ 56 billion to   support the US$1 tr</h3>
+  <div class="summary">New roadmap, developed with support from FSD Africa and the UK Government , aims to mobilise investment, deepen financial markets and strengthen Nigeria’s position as a regional financial hub. Abuja, Nigeria, 19 October 2026: Nigeria has launched a ten-year roadmap to deepen its capital markets, mobilise domestic and international investment, and support its ambition to build a US$1 trillion economy by 2030. Also launched was a national savings plan. The Nigeria Capital Market Masterplan 2.0, covering 2026 to 2036, sets out reforms to create a more diverse, efficient and transparent market and</div>
+  
+  <div class="source">来源：<a href="https://fsdafrica.org/nigeria-unveils-ten-year-capital-markets-plan-and-national-savings-plan-to-raise-us-56-billion-to-support-the-us1-trillion-economy-ambition/" target="_blank" rel="noopener">FSD Africa</a></div>
+</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">PV Magazine · 太阳能</span>
+    <span class="card-date">2026-10-24</span>
+  </div>
+  <h3>Gritt Robotics brings AI-assisted robotics to bolster shrinking solar workforce</h3>
+  <div class="summary">Robots are most effective in laboratories or controlled environments, such as a factory floor. When robots are required to automate tasks outdoors, the range of applications narrows with the number variables encountered. For this reason, construction sites remain labor-intensive locations resistant to robotics. Solar construction sites may admit more automation than other sorts because of the regularity and essentially two-dimensional aspect of their layouts. Placement of heavy bases and even tracker tubes have been automated to some degree on many utility-scale solar projects for years. A key</div>
+  
+  <div class="source">来源：<a href="https://www.pv-magazine.com/2026/10/24/gritt-robotics-brings-ai-assisted-robotics-to-bolster-shrinking-solar-workforce/" target="_blank" rel="noopener">PV Magazine</a></div>
+</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">AFSIA · 非洲太阳能</span>
+    <span class="card-date">2026-10-20</span>
+  </div>
+  <h3>Africa Via, AXIAN, PIDG and FMO Sign EUR 50 Million Financing Agreement for the Kong Solaire Project</h3>
+  <div class="summary">Kong Solaire SAS, a project company owned by Africa Via, Axian and the Private Infrastructure Development Group (PIDG) through InfraCo, its project development solution, has signed a financing agreement with FMO, the Dutch entrepreneurial development bank, for the Kong solar photovoltaic power plant in Côte d’Ivoire. FMO is providing the project’s entire long-term financing, amounting to up to EUR 55.5 million, with a 20-year tenor. The financing incorporates adaptations to conventional project finance structures to reflect the specific context of emerging markets in West Africa, developed joi</div>
+  
+  <div class="source">来源：<a href="https://www.afsiasolar.com/africa-via-axian-pidg-and-fmo-sign-eur-50-million-financing-agreement-for-the-kong-solaire-project/" target="_blank" rel="noopener">AFSIA Solar Africa</a></div>
+</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">Energy News Network</span>
+    <span class="card-date">2026-10-25</span>
+  </div>
+  <h3>Kong Solaire signs 20-year FMO financing for 50MWp of solar in northern Côte d’Ivoire</h3>
+  <div class="summary">FMO is providing all the long-term debt for Kong Solaire, a 50MWp plant near Kong in northern Côte d’Ivoire developed by Africa Via, in which AXIAN holds a majority, and PIDG’s InfraCo. Construction is under way, with commissioning planned for 2028 and power sold to CI-ENERGIES for 25 years. Work on Kong Solaire began with the Ivorian State in 2020, according to Minkaila Salami, chief executive of the developer Africa Via.</div>
+  
+  <div class="source">来源：<a href="https://energy-news-network.com/industry-news/kong-solaire-fmo-financing-cote-divoire/" target="_blank" rel="noopener">Energy News Network</a></div>
+</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">Energy News Network</span>
+    <span class="card-date">2026-10-25</span>
+  </div>
+  <h3>Oyo gets 17.7MW of interconnected mini-grids as Tegbe rules out a tariff rise</h3>
+  <div class="summary">Minister of Power Joseph Tegbe has flagged off five interconnected hybrid solar mini-grids totalling 17.7MW across five local government areas of Oyo State. They are financed by the World Bank and developed by Paras Energy, and Tegbe told Nigerians there is no plan to raise electricity tariffs. Five interconnected hybrid solar mini-grids with a combined 17.7MW are going up across Oyo State, at Bola, Jiboye, Molade-Adelubi, Ogo Oluwa and Sooko-Elega. Minister of Power Joseph Tegbe flagged off construction in Ibadan on 16 October on behalf of President Bola Tinubu.</div>
+  
+  <div class="source">来源：<a href="https://energy-news-network.com/industry-news/oyo-solar-mini-grids-17-7mw-tegbe-tariffs/" target="_blank" rel="noopener">Energy News Network</a></div>
+</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">PV Tech</span>
+    <span class="card-date">2026-10-23</span>
+  </div>
+  <h3>Scatec and EBRD establish US$221 million renewable energy investment platform for Egypt</h3>
+  <div class="summary">Scatec and the EBRD have signed a share purchase agreement establishing a renewable energy investment platform for Egypt.</div>
+  
+  <div class="source">来源：<a href="https://www.pv-tech.org/scatec-ebrd-establish-us221-million-renewable-energy-investment-platform-egypt/" target="_blank" rel="noopener">PV Tech</a></div>
+</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">SolarAfrica · 太阳能洞察</span>
+    <span class="card-date">2026-10-20</span>
+  </div>
+  <h3>Commercial Energy Strategy: The High Cost of Delaying Renewable Energy Investments</h3>
+  <div class="summary"><div class="elementor-element elementor-element-b0fc10a elementor-widget elementor-widget-heading" data-id="b0fc10a" data-element_type="widget" data-e-type="widget" id="blog-category-</div>
+  
+  <div class="source">来源：<a href="https://solarafrica.com/insights/commercial-renewable-energy-strategy-cost-of-delay/" target="_blank" rel="noopener">SolarAfrica Insights</a></div>
+</div>
+<div class="section-title">三、行业动态</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">PV Magazine · 太阳能</span>
+    <span class="card-date">2026-10-24</span>
+  </div>
+  <h3>Renewable Energy India Expo 2026: Three key takeaways</h3>
+  <div class="summary">India’s solar and energy storage industry has grown to massive proportions, reflected in the more than 54,000 visitors that descended on Greater Noida’s India Expo Center this week for Renewable Energy India Expo (REI) and the Battery Show India, and the more than 1,000 exhibitors that filled the center beyond its capacity, with temporary buildings added and exhibits flowing out into the car park. After three days navigating the halls and meeting with companies from up and down the solar supply chain, pv magazine has these three key takeaways from REI 2026. Survival of the biggest Previous yea</div>
+  
+  <div class="source">来源：<a href="https://www.pv-magazine.com/2026/10/24/renewable-energy-india-expo-2026-three-key-takeaways/" target="_blank" rel="noopener">PV Magazine</a></div>
+</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">AFSIA · 非洲太阳能</span>
+    <span class="card-date">2026-10-22</span>
+  </div>
+  <h3>POWER MORE PROJECTS FOR LESS WITH SEGEN’S OCTOBER MANIA PROMOTION!</h3>
+  <div class="summary">Exclusive Sunsynk + Jinko package deals available through Segen Tanzania for a limited time only. Looking to deliver more value on your next solar installation? Take advantage of our specially priced Sunsynk + Jinko bundled packages , combining high-performance inverters, battery storage, and trusted solar modules in one convenient solution.</div>
+  
+  <div class="source">来源：<a href="https://www.afsiasolar.com/power-more-projects-for-less-with-segens-october-mania-promotion/" target="_blank" rel="noopener">AFSIA Solar Africa</a></div>
+</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">BGFA · 离网基金</span>
+    <span class="card-date">2026-10-20</span>
+  </div>
+  <h3>Global Off-Grid Solar Forum & Expo 2026</h3>
+  <div class="summary">The 9th Global Off-Grid Solar Forum and Expo 2026 is a key event for the off-grid solar sector that will feature discussions on energy access, showcase new technologies and provide opportunities to build partnerships that support the sector’s growth and development.</div>
+  
+  <div class="source">来源：<a href="https://beyondthegrid.africa/event/global-off-grid-solar-forum-expo-2026/" target="_blank" rel="noopener">BGFA (Beyond the Grid)</a></div>
+</div>
+
+
+  <div class="footer">
+    Africa Solar News · 2026-10-26 · 每周更新
+  </div>
+
+</div>
+</body>
+</html>
