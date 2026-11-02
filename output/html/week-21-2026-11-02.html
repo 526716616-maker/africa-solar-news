@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>非洲离网太阳能市场资讯 2026-11-02 第 21 期</title>
+<style>/* ===== 非洲离网太阳能市场资讯 - 样式 ===== */
+:root {
+  --bg: #f8f9fa;
+  --card: #ffffff;
+  --text: #1a1a2e;
+  --text-secondary: #555770;
+  --text-tertiary: #8e8ea0;
+  --border: #e8e8ee;
+  --green-dark: #0F6E56;
+  --green-light: #1D9E75;
+  --green-bg: #E1F5EE;
+  --green-tag-bg: rgba(15,110,86,0.08);
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans SC", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+.container {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 32px 24px 56px;
+}
+
+/* ===== Header ===== */
+.header {
+  background: var(--green-dark);
+  color: #fff;
+  padding: 36px 32px 28px;
+  border-radius: var(--radius-lg);
+  margin-bottom: 28px;
+}
+.header h1 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 4px;
+  letter-spacing: -0.01em;
+}
+.header .subtitle {
+  font-size: 15px;
+  opacity: 0.78;
+  font-weight: 400;
+}
+.header .meta {
+  display: flex;
+  gap: 10px;
+  margin-top: 18px;
+  flex-wrap: wrap;
+}
+.header .meta span {
+  background: rgba(255,255,255,0.15);
+  border-radius: var(--radius-sm);
+  padding: 4px 12px;
+  font-size: 13px;
+  letter-spacing: 0.02em;
+}
+
+/* ===== Stats Row ===== */
+.section-title {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text-tertiary);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin: 36px 0 14px;
+}
+.stats-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin-bottom: 10px;
+}
+.stat-box {
+  background: var(--card);
+  border: 0.5px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 18px 16px;
+  text-align: center;
+}
+.stat-box .num {
+  font-size: 26px;
+  font-weight: 800;
+  color: var(--green-dark);
+  margin-bottom: 6px;
+}
+.stat-box .lbl {
+  font-size: 12px;
+  color: var(--text-secondary);
+  line-height: 1.4;
+}
+@media (max-width: 560px) {
+  .stats-row { grid-template-columns: repeat(2, 1fr); }
+}
+
+/* ===== News Card ===== */
+.news-card {
+  background: var(--card);
+  border: 0.5px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 22px 24px;
+  margin-bottom: 16px;
+  transition: border-color 0.15s;
+}
+.news-card:hover { border-color: var(--green-light); }
+.news-card .tag {
+  display: inline-block;
+  background: var(--green-tag-bg);
+  color: var(--green-dark);
+  font-size: 12px;
+  font-weight: 500;
+  padding: 3px 12px;
+  border-radius: 100px;
+}
+.news-card .card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.news-card .card-date {
+  font-size: 12px;
+  color: var(--text-tertiary);
+  white-space: nowrap;
+}
+.news-card h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: var(--text);
+}
+/* ===== 通用：卡片内列表 & 段落样式 ===== */
+.news-card .summary,
+.company-card .summary {
+  font-size: 14px;
+  color: #000000;
+  margin-bottom: 12px;
+  line-height: 1.7;
+}
+.news-card .bullets,
+.company-card .bullets {
+  list-style: none;
+  margin-bottom: 12px;
+}
+.news-card .bullets li,
+.company-card .bullets li {
+  font-size: 13px;
+  color: var(--text-secondary);
+  padding: 3px 0 3px 18px;
+  position: relative;
+  word-break: break-word;
+}
+.news-card .bullets li::before,
+.company-card .bullets li::before {
+  content: "";
+  position: absolute;
+  left: 2px;
+  top: 10px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--green-light);
+}
+.news-card .mb,
+.company-card .mb { margin-bottom: 10px; }
+.news-card .bullets,
+.company-card .bullets { margin-bottom: 0; }
+.news-card .source {
+  font-size: 12px;
+  color: var(--text-tertiary);
+  margin-top: 4px;
+}
+.news-card .source a {
+  color: var(--green-dark);
+  text-decoration: none;
+}
+.news-card .source a:hover { text-decoration: underline; }
+
+/* ===== Company Card ===== */
+.company-card {
+  background: var(--card);
+  border: 0.5px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 22px 24px;
+  margin-bottom: 16px;
+  transition: border-color 0.15s;
+}
+.company-card:hover { border-color: var(--green-light); }
+.company-card .tag {
+  display: inline-block;
+  background: var(--green-tag-bg);
+  color: var(--green-dark);
+  font-size: 12px;
+  font-weight: 500;
+  padding: 3px 12px;
+  border-radius: 100px;
+}
+.company-card .card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+.company-card .card-date {
+  font-size: 12px;
+  color: var(--text-tertiary);
+  white-space: nowrap;
+}
+.company-card h3 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: var(--text);
+}
+.company-card .source {
+  font-size: 12px;
+  color: var(--text-tertiary);
+  margin-top: 10px;
+}
+.company-card .source a {
+  color: var(--green-dark);
+  text-decoration: none;
+}
+.company-card .source a:hover { text-decoration: underline; }
+
+/* ===== Archive Nav ===== */
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.nav-bar a {
+  font-size: 14px;
+  color: var(--green-dark);
+  text-decoration: none;
+  padding: 4px 0;
+  font-weight: 500;
+}
+.nav-bar a:hover { text-decoration: underline; }
+
+/* ===== Archive Page ===== */
+.archive-list {
+  list-style: none;
+}
+.archive-item {
+  background: var(--card);
+  border: 0.5px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 18px 22px;
+  margin-bottom: 12px;
+  transition: border-color 0.15s;
+}
+.archive-item:hover { border-color: var(--green-light); }
+.archive-item a {
+  text-decoration: none;
+  color: var(--text);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.archive-item .issue-title {
+  font-size: 16px;
+  font-weight: 600;
+}
+.archive-item .issue-meta {
+  font-size: 13px;
+  color: var(--text-tertiary);
+  margin-top: 6px;
+}
+.archive-item .issue-count {
+  font-size: 14px;
+  color: var(--green-dark);
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+/* ===== Footer ===== */
+.footer {
+  text-align: center;
+  font-size: 13px;
+  color: var(--text-tertiary);
+  border-top: 0.5px solid var(--border);
+  padding-top: 24px;
+  margin-top: 40px;
+}
+</style>
+</head>
+<body>
+<div class="container">
+
+  <div class="nav-bar">
+    <a href="archive.html">← 查看往期</a>
+    <span style="font-size:13px;color:var(--text-tertiary)">第 21 期</span>
+  </div>
+
+  <div class="header">
+    <h1>Africa Off-Grid Solar Market News</h1>
+    <p class="subtitle">非洲离网太阳能市场资讯</p>
+    <div class="meta">
+      <span>第 21 期</span>
+      <span>2026-11-02</span>
+      <span>行业动态 · 企业跟踪</span>
+    </div>
+  </div>
+
+  <div class="section-title">本期数据亮点</div>
+  <div class="stats-row"><div class="stat-box"><div class="num">398 million</div><div class="lbl">GOGLA Newsroom</div></div><div class="stat-box"><div class="num">28 million</div><div class="lbl">nnounced £28 million</div></div><div class="stat-box"><div class="num">152MW</div><div class="lbl">152MWp launched i</div></div><div class="stat-box"><div class="num">12</div><div class="lbl">篇行业深度分析</div></div></div>
+
+  <div class="section-title">一、政策规划</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">GEAPP Energy Alliance</span>
+    <span class="card-date">2026-10-29</span>
+  </div>
+  <h3>Rajasthan to pilot India’s first Sodium-ion battery storage system,  supported by Global  Energy Alliance for People and</h3>
+  
+  
+  <div class="source">来源：<a href="https://energyalliance.org/india-first-sodium-ion-battery-storage-pilot-jaipur/" target="_blank" rel="noopener">GEAPP Energy Alliance</a></div>
+</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">GEAPP Energy Alliance</span>
+    <span class="card-date">2026-10-27</span>
+  </div>
+  <h3>Masunga releases PaygOps Community Edition as open source, with support from Global Energy Alliance for People and Plane</h3>
+  
+  
+  <div class="source">来源：<a href="https://energyalliance.org/paygops-community-edition-open-source-energy-access/" target="_blank" rel="noopener">GEAPP Energy Alliance</a></div>
+</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">FSD Africa</span>
+    <span class="card-date">2026-10-30</span>
+  </div>
+  <h3>Valuing and investing in biodiversity internationally for national security at home</h3>
+  <div class="summary">This article was first published on the Gov.uk website. Earlier this week Defra’s Minister for Nature, Jenny Riddell-Carpenter, announced £28 million of funding to help support countries in the global south to develop their economies without harming biodiversity, and to invest in their own natural capital. And today at COP17, Minister Riddell-Carpenter hosted an event discussing how to move beyond the conceptual case for nature security, to showcase implementation in practice.</div>
+  
+  <div class="source">来源：<a href="https://fsdafrica.org/valuing-and-investing-in-biodiversity-internationally-for-national-security-at-home/" target="_blank" rel="noopener">FSD Africa</a></div>
+</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">FSD Africa</span>
+    <span class="card-date">2026-10-28</span>
+  </div>
+  <h3>UK Government and FSD Africa partner to unlock investment for women-led businesses in Nigeria</h3>
+  <div class="summary">USD 335,000 investment will help Rising Tide Africa bring women entrepreneurs and investors together, with the aim of attracting USD 2.7 million over the next three years. Lagos, Nigeria, 28 October 2026. FSD Africa, with funding from the UK Government through the British High Commission in Nigeria, has committed US$335,000 (approximately £247,000) to establish the RiTA Investment Network, a new platform designed to increase investment in women-led businesses in Nigeria. Established by Rising Tide Africa, a women-led, pan-African network of angel investors, the platform aims to mobilise US$2.7</div>
+  
+  <div class="source">来源：<a href="https://fsdafrica.org/uk-government-and-fsd-africa-partner-to-unlock-investment-for-women-led-businesses-in-nigeria/" target="_blank" rel="noopener">FSD Africa</a></div>
+</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">PV Magazine · 太阳能</span>
+    <span class="card-date">2026-10-31</span>
+  </div>
+  <h3>Indian PV at a turning point</h3>
+  <div class="summary">India’s module manufacturing capacity has expanded at remarkable speed, while domestic content requirements are pushing investment into the more complex cell manufacturing sector. Suppliers are also eyeing moves into wafer and ingot manufacturing ahead of further expansion to the domestic content rules. Activity has been more limited in polysilicon manufacturing, as with the development of facilities to produce solar glass and other bill of materials components. The challenge is no longer how much manufacturing capacity India can build, it’s whether that capacity can operate at high utilizatio</div>
+  
+  <div class="source">来源：<a href="https://www.pv-magazine.com/2026/10/31/indian-pv-at-a-turning-point/" target="_blank" rel="noopener">PV Magazine</a></div>
+</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">PV Magazine · 太阳能</span>
+    <span class="card-date">2026-10-30</span>
+  </div>
+  <h3>Forecasting growth</h3>
+  <div class="summary">India’s Central Electricity Regulatory Commission (CERC) sets the principal framework for projects connected to India’s interstate transmission system (ISTS), alongside procedures issued by the National Load Despatch Centre (NLDC), Regional Load Despatch Centres (RLDCs) and other system operators. Projects connected within a state are generally subject to the relevant State Electricity Regulatory Commission (SERC), State Load Despatch Centre (SLDC) and state grid code. These frameworks may define different capacity thresholds, submission deadlines, revision windows and settlement mechanisms. R</div>
+  
+  <div class="source">来源：<a href="https://www.pv-magazine.com/2026/10/30/forecasting-growth/" target="_blank" rel="noopener">PV Magazine</a></div>
+</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">AFSIA · 非洲太阳能</span>
+    <span class="card-date">2026-10-27</span>
+  </div>
+  <h3>JinkoSolar Launches the World’s Most Powerful Panel for Rooftops</h3>
+  <div class="summary">Tiger Neo 5.0, powered by the all-new TAC technology, redefines the ceiling of efficiency and aesthetics for residential solar JinkoSolar's Global Tech Day, held on October 16–17 in Shanghai, once again brought together customers, academia, and industry leaders from around the world to explore the future of PV and energy storage technology, underscoring the company's pioneering position at the frontier of solar, storage, and their convergence with AI.</div>
+  
+  <div class="source">来源：<a href="https://www.afsiasolar.com/jinkosolar-launches-the-worlds-most-powerful-panel-for-rooftops/" target="_blank" rel="noopener">AFSIA Solar Africa</a></div>
+</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">Energy News Network</span>
+    <span class="card-date">2026-10-31</span>
+  </div>
+  <h3>Côte d’Ivoire solar plants: who is behind the 152MWp launched in three days?</h3>
+  <div class="summary">Côte d’Ivoire’s energy minister, Mamadou Sangafowa-Coulibaly, laid foundation stones for 152MWp of solar in the north of the country between 22 and 24 October, from a Katiola plant whose lenders are due to close financing within weeks to plants led by Ivorian capital at M’Bengué and by the Emirati group AMEA Power at Binguébougou. “We led the negotiations, which were not easy, it has to be said,” Mamadou Sangafowa-Coulibaly said on 22 October at Lonankaha, near Katiola, as he laid the foundation stone of a 50MWp plant for Katiola Solar Power.</div>
+  
+  <div class="source">来源：<a href="https://energy-news-network.com/industry-news/cote-divoire-solar-plants-who-is-behind-the-152mwp-launched-in-three-days/" target="_blank" rel="noopener">Energy News Network</a></div>
+</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">PV Tech</span>
+    <span class="card-date">2026-10-30</span>
+  </div>
+  <h3>Scatec Q3 2026 results impacted by Ukraine and Pakistan solar assets</h3>
+  <div class="summary">Norwegian independent power producer (IPP) Scatec has been impacted by an impairment loss from its solar PV plants and intangible assets in Ukraine and Pakistan during its third quarter results for 2026.</div>
+  
+  <div class="source">来源：<a href="https://www.pv-tech.org/scatec-q3-2026-results-impacted-by-ukraine-and-pakistan-solar-assets/" target="_blank" rel="noopener">PV Tech</a></div>
+</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">PV Tech</span>
+    <span class="card-date">2026-10-30</span>
+  </div>
+  <h3>Corporate buyers shift strategies as European PPA prices rise</h3>
+  <div class="summary">Renewabl's JP Cerda speaks to PV Tech Premium about changing corporate procurement strategies and the impact of negative electricity prices.</div>
+  
+  <div class="source">来源：<a href="https://www.pv-tech.org/corporate-buyers-shift-strategies-european-ppa-prices/" target="_blank" rel="noopener">PV Tech</a></div>
+</div>
+<div class="section-title">二、投资数据</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">GOGLA · 行业报告</span>
+    <span class="card-date">2026-10-27</span>
+  </div>
+  <h3>Off-Grid Solar Gains Ground as Least-Cost Driver of Energy Access, Jobs and Growth</h3>
+  <div class="summary">New report points to a maturing off-grid solar market that could power up to 398 million more people by 2030, helping close the gap for the 655 million still without electricity</div>
+  
+  <div class="source">来源：<a href="https://newsroom.gogla.org/273748-off-grid-solar-gains-ground-as-least-cost-driver-of-energy-access-jobs-and-growth/" target="_blank" rel="noopener">GOGLA Newsroom</a></div>
+</div>
+<div class="section-title">三、行业动态</div>
+<div class="news-card">
+  <div class="card-top">
+    <span class="tag">AFSIA · 非洲太阳能</span>
+    <span class="card-date">2026-10-28</span>
+  </div>
+  <h3>Turning South African Sunshine into Business Power: A BSLBATT C&I Installation</h3>
+  <div class="summary">A commercial solar and battery storage system installed by ASB Energy combines BSLBATT high-voltage batteries, Sunsynk hybrid inverters and Trina Solar PV modules — bringing together the key components of a modern energy storage solution. Making More of Solar Energy For businesses across South Africa, solar power is an increasingly important part of the energy mix. But generating electricity is only one part of the equation. How that energy is stored, managed and used can be just as important.</div>
+  
+  <div class="source">来源：<a href="https://www.afsiasolar.com/turning-south-african-sunshine-into-business-power-a-bslbatt-ci-installation/" target="_blank" rel="noopener">AFSIA Solar Africa</a></div>
+</div>
+
+
+  <div class="footer">
+    Africa Solar News · 2026-11-02 · 每周更新
+  </div>
+
+</div>
+</body>
+</html>

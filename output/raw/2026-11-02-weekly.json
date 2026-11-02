@@ -1,0 +1,159 @@
+{
+  "week": "2026-W45",
+  "date": "2026-11-02",
+  "issue": 21,
+  "highlights": [
+    {
+      "num": "398 million",
+      "label": "GOGLA Newsroom"
+    },
+    {
+      "num": "28 million",
+      "label": "nnounced £28 million"
+    },
+    {
+      "num": "152MW",
+      "label": "152MWp launched i"
+    },
+    {
+      "num": "12",
+      "label": "篇行业深度分析"
+    }
+  ],
+  "sections": [
+    {
+      "title": "一、政策规划",
+      "items": [
+        {
+          "tag": "GEAPP Energy Alliance",
+          "title": "Rajasthan to pilot India’s first Sodium-ion battery storage system,  supported by Global  Energy Alliance for People and",
+          "summary": "",
+          "bullets": [],
+          "source": "GEAPP Energy Alliance",
+          "source_url": "https://energyalliance.org/india-first-sodium-ion-battery-storage-pilot-jaipur/",
+          "date": "2026-10-29",
+          "sub_category": "policy"
+        },
+        {
+          "tag": "GEAPP Energy Alliance",
+          "title": "Masunga releases PaygOps Community Edition as open source, with support from Global Energy Alliance for People and Plane",
+          "summary": "",
+          "bullets": [],
+          "source": "GEAPP Energy Alliance",
+          "source_url": "https://energyalliance.org/paygops-community-edition-open-source-energy-access/",
+          "date": "2026-10-27",
+          "sub_category": "policy"
+        },
+        {
+          "tag": "FSD Africa",
+          "title": "Valuing and investing in biodiversity internationally for national security at home",
+          "summary": "This article was first published on the Gov.uk website. Earlier this week Defra’s Minister for Nature, Jenny Riddell-Carpenter, announced £28 million of funding to help support countries in the global south to develop their economies without harming biodiversity, and to invest in their own natural capital. And today at COP17, Minister Riddell-Carpenter hosted an event discussing how to move beyond the conceptual case for nature security, to showcase implementation in practice.",
+          "bullets": [],
+          "source": "FSD Africa",
+          "source_url": "https://fsdafrica.org/valuing-and-investing-in-biodiversity-internationally-for-national-security-at-home/",
+          "date": "2026-10-30",
+          "sub_category": "policy"
+        },
+        {
+          "tag": "FSD Africa",
+          "title": "UK Government and FSD Africa partner to unlock investment for women-led businesses in Nigeria",
+          "summary": "USD 335,000 investment will help Rising Tide Africa bring women entrepreneurs and investors together, with the aim of attracting USD 2.7 million over the next three years. Lagos, Nigeria, 28 October 2026. FSD Africa, with funding from the UK Government through the British High Commission in Nigeria, has committed US$335,000 (approximately £247,000) to establish the RiTA Investment Network, a new platform designed to increase investment in women-led businesses in Nigeria. Established by Rising Tide Africa, a women-led, pan-African network of angel investors, the platform aims to mobilise US$2.7",
+          "bullets": [],
+          "source": "FSD Africa",
+          "source_url": "https://fsdafrica.org/uk-government-and-fsd-africa-partner-to-unlock-investment-for-women-led-businesses-in-nigeria/",
+          "date": "2026-10-28",
+          "sub_category": "policy"
+        },
+        {
+          "tag": "PV Magazine · 太阳能",
+          "title": "Indian PV at a turning point",
+          "summary": "India’s module manufacturing capacity has expanded at remarkable speed, while domestic content requirements are pushing investment into the more complex cell manufacturing sector. Suppliers are also eyeing moves into wafer and ingot manufacturing ahead of further expansion to the domestic content rules. Activity has been more limited in polysilicon manufacturing, as with the development of facilities to produce solar glass and other bill of materials components. The challenge is no longer how much manufacturing capacity India can build, it’s whether that capacity can operate at high utilizatio",
+          "bullets": [],
+          "source": "PV Magazine",
+          "source_url": "https://www.pv-magazine.com/2026/10/31/indian-pv-at-a-turning-point/",
+          "date": "2026-10-31",
+          "sub_category": "policy"
+        },
+        {
+          "tag": "PV Magazine · 太阳能",
+          "title": "Forecasting growth",
+          "summary": "India’s Central Electricity Regulatory Commission (CERC) sets the principal framework for projects connected to India’s interstate transmission system (ISTS), alongside procedures issued by the National Load Despatch Centre (NLDC), Regional Load Despatch Centres (RLDCs) and other system operators. Projects connected within a state are generally subject to the relevant State Electricity Regulatory Commission (SERC), State Load Despatch Centre (SLDC) and state grid code. These frameworks may define different capacity thresholds, submission deadlines, revision windows and settlement mechanisms. R",
+          "bullets": [],
+          "source": "PV Magazine",
+          "source_url": "https://www.pv-magazine.com/2026/10/30/forecasting-growth/",
+          "date": "2026-10-30",
+          "sub_category": "policy"
+        },
+        {
+          "tag": "AFSIA · 非洲太阳能",
+          "title": "JinkoSolar Launches the World’s Most Powerful Panel for Rooftops",
+          "summary": "Tiger Neo 5.0, powered by the all-new TAC technology, redefines the ceiling of efficiency and aesthetics for residential solar JinkoSolar's Global Tech Day, held on October 16–17 in Shanghai, once again brought together customers, academia, and industry leaders from around the world to explore the future of PV and energy storage technology, underscoring the company's pioneering position at the frontier of solar, storage, and their convergence with AI.",
+          "bullets": [],
+          "source": "AFSIA Solar Africa",
+          "source_url": "https://www.afsiasolar.com/jinkosolar-launches-the-worlds-most-powerful-panel-for-rooftops/",
+          "date": "2026-10-27",
+          "sub_category": "policy"
+        },
+        {
+          "tag": "Energy News Network",
+          "title": "Côte d’Ivoire solar plants: who is behind the 152MWp launched in three days?",
+          "summary": "Côte d’Ivoire’s energy minister, Mamadou Sangafowa-Coulibaly, laid foundation stones for 152MWp of solar in the north of the country between 22 and 24 October, from a Katiola plant whose lenders are due to close financing within weeks to plants led by Ivorian capital at M’Bengué and by the Emirati group AMEA Power at Binguébougou. “We led the negotiations, which were not easy, it has to be said,” Mamadou Sangafowa-Coulibaly said on 22 October at Lonankaha, near Katiola, as he laid the foundation stone of a 50MWp plant for Katiola Solar Power.",
+          "bullets": [],
+          "source": "Energy News Network",
+          "source_url": "https://energy-news-network.com/industry-news/cote-divoire-solar-plants-who-is-behind-the-152mwp-launched-in-three-days/",
+          "date": "2026-10-31",
+          "sub_category": "policy"
+        },
+        {
+          "tag": "PV Tech",
+          "title": "Scatec Q3 2026 results impacted by Ukraine and Pakistan solar assets",
+          "summary": "Norwegian independent power producer (IPP) Scatec has been impacted by an impairment loss from its solar PV plants and intangible assets in Ukraine and Pakistan during its third quarter results for 2026.",
+          "bullets": [],
+          "source": "PV Tech",
+          "source_url": "https://www.pv-tech.org/scatec-q3-2026-results-impacted-by-ukraine-and-pakistan-solar-assets/",
+          "date": "2026-10-30",
+          "sub_category": "policy"
+        },
+        {
+          "tag": "PV Tech",
+          "title": "Corporate buyers shift strategies as European PPA prices rise",
+          "summary": "Renewabl's JP Cerda speaks to PV Tech Premium about changing corporate procurement strategies and the impact of negative electricity prices.",
+          "bullets": [],
+          "source": "PV Tech",
+          "source_url": "https://www.pv-tech.org/corporate-buyers-shift-strategies-european-ppa-prices/",
+          "date": "2026-10-30",
+          "sub_category": "policy"
+        }
+      ]
+    },
+    {
+      "title": "二、投资数据",
+      "items": [
+        {
+          "tag": "GOGLA · 行业报告",
+          "title": "Off-Grid Solar Gains Ground as Least-Cost Driver of Energy Access, Jobs and Growth",
+          "summary": "New report points to a maturing off-grid solar market that could power up to 398 million more people by 2030, helping close the gap for the 655 million still without electricity",
+          "bullets": [],
+          "source": "GOGLA Newsroom",
+          "source_url": "https://newsroom.gogla.org/273748-off-grid-solar-gains-ground-as-least-cost-driver-of-energy-access-jobs-and-growth/",
+          "date": "2026-10-27",
+          "sub_category": "investment"
+        }
+      ]
+    },
+    {
+      "title": "三、行业动态",
+      "items": [
+        {
+          "tag": "AFSIA · 非洲太阳能",
+          "title": "Turning South African Sunshine into Business Power: A BSLBATT C&I Installation",
+          "summary": "A commercial solar and battery storage system installed by ASB Energy combines BSLBATT high-voltage batteries, Sunsynk hybrid inverters and Trina Solar PV modules — bringing together the key components of a modern energy storage solution. Making More of Solar Energy For businesses across South Africa, solar power is an increasingly important part of the energy mix. But generating electricity is only one part of the equation. How that energy is stored, managed and used can be just as important.",
+          "bullets": [],
+          "source": "AFSIA Solar Africa",
+          "source_url": "https://www.afsiasolar.com/turning-south-african-sunshine-into-business-power-a-bslbatt-ci-installation/",
+          "date": "2026-10-28"
+        }
+      ]
+    }
+  ]
+}
